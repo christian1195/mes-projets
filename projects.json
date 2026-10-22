@@ -10,7 +10,8 @@
    "prochaine_etape": "Choisir le prix et le genre.",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg"
   },
   {
    "id": 2,
@@ -174,7 +175,8 @@
     "label": "Le poltergeist de Shawville - Livre audio complet (ambiance).mp3",
     "url": "https://drive.google.com/file/d/1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK/view",
     "date": "2026-10-20"
-   }
+   },
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg"
   },
   {
    "id": 12,
