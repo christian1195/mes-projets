@@ -60,7 +60,8 @@
           "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images en meilleure qualité (erreur 001 Google). Dernière version : Ça s'est passé ici (Outaouais).epub (2026-10-22)."
         }
       ],
-      "serie": "Ça s'est passé ici"
+      "serie": "Ça s'est passé ici",
+      "epub": "livres/ca-s-est-passe-ici-outaouais.epub"
     },
     {
       "id": 4,
@@ -84,7 +85,8 @@
           "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : Wait, AI Can Do THAT - immobilier.epub (2026-10-22)."
         }
       ],
-      "serie": "Wait, AI Can Do THAT?!"
+      "serie": "Wait, AI Can Do THAT?!",
+      "epub": "livres/wait-ai-immobilier.epub"
     },
     {
       "id": 5,
@@ -108,7 +110,8 @@
           "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : The Lines That Live.epub (2026-10-22)."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "epub": "livres/the-lines-that-live.epub"
     },
     {
       "id": 6,
@@ -181,7 +184,8 @@
           "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/second-notice.mp3",
           "drive": "1p17VDat9L5kvOdT-hKTPR6M2bApIXIM0"
         }
-      ]
+      ],
+      "epub": "livres/second-notice.epub"
     },
     {
       "id": 9,
@@ -239,7 +243,8 @@
           "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/quarante-cinq-minutes.mp3",
           "drive": "1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL"
         }
-      ]
+      ],
+      "epub": "livres/quarante-cinq-minutes.epub"
     },
     {
       "id": 11,
@@ -299,7 +304,8 @@
           "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne à 5 $. Dernière version : Ce qu'il en reste - La Joconde.epub (2026-10-22)."
         }
       ],
-      "serie": "Ce qu'il en reste"
+      "serie": "Ce qu'il en reste",
+      "epub": "livres/ce-qu-il-en-reste-la-joconde.epub"
     },
     {
       "id": 13,
@@ -465,7 +471,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le Dernier Lait.epub (2026-10-22)."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "epub": "livres/le-dernier-lait.epub"
     },
     {
       "id": 21,
@@ -489,7 +496,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : A City of Me.epub (2026-10-22)."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "epub": "livres/a-city-of-me.epub"
     },
     {
       "id": 22,
@@ -513,7 +521,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Dancingly Yours.epub (2026-10-22)."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "epub": "livres/dancingly-yours.epub"
     },
     {
       "id": 23,
@@ -537,7 +546,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Missing Time at Road 44.epub (2026-10-22)."
         }
       ],
-      "serie": "The 4th Hour"
+      "serie": "The 4th Hour",
+      "epub": "livres/missing-time-at-road-44.epub"
     },
     {
       "id": 24,
@@ -561,7 +571,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le dernier Costco.epub (2026-10-22)."
         }
       ],
-      "serie": "Les Monstres qu'on s'invente"
+      "serie": "Les Monstres qu'on s'invente",
+      "epub": "livres/le-dernier-costco.epub"
     },
     {
       "id": 25,
@@ -585,7 +596,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Les Monstres qu'on s'invente.epub (2026-10-22)."
         }
       ],
-      "serie": "Les Monstres qu'on s'invente"
+      "serie": "Les Monstres qu'on s'invente",
+      "epub": "livres/les-monstres-qu-on-s-invente.epub"
     },
     {
       "id": 26,
@@ -609,7 +621,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The Seventh Round.epub (2026-10-22)."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "epub": "livres/the-seventh-round.epub"
     },
     {
       "id": 27,
@@ -638,7 +651,8 @@
           "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The 4th Hour - The Skull.epub (2026-10-22)."
         }
       ],
-      "serie": "The 4th Hour"
+      "serie": "The 4th Hour",
+      "epub": "livres/the-4th-hour-the-skull.epub"
     },
     {
       "id": 28,
@@ -662,7 +676,8 @@
           "texte": "État : terminé, 100 %. Prochaine étape : Document de référence pour l'écriture. Dernière version : The Story Bible for Claude.epub (2026-10-22)."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "epub": "livres/story-bible-for-claude.epub"
     }
   ]
 }
