@@ -25,4 +25,11 @@ Première mise en ligne (nécessite `gh auth login`):
 - « Mes notes » (Christian) : stockées UNIQUEMENT dans le localStorage du téléphone, clé `mp_notes_v1`, format `{ "<id projet>": [{ "t": ms, "texte": "...", "m": ms_modif? }] }`. Ajout/modif/suppression dans la fiche. Bouton « Envoyer à Réal » copie « Note pour Réal — <titre> : <texte> ».
 - Sauvegarde : ⚙️ (en-tête) > Exporter (télécharge mes-notes-AAAA-MM-JJ.json) / Copier ; Importer = coller le JSON ou choisir le fichier (fusion, sans doublons). Effacer les données du navigateur ou désinstaller l'app = notes perdues sans export.
 - « Notes de Réal » : champ `notes_real: [{ "date": "AAAA-MM-JJ", "texte": "..." }]` dans projects.json (lecture seule dans l'app). Ajouter la plus récente en premier. Faits documentés seulement, jamais d'adresse ni de courriel (repo public).
-- « ✍️ Note pour Réal » (fiche) : copie le titre du projet et ouvre la Google Sheet privée « Notes pour Réal » (id 1AOmVVCnC1lwYk57ckgxr15fsYSav3Jvjvl_1mvxcc-A ; URL dans `notes_sheet_url` de projects.json). Onglet Notes : Date | Projet (liste) | Note | Statut (à faire / fait) | Réponse de Réal. Onglet Projets : liste des titres (à tenir à jour si on ajoute un projet). Ne jamais changer le partage.
+
+## Notes pour Réal (notes.json, écriture directe)
+- Fichier `notes.json` (séparé de projects.json) : `{"notes":[{id, projet_id, projet_titre, texte, date (ISO), auteur:"christian", statut:"à faire"|"fait", reponse_real}]}`.
+- L'app écrit via l'API GitHub contents (GET pour le sha, ajout, PUT ; message « Note: <titre> » ; 1 nouvel essai si conflit 409). Christian peut modifier/supprimer ses notes tant qu'elles sont « à faire ».
+- La clé GitHub (fine-grained, seulement mes-projets, Contents: lecture/écriture) est collée dans ⚙️ Réglages et gardée UNIQUEMENT dans le localStorage (`mp_gh_token`). Ne JAMAIS la mettre dans le dépôt.
+- Lecture : par l'API si clé présente (frais), sinon notes.json via Pages avec ?t=. Le service worker ne met en cache ni l'API ni notes.json.
+- Côté Réal : lire https://raw.githubusercontent.com/christian1195/mes-projets/main/notes.json (ou `gh api repos/christian1195/mes-projets/contents/notes.json`), répondre en remplissant `reponse_real` et `statut:"fait"`, puis commit + push (faire `git pull --rebase` avant, l'app commite aussi).
+- L'ancienne Google Sheet « Notes pour Réal » n'est plus utilisée par l'app (gardée sur Drive).
