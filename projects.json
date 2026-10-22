@@ -678,6 +678,31 @@
       ],
       "serie": "Hors série",
       "epub": "livres/story-bible-for-claude.epub"
+    },
+    {
+      "id": 29,
+      "titre": "Quarante-cinq minutes",
+      "categorie": "Livres",
+      "statut": "Bloqué",
+      "progression": 80,
+      "prochaine_etape": "",
+      "bloque_par": "",
+      "liens": [
+        {
+          "titre": "Livre EPUB officiel",
+          "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
+        }
+      ],
+      "maj": "2026-10-22",
+      "couverture": "covers/quarante-cinq-minutes.jpg",
+      "notes_real": [],
+      "serie": "Ça s'est passé ici",
+      "epub": "livres/quarante-cinq-minutes.epub",
+      "derniere_version": {
+        "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
+        "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
+        "date": "2026-10-22"
+      }
     }
   ]
 }
