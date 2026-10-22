@@ -7,7 +7,8 @@
    "date": "2026-10-22",
    "type": "autre",
    "page": "montre/pitch-call-in-hour.html",
-   "vu": false
+   "vu": false,
+   "image": "montre/pitch-call-in-hour/cover.webp"
   },
   {
    "id": "serie-4th-hour",
@@ -16,7 +17,8 @@
    "date": "2026-10-22",
    "type": "autre",
    "page": "montre/serie-4th-hour.html",
-   "vu": false
+   "vu": false,
+   "image": "covers/the-4th-hour-series-overview.jpg"
   },
   {
    "id": "pitch-livres-1",
@@ -25,7 +27,8 @@
    "date": "2026-10-22",
    "type": "autre",
    "page": "montre/pitch-livres-1.html",
-   "vu": false
+   "vu": false,
+   "image": "montre/pitch-livres-1/cage-cover.webp"
   },
   {
    "id": "pizza-maison",
@@ -34,7 +37,8 @@
    "date": "2026-10-22",
    "type": "autre",
    "page": "montre/pizza-maison.html",
-   "vu": false
+   "vu": false,
+   "image": "montre/pizza-thumb.webp"
   },
   {
    "id": "serie-monstres",
@@ -43,7 +47,8 @@
    "date": "2026-10-22",
    "type": "autre",
    "page": "montre/serie-monstres.html",
-   "vu": false
+   "vu": false,
+   "image": "covers/les-monstres-qu-on-s-invente.jpg"
   },
   {
    "id": "pneus-ram-1500",
