@@ -1,0 +1,224 @@
+{
+ "maj": "2026-10-22",
+ "projets": [
+  {
+   "id": 1,
+   "titre": "La Joconde — livre audio (Google Play)",
+   "categorie": "Livres audio",
+   "statut": "En attente de toi",
+   "progression": 90,
+   "prochaine_etape": "Choisir le prix et le genre.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 2,
+   "titre": "Guide IA pour enseignants (vol. 3)",
+   "categorie": "Livres",
+   "statut": "En attente de toi",
+   "progression": 95,
+   "prochaine_etape": "Confirmer la publication sur Google Play.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 3,
+   "titre": "Ça s'est passé ici (Outaouais)",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 4,
+   "titre": "Wait, AI Can Do THAT?! — immobilier",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 5,
+   "titre": "The Lines That Live",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 6,
+   "titre": "Les morts du premier ministre (Kingsmere)",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 60,
+   "prochaine_etape": "Écrire ch. 9–14.",
+   "bloque_par": "Réal",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 7,
+   "titre": "La chose du sixième rang — Livre 2",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 25,
+   "prochaine_etape": "Continuer au ch. 5.",
+   "bloque_par": "Réal",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 8,
+   "titre": "Second Notice",
+   "categorie": "Livres",
+   "statut": "À faire",
+   "progression": 95,
+   "prochaine_etape": "Ajouter la phrase manquante au ch. 15.",
+   "bloque_par": "Réal",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 9,
+   "titre": "Nouveau livre",
+   "categorie": "Livres",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "Me l'envoyer ; on teste la nouvelle procédure Arena.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 10,
+   "titre": "Quarante-cinq minutes — livre audio v2",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 70,
+   "prochaine_etape": "Refaire avec Arena : une seule voix fixe, aucun fichier effacé.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Dossier Drive",
+     "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
+    }
+   ],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 11,
+   "titre": "Le poltergeist de Shawville — livre audio",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 85,
+   "prochaine_etape": "Combler les trous des ch. 4 et 10.",
+   "bloque_par": "Réal",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 12,
+   "titre": "Ce qu'il en reste : La Joconde",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Rien. En ligne à 5 $.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 13,
+   "titre": "Wait, AI Can Do THAT?! — film/TV",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Rien. En ligne, gratuit.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 14,
+   "titre": "Lion Guard — vidéo v2 + Short + miniatures",
+   "categorie": "YouTube",
+   "statut": "En attente de toi",
+   "progression": 95,
+   "prochaine_etape": "Publier sur The Director Desk (vidéo, puis le Short).",
+   "bloque_par": "Toi",
+   "liens": [
+    {
+     "titre": "Vidéo sur Drive",
+     "url": "https://drive.google.com/file/d/11xnulNKt_GS3H8oXk-1R4QSCMzKa2Bm1/view?usp=drivesdk"
+    }
+   ],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 15,
+   "titre": "Déménagement",
+   "categorie": "Maison",
+   "statut": "En cours",
+   "progression": 40,
+   "prochaine_etape": "Confirmer la date exacte (mi-fin novembre).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 16,
+   "titre": "Déneigement",
+   "categorie": "Maison",
+   "statut": "En attente de toi",
+   "progression": 30,
+   "prochaine_etape": "Appeler pour des soumissions (500 $ à 1 000 $+/saison).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 17,
+   "titre": "Assurance habitation",
+   "categorie": "Maison",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 18,
+   "titre": "Pneus d'hiver",
+   "categorie": "Maison",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22"
+  },
+  {
+   "id": 19,
+   "titre": "Recherche d'emploi",
+   "categorie": "Emploi",
+   "statut": "En cours",
+   "progression": 10,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22"
+  }
+ ]
+}

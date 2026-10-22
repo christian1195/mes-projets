@@ -1,0 +1,42 @@
+<!doctype html><html lang="fr-CA"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0B4F9C"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<title>Mes projets</title><style>
+:root{--bg:#f3f6fb;--card:#fff;--tx:#14213d;--mu:#5b6b85;color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1420;--card:#18233a;--tx:#eef2fa;--mu:#9aa8c0}}
+*{box-sizing:border-box}body{margin:0;font:16px/1.4 system-ui,sans-serif;background:var(--bg);color:var(--tx);padding-bottom:env(safe-area-inset-bottom)}
+header{background:#0B4F9C;color:#fff;padding:calc(14px + env(safe-area-inset-top)) 16px 14px;position:sticky;top:0;z-index:2}
+h1{margin:0;font-size:22px}small{opacity:.8}main{padding:12px;max-width:640px;margin:auto}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0}.chip{border:0;border-radius:20px;padding:9px 14px;font-size:15px;background:var(--card);color:var(--tx);white-space:nowrap}.chip.on{background:#0B4F9C;color:#fff}
+.strip{background:#ffb703;color:#222;border-radius:14px;padding:12px;margin:10px 0}.strip b{display:block;margin-bottom:6px}.strip div{padding:6px 0;border-top:1px solid #0002}
+h2{font-size:17px;margin:18px 4px 8px}.c{background:var(--card);border-radius:14px;padding:14px;margin:10px 0;border-left:7px solid var(--k);box-shadow:0 1px 4px #0002}
+.cat{font-size:13px;color:var(--k);font-weight:700}.t{font-weight:700;font-size:17px;margin:3px 0}.n{color:var(--mu);font-size:14px}
+.bar{height:10px;background:#8883;border-radius:6px;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:var(--k)}
+dialog{border:0;border-radius:18px;width:92vw;max-width:520px;background:var(--card);color:var(--tx)}dialog a{display:block;margin:8px 0;color:#4ea1ff}
+dialog button{margin-top:12px;width:100%;padding:12px;border:0;border-radius:10px;background:#0B4F9C;color:#fff;font-size:16px}
+#lock{position:fixed;inset:0;z-index:99;background:#0b2a6b;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;font-family:inherit}
+#lock h2{margin:0;font-size:1.6rem;color:#fff}#lock .fl{font-size:2.4rem}
+#pin{font-size:2rem;letter-spacing:.6em;text-align:center;width:min(80vw,280px);padding:14px;border-radius:14px;border:2px solid #5d8bff;background:#13377f;color:#fff;outline:none}
+#lock button{font-size:1.2rem;padding:14px 40px;border-radius:14px;border:0;background:#fff;color:#0b2a6b;font-weight:700}
+#err{min-height:1.2em;color:#ffb4b4}#lockbtn{float:right;font-size:.8rem;padding:6px 10px;border-radius:10px;border:1px solid var(--mu);background:transparent;color:var(--tx)}
+</style></head><body><div id="lock"><div class="fl">⚜️</div><h2>Entre ton NIP</h2><input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="8" aria-label="NIP"><div id="err"></div><button onclick="tryPin()">Ouvrir</button></div><header><button id="lockbtn" onclick="relock()">🔒 Verrouiller</button><h1>Mes projets</h1><small id="maj">Chargement…</small></header><main>
+<div class="chips" id="chips"></div><div id="strip"></div><div id="list"></div></main><dialog id="d"></dialog>
+<script>
+const SALT='mesprojets-real-2026:',HASH='1078d9e3f59bab37101ac44576dab55b1fa492152f2e07f9041708d2474e13cb',LK='mp_unlocked';let OK=localStorage.getItem(LK)===HASH;
+async function sha(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+async function tryPin(){const v=pin.value;if(await sha(SALT+v)===HASH){localStorage.setItem(LK,HASH);OK=true;lock.style.display='none';pin.value='';err.textContent='';load()}else{err.textContent='NIP incorrect';pin.value='';pin.focus()}}
+function relock(){localStorage.removeItem(LK);OK=false;P=[];list.innerHTML=strip.innerHTML=chips.innerHTML='';lock.style.display='flex';pin.focus()}
+const K={"Livres":"#2a9d8f","Livres audio":"#9b5de5","YouTube":"#e63946","Maison":"#f4a261","Emploi":"#3a86ff"},
+S=["En attente de toi","Bloqué","En cours","À faire","Terminé"];let P=[],F="Tous";
+const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function load(){if(!OK)return;try{const r=await fetch('projects.json?t='+Date.now(),{cache:'no-store'});const j=await r.json();P=j.projets;maj.textContent='Mis à jour le '+j.maj+' par Réal'}catch(x){maj.textContent='Hors ligne'}draw()}
+function draw(){chips.innerHTML=["Tous",...Object.keys(K)].map(c=>`<button class="chip ${c==F?'on':''}" onclick="F='${c}';draw()">${c}</button>`).join('');
+const v=P.filter(p=>F=="Tous"||p.categorie==F),w=v.filter(p=>p.statut=="En attente de toi"||/ton OK/.test(p.bloque_par));
+strip.innerHTML=w.length?`<div class="strip"><b>Ce qui attend ta décision (${w.length})</b>${w.map(p=>`<div onclick="show(${p.id})">${e(p.titre)}</div>`).join('')}</div>`:'';
+list.innerHTML=S.map(s=>{const g=v.filter(p=>p.statut==s);return g.length?`<h2>${s} (${g.length})</h2>`+g.map(p=>`<div class="c" style="--k:${K[p.categorie]}" onclick="show(${p.id})"><div class="cat">${e(p.categorie)}</div><div class="t">${e(p.titre)}</div><div class="n">➜ ${e(p.prochaine_etape)}</div><div class="bar"><i style="width:${p.progression}%"></i></div></div>`).join(''):''}).join('')}
+function show(id){const p=P.find(x=>x.id==id);d.innerHTML=`<div class="cat" style="color:${K[p.categorie]}">${e(p.categorie)} · ${e(p.statut)}</div><h3>${e(p.titre)}</h3><p><b>Progression :</b> ${p.progression} %</p><p><b>Prochaine étape :</b> ${e(p.prochaine_etape)}</p><p><b>Bloqué par :</b> ${e(p.bloque_par)}</p><p class="n">MAJ : ${e(p.maj)}</p>${(p.liens||[]).map(l=>`<a href="${e(l.url)}" target="_blank">🔗 ${e(l.titre)}</a>`).join('')}<button onclick="d.close()">Fermer</button>`;d.showModal()}
+document.addEventListener('visibilitychange',()=>document.visibilityState=='visible'&&load());
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+pin.addEventListener('keydown',ev=>ev.key=='Enter'&&tryPin());
+if(OK){lock.style.display='none';load()}else pin.focus();
+</script></body></html>
