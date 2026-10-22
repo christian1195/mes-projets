@@ -703,6 +703,34 @@
         "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
         "date": "2026-10-22"
       }
+    },
+    {
+      "id": 30,
+      "titre": "Indiana Jones and the Debt at Havana",
+      "categorie": "Livres",
+      "statut": "En cours",
+      "progression": 0,
+      "prochaine_etape": "Choisir la bonne version du manuscrit (3 copies sur Drive).",
+      "bloque_par": "ton choix",
+      "liens": [
+        {
+          "label": "Dossier Autres manuscrits (Drive)",
+          "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
+        }
+      ],
+      "maj": "2026-10-22",
+      "derniere_version": {
+        "label": "Indiana_Jones_and_the_Debt_at_Havana (Google Doc)",
+        "url": "https://docs.google.com/document/d/1KYyIcojSVYovjH3262ZMAMr3fktXI5pBO1s2s5wfhTI/edit",
+        "date": "2026-10-17"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-22",
+          "texte": "Manuscrit privé sur ton Drive, pas publié sur le site."
+        }
+      ],
+      "serie": "Hors série"
     }
   ]
 }
