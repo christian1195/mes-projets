@@ -9,18 +9,8 @@
    "progression": 90,
    "prochaine_etape": "Choisir le prix et le genre.",
    "bloque_par": "Toi",
-   "liens": [
-    {
-     "titre": "Dossier Ludo et la Joconde",
-     "url": "https://drive.google.com/drive/folders/1Bg_NqTR2ZKxDEFYHWhxSuAdKxT4YAqiI"
-    }
-   ],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Ludo_et_la_Joconde.epub",
-    "url": "https://drive.google.com/file/d/1LnWkabnzexBcl7uHPtW-1GTH7w2Uh9tj/view",
-    "date": "2026-10-22"
-   }
+   "liens": [],
+   "maj": "2026-10-22"
   },
   {
    "id": 2,
@@ -31,12 +21,7 @@
    "prochaine_etape": "Confirmer la publication sur Google Play.",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Wait_AI_Can_Do_THAT_enseignants_v2.epub",
-    "url": "https://drive.google.com/file/d/168peYG14-yXIEhNDQj4ZU2A3g2Hmm8cL/view",
-    "date": "2026-10-22"
-   }
+   "maj": "2026-10-22"
   },
   {
    "id": 3,
@@ -46,18 +31,8 @@
    "progression": 80,
    "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
    "bloque_par": "Google · ton OK",
-   "liens": [
-    {
-     "titre": "Couverture",
-     "url": "https://drive.google.com/file/d/1yme6e4QMFzmPmu3W_VtOstIRa1EjYLMs/view"
-    }
-   ],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Ca_sest_passe_ici_Outaouais_archives.epub",
-    "url": "https://drive.google.com/file/d/1yoF1s5nTusk5dg_JClwXcngVAVluh7L3/view",
-    "date": "2026-10-20"
-   }
+   "liens": [],
+   "maj": "2026-10-22"
   },
   {
    "id": 4,
@@ -68,12 +43,7 @@
    "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
    "bloque_par": "Google · ton OK",
    "liens": [],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Wait_AI_Can_Do_THAT_immobilier_v3.epub",
-    "url": "https://drive.google.com/file/d/1QfFJ2phqaSqiyjcGOUuOXcUd2Ku9EnjP/view",
-    "date": "2026-10-22"
-   }
+   "maj": "2026-10-22"
   },
   {
    "id": 5,
@@ -84,12 +54,7 @@
    "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
    "bloque_par": "Google · ton OK",
    "liens": [],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "The-Lines-That-Live-Updated-Title-Page.epub",
-    "url": "https://drive.google.com/file/d/16aEXwAbD2V3GKsc99f7WmrbogjG5oLo1/view",
-    "date": "2026-10-21"
-   }
+   "maj": "2026-10-22"
   },
   {
    "id": 6,
@@ -99,18 +64,8 @@
    "progression": 60,
    "prochaine_etape": "Écrire ch. 9–14.",
    "bloque_par": "Réal",
-   "liens": [
-    {
-     "titre": "Dossier du livre",
-     "url": "https://drive.google.com/drive/folders/1-LyzOUjnByOCz4_ealKpw4Okk74Jmvqf"
-    }
-   ],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Les_morts_du_premier_ministre.epub",
-    "url": "https://drive.google.com/file/d/1kwX0AYZeFb8IyfsVuhDl9TkaYWRUe1JF/view",
-    "date": "2026-10-22"
-   }
+   "liens": [],
+   "maj": "2026-10-22"
   },
   {
    "id": 7,
@@ -121,12 +76,7 @@
    "prochaine_etape": "Continuer au ch. 5.",
    "bloque_par": "Réal",
    "liens": [],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "La_chose_du_sixieme_rang_ch1-4.epub",
-    "url": "https://drive.google.com/file/d/1E-ao0AUyXo0QupMLrwLBMCnEY_WVDZ6E/view",
-    "date": "2026-10-22"
-   }
+   "maj": "2026-10-22"
   },
   {
    "id": 8,
@@ -167,10 +117,6 @@
     {
      "titre": "Dossier du livre audio",
      "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
-    },
-    {
-     "titre": "Livre EPUB v2",
-     "url": "https://drive.google.com/file/d/1NN2vw1IXr479Ao8gaSKRfDQb1pxiAqEc/view"
     }
    ],
    "maj": "2026-10-22",
@@ -210,12 +156,7 @@
    "prochaine_etape": "Rien. En ligne à 5 $.",
    "bloque_par": "Personne",
    "liens": [],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Ce qu'il en reste - La Joconde (corrigé v2).epub",
-    "url": "https://drive.google.com/file/d/1KwNF_yWI9749-n3liieBO9dulf7Zqf00/view",
-    "date": "2026-10-04"
-   }
+   "maj": "2026-10-22"
   },
   {
    "id": 13,
@@ -226,12 +167,7 @@
    "prochaine_etape": "Rien. En ligne, gratuit.",
    "bloque_par": "Personne",
    "liens": [],
-   "maj": "2026-10-22",
-   "derniere_version": {
-    "label": "Wait_AI_Can_Do_THAT_film_TV_v2.epub",
-    "url": "https://drive.google.com/file/d/1itwRNeLEAYbQX8eGWwbEKArdTk5aEXhD/view",
-    "date": "2026-10-22"
-   }
+   "maj": "2026-10-22"
   },
   {
    "id": 14,
