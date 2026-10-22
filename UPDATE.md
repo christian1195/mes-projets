@@ -20,3 +20,8 @@ Première mise en ligne (nécessite `gh auth login`):
 - Pour désarchiver (« Désarchive : <titre> ») : retirer `archive` (ou le mettre à false). On peut garder `archive_date`/`archive_raison` comme historique ou les enlever.
 - Les projets archivés sont exclus de tous les onglets, compteurs, « Activité récente » et « Ce qui attend ta décision ». Ils ne s'affichent que dans la vue Archives (icône 🗄️ en haut).
 - Ensuite : commit + push (voir plus haut). Pas besoin de changer sw.js pour une simple modif de projects.json.
+
+## Notes
+- « Mes notes » (Christian) : stockées UNIQUEMENT dans le localStorage du téléphone, clé `mp_notes_v1`, format `{ "<id projet>": [{ "t": ms, "texte": "...", "m": ms_modif? }] }`. Ajout/modif/suppression dans la fiche. Bouton « Envoyer à Réal » copie « Note pour Réal — <titre> : <texte> ».
+- Sauvegarde : ⚙️ (en-tête) > Exporter (télécharge mes-notes-AAAA-MM-JJ.json) / Copier ; Importer = coller le JSON ou choisir le fichier (fusion, sans doublons). Effacer les données du navigateur ou désinstaller l'app = notes perdues sans export.
+- « Notes de Réal » : champ `notes_real: [{ "date": "AAAA-MM-JJ", "texte": "..." }]` dans projects.json (lecture seule dans l'app). Ajouter la plus récente en premier. Faits documentés seulement, jamais d'adresse ni de courriel (repo public).

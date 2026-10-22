@@ -11,7 +11,13 @@
    "bloque_par": "Toi",
    "liens": [],
    "maj": "2026-10-22",
-   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg"
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
+    }
+   ]
   },
   {
    "id": 2,
@@ -22,7 +28,13 @@
    "prochaine_etape": "Confirmer la publication sur Google Play.",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 95 %. Prochaine étape : Confirmer la publication sur Google Play."
+    }
+   ]
   },
   {
    "id": 3,
@@ -39,7 +51,13 @@
     "url": "https://drive.google.com/file/d/1EnsrAaL5oKheDs_YaXgMPvAHWlDOV5qB/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg"
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images en meilleure qualité (erreur 001 Google). Dernière version : Ça s'est passé ici (Outaouais).epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 4,
@@ -56,7 +74,13 @@
     "url": "https://drive.google.com/file/d/12IefGjkwdnpPCVh3TdWhGw22vIP6GObU/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/wait-ai-immobilier.jpg"
+   "couverture": "covers/wait-ai-immobilier.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : Wait, AI Can Do THAT - immobilier.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 5,
@@ -73,7 +97,13 @@
     "url": "https://drive.google.com/file/d/1u5CUP26En3rt2I7-y1-fpZ8wcyVNqmWC/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/the-lines-that-live.jpg"
+   "couverture": "covers/the-lines-that-live.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : The Lines That Live.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 6,
@@ -84,7 +114,13 @@
    "prochaine_etape": "Écrire ch. 9–14.",
    "bloque_par": "Réal",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 60 %. Prochaine étape : Écrire ch. 9–14."
+    }
+   ]
   },
   {
    "id": 7,
@@ -95,7 +131,13 @@
    "prochaine_etape": "Continuer au ch. 5.",
    "bloque_par": "Réal",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 25 %. Prochaine étape : Continuer au ch. 5."
+    }
+   ]
   },
   {
    "id": 8,
@@ -117,7 +159,13 @@
     "url": "https://drive.google.com/file/d/1GWxM-Y_H6fkykZ31qF_A8H2CiGqTD32S/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/second-notice.jpg"
+   "couverture": "covers/second-notice.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 95 %. Prochaine étape : Ajouter la phrase manquante au ch. 15. Dernière version : Second Notice - Everybody Goes Home Richer.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 9,
@@ -128,7 +176,13 @@
    "prochaine_etape": "Me l'envoyer ; on teste la nouvelle procédure Arena.",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : Me l'envoyer ; on teste la nouvelle procédure Arena."
+    }
+   ]
   },
   {
    "id": 10,
@@ -154,7 +208,13 @@
     "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/quarante-cinq-minutes.jpg"
+   "couverture": "covers/quarante-cinq-minutes.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 70 %. Prochaine étape : Refaire avec Arena : une seule voix fixe, aucun fichier effacé. Dernière version : Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3 (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 11,
@@ -176,7 +236,13 @@
     "url": "https://drive.google.com/file/d/1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK/view",
     "date": "2026-10-20"
    },
-   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg"
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 85 %. Prochaine étape : Combler les trous des ch. 4 et 10. Dernière version : Le poltergeist de Shawville - Livre audio complet (ambiance).mp3 (2026-10-20)."
+    }
+   ]
   },
   {
    "id": 12,
@@ -193,7 +259,13 @@
     "url": "https://drive.google.com/file/d/1aY6p6fs5N1NTVw-PhulpnFnmKcX_g1-p/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg"
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne à 5 $. Dernière version : Ce qu'il en reste - La Joconde.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 13,
@@ -204,7 +276,13 @@
    "prochaine_etape": "Rien. En ligne, gratuit.",
    "bloque_par": "Personne",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne, gratuit."
+    }
+   ]
   },
   {
    "id": 14,
@@ -237,7 +315,13 @@
     "label": "Lion_Guard_Premiere_2015_EN_Suno_v2.mp4",
     "url": "https://drive.google.com/file/d/11xnulNKt_GS3H8oXk-1R4QSCMzKa2Bm1/view",
     "date": "2026-10-22"
-   }
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 95 %. Prochaine étape : Publier sur The Director Desk (vidéo, puis le Short). Dernière version : Lion_Guard_Premiere_2015_EN_Suno_v2.mp4 (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 15,
@@ -248,7 +332,13 @@
    "prochaine_etape": "Confirmer la date exacte (mi-fin novembre).",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 40 %. Prochaine étape : Confirmer la date exacte (mi-fin novembre)."
+    }
+   ]
   },
   {
    "id": 16,
@@ -259,7 +349,13 @@
    "prochaine_etape": "Appeler pour des soumissions (500 $ à 1 000 $+/saison).",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 30 %. Prochaine étape : Appeler pour des soumissions (500 $ à 1 000 $+/saison)."
+    }
+   ]
   },
   {
    "id": 17,
@@ -270,7 +366,13 @@
    "prochaine_etape": "À confirmer.",
    "bloque_par": "À confirmer",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
+    }
+   ]
   },
   {
    "id": 18,
@@ -281,7 +383,13 @@
    "prochaine_etape": "À confirmer.",
    "bloque_par": "À confirmer",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
+    }
+   ]
   },
   {
    "id": 19,
@@ -292,7 +400,13 @@
    "prochaine_etape": "À confirmer.",
    "bloque_par": "À confirmer",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 10 %. Prochaine étape : À confirmer."
+    }
+   ]
   },
   {
    "id": 20,
@@ -309,7 +423,13 @@
     "url": "https://drive.google.com/file/d/1tZjC1f-mA8VlbvSIh1mcwXTU971LwV7Q/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/le-dernier-lait.jpg"
+   "couverture": "covers/le-dernier-lait.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le Dernier Lait.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 21,
@@ -326,7 +446,13 @@
     "url": "https://drive.google.com/file/d/1XM_1HDa8G9N1ppDw9i6LHaWOtIPQU2tV/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/a-city-of-me.jpg"
+   "couverture": "covers/a-city-of-me.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : A City of Me.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 22,
@@ -343,7 +469,13 @@
     "url": "https://drive.google.com/file/d/1JT04aQj_H8TBFB1DNXPWRWTvqcYeCb5H/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/dancingly-yours.jpg"
+   "couverture": "covers/dancingly-yours.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Dancingly Yours.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 23,
@@ -360,7 +492,13 @@
     "url": "https://drive.google.com/file/d/1hbsOCfPPe6OfzlRPvo9qLEVXBUtCgAkX/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/missing-time-at-road-44.jpg"
+   "couverture": "covers/missing-time-at-road-44.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Missing Time at Road 44.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 24,
@@ -377,7 +515,13 @@
     "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/le-dernier-costco.jpg"
+   "couverture": "covers/le-dernier-costco.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le dernier Costco.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 25,
@@ -394,7 +538,13 @@
     "url": "https://drive.google.com/file/d/1bgIUZYQJowLry-1L5rL6Yf5tswi60dfu/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/les-monstres-qu-on-s-invente.jpg"
+   "couverture": "covers/les-monstres-qu-on-s-invente.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Les Monstres qu'on s'invente.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 26,
@@ -411,7 +561,13 @@
     "url": "https://drive.google.com/file/d/1mhYaxIofahxXE1DnEmxpKBGPKdh-Exoe/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/the-seventh-round.jpg"
+   "couverture": "covers/the-seventh-round.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The Seventh Round.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 27,
@@ -433,7 +589,13 @@
     "url": "https://drive.google.com/file/d/104LHgyGcYE2iDBt2BMUqOU5sC7HMj0tQ/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/the-4th-hour-the-skull.jpg"
+   "couverture": "covers/the-4th-hour-the-skull.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The 4th Hour - The Skull.epub (2026-10-22)."
+    }
+   ]
   },
   {
    "id": 28,
@@ -450,7 +612,13 @@
     "url": "https://drive.google.com/file/d/1fAGe2hLctotry5XCrBySwPwVSsQxzyjb/view",
     "date": "2026-10-22"
    },
-   "couverture": "covers/story-bible-for-claude.jpg"
+   "couverture": "covers/story-bible-for-claude.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Document de référence pour l'écriture. Dernière version : The Story Bible for Claude.epub (2026-10-22)."
+    }
+   ]
   }
  ]
 }
