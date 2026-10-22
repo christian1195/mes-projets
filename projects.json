@@ -32,7 +32,13 @@
    "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
    "bloque_par": "Google · ton OK",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Ça s'est passé ici (Outaouais).epub",
+    "url": "https://drive.google.com/file/d/1EnsrAaL5oKheDs_YaXgMPvAHWlDOV5qB/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg"
   },
   {
    "id": 4,
@@ -43,7 +49,13 @@
    "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
    "bloque_par": "Google · ton OK",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Wait, AI Can Do THAT - immobilier.epub",
+    "url": "https://drive.google.com/file/d/12IefGjkwdnpPCVh3TdWhGw22vIP6GObU/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/wait-ai-immobilier.jpg"
   },
   {
    "id": 5,
@@ -54,7 +66,13 @@
    "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
    "bloque_par": "Google · ton OK",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "The Lines That Live.epub",
+    "url": "https://drive.google.com/file/d/1u5CUP26En3rt2I7-y1-fpZ8wcyVNqmWC/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-lines-that-live.jpg"
   },
   {
    "id": 6,
@@ -86,13 +104,19 @@
    "progression": 95,
    "prochaine_etape": "Ajouter la phrase manquante au ch. 15.",
    "bloque_par": "Réal",
-   "liens": [],
+   "liens": [
+    {
+     "titre": "Livre audio (ambiance +25 %)",
+     "url": "https://drive.google.com/file/d/1-WGkQIsEos5bE8A4HxugJ09TPKzaCw18/view"
+    }
+   ],
    "maj": "2026-10-22",
    "derniere_version": {
-    "label": "Second Notice - Livre audio complet (ambiance +25%).mp3",
-    "url": "https://drive.google.com/file/d/1-WGkQIsEos5bE8A4HxugJ09TPKzaCw18/view",
-    "date": "2026-10-20"
-   }
+    "label": "Second Notice - Everybody Goes Home Richer.epub",
+    "url": "https://drive.google.com/file/d/1GWxM-Y_H6fkykZ31qF_A8H2CiGqTD32S/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/second-notice.jpg"
   },
   {
    "id": 9,
@@ -117,6 +141,10 @@
     {
      "titre": "Dossier du livre audio",
      "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
+    },
+    {
+     "titre": "Livre EPUB officiel",
+     "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
     }
    ],
    "maj": "2026-10-22",
@@ -124,7 +152,8 @@
     "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
     "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
     "date": "2026-10-22"
-   }
+   },
+   "couverture": "covers/quarante-cinq-minutes.jpg"
   },
   {
    "id": 11,
@@ -156,7 +185,13 @@
    "prochaine_etape": "Rien. En ligne à 5 $.",
    "bloque_par": "Personne",
    "liens": [],
-   "maj": "2026-10-22"
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Ce qu'il en reste - La Joconde.epub",
+    "url": "https://drive.google.com/file/d/1aY6p6fs5N1NTVw-PhulpnFnmKcX_g1-p/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg"
   },
   {
    "id": 13,
@@ -256,6 +291,164 @@
    "bloque_par": "À confirmer",
    "liens": [],
    "maj": "2026-10-22"
+  },
+  {
+   "id": 20,
+   "titre": "Le Dernier Lait",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Le Dernier Lait.epub",
+    "url": "https://drive.google.com/file/d/1tZjC1f-mA8VlbvSIh1mcwXTU971LwV7Q/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-lait.jpg"
+  },
+  {
+   "id": 21,
+   "titre": "A City of Me",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "A City of Me.epub",
+    "url": "https://drive.google.com/file/d/1XM_1HDa8G9N1ppDw9i6LHaWOtIPQU2tV/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/a-city-of-me.jpg"
+  },
+  {
+   "id": 22,
+   "titre": "Dancingly Yours",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Dancingly Yours.epub",
+    "url": "https://drive.google.com/file/d/1JT04aQj_H8TBFB1DNXPWRWTvqcYeCb5H/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/dancingly-yours.jpg"
+  },
+  {
+   "id": 23,
+   "titre": "Missing Time at Road 44",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Missing Time at Road 44.epub",
+    "url": "https://drive.google.com/file/d/1hbsOCfPPe6OfzlRPvo9qLEVXBUtCgAkX/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/missing-time-at-road-44.jpg"
+  },
+  {
+   "id": 24,
+   "titre": "Le dernier Costco",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Le dernier Costco.epub",
+    "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-costco.jpg"
+  },
+  {
+   "id": 25,
+   "titre": "Les Monstres qu'on s'invente",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Les Monstres qu'on s'invente.epub",
+    "url": "https://drive.google.com/file/d/1bgIUZYQJowLry-1L5rL6Yf5tswi60dfu/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/les-monstres-qu-on-s-invente.jpg"
+  },
+  {
+   "id": 26,
+   "titre": "The Seventh Round",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "The Seventh Round.epub",
+    "url": "https://drive.google.com/file/d/1mhYaxIofahxXE1DnEmxpKBGPKdh-Exoe/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-seventh-round.jpg"
+  },
+  {
+   "id": 27,
+   "titre": "The 4th Hour: The Skull",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [
+    {
+     "titre": "The 4th Hour: Series Overview",
+     "url": "https://drive.google.com/file/d/1fDRpO9j-oeJta0zYPA95Id2xW-v8E0dJ/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "The 4th Hour - The Skull.epub",
+    "url": "https://drive.google.com/file/d/104LHgyGcYE2iDBt2BMUqOU5sC7HMj0tQ/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-4th-hour-the-skull.jpg"
+  },
+  {
+   "id": 28,
+   "titre": "The Story Bible for Claude (référence)",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Document de référence pour l'écriture.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "The Story Bible for Claude.epub",
+    "url": "https://drive.google.com/file/d/1fAGe2hLctotry5XCrBySwPwVSsQxzyjb/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/story-bible-for-claude.jpg"
   }
  ]
 }
