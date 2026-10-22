@@ -27,3 +27,14 @@ Réal édite ce fichier pour changer l'onglet Accueil. Aucun changement de code 
 **Valeurs de repli** : `une`, `nouvelles` ou `idees` vides → l'app utilise les projets avec couverture (triés par `maj`) et les items de `montre.json`. `pourtoi` vide → rangée cachée.
 
 Jamais d'adresse personnelle ici (dépôt public). Après modif de index.html, augmenter la version du cache dans sw.js.
+
+## agenda (rangée « 📅 Aujourd'hui », sous le bonjour)
+
+```json
+"agenda": [ { "date": "2026-10-23", "heure": "10:00", "titre": "Rendez-vous", "lieu": "Gatineau" } ]
+```
+
+- Aujourd'hui + les 2 prochains jours, tirés de Google Calendar (primaire + Family + fériés ; pas les calendriers de collecte des déchets).
+- `heure` : `"HH:MM"` ou `"Toute la journée"`. Chaque carte a une étiquette Aujourd'hui / Demain / jour.
+- Rien aujourd'hui → carte « Rien à l'agenda aujourd'hui 😌 ». Clé `agenda` absente → rangée cachée. Tap → calendar.google.com.
+- **Jamais l'adresse de la maison** (dépôt public) : remplacer par `"À la maison"`.
