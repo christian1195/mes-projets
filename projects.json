@@ -5,14 +5,18 @@
       "id": 1,
       "titre": "La Joconde — livre audio (Google Play)",
       "categorie": "Livres audio",
-      "statut": "En attente de toi",
+      "statut": "En cours",
       "progression": 90,
-      "prochaine_etape": "Choisir le prix et le genre.",
-      "bloque_par": "Toi",
+      "prochaine_etape": "Produire la narration, puis te faire écouter un extrait.",
+      "bloque_par": "",
       "liens": [],
       "maj": "2026-10-22",
       "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
       "notes_real": [
+        {
+          "date": "2026-10-22",
+          "texte": "Tu m'as demandé de faire le livre audio et de le mettre dans l'app. Production à lancer."
+        },
         {
           "date": "2026-10-22",
           "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
@@ -31,6 +35,10 @@
       "liens": [],
       "maj": "2026-10-22",
       "notes_real": [
+        {
+          "date": "2026-10-22",
+          "texte": "Go reçu par note; j'attends ton « oui, publie » dans le chat avant de publier."
+        },
         {
           "date": "2026-10-22",
           "texte": "État : en attente de toi, 95 %. Prochaine étape : Confirmer la publication sur Google Play."
@@ -394,9 +402,16 @@
       "notes_real": [
         {
           "date": "2026-10-22",
+          "texte": "Archivé à ta demande (note « Enlever la note »)."
+        },
+        {
+          "date": "2026-10-22",
           "texte": "État : en attente de toi, 30 %. Prochaine étape : Appeler pour des soumissions (500 $ à 1 000 $+/saison)."
         }
-      ]
+      ],
+      "archive": true,
+      "archive_date": "2026-10-22",
+      "archive_raison": "Demandé par Christian"
     },
     {
       "id": 17,
