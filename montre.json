@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "id": "pitch-call-in-hour",
+   "titre": "The Call-In Hour : le pitch",
+   "resume": "Une nouvelle 4th Hour : à 3 h 40, un mort appelle à la radio de nuit pour dire qui sauver.",
+   "date": "2026-10-22",
+   "type": "autre",
+   "page": "montre/pitch-call-in-hour.html",
+   "vu": false
+  },
+  {
    "id": "serie-4th-hour",
    "titre": "The 4th Hour : la série",
    "resume": "Six histoires, une heure : 3 h 40. La règle, la ligne du temps, les extraits pis l'ordre de lecture.",
