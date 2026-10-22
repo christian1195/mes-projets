@@ -13,3 +13,10 @@ Première mise en ligne (nécessite `gh auth login`):
 - index.html contient seulement un sel + un hash SHA-256 du NIP (jamais le NIP en clair).
 - Le NIP est un verrou léger, PAS une vraie sécurité : le dépôt et projects.json sont publics, n'importe qui avec l'URL de projects.json peut le lire directement. Ne jamais y mettre d'info sensible (adresse, courriel).
 - Pour changer le NIP : recalculer sha256(SEL + NIP) et remplacer HASH dans index.html, puis incrémenter la version du cache dans sw.js.
+
+## Archiver / désarchiver un projet
+- Christian touche « 🗄️ Archiver » dans la fiche : ça copie « Archive : <titre> » qu'il colle à Réal (le site est statique, il ne peut pas écrire).
+- Pour archiver, dans `projects.json` sur le projet : `"archive": true, "archive_date": "AAAA-MM-JJ", "archive_raison": "texte court"`, et mettre `maj` à jour.
+- Pour désarchiver (« Désarchive : <titre> ») : retirer `archive` (ou le mettre à false). On peut garder `archive_date`/`archive_raison` comme historique ou les enlever.
+- Les projets archivés sont exclus de tous les onglets, compteurs, « Activité récente » et « Ce qui attend ta décision ». Ils ne s'affichent que dans la vue Archives (icône 🗄️ en haut).
+- Ensuite : commit + push (voir plus haut). Pas besoin de changer sw.js pour une simple modif de projects.json.
