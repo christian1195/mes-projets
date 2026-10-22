@@ -1,0 +1,22 @@
+{
+  "maj": "2026-10-22",
+  "salut": "Le pitch de The Call-In Hour est prêt, avec la vidéo pis la musique de The 4th Hour. Le Costco avance tranquillement.",
+  "une": [
+    {"titre": "The Call-In Hour : le pitch", "texte": "À 3 h 40, un mort appelle à la radio de nuit. La vidéo de 4 min 47 est en haut de la page.", "image": "montre/pitch-call-in-hour/studio.webp", "lien": "#/montre/pitch-call-in-hour"},
+    {"titre": "Le dernier Costco en livre audio", "texte": "4 chapitres sur 20 sont prêts, avec la voix québécoise. La suite roule.", "image": "covers/le-dernier-costco.jpg", "lien": "projet:24"},
+    {"titre": "The 4th Hour : la série", "texte": "Six histoires, une heure : 3 h 40. L'ordre de lecture pis les extraits.", "image": "covers/the-4th-hour-series-overview.jpg", "lien": "#/montre/serie-4th-hour"}
+  ],
+  "nouvelles": [
+    {"titre": "Audio-pitch The Call-In Hour", "texte": "Vidéo de 4 min 47 avec la musique de The 4th Hour.", "image": "montre/pitch-call-in-hour/cover.webp", "lien": "#/montre/pitch-call-in-hour", "date": "2026-10-22"},
+    {"titre": "Le dernier Costco : chapitre 4/20", "texte": "Les chapitres 1 à 4 sont faits, le 5 est en route.", "image": "covers/le-dernier-costco.jpg", "lien": "projet:24", "date": "2026-10-22"},
+    {"titre": "Guide IA vol. 3", "texte": "Tu as dit oui : je le publie sur Google Play dès que mon navigateur se libère.", "image": "", "lien": "projet:2", "date": "2026-10-22"},
+    {"titre": "Page The 4th Hour", "texte": "Toute la série au même endroit.", "image": "covers/the-4th-hour-series-overview.jpg", "lien": "#/montre/serie-4th-hour", "date": "2026-10-22"}
+  ],
+  "idees": [],
+  "pourtoi": [
+    {"titre": "Suno lance Speech (bêta)", "texte": "Une voix pis sa musique générées ensemble, en une prise. Parfait pour des pitchs.", "image": "accueil/suno.webp", "lien": "https://suno.com/blog/introducing-speech-beta", "date": "2026-10-01"},
+    {"titre": "Grok Imagine Video 1.5 Lite", "texte": "Texte ou image vers vidéo avec son, 1 à 15 s, jusqu'en 1080p.", "image": "accueil/grok.webp", "lien": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway", "date": "2026-10-08"},
+    {"titre": "Soirée hantée à Aylmer, 30 oct.", "texte": "Radio-Canada présente le balado Hantées sur scène. Gratuit, réservation obligatoire.", "image": "accueil/hantees.webp", "lien": "https://lepointdevente.com/tickets/honteegatineau", "date": "2026-10-30"},
+    {"titre": "Visite hantée de la vallée", "texte": "Le premier poltergeist enregistré au Canada pis d'autres histoires, sur la 148.", "image": "accueil/visite.webp", "lien": "https://www.aventureoutaouais.ca/fr/products/ottawa_valley_haunted_tour", "date": "2026-10-05"}
+  ]
+}
