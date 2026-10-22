@@ -1,43 +1,115 @@
 <!doctype html><html lang="fr-CA"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0B4F9C"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#0a0f1e" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#eef2fb" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
 <title>Mes projets</title><style>
-:root{--bg:#f3f6fb;--card:#fff;--tx:#14213d;--mu:#5b6b85;color-scheme:light dark}
-@media(prefers-color-scheme:dark){:root{--bg:#0d1420;--card:#18233a;--tx:#eef2fa;--mu:#9aa8c0}}
-*{box-sizing:border-box}body{margin:0;font:16px/1.4 system-ui,sans-serif;background:var(--bg);color:var(--tx);padding-bottom:env(safe-area-inset-bottom)}
-header{background:#0B4F9C;color:#fff;padding:calc(14px + env(safe-area-inset-top)) 16px 14px;position:sticky;top:0;z-index:2}
-h1{margin:0;font-size:22px}small{opacity:.8}main{padding:12px;max-width:640px;margin:auto}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0}.chip{border:0;border-radius:20px;padding:9px 14px;font-size:15px;background:var(--card);color:var(--tx);white-space:nowrap}.chip.on{background:#0B4F9C;color:#fff}
-.strip{background:#ffb703;color:#222;border-radius:14px;padding:12px;margin:10px 0}.strip b{display:block;margin-bottom:6px}.strip div{padding:6px 0;border-top:1px solid #0002}
-h2{font-size:17px;margin:18px 4px 8px}.c{background:var(--card);border-radius:14px;padding:14px;margin:10px 0;border-left:7px solid var(--k);box-shadow:0 1px 4px #0002}
-.cat{font-size:13px;color:var(--k);font-weight:700}.t{font-weight:700;font-size:17px;margin:3px 0}.n{color:var(--mu);font-size:14px}
-.bar{height:10px;background:#8883;border-radius:6px;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:var(--k)}
-dialog{border:0;border-radius:18px;width:92vw;max-width:520px;background:var(--card);color:var(--tx)}dialog a{display:block;margin:8px 0;color:#4ea1ff}.cw{display:flex;gap:12px;align-items:flex-start}.cw>div{flex:1;min-width:0}.cv{width:64px;aspect-ratio:2/3;object-fit:cover;border-radius:6px;box-shadow:0 1px 4px #0004;flex:none}.cvb{display:block;width:60%;max-width:240px;aspect-ratio:2/3;object-fit:cover;margin:8px auto;border-radius:10px;box-shadow:0 2px 10px #0005}.dv{display:block;margin:10px 0 4px;padding:12px;border-radius:12px;background:#1f7aec;color:#fff!important;font-weight:700;font-size:16px;text-align:center;text-decoration:none}.dv small{display:block;font-weight:400;font-size:12px;opacity:.85;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-dialog button{margin-top:12px;width:100%;padding:12px;border:0;border-radius:10px;background:#0B4F9C;color:#fff;font-size:16px}
-#lock{position:fixed;inset:0;z-index:99;background:#0b2a6b;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;font-family:inherit}
-#lock h2{margin:0;font-size:1.6rem;color:#fff}#lock .fl{font-size:2.4rem}
-#pin{font-size:2rem;letter-spacing:.6em;text-align:center;width:min(80vw,280px);padding:14px;border-radius:14px;border:2px solid #5d8bff;background:#13377f;color:#fff;outline:none}
-#lock button{font-size:1.2rem;padding:14px 40px;border-radius:14px;border:0;background:#fff;color:#0b2a6b;font-weight:700}
-#err{min-height:1.2em;color:#ffb4b4}#lockbtn{float:right;font-size:.8rem;padding:6px 10px;border-radius:10px;border:1px solid var(--mu);background:transparent;color:var(--tx)}
-</style></head><body><div id="lock"><div class="fl">⚜️</div><h2>Entre ton NIP</h2><input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="8" aria-label="NIP"><div id="err"></div><button onclick="tryPin()">Ouvrir</button></div><header><button id="lockbtn" onclick="relock()">🔒 Verrouiller</button><h1>Mes projets</h1><small id="maj">Chargement…</small></header><main>
-<div class="chips" id="chips"></div><div id="strip"></div><div id="list"></div></main><dialog id="d"></dialog>
+:root{color-scheme:dark light;--bg1:#0a0f1e;--bg2:#141a35;--glass:rgba(255,255,255,.07);--gb:rgba(255,255,255,.12);--tx:#f3f5ff;--mu:#a3abc8;--ac:#7c8cff;--ac2:#3ad1c6;--r:20px;--sh:0 10px 30px rgba(0,0,0,.35);
+--sat:env(safe-area-inset-top);--sab:env(safe-area-inset-bottom);font-family:Inter,"Manrope","Segoe UI Variable",system-ui,-apple-system,Roboto,sans-serif}
+@media(prefers-color-scheme:light){:root{--bg1:#eef2fb;--bg2:#dfe6fa;--glass:rgba(255,255,255,.65);--gb:rgba(20,30,70,.10);--tx:#121833;--mu:#5a6385;--sh:0 8px 24px rgba(30,40,90,.12)}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%}
+body{background:radial-gradient(120% 60% at 0% 0%,rgba(124,140,255,.28),transparent 60%),radial-gradient(90% 50% at 100% 20%,rgba(58,209,198,.18),transparent 60%),linear-gradient(180deg,var(--bg1),var(--bg2));background-attachment:fixed;color:var(--tx);font-size:16px;line-height:1.4;padding-bottom:calc(84px + var(--sab))}
+button{font:inherit;color:inherit}
+.glass{background:var(--glass);border:1px solid var(--gb);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);border-radius:var(--r);box-shadow:var(--sh)}
+header{position:sticky;top:0;z-index:5;padding:calc(12px + var(--sat)) 18px 10px;background:linear-gradient(180deg,var(--bg1) 60%,transparent)}
+.top{display:flex;align-items:center;justify-content:space-between}
+h1{margin:0;font-size:28px;letter-spacing:-.02em;font-weight:800}
+#maj{color:var(--mu);font-size:13px}
+.ib{width:42px;height:42px;border-radius:14px;border:1px solid var(--gb);background:var(--glass);backdrop-filter:blur(12px);font-size:18px}
+.search{margin-top:12px;display:flex;align-items:center;gap:10px;padding:0 14px;height:48px}
+.search input{flex:1;border:0;background:transparent;color:var(--tx);font:inherit;font-size:16px;outline:none}
+main{padding:0 0 12px;max-width:720px;margin:auto}
+.sec{margin:18px 0 6px;padding:0 18px;display:flex;align-items:baseline;justify-content:space-between}
+.sec h2{margin:0;font-size:19px;font-weight:750;letter-spacing:-.01em}.sec span{color:var(--mu);font-size:13px}
+.row{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 18px 14px;scroll-padding:0 18px;scrollbar-width:none}.row::-webkit-scrollbar{display:none}
+.bk{flex:none;width:136px;scroll-snap-align:start;border:0;background:none;padding:0;text-align:left;cursor:pointer}
+.cov{position:relative;width:136px;aspect-ratio:2/3;border-radius:16px;overflow:hidden;box-shadow:0 12px 26px rgba(0,0,0,.4);background:linear-gradient(150deg,var(--k,#7c8cff),#1b1f3a)}
+.cov img{width:100%;height:100%;object-fit:cover;display:block}
+.cov .ph{position:absolute;inset:0;display:flex;align-items:flex-end;padding:12px;font-weight:800;font-size:15px;line-height:1.15;color:#fff}
+.cov .rg{position:absolute;right:8px;top:8px}
+.bk .tt{margin-top:8px;font-size:13.5px;font-weight:650;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tap{transition:transform .18s cubic-bezier(.3,.7,.4,1)}.tap:active{transform:scale(.96)}
+.wait{margin:6px 14px 0;padding:16px}
+.wait h2{margin:0 0 4px;font-size:20px;display:flex;gap:8px;align-items:center}
+.wait .sub{color:var(--mu);font-size:13px;margin-bottom:8px}
+.wi{display:flex;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--gb)}
+.wi:first-of-type{border-top:0}
+.wi .mini{width:44px;aspect-ratio:2/3;border-radius:8px;flex:none;overflow:hidden;background:linear-gradient(150deg,var(--k),#1b1f3a)}.wi .mini img{width:100%;height:100%;object-fit:cover}
+.wi .tx{flex:1;min-width:0}.wi b{display:block;font-size:15px}.wi small{color:var(--mu);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:14px;padding:11px 14px;font-weight:700;font-size:14px;text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--ac),#5a6bff);box-shadow:0 6px 18px rgba(90,107,255,.4);white-space:nowrap;cursor:pointer}
+.btn.big{width:100%;padding:16px;font-size:16px;flex-direction:column;gap:2px}.btn.big small{font-weight:500;opacity:.85;font-size:12px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn.off{background:rgba(140,150,180,.35);box-shadow:none}
+.list{padding:0 14px;display:grid;gap:12px}
+.it{display:flex;gap:14px;align-items:center;padding:14px;border:1px solid var(--gb);text-align:left;width:100%;cursor:pointer}
+.it .tx{flex:1;min-width:0}.it b{display:block;font-size:16px;margin:4px 0 2px}.it small{color:var(--mu);font-size:13px}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;background:color-mix(in srgb,var(--pc) 22%,transparent);color:var(--pc);border:1px solid color-mix(in srgb,var(--pc) 45%,transparent)}
+.ring{--s:44px;width:var(--s);height:var(--s);flex:none}.ring circle{fill:none;stroke-width:4.5}.ring .bgc{stroke:rgba(140,150,190,.25)}.ring .fg{stroke:var(--k);stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .8s ease}.ring text{font-size:11px;font-weight:800;fill:var(--tx);text-anchor:middle;dominant-baseline:central}
+.cov .ring{--s:38px;background:rgba(10,15,30,.6);border-radius:50%;backdrop-filter:blur(6px)}.cov .ring text{fill:#fff}
+nav{position:fixed;left:10px;right:10px;bottom:calc(10px + var(--sab));z-index:6;display:flex;justify-content:space-around;padding:8px 6px;max-width:700px;margin:auto}
+nav button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:650;color:var(--mu);padding:6px 0;border-radius:14px;cursor:pointer}
+nav button i{font-style:normal;font-size:21px;transition:transform .2s}nav button.on{color:var(--tx);background:rgba(124,140,255,.18)}nav button.on i{transform:translateY(-2px) scale(1.08)}
+.empty{color:var(--mu);text-align:center;padding:30px}
+#scrim{position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:opacity .25s}#scrim.on{opacity:1;pointer-events:auto}
+#sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;max-height:92vh;overflow-y:auto;border-radius:28px 28px 0 0;padding:10px 20px calc(24px + var(--sab));transform:translateY(105%);transition:transform .35s cubic-bezier(.2,.8,.2,1);max-width:720px;margin:auto;background:color-mix(in srgb,var(--bg2) 82%,transparent);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid var(--gb);border-bottom:0}
+#sheet.on{transform:none}
+.grab{width:44px;height:5px;border-radius:3px;background:var(--mu);opacity:.5;margin:4px auto 14px}
+.sh-cov{width:58%;max-width:240px;margin:0 auto 16px;aspect-ratio:2/3;border-radius:18px;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.45);position:relative;background:linear-gradient(150deg,var(--k),#1b1f3a)}.sh-cov img{width:100%;height:100%;object-fit:cover}
+#sheet h3{font-size:24px;margin:8px 0 10px;letter-spacing:-.01em}
+.meta{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.kv{padding:14px;margin:10px 0}.kv b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mu);margin-bottom:4px}
+.lk{display:flex;align-items:center;gap:10px;padding:14px;margin:8px 0;text-decoration:none;color:var(--tx);font-weight:600}
+.close{width:100%;margin-top:14px;padding:14px;border-radius:16px;border:1px solid var(--gb);background:var(--glass);font-weight:700;cursor:pointer}
+#lock{position:fixed;inset:0;z-index:99;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;background:radial-gradient(80% 50% at 50% 0%,rgba(124,140,255,.45),transparent 70%),linear-gradient(180deg,#0a0f1e,#151b3a);color:#fff}
+#lock .card{width:min(88vw,340px);padding:28px 22px;display:flex;flex-direction:column;align-items:center;gap:14px;background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14)}
+#lock .fl{font-size:44px;width:76px;height:76px;border-radius:24px;display:grid;place-items:center;background:linear-gradient(135deg,var(--ac),var(--ac2));box-shadow:0 10px 30px rgba(124,140,255,.5)}
+#lock h2{margin:0;font-size:22px}#lock p{margin:-8px 0 0;color:#a3abc8;font-size:14px}
+#pin{font-size:28px;letter-spacing:.5em;text-align:center;width:100%;padding:14px;border-radius:16px;border:1px solid rgba(255,255,255,.2);background:rgba(0,0,0,.25);color:#fff;outline:none}#pin:focus{border-color:var(--ac);box-shadow:0 0 0 4px rgba(124,140,255,.25)}
+#lock .btn{width:100%;padding:15px;font-size:16px}#err{min-height:1.2em;color:#ff9b9b;font-size:14px}
+.fade{animation:fd .45s ease both}@keyframes fd{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style></head><body>
+<div id="lock"><div class="card glass"><div class="fl">⚜️</div><h2>Mes projets</h2><p>Entre ton NIP pour ouvrir</p><input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="8" aria-label="NIP"><div id="err"></div><button class="btn tap" onclick="tryPin()">Ouvrir</button></div></div>
+<header><div class="top"><div><h1>Mes projets</h1><div id="maj">Chargement…</div></div><button class="ib tap" onclick="relock()" aria-label="Verrouiller">🔒</button></div>
+<label class="search glass"><span>🔎</span><input id="q" type="search" placeholder="Chercher un projet…" autocomplete="off"></label></header>
+<main id="app"></main>
+<nav class="glass" id="tabs"></nav>
+<div id="scrim" onclick="hide()"></div><div id="sheet" role="dialog" aria-modal="true"></div>
 <script>
 const SALT='mesprojets-real-2026:',HASH='1078d9e3f59bab37101ac44576dab55b1fa492152f2e07f9041708d2474e13cb',LK='mp_unlocked';let OK=localStorage.getItem(LK)===HASH;
+const K={"Livres":"#7c8cff","Livres audio":"#c77dff","YouTube":"#ff5d73","Maison":"#ffb454","Emploi":"#3ad1c6"},
+S=["En attente de toi","Bloqué","En cours","À faire","Terminé"],
+SC={"En attente de toi":"#ffb454","Bloqué":"#ff5d73","En cours":"#5ab0ff","À faire":"#a3abc8","Terminé":"#3ad19a"},
+T=[["home","🏠","Accueil",null],["livres","📚","Livres",["Livres","Livres audio"]],["videos","🎬","Vidéos",["YouTube"]],["maison","🏡","Maison",["Maison"]],["job","💼","Job",["Emploi"]]];
+let P=[],tab="home",Q="";
+const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function sha(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
 async function tryPin(){const v=pin.value;if(await sha(SALT+v)===HASH){localStorage.setItem(LK,HASH);OK=true;lock.style.display='none';pin.value='';err.textContent='';load()}else{err.textContent='NIP incorrect';pin.value='';pin.focus()}}
-function relock(){localStorage.removeItem(LK);OK=false;P=[];list.innerHTML=strip.innerHTML=chips.innerHTML='';lock.style.display='flex';pin.focus()}
-const K={"Livres":"#2a9d8f","Livres audio":"#9b5de5","YouTube":"#e63946","Maison":"#f4a261","Emploi":"#3a86ff"},
-S=["En attente de toi","Bloqué","En cours","À faire","Terminé"];let P=[],F="Tous";
-const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-async function load(){if(!OK)return;try{const r=await fetch('projects.json?t='+Date.now(),{cache:'no-store'});const j=await r.json();P=j.projets;maj.textContent='Mis à jour le '+j.maj+' par Réal'}catch(x){maj.textContent='Hors ligne'}draw()}
-function draw(){chips.innerHTML=["Tous",...Object.keys(K)].map(c=>`<button class="chip ${c==F?'on':''}" onclick="F='${c}';draw()">${c}</button>`).join('');
-const v=P.filter(p=>F=="Tous"||p.categorie==F),w=v.filter(p=>p.statut=="En attente de toi"||/ton OK/.test(p.bloque_par));
-strip.innerHTML=w.length?`<div class="strip"><b>Ce qui attend ta décision (${w.length})</b>${w.map(p=>`<div onclick="show(${p.id})">${e(p.titre)}</div>`).join('')}</div>`:'';
-list.innerHTML=S.map(s=>{const g=v.filter(p=>p.statut==s);return g.length?`<h2>${s} (${g.length})</h2>`+g.map(p=>`<div class="c" style="--k:${K[p.categorie]}" onclick="show(${p.id})"><div class="cw">${p.couverture?`<img class="cv" src="${e(p.couverture)}" alt="" loading="lazy">`:''}<div><div class="cat">${e(p.categorie)}</div><div class="t">${e(p.titre)}</div><div class="n">➜ ${e(p.prochaine_etape)}</div><div class="bar"><i style="width:${p.progression}%"></i></div></div></div>${dv(p,1)}</div>`).join(''):''}).join('')}
-function dv(p,c){const v=p.derniere_version;if(!v&&/Livre/.test(p.categorie))return `<span class="dv" style="background:#8a94a6">📥 Dernière version<small>à venir</small></span>`;return v?`<a class="dv" href="${e(v.url)}" target="_blank" rel="noopener"${c?' onclick="event.stopPropagation()"':''}>📥 Dernière version<small>${e(v.label)} · ${e(v.date)}</small></a>`:''}
-function show(id){const p=P.find(x=>x.id==id);d.innerHTML=`<div class="cat" style="color:${K[p.categorie]}">${e(p.categorie)} · ${e(p.statut)}</div><h3>${e(p.titre)}</h3>${p.couverture?`<img class="cvb" src="${e(p.couverture)}" alt="Couverture">`:''}<p><b>Progression :</b> ${p.progression} %</p><p><b>Prochaine étape :</b> ${e(p.prochaine_etape)}</p><p><b>Bloqué par :</b> ${e(p.bloque_par)}</p><p class="n">MAJ : ${e(p.maj)}</p>${dv(p,0)}${(p.liens||[]).map(l=>`<a href="${e(l.url)}" target="_blank">🔗 ${e(l.titre)}</a>`).join('')}<button onclick="d.close()">Fermer</button>`;d.showModal()}
+function relock(){localStorage.removeItem(LK);OK=false;P=[];app.innerHTML='';lock.style.display='flex';pin.focus()}
+pin.addEventListener('keydown',x=>x.key=='Enter'&&tryPin());
+if(OK)lock.style.display='none';
+async function load(){if(!OK)return;try{const r=await fetch('projects.json?t='+Date.now(),{cache:'no-store'});const j=await r.json();P=j.projets;maj.textContent='Mis à jour le '+j.maj+' · Réal'}catch(x){maj.textContent='Hors ligne'}draw()}
+const waiting=p=>p.statut=="En attente de toi"||/ton OK/.test(p.bloque_par||'');
+function ring(p,s){const r=18,c=2*Math.PI*r,v=Math.max(0,Math.min(100,+p.progression||0));return `<svg class="ring" viewBox="0 0 44 44" style="--k:${K[p.categorie]||'#7c8cff'}"><circle class="bgc" cx="22" cy="22" r="${r}"/><circle class="fg" cx="22" cy="22" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c*(1-v/100)}"/><text x="22" y="22">${v}%</text></svg>`}
+const pill=s=>`<span class="pill" style="--pc:${SC[s]||'#a3abc8'}">${e(s)}</span>`;
+const cov=(p,cls)=>p.couverture?`<img src="${e(p.couverture)}" alt="" loading="lazy">`:`<div class="ph">${e(p.titre)}</div>`;
+function dvBtn(p){const v=p.derniere_version;if(v)return `<a class="btn big tap" href="${e(v.url)}" target="_blank" rel="noopener">📥 Dernière version<small>${e(v.label)} · ${e(v.date)}</small></a>`;return /Livre/.test(p.categorie)?`<span class="btn big off">📥 Dernière version<small>à venir</small></span>`:''}
+function visible(){const t=T.find(x=>x[0]==tab),q=Q.trim().toLowerCase();return P.filter(p=>(!t[3]||t[3].includes(p.categorie))&&(!q||[p.titre,p.categorie,p.statut,p.prochaine_etape].join(' ').toLowerCase().includes(q)))}
+function carousel(title,arr){return arr.length?`<div class="sec fade"><h2>${e(title)}</h2><span>${arr.length}</span></div><div class="row">${arr.map(p=>`<button class="bk tap" onclick="show(${p.id})"><div class="cov" style="--k:${K[p.categorie]}">${cov(p)}<div class="rg">${ring(p)}</div></div><div class="tt">${e(p.titre)}</div></button>`).join('')}</div>`:''}
+function items(arr){return `<div class="list">${arr.map(p=>`<button class="it glass tap fade" onclick="show(${p.id})" style="--k:${K[p.categorie]}">${ring(p)}<div class="tx">${pill(p.statut)}<b>${e(p.titre)}</b><small>➜ ${e(p.prochaine_etape)}</small></div></button>`).join('')}</div>`}
+function draw(){tabs.innerHTML=T.map(t=>`<button class="tap ${t[0]==tab?'on':''}" onclick="go('${t[0]}')"><i>${t[1]}</i>${t[2]}</button>`).join('');
+const v=visible();let h='';
+if(!v.length){app.innerHTML='<div class="empty fade">Rien ne correspond.</div>';return}
+if(tab=="home"){const w=v.filter(waiting);if(w.length)h+=`<section class="wait glass fade"><h2>⏳ Ce qui attend ta décision</h2><div class="sub">${w.length} projet${w.length>1?'s':''} attend${w.length>1?'ent':''} après toi</div>${w.map(p=>`<div class="wi" style="--k:${K[p.categorie]}"><div class="mini">${p.couverture?`<img src="${e(p.couverture)}" alt="">`:''}</div><div class="tx"><b>${e(p.titre)}</b><small>${e(p.prochaine_etape)}</small></div>${p.derniere_version?`<a class="btn tap" href="${e(p.derniere_version.url)}" target="_blank" rel="noopener">Ouvrir</a>`:`<button class="btn tap" onclick="show(${p.id})">Voir</button>`}</div>`).join('')}</section>`}
+const bk=v.filter(p=>/Livre/.test(p.categorie)),ot=v.filter(p=>!/Livre/.test(p.categorie));
+if(bk.length){for(const s of ["En attente de toi","En cours","Bloqué","À faire"])h+=carousel((tab=="home"?'Livres · ':'')+s,bk.filter(p=>p.statut==s));h+=carousel('Terminés',bk.filter(p=>p.statut=="Terminé"))}
+if(ot.length){if(tab=="home")h+=`<div class="sec fade"><h2>Autres projets</h2><span>${ot.length}</span></div>`;h+=items([...ot].sort((a,b)=>S.indexOf(a.statut)-S.indexOf(b.statut)))}
+app.innerHTML=h}
+function go(t){tab=t;draw();scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+q.addEventListener('input',()=>{Q=q.value;draw()});
+function show(id){const p=P.find(x=>x.id==id);if(!p)return;sheet.innerHTML=`<div class="grab"></div>${p.couverture||/Livre/.test(p.categorie)?`<div class="sh-cov" style="--k:${K[p.categorie]}">${cov(p)}</div>`:''}<div class="meta">${ring(p)}<div>${pill(p.statut)}<div style="color:var(--mu);font-size:13px;margin-top:4px">${e(p.categorie)} · MAJ ${e(p.maj)}</div></div></div><h3>${e(p.titre)}</h3>${dvBtn(p)}<div class="kv glass"><b>Prochaine étape</b>${e(p.prochaine_etape)}</div><div class="kv glass"><b>Bloqué par</b>${e(p.bloque_par)}</div>${(p.liens||[]).map(l=>`<a class="lk glass tap" href="${e(l.url)}" target="_blank" rel="noopener">🔗 ${e(l.titre)}</a>`).join('')}<button class="close tap" onclick="hide()">Fermer</button>`;sheet.scrollTop=0;scrim.classList.add('on');sheet.classList.add('on')}
+function hide(){scrim.classList.remove('on');sheet.classList.remove('on')}
+addEventListener('keydown',x=>x.key=='Escape'&&hide());
 document.addEventListener('visibilitychange',()=>document.visibilityState=='visible'&&load());
+draw();load();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
-pin.addEventListener('keydown',ev=>ev.key=='Enter'&&tryPin());
-if(OK){lock.style.display='none';load()}else pin.focus();
 </script></body></html>
