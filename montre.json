@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "id": "serie-4th-hour",
+   "titre": "The 4th Hour : la série",
+   "resume": "Six histoires, une heure : 3 h 40. La règle, la ligne du temps, les extraits pis l'ordre de lecture.",
+   "date": "2026-10-22",
+   "type": "autre",
+   "page": "montre/serie-4th-hour.html",
+   "vu": false
+  },
+  {
    "id": "pitch-livres-1",
    "titre": "3 idées de livres pour toi",
    "resume": "La vraie Corriveau, une novella d'horreur à 4 h du matin, pis un roman jeunesse à Kingsmere. Lequel on fait?",
