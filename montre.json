@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "id": "serie-monstres",
+   "titre": "Les Monstres qu'on s'invente : la série",
+   "resume": "Tes deux livres, leurs résumés, des extraits pis l'ordre de lecture.",
+   "date": "2026-10-22",
+   "type": "autre",
+   "page": "montre/serie-monstres.html",
+   "vu": false
+  },
+  {
    "id": "pneus-ram-1500",
    "titre": "Pneus du Ram 1500 : le comparatif",
    "resume": "Michelin ou Cooper? Les prix posés, ceux à éviter, pis mon choix.",
