@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "id": "pitch-livres-1",
+   "titre": "3 idées de livres pour toi",
+   "resume": "La vraie Corriveau, une novella d'horreur à 4 h du matin, pis un roman jeunesse à Kingsmere. Lequel on fait?",
+   "date": "2026-10-22",
+   "type": "autre",
+   "page": "montre/pitch-livres-1.html",
+   "vu": false
+  },
+  {
    "id": "pizza-maison",
    "titre": "Pizza maison",
    "resume": "La recette, l'horaire de la veille, les trucs de four pis 4 vidéos YouTube.",
