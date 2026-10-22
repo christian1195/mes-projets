@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "id": "pizza-maison",
+   "titre": "Pizza maison",
+   "resume": "La recette, l'horaire de la veille, les trucs de four pis 4 vidéos YouTube.",
+   "date": "2026-10-22",
+   "type": "autre",
+   "page": "montre/pizza-maison.html",
+   "vu": false
+  },
+  {
    "id": "serie-monstres",
    "titre": "Les Monstres qu'on s'invente : la série",
    "resume": "Tes deux livres, leurs résumés, des extraits pis l'ordre de lecture.",
