@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "video-call-in-hour",
+   "titre": "The Call-In Hour : l'audio-pitch",
+   "resume": "5 minutes de narration, musique et images pour présenter l'histoire.",
+   "date": "2026-10-22",
+   "type": "autre",
+   "page": "montre/video-call-in-hour.html",
+   "vu": false,
+   "image": "montre/pitch-call-in-hour/studio.webp"
+  },
+  {
    "id": "pitch-call-in-hour",
    "titre": "The Call-In Hour : le pitch",
    "resume": "Une nouvelle 4th Hour : à 3 h 40, un mort appelle à la radio de nuit pour dire qui sauver.",
