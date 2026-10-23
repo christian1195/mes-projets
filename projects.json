@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-23T11:58",
+  "maj": "2026-10-23",
   "projets": [
     {
       "id": 32,
@@ -45,6 +45,10 @@
       "notes_real": [
         {
           "date": "2026-10-23",
+          "texte": "Archivé à ta demande. La version Arena (33 pistes) est dans le projet « Ce qu'il en reste : La Joconde — livre audio »."
+        },
+        {
+          "date": "2026-10-23",
           "texte": "Livre audio en français sur Arena, avec musique de fond comédie légère parisienne. En file d'attente."
         },
         {
@@ -56,7 +60,10 @@
           "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
         }
       ],
-      "serie": "Ce qu'il en reste"
+      "serie": "Ce qu'il en reste",
+      "archive": true,
+      "archive_date": "2026-10-23",
+      "archive_raison": "Demandé par Christian — remplacé par « Ce qu'il en reste : La Joconde — livre audio » (Arena)"
     },
     {
       "id": 2,
