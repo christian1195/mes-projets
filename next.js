@@ -34,3 +34,21 @@ LX.setUI=()=>{const b=document.getElementById('lxpush');if(!b)return;const st=LX
 LX._settings=_settings;_settings=function(){LX._settings();const f=sheet.querySelector('.kv.set');if(f){const d=document.createElement('div');d.className='kv glass set';d.id='lxpush';f.before(d);LX.setUI()}};
 /* open deep link from a notification click */
 if('serviceWorker'in navigator)navigator.serviceWorker.addEventListener('message',m=>{if(m.data&&m.data.t=='nav'&&m.data.url)nav(m.data.url)});
+
+/* ===== 2. Hors ligne : télécharger un livre audio (Cache Storage, réponses opaques) ===== */
+LX.AC='larocq-audio-v1';LX.DLK=id=>'mp_dl_'+id;LX.busy={};
+LX.dlInfo=id=>{try{return JSON.parse(localStorage.getItem(LX.DLK(id)))||null}catch(_){return null}};
+LX.dlCount=async p=>{const c=await caches.open(LX.AC);let n=0;for(const a of p.audio)if(await c.match(a.url))n++;return n};
+LX.dl=async id=>{const p=P.find(x=>x.id==id);if(!p||LX.busy[id])return;LX.busy[id]=1;try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
+ const c=await caches.open(LX.AC),n=p.audio.length;let k=0;for(const a of p.audio){if(!await c.match(a.url)){LX.dlUI(id,k,n);const r=await fetch(a.url,{mode:'no-cors',cache:'no-store'});await c.put(a.url,r)}k++;LX.dlUI(id,k,n)}
+ localStorage.setItem(LX.DLK(id),JSON.stringify({n,at:Date.now()}));toast('Téléchargé : '+p.titre)}catch(x){toast('Téléchargement interrompu : '+(x.name=='QuotaExceededError'?'plus d’espace':x.message))}delete LX.busy[id];LX.dlUI(id)};
+LX.dlDel=async id=>{const p=P.find(x=>x.id==id);if(!p)return;const c=await caches.open(LX.AC);for(const a of p.audio)await c.delete(a.url);localStorage.removeItem(LX.DLK(id));toast('Téléchargement supprimé');LX.dlUI(id)};
+LX.dlUI=async(id,k,n)=>{const b=document.getElementById('lxdl');if(!b||+b.dataset.id!==id)return;const p=P.find(x=>x.id==id);
+ if(k!=null&&LX.busy[id]){b.innerHTML=`<div class="lxdlb"><span>${LX.ic(LX.I.dl,16)} Téléchargement… ${k}/${n} chapitre${n>1?'s':''}</span><div class="bar"><i style="width:${Math.round(k/n*100)}%"></i></div></div>`;return}
+ const have=await LX.dlCount(p),N=p.audio.length;
+ b.innerHTML=have>=N?`<div class="lxdlb ok"><span>✓ Disponible hors ligne · ${N} chapitre${N>1?'s':''}</span><button class="tap lxdx" onclick="LX.dlDel(${id})">${LX.ic(LX.I.trash,15)} Supprimer</button></div>`
+ :`<button class="btn big tap" onclick="LX.dl(${id})">${LX.ic(LX.I.dl,18)} Télécharger pour hors ligne<small>${have?have+'/'+N+' déjà là · ':''}${N} chapitre${N>1?'s':''} · écoute sans réseau</small></button>`;
+ document.querySelectorAll('.ch').forEach(async(el,i)=>{const c=await caches.open(LX.AC);el.classList.toggle('lxoff',!!await c.match(p.audio[i].url))})};
+LX._play=_play;_play=function(id){const r=LX._play(id);if(r){const n=sheet.querySelector('#pnb');if(n&&'caches'in window){const d=document.createElement('div');d.id='lxdl';d.dataset.id=id;d.style.marginTop='10px';n.after(d);LX.dlUI(id)}}return r};
+LX.css=s=>{const t=document.createElement('style');t.textContent=s;document.head.appendChild(t)};
+LX.css(`.lxdlb{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 14px;border-radius:14px;border:1px solid var(--gb);background:rgba(128,128,128,.08);font-size:14px;font-weight:650}.lxdlb span{display:flex;align-items:center;gap:6px}.lxdlb .bar{flex-basis:100%;margin:2px 0 0;height:5px}.lxdlb .bar i{background:#e50914;transition:width .3s}.lxdlb.ok{color:#2fbf71}.lxdx{margin-left:auto;display:flex;align-items:center;gap:5px;border:1px solid var(--gb);border-radius:10px;padding:6px 10px;background:none;color:var(--tx);font:inherit;font-size:13px}.ch.lxoff::after{content:' ⤓';color:#2fbf71;font-weight:800}`);
