@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-23T08:44",
+  "maj": "2026-10-23T11:58",
   "projets": [
     {
       "id": 32,
@@ -959,6 +959,165 @@
         }
       ],
       "ajoute": "2026-10-22T19:30"
+    },
+    {
+      "id": 33,
+      "titre": "Ce qu'il en reste : La Joconde — livre audio",
+      "categorie": "Livres audio",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Écouter et me dire ce que t’en penses.",
+      "bloque_par": "Toi",
+      "liens": [],
+      "maj": "2026-10-23",
+      "ajoute": "2026-10-23T11:58",
+      "derniere_version": {
+        "label": "La Joconde — 33 pistes (MP3)",
+        "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch01.mp3",
+        "date": "2026-10-23"
+      },
+      "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+      "notes_real": [
+        {
+          "date": "2026-10-23",
+          "texte": "Livre audio complet : 33 pistes, environ 3 h 47. Voix d'homme français (essai 1), valse « Parisian » de Kevin MacLeod (CC BY 4.0) en fond, musique baissée. Usage perso."
+        }
+      ],
+      "serie": "Ce qu'il en reste",
+      "audio": [
+        {
+          "titre": "Chapitre Un",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch01.mp3"
+        },
+        {
+          "titre": "Chapitre Deux",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch02.mp3"
+        },
+        {
+          "titre": "Chapitre Trois",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch03.mp3"
+        },
+        {
+          "titre": "Chapitre Quatre",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch04.mp3"
+        },
+        {
+          "titre": "Chapitre Cinq",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch05.mp3"
+        },
+        {
+          "titre": "Chapitre Six",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch06.mp3"
+        },
+        {
+          "titre": "Chapitre Sept",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch07.mp3"
+        },
+        {
+          "titre": "Chapitre Huit",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch08.mp3"
+        },
+        {
+          "titre": "Chapitre Neuf",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch09.mp3"
+        },
+        {
+          "titre": "Chapitre Dix",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch10.mp3"
+        },
+        {
+          "titre": "Chapitre Onze",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch11.mp3"
+        },
+        {
+          "titre": "Chapitre Douze",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch12.mp3"
+        },
+        {
+          "titre": "Chapitre Treize",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch13.mp3"
+        },
+        {
+          "titre": "Chapitre Quatorze",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch14.mp3"
+        },
+        {
+          "titre": "Chapitre Quinze",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch15.mp3"
+        },
+        {
+          "titre": "Chapitre Seize",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch16.mp3"
+        },
+        {
+          "titre": "Chapitre Dix-sept",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch17.mp3"
+        },
+        {
+          "titre": "Chapitre Dix-huit",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch18.mp3"
+        },
+        {
+          "titre": "Chapitre Dix-neuf",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch19.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch20.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt et un",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch21.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-deux",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch22.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-trois",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch23.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-quatre",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch24.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-cinq",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch25.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-six",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch26.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-sept",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch27.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-huit",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch28.mp3"
+        },
+        {
+          "titre": "Chapitre Vingt-neuf",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch29.mp3"
+        },
+        {
+          "titre": "Chapitre Trente",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch30.mp3"
+        },
+        {
+          "titre": "Chapitre Trente et un",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch31.mp3"
+        },
+        {
+          "titre": "Chapitre Trente-deux",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch32.mp3"
+        },
+        {
+          "titre": "Note de l'auteur",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch33.mp3"
+        }
+      ]
     }
   ]
 }

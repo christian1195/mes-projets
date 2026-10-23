@@ -5,6 +5,12 @@
   "agenda_maj": "2026-10-23T06:05",
   "une": [
     {
+      "titre": "La Joconde : le livre audio est prêt",
+      "texte": "33 pistes, 3 h 47 d’écoute. ▶ Écouter",
+      "image": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+      "lien": "#/ecouter/33"
+    },
+    {
       "titre": "The Roar of Two Kingdoms : premier jet fini",
       "texte": "14 chapitres, environ 2 h de lecture. Lis-le pis dis-moi tes retouches.",
       "image": "",
@@ -30,6 +36,13 @@
     }
   ],
   "nouvelles": [
+    {
+      "titre": "La Joconde : livre audio fini",
+      "texte": "33 pistes, voix française pis accordéon en fond.",
+      "image": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+      "lien": "#/ecouter/33",
+      "date": "2026-10-23"
+    },
     {
       "titre": "The Roar of Two Kingdoms : premier jet",
       "texte": "14 chapitres écrits par Claude, version privée. Prochaine étape : ta lecture.",
