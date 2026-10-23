@@ -38,3 +38,9 @@ Jamais d'adresse personnelle ici (dépôt public). Après modif de index.html, a
 - `heure` : `"HH:MM"` ou `"Toute la journée"`. Chaque carte a une étiquette Aujourd'hui / Demain / jour.
 - Rien aujourd'hui → carte « Rien à l'agenda aujourd'hui 😌 ». Clé `agenda` absente → rangée cachée. Tap → calendar.google.com.
 - **Jamais l'adresse de la maison** (dépôt public) : remplacer par `"À la maison"`.
+
+## Tout nouvel item = en primeur
+
+Chaque nouvel item (projet, livre audio, page Réal dans `montre.json`) reçoit `"ajoute": "AAAA-MM-JJTHH:MM"`.
+L'app met automatiquement l'item au `ajoute` le plus récent en **première carte de « La une »** (étiquette NOUVEAU), si sa date est ≥ `maj` de accueil.json. Sinon : `une` de accueil.json (puis les valeurs de repli). Une carte `une` avec le même `lien` est retirée (pas de doublon).
+Projet avec `audio` → lien `#/ecouter/<id>`, sinon la fiche du projet.
