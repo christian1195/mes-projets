@@ -38,6 +38,7 @@ main{padding:0 0 12px;max-width:720px;margin:auto}
 .wi .tx{flex:1;min-width:0}.wi b{display:block;font-size:15px}.wi small{color:var(--mu);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:14px;padding:11px 14px;font-weight:700;font-size:14px;text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--ac),#5a6bff);box-shadow:0 6px 18px rgba(90,107,255,.4);white-space:nowrap;cursor:pointer}
 .btn.big{width:100%;padding:16px;font-size:16px;flex-direction:column;gap:2px}.btn.big small{font-weight:500;opacity:.85;font-size:12px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn.dl{margin:10px 0;background:linear-gradient(135deg,#ff2a3d,#b20710);box-shadow:0 6px 18px rgba(178,7,16,.35)}
 .btn.off{background:rgba(140,150,180,.35);box-shadow:none}
 .list{padding:0 14px;display:grid;gap:12px}
 .it{display:flex;gap:14px;align-items:center;padding:14px;border:1px solid var(--gb);text-align:left;width:100%;cursor:pointer}
@@ -188,7 +189,13 @@ function ring(p,s){const r=18,c=2*Math.PI*r,v=Math.max(0,Math.min(100,+p.progres
 const pill=s=>`<span class="pill" style="--pc:${SC[s]||'#a3abc8'}">${e(s)}</span>`;
 const FID=u=>((u||'').match(/\/file\/d\/([\w-]{10,})/)||[])[1],AF=p=>!!(p.audio&&p.audio.length);
 const lb=p=>p.epub?`<span role="button" tabindex="0" class="au lr tap" aria-label="Lire" onclick="event.stopPropagation();lire(${p.id})">📖</span>`:'';const au=p=>lb(p)+(AF(p)?`<span role="button" tabindex="0" class="au pl tap" aria-label="Écouter" onclick="event.stopPropagation();play(${p.id})">▶️</span>`:p.categorie=="Livres audio"?'<span class="au">🎧</span>':'');const cov=(p,cls)=>p.couverture?`<img src="${e(p.couverture)}" alt="" loading="lazy">${au(p)}`:`<div class="ph">${e(p.titre)}</div>`;
-function dvBtn(p){return lireBtn(p)+dvBtn0(p)}
+function dvBtn(p){return lireBtn(p)+dlBtn(p)+dvBtn0(p)}
+function dlName(p){return (p.titre||'livre').replace(/[\\/:*?"<>|]+/g,'').trim()+'.epub'}
+function dlBtn(p){if(!p.epub)return '';return `<a class="btn big dl tap" href="${e(p.epub)}" download="${e(dlName(p))}" onclick="return dlEpub(event,${p.id})"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 19.5h14"/></svg>Télécharger<small>Enregistrer le fichier .epub</small></a>`}
+async function dlEpub(ev,id){const p=P.find(x=>x.id==id);if(!p)return true;ev.preventDefault();const a0=ev.currentTarget,sm=a0.querySelector('small'),t0=sm.textContent;sm.textContent='Téléchargement…';
+try{const r=await fetch(p.epub,{cache:'no-store'});if(!r.ok)throw 0;const b=new Blob([await r.arrayBuffer()],{type:'application/octet-stream'});const u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=dlName(p);a.style.display='none';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(u);a.remove()},4000);sm.textContent='Enregistré dans Téléchargements'}
+catch(_){const a=document.createElement('a');a.href=p.epub;a.download=dlName(p);document.body.appendChild(a);a.click();a.remove();sm.textContent=t0}
+setTimeout(()=>sm.textContent=t0,4000);return false}
 function lireBtn(p){if(!p.epub)return '';const s=rPos(p.id);return `<button class="btn big tap" onclick="lire(${p.id})">📖 ${s?'Reprendre la lecture':'Lire'}<small>${s?Math.round(s.pct*100)+' % lu':'Lecteur intégré'}</small></button>`}
 function dvBtn0(p){const v=p.derniere_version;if(v)return (AF(p)?`<button class="btn big tap" onclick="play(${p.id})">▶️ Écouter ici<small>Lecteur intégré</small></button>`:"")+`<a class="btn big tap" href="${e(v.url)}" target="_blank" rel="noopener">📥 Dernière version<small>${e(v.label)} · ${e(v.date)}</small></a>`;return /Livre/.test(p.categorie)?`<span class="btn big off">📥 Dernière version<small>à venir</small></span>`:''}
 function visible(){const t=T.find(x=>x[0]==tab)||[0,0,0,null],q=Q.trim().toLowerCase();return P.filter(p=>(tab=="archives"?p.archive:!p.archive)&&(!t[3]||t[3].includes(p.categorie))&&(!q||[p.titre,p.categorie,p.statut,p.prochaine_etape].join(' ').toLowerCase().includes(q)))}
