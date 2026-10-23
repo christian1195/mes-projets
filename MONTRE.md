@@ -10,3 +10,6 @@
 3. `git pull --rebase && git add montre.json montre/ && git commit -m "montre: <slug>" && git push`
    - Pas besoin de changer le cache du service worker pour un nouvel item, parce que montre.json est chargé sans cache. Il faut le changer seulement si index.html change.
 4. Vérifier : `curl -s https://christian1195.github.io/mes-projets/montre.json`
+
+## Aperçu vidéo (optionnel)
+- Champ `preview` : petit MP4 muet (~10 s, 640 px, <1 Mo, `-an -movflags +faststart`). Joue tout seul sur le héros de l’accueil (après 1,5 s visible) et au survol/focus des cartes. Coupé si Économiseur de données / Animations réduites / réglage désactivé.
