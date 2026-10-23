@@ -182,6 +182,16 @@
    "auteur": "christian",
    "statut": "à faire",
    "reponse_real": ""
+  },
+  {
+   "id": "mvkcnpq9cres",
+   "projet_id": 24,
+   "projet_titre": "Le dernier Costco",
+   "texte": "Rajouter les monstre qu'on s'invente sur la page couverture, prend le même texte que le premier livre",
+   "date": "2026-10-23T02:27:27.873Z",
+   "auteur": "christian",
+   "statut": "à faire",
+   "reponse_real": ""
   }
  ]
 }
