@@ -33,3 +33,7 @@ Première mise en ligne (nécessite `gh auth login`):
 - Lecture : par l'API si clé présente (frais), sinon notes.json via Pages avec ?t=. Le service worker ne met en cache ni l'API ni notes.json.
 - Côté Réal : lire https://raw.githubusercontent.com/christian1195/mes-projets/main/notes.json (ou `gh api repos/christian1195/mes-projets/contents/notes.json`), répondre en remplissant `reponse_real` et `statut:"fait"`, puis commit + push (faire `git pull --rebase` avant, l'app commite aussi).
 - L'ancienne Google Sheet « Notes pour Réal » n'est plus utilisée par l'app (gardée sur Drive).
+
+## Notes audio (lecteur #/ecouter/<id>)
+- Bouton 📝 dans le lecteur → même canal notes.json (API GitHub, clé dans Réglages). Champs en plus : type:"audio", sujet:"[Note audio] <livre> ch07 23:15", chapitre (1-based), chapitre_titre, position_s, position. Message du commit = sujet.
+- Copie locale par livre : localStorage `mp_anotes_<id>` (sent 0/1, renvoi auto si pas de clé/réseau).
