@@ -11,10 +11,10 @@
       "lien": "#/montre/pitch-call-in-hour"
     },
     {
-      "titre": "Le dernier Costco en livre audio",
-      "texte": "4 chapitres sur 20 sont prêts, avec la voix québécoise. La suite roule.",
+      "titre": "Le dernier Costco : le livre audio est prêt",
+      "texte": "20 chapitres sur 20, 3 h 33 d’écoute. ▶ Écouter",
       "image": "covers/le-dernier-costco.jpg",
-      "lien": "projet:24"
+      "lien": "#/ecouter/31"
     },
     {
       "titre": "The 4th Hour : la série",
@@ -32,10 +32,10 @@
       "date": "2026-10-22"
     },
     {
-      "titre": "Le dernier Costco : chapitre 4/20",
-      "texte": "Les chapitres 1 à 4 sont faits, le 5 est en route.",
+      "titre": "Le dernier Costco : livre audio complet 20/20",
+      "texte": "Les 20 chapitres sont en ligne. Écouter dans 🎧 Audio.",
       "image": "covers/le-dernier-costco.jpg",
-      "lien": "projet:24",
+      "lien": "#/ecouter/31",
       "date": "2026-10-22"
     },
     {

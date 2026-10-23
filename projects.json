@@ -746,6 +746,132 @@
         }
       ],
       "serie": "Hors série"
+    },
+    {
+      "id": 31,
+      "titre": "Le dernier Costco — livre audio",
+      "categorie": "Livres audio",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Écouter et me dire ce que t’en penses.",
+      "bloque_par": "Toi",
+      "liens": [],
+      "maj": "2026-10-22",
+      "derniere_version": {
+        "label": "Le dernier Costco — 20 chapitres (MP3)",
+        "url": "https://drive.google.com/file/d/1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV/view",
+        "date": "2026-10-22"
+      },
+      "couverture": "covers/le-dernier-costco.jpg",
+      "notes_real": [
+        {
+          "date": "2026-10-22",
+          "texte": "Livre audio complet : 20 chapitres sur 20, environ 3 h 33."
+        }
+      ],
+      "serie": "Les Monstres qu'on s'invente",
+      "audio": [
+        {
+          "titre": "Jeudi",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch01.mp3",
+          "drive": "1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV"
+        },
+        {
+          "titre": "Treize marches",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch02.mp3",
+          "drive": "1l42I0v7Y4vHd_8xSn1kGVO0R-823YpYd"
+        },
+        {
+          "titre": "Mardi",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch03.mp3",
+          "drive": "1vmC6ljC9fpeWAU9ExxTGc3FyestJ2gNi"
+        },
+        {
+          "titre": "Vingt-sept ans",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch04.mp3",
+          "drive": "1JUIfb8pZRC_FeNEbCjXT5GB9hGIXyu4N"
+        },
+        {
+          "titre": "Les toilettes",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch05.mp3",
+          "drive": "1obkwu9H7j0fu-cGC59W7Jig5dSOdtsNn"
+        },
+        {
+          "titre": "Le monsieur du fromage",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch06.mp3",
+          "drive": "1n-DNqiALv_ITj-ttf2DgWfKMbKrXoVst"
+        },
+        {
+          "titre": "Dimanche chez Denise",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch07.mp3",
+          "drive": "18g2KU598UDbhAYnBzqL3FODGxGT-JNbc"
+        },
+        {
+          "titre": "Le registre",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch08.mp3",
+          "drive": "1Jrj_aHvIhmCeiQiU5rC_Fkmm-U_9dO1r"
+        },
+        {
+          "titre": "Cinq heures quarante et une",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch09.mp3",
+          "drive": "1AXCGTa-fhtdIsRdm3hc_ogovnHIW3qUE"
+        },
+        {
+          "titre": "Le manuel",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch10.mp3",
+          "drive": "1IMysdxDY4AvHwpylY-fZgrK9elEUDs01"
+        },
+        {
+          "titre": "Le siège",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch11.mp3",
+          "drive": "1Q0uFL5-0G9zuaRQESx8BD9QubUb76P9_"
+        },
+        {
+          "titre": "Les bouteilles",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch12.mp3",
+          "drive": "1a3Zxmh1z-KIo0-npT7KErn6bPxRgontk"
+        },
+        {
+          "titre": "Cent treize quatre-vingt-un",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch13.mp3",
+          "drive": "12YUfZiiZRWma21YUfCKYu0B1MHB1QMt_"
+        },
+        {
+          "titre": "La chaise du coin",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch14.mp3",
+          "drive": "15NrwJF5NjfczRKWfHikxW8nlM67qp2o4"
+        },
+        {
+          "titre": "La salle d’attente",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch15.mp3",
+          "drive": "1CjTlvcBy2wLHOtweOZcFXRgU7oK4rkYP"
+        },
+        {
+          "titre": "Cinq heures trente",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch16.mp3",
+          "drive": "1fUVTXy5C_bntuJlaoPPg73laEyOaEjJ5"
+        },
+        {
+          "titre": "Le dernier jeudi",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch17.mp3",
+          "drive": "15Hw9PIZRw0S8Y1K15EeKAPwcDVC5JqWb"
+        },
+        {
+          "titre": "Les piliers",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch18.mp3",
+          "drive": "1zgn-oBZLfy0pTzXBbbf4emUqL_HDBX_Z"
+        },
+        {
+          "titre": "Le capot de la Pacifica",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch19.mp3",
+          "drive": "1W2k4VDytH6fzcmqnyuzZgoq9YnwN3oNj"
+        },
+        {
+          "titre": "Samedi",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch20.mp3",
+          "drive": "1KjyRU_Qr4dV--TiqQrulBw7bw0VVaBlm"
+        }
+      ]
     }
   ]
 }
