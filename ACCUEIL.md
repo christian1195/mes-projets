@@ -44,3 +44,8 @@ Jamais d'adresse personnelle ici (dépôt public). Après modif de index.html, a
 Chaque nouvel item (projet, livre audio, page Réal dans `montre.json`) reçoit `"ajoute": "AAAA-MM-JJTHH:MM"`.
 L'app met automatiquement l'item au `ajoute` le plus récent en **première carte de « La une »** (étiquette NOUVEAU), si sa date est ≥ `maj` de accueil.json. Sinon : `une` de accueil.json (puis les valeurs de repli). Une carte `une` avec le même `lien` est retirée (pas de doublon).
 Projet avec `audio` → lien `#/ecouter/<id>`, sinon la fiche du projet.
+
+## Carrousel « À la une » (règle)
+- Ordre : le plus récent item de projet (étiquette NOUVEAU, règle primeur) en premier, puis on alterne projet / nouvelle.
+- Les nouvelles viennent de `pourtoi` (dans l'ordre du fichier, la plus récente en premier). Seuls les items avec `image` ET `lien` vont dans le carrousel ; ils portent l'étiquette NOUVELLES et ouvrent le lien source dans un nouvel onglet.
+- La routine de 6 h DOIT fournir une `image` (fichier dans `accueil/`, webp ~800 px de large) pour chaque item `pourtoi`, sinon il apparaît seulement dans la rangée « Nouvelles pour toi ».

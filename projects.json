@@ -1,878 +1,930 @@
 {
-  "maj": "2026-10-22",
-  "projets": [
+ "maj": "2026-10-23T00:30:00-04:00",
+ "projets": [
+  {
+   "id": 1,
+   "titre": "La Joconde — livre audio (Google Play)",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 90,
+   "prochaine_etape": "Narration FR sur Arena + musique comédie parisienne (en file).",
+   "bloque_par": "",
+   "liens": [],
+   "maj": "2026-10-23",
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
     {
-      "id": 1,
-      "titre": "La Joconde — livre audio (Google Play)",
-      "categorie": "Livres audio",
-      "statut": "En cours",
-      "progression": 90,
-      "prochaine_etape": "Produire la narration, puis te faire écouter un extrait.",
-      "bloque_par": "",
-      "liens": [],
-      "maj": "2026-10-22",
-      "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Tu m'as demandé de faire le livre audio et de le mettre dans l'app. Production à lancer."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
-        }
-      ],
-      "serie": "Ce qu'il en reste"
+     "date": "2026-10-23",
+     "texte": "Livre audio en français sur Arena, avec musique de fond comédie légère parisienne. En file d'attente."
     },
     {
-      "id": 2,
-      "titre": "Guide IA pour enseignants (vol. 3)",
-      "categorie": "Livres",
-      "statut": "En attente de toi",
-      "progression": 95,
-      "prochaine_etape": "Confirmer la publication sur Google Play.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Go reçu par note; j'attends ton « oui, publie » dans le chat avant de publier."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 95 %. Prochaine étape : Confirmer la publication sur Google Play."
-        }
-      ],
-      "serie": "Wait, AI Can Do THAT?!"
+     "date": "2026-10-22",
+     "texte": "Tu m'as demandé de faire le livre audio et de le mettre dans l'app. Production à lancer."
     },
     {
-      "id": 3,
-      "titre": "Ça s'est passé ici (Outaouais)",
-      "categorie": "Livres",
-      "statut": "Bloqué",
-      "progression": 80,
-      "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
-      "bloque_par": "Google · ton OK",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Ça s'est passé ici (Outaouais).epub",
-        "url": "https://drive.google.com/file/d/1EnsrAaL5oKheDs_YaXgMPvAHWlDOV5qB/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images en meilleure qualité (erreur 001 Google). Dernière version : Ça s'est passé ici (Outaouais).epub (2026-10-22)."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "epub": "livres/ca-s-est-passe-ici-outaouais.epub"
-    },
-    {
-      "id": 4,
-      "titre": "Wait, AI Can Do THAT?! — immobilier",
-      "categorie": "Livres",
-      "statut": "Bloqué",
-      "progression": 80,
-      "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
-      "bloque_par": "Google · ton OK",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Wait, AI Can Do THAT - immobilier.epub",
-        "url": "https://drive.google.com/file/d/12IefGjkwdnpPCVh3TdWhGw22vIP6GObU/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/wait-ai-immobilier.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : Wait, AI Can Do THAT - immobilier.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Wait, AI Can Do THAT?!",
-      "epub": "livres/wait-ai-immobilier.epub"
-    },
-    {
-      "id": 5,
-      "titre": "The Lines That Live",
-      "categorie": "Livres",
-      "statut": "Bloqué",
-      "progression": 80,
-      "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
-      "bloque_par": "Google · ton OK",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "The Lines That Live.epub",
-        "url": "https://drive.google.com/file/d/1u5CUP26En3rt2I7-y1-fpZ8wcyVNqmWC/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/the-lines-that-live.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : The Lines That Live.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Hors série",
-      "epub": "livres/the-lines-that-live.epub"
-    },
-    {
-      "id": 6,
-      "titre": "Les morts du premier ministre (Kingsmere)",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 60,
-      "prochaine_etape": "Écrire ch. 9–14.",
-      "bloque_par": "Réal",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 60 %. Prochaine étape : Écrire ch. 9–14."
-        }
-      ],
-      "serie": "Ça s'est passé ici"
-    },
-    {
-      "id": 7,
-      "titre": "La chose du sixième rang — Livre 2",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 25,
-      "prochaine_etape": "Continuer au ch. 5.",
-      "bloque_par": "Réal",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 25 %. Prochaine étape : Continuer au ch. 5."
-        }
-      ],
-      "serie": "Hors série",
-      "tome": 2
-    },
-    {
-      "id": 8,
-      "titre": "Second Notice",
-      "categorie": "Livres",
-      "statut": "À faire",
-      "progression": 95,
-      "prochaine_etape": "Ajouter la phrase manquante au ch. 15.",
-      "bloque_par": "Réal",
-      "liens": [
-        {
-          "titre": "Livre audio (ambiance +25 %)",
-          "url": "https://drive.google.com/file/d/1-WGkQIsEos5bE8A4HxugJ09TPKzaCw18/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Second Notice - Everybody Goes Home Richer.epub",
-        "url": "https://drive.google.com/file/d/1GWxM-Y_H6fkykZ31qF_A8H2CiGqTD32S/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/second-notice.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 95 %. Prochaine étape : Ajouter la phrase manquante au ch. 15. Dernière version : Second Notice - Everybody Goes Home Richer.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "audio": [
-        {
-          "titre": "Livre audio complet (ambiance)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/second-notice.mp3",
-          "drive": "1p17VDat9L5kvOdT-hKTPR6M2bApIXIM0"
-        }
-      ],
-      "epub": "livres/second-notice.epub"
-    },
-    {
-      "id": 9,
-      "titre": "Nouveau livre",
-      "categorie": "Livres",
-      "statut": "À faire",
-      "progression": 0,
-      "prochaine_etape": "Me l'envoyer ; on teste la nouvelle procédure Arena.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 0 %. Prochaine étape : Me l'envoyer ; on teste la nouvelle procédure Arena."
-        }
-      ],
-      "serie": "Hors série"
-    },
-    {
-      "id": 10,
-      "titre": "Quarante-cinq minutes — livre audio v2",
-      "categorie": "Livres audio",
-      "statut": "En cours",
-      "progression": 70,
-      "prochaine_etape": "Refaire avec Arena : une seule voix fixe, aucun fichier effacé.",
-      "bloque_par": "Réal",
-      "liens": [
-        {
-          "titre": "Dossier du livre audio",
-          "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
-        },
-        {
-          "titre": "Livre EPUB officiel",
-          "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
-        "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/quarante-cinq-minutes.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 70 %. Prochaine étape : Refaire avec Arena : une seule voix fixe, aucun fichier effacé. Dernière version : Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3 (2026-10-22)."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "audio": [
-        {
-          "titre": "Livre audio complet (ambiance, 64k)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/quarante-cinq-minutes.mp3",
-          "drive": "1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL"
-        }
-      ],
-      "epub": "livres/quarante-cinq-minutes.epub"
-    },
-    {
-      "id": 11,
-      "titre": "Le poltergeist de Shawville — livre audio",
-      "categorie": "Livres audio",
-      "statut": "En cours",
-      "progression": 85,
-      "prochaine_etape": "Combler les trous des ch. 4 et 10.",
-      "bloque_par": "Réal",
-      "liens": [
-        {
-          "titre": "Version sans musique",
-          "url": "https://drive.google.com/file/d/13RjGrh4wWkbp494ZGgzavp_jIQOrH-_1/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Le poltergeist de Shawville - Livre audio complet (ambiance).mp3",
-        "url": "https://drive.google.com/file/d/1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK/view",
-        "date": "2026-10-20"
-      },
-      "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 85 %. Prochaine étape : Combler les trous des ch. 4 et 10. Dernière version : Le poltergeist de Shawville - Livre audio complet (ambiance).mp3 (2026-10-20)."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "audio": [
-        {
-          "titre": "Livre audio complet (ambiance)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/poltergeist-shawville.mp3",
-          "drive": "1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "titre": "Ce qu'il en reste : La Joconde",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Rien. En ligne à 5 $.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Ce qu'il en reste - La Joconde.epub",
-        "url": "https://drive.google.com/file/d/1aY6p6fs5N1NTVw-PhulpnFnmKcX_g1-p/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne à 5 $. Dernière version : Ce qu'il en reste - La Joconde.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Ce qu'il en reste",
-      "epub": "livres/ce-qu-il-en-reste-la-joconde.epub"
-    },
-    {
-      "id": 13,
-      "titre": "Wait, AI Can Do THAT?! — film/TV",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Rien. En ligne, gratuit.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne, gratuit."
-        }
-      ],
-      "serie": "Wait, AI Can Do THAT?!"
-    },
-    {
-      "id": 14,
-      "titre": "Lion Guard — vidéo v2 + Short + miniatures",
-      "categorie": "YouTube",
-      "statut": "En attente de toi",
-      "progression": 95,
-      "prochaine_etape": "Publier sur The Director Desk (vidéo, puis le Short).",
-      "bloque_par": "Toi",
-      "liens": [
-        {
-          "titre": "Short vertical",
-          "url": "https://drive.google.com/file/d/12yaabh4_-F7rqzoMLVvOxN9fAppQodY3/view"
-        },
-        {
-          "titre": "Miniature v2",
-          "url": "https://drive.google.com/file/d/1U3CSGvYZBj8sIl1jv5I7dBxNvrWhT2PG/view"
-        },
-        {
-          "titre": "Miniature option B",
-          "url": "https://drive.google.com/file/d/1ZAep14-kjfCA1ihEOg7dydRIPCGghwFZ/view"
-        },
-        {
-          "titre": "Miniature option E",
-          "url": "https://drive.google.com/file/d/1cVHh2AnuR1rZDaOwsq8owgehaJcJEI8w/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Lion_Guard_Premiere_2015_EN_Suno_v2.mp4",
-        "url": "https://drive.google.com/file/d/11xnulNKt_GS3H8oXk-1R4QSCMzKa2Bm1/view",
-        "date": "2026-10-22"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 95 %. Prochaine étape : Publier sur The Director Desk (vidéo, puis le Short). Dernière version : Lion_Guard_Premiere_2015_EN_Suno_v2.mp4 (2026-10-22)."
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "titre": "Déménagement",
-      "categorie": "Maison",
-      "statut": "En cours",
-      "progression": 40,
-      "prochaine_etape": "Confirmer la date exacte (mi-fin novembre).",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 40 %. Prochaine étape : Confirmer la date exacte (mi-fin novembre)."
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "titre": "Déneigement",
-      "categorie": "Maison",
-      "statut": "En attente de toi",
-      "progression": 30,
-      "prochaine_etape": "Appeler pour des soumissions (500 $ à 1 000 $+/saison).",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Archivé à ta demande (note « Enlever la note »)."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 30 %. Prochaine étape : Appeler pour des soumissions (500 $ à 1 000 $+/saison)."
-        }
-      ],
-      "archive": true,
-      "archive_date": "2026-10-22",
-      "archive_raison": "Demandé par Christian"
-    },
-    {
-      "id": 17,
-      "titre": "Assurance habitation",
-      "categorie": "Maison",
-      "statut": "À faire",
-      "progression": 0,
-      "prochaine_etape": "À confirmer.",
-      "bloque_par": "À confirmer",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "titre": "Pneus d'hiver",
-      "categorie": "Maison",
-      "statut": "À faire",
-      "progression": 0,
-      "prochaine_etape": "À confirmer.",
-      "bloque_par": "À confirmer",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "titre": "Recherche d'emploi",
-      "categorie": "Emploi",
-      "statut": "En cours",
-      "progression": 10,
-      "prochaine_etape": "À confirmer.",
-      "bloque_par": "À confirmer",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 10 %. Prochaine étape : À confirmer."
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "titre": "Le Dernier Lait",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Le Dernier Lait.epub",
-        "url": "https://drive.google.com/file/d/1tZjC1f-mA8VlbvSIh1mcwXTU971LwV7Q/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/le-dernier-lait.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le Dernier Lait.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Hors série",
-      "epub": "livres/le-dernier-lait.epub"
-    },
-    {
-      "id": 21,
-      "titre": "A City of Me",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "A City of Me.epub",
-        "url": "https://drive.google.com/file/d/1XM_1HDa8G9N1ppDw9i6LHaWOtIPQU2tV/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/a-city-of-me.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : A City of Me.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/a-city-of-me.epub"
-    },
-    {
-      "id": 22,
-      "titre": "Dancingly Yours",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Dancingly Yours.epub",
-        "url": "https://drive.google.com/file/d/1JT04aQj_H8TBFB1DNXPWRWTvqcYeCb5H/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/dancingly-yours.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Dancingly Yours.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/dancingly-yours.epub"
-    },
-    {
-      "id": 23,
-      "titre": "Missing Time at Road 44",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Missing Time at Road 44.epub",
-        "url": "https://drive.google.com/file/d/1hbsOCfPPe6OfzlRPvo9qLEVXBUtCgAkX/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/missing-time-at-road-44.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Missing Time at Road 44.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/missing-time-at-road-44.epub"
-    },
-    {
-      "id": 24,
-      "titre": "Le dernier Costco",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Le dernier Costco.epub",
-        "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/le-dernier-costco.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le dernier Costco.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Les Monstres qu'on s'invente",
-      "epub": "livres/le-dernier-costco.epub"
-    },
-    {
-      "id": 25,
-      "titre": "Les Monstres qu'on s'invente",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Les Monstres qu'on s'invente.epub",
-        "url": "https://drive.google.com/file/d/1bgIUZYQJowLry-1L5rL6Yf5tswi60dfu/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/les-monstres-qu-on-s-invente.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Les Monstres qu'on s'invente.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Les Monstres qu'on s'invente",
-      "epub": "livres/les-monstres-qu-on-s-invente.epub"
-    },
-    {
-      "id": 26,
-      "titre": "The Seventh Round",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "The Seventh Round.epub",
-        "url": "https://drive.google.com/file/d/1mhYaxIofahxXE1DnEmxpKBGPKdh-Exoe/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/the-seventh-round.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The Seventh Round.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/the-seventh-round.epub"
-    },
-    {
-      "id": 27,
-      "titre": "The 4th Hour: The Skull",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [
-        {
-          "titre": "The 4th Hour: Series Overview",
-          "url": "https://drive.google.com/file/d/1fDRpO9j-oeJta0zYPA95Id2xW-v8E0dJ/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "The 4th Hour - The Skull.epub",
-        "url": "https://drive.google.com/file/d/104LHgyGcYE2iDBt2BMUqOU5sC7HMj0tQ/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/the-4th-hour-the-skull.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The 4th Hour - The Skull.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/the-4th-hour-the-skull.epub"
-    },
-    {
-      "id": 28,
-      "titre": "The Story Bible for Claude (référence)",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Document de référence pour l'écriture.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "The Story Bible for Claude.epub",
-        "url": "https://drive.google.com/file/d/1fAGe2hLctotry5XCrBySwPwVSsQxzyjb/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/story-bible-for-claude.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : terminé, 100 %. Prochaine étape : Document de référence pour l'écriture. Dernière version : The Story Bible for Claude.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Hors série",
-      "epub": "livres/story-bible-for-claude.epub"
-    },
-    {
-      "id": 29,
-      "titre": "Quarante-cinq minutes",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "",
-      "bloque_par": "",
-      "liens": [
-        {
-          "titre": "Livre EPUB officiel",
-          "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "couverture": "covers/quarante-cinq-minutes.jpg",
-      "notes_real": [],
-      "serie": "Ça s'est passé ici",
-      "epub": "livres/quarante-cinq-minutes.epub",
-      "derniere_version": {
-        "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
-        "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
-        "date": "2026-10-22"
-      }
-    },
-    {
-      "id": 30,
-      "titre": "Indiana Jones and the Debt at Havana",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 0,
-      "prochaine_etape": "Choisir la bonne version du manuscrit (3 copies sur Drive).",
-      "bloque_par": "ton choix",
-      "liens": [
-        {
-          "label": "Dossier Autres manuscrits (Drive)",
-          "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Indiana_Jones_and_the_Debt_at_Havana (Google Doc)",
-        "url": "https://docs.google.com/document/d/1KYyIcojSVYovjH3262ZMAMr3fktXI5pBO1s2s5wfhTI/edit",
-        "date": "2026-10-17"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Manuscrit privé sur ton Drive, pas publié sur le site."
-        }
-      ],
-      "serie": "Hors série"
-    },
-    {
-      "id": 31,
-      "titre": "Le dernier Costco — livre audio",
-      "categorie": "Livres audio",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Écouter et me dire ce que t’en penses.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Le dernier Costco — 20 chapitres (MP3)",
-        "url": "https://drive.google.com/file/d/1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/le-dernier-costco.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Livre audio complet : 20 chapitres sur 20, environ 3 h 33."
-        }
-      ],
-      "serie": "Les Monstres qu'on s'invente",
-      "audio": [
-        {
-          "titre": "Jeudi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch01.mp3",
-          "drive": "1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV"
-        },
-        {
-          "titre": "Treize marches",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch02.mp3",
-          "drive": "1l42I0v7Y4vHd_8xSn1kGVO0R-823YpYd"
-        },
-        {
-          "titre": "Mardi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch03.mp3",
-          "drive": "1vmC6ljC9fpeWAU9ExxTGc3FyestJ2gNi"
-        },
-        {
-          "titre": "Vingt-sept ans",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch04.mp3",
-          "drive": "1JUIfb8pZRC_FeNEbCjXT5GB9hGIXyu4N"
-        },
-        {
-          "titre": "Les toilettes",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch05.mp3",
-          "drive": "1obkwu9H7j0fu-cGC59W7Jig5dSOdtsNn"
-        },
-        {
-          "titre": "Le monsieur du fromage",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch06.mp3",
-          "drive": "1n-DNqiALv_ITj-ttf2DgWfKMbKrXoVst"
-        },
-        {
-          "titre": "Dimanche chez Denise",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch07.mp3",
-          "drive": "18g2KU598UDbhAYnBzqL3FODGxGT-JNbc"
-        },
-        {
-          "titre": "Le registre",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch08.mp3",
-          "drive": "1Jrj_aHvIhmCeiQiU5rC_Fkmm-U_9dO1r"
-        },
-        {
-          "titre": "Cinq heures quarante et une",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch09.mp3",
-          "drive": "1AXCGTa-fhtdIsRdm3hc_ogovnHIW3qUE"
-        },
-        {
-          "titre": "Le manuel",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch10.mp3",
-          "drive": "1IMysdxDY4AvHwpylY-fZgrK9elEUDs01"
-        },
-        {
-          "titre": "Le siège",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch11.mp3",
-          "drive": "1Q0uFL5-0G9zuaRQESx8BD9QubUb76P9_"
-        },
-        {
-          "titre": "Les bouteilles",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch12.mp3",
-          "drive": "1a3Zxmh1z-KIo0-npT7KErn6bPxRgontk"
-        },
-        {
-          "titre": "Cent treize quatre-vingt-un",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch13.mp3",
-          "drive": "12YUfZiiZRWma21YUfCKYu0B1MHB1QMt_"
-        },
-        {
-          "titre": "La chaise du coin",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch14.mp3",
-          "drive": "15NrwJF5NjfczRKWfHikxW8nlM67qp2o4"
-        },
-        {
-          "titre": "La salle d’attente",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch15.mp3",
-          "drive": "1CjTlvcBy2wLHOtweOZcFXRgU7oK4rkYP"
-        },
-        {
-          "titre": "Cinq heures trente",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch16.mp3",
-          "drive": "1fUVTXy5C_bntuJlaoPPg73laEyOaEjJ5"
-        },
-        {
-          "titre": "Le dernier jeudi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch17.mp3",
-          "drive": "15Hw9PIZRw0S8Y1K15EeKAPwcDVC5JqWb"
-        },
-        {
-          "titre": "Les piliers",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch18.mp3",
-          "drive": "1zgn-oBZLfy0pTzXBbbf4emUqL_HDBX_Z"
-        },
-        {
-          "titre": "Le capot de la Pacifica",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch19.mp3",
-          "drive": "1W2k4VDytH6fzcmqnyuzZgoq9YnwN3oNj"
-        },
-        {
-          "titre": "Samedi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch20.mp3",
-          "drive": "1KjyRU_Qr4dV--TiqQrulBw7bw0VVaBlm"
-        }
-      ],
-      "ajoute": "2026-10-22T19:30"
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
     }
-  ]
+   ],
+   "serie": "Ce qu'il en reste"
+  },
+  {
+   "id": 2,
+   "titre": "Guide IA pour enseignants (vol. 3)",
+   "categorie": "Livres",
+   "statut": "En attente de toi",
+   "progression": 95,
+   "prochaine_etape": "Confirmer la publication sur Google Play.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture ajoutée dans l'app (elle manquait dans la fiche). Publication : j'attends ton « oui, publie » dans le chat."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "Go reçu par note; j'attends ton « oui, publie » dans le chat avant de publier."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 95 %. Prochaine étape : Confirmer la publication sur Google Play."
+    }
+   ],
+   "serie": "Wait, AI Can Do THAT?!",
+   "couverture": "covers/wait-ai-enseignants.jpg",
+   "epub": "livres/wait-ai-enseignants.epub"
+  },
+  {
+   "id": 3,
+   "titre": "Ça s'est passé ici (Outaouais)",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Ça s'est passé ici (Outaouais).epub",
+    "url": "https://drive.google.com/file/d/1EnsrAaL5oKheDs_YaXgMPvAHWlDOV5qB/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images en meilleure qualité (erreur 001 Google). Dernière version : Ça s'est passé ici (Outaouais).epub (2026-10-22)."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "epub": "livres/ca-s-est-passe-ici-outaouais.epub"
+  },
+  {
+   "id": 4,
+   "titre": "Wait, AI Can Do THAT?! — immobilier",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Wait, AI Can Do THAT - immobilier.epub",
+    "url": "https://drive.google.com/file/d/12IefGjkwdnpPCVh3TdWhGw22vIP6GObU/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/wait-ai-immobilier.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : Wait, AI Can Do THAT - immobilier.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Wait, AI Can Do THAT?!",
+   "epub": "livres/wait-ai-immobilier.epub"
+  },
+  {
+   "id": 5,
+   "titre": "The Lines That Live",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Images remises dans le livre (10 photos). Relire pis me dire si c'est beau.",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "The Lines That Live.epub",
+    "url": "https://drive.google.com/file/d/1u5CUP26En3rt2I7-y1-fpZ8wcyVNqmWC/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-lines-that-live.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Les 10 images manquaient dans le fichier EPUB : je les ai remises dans les bons chapitres."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : The Lines That Live.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Hors série",
+   "epub": "livres/the-lines-that-live.epub"
+  },
+  {
+   "id": 6,
+   "titre": "Les morts du premier ministre (Kingsmere)",
+   "categorie": "Livres",
+   "statut": "Archivé",
+   "progression": 60,
+   "prochaine_etape": "Rien : intégré au livre Outaouais.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-23",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Fusionné dans « Ça s'est passé ici (Outaouais) », à ta demande."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 60 %. Prochaine étape : Écrire ch. 9–14."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "archive": true,
+   "archive_date": "2026-10-23",
+   "archive_raison": "Fusionné dans « Ça s'est passé ici (Outaouais) »"
+  },
+  {
+   "id": 7,
+   "titre": "La chose du sixième rang — Livre 2",
+   "categorie": "Livres",
+   "statut": "Archivé",
+   "progression": 25,
+   "prochaine_etape": "Continuer au ch. 5.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-23",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Archivé à ta demande."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 25 %. Prochaine étape : Continuer au ch. 5."
+    }
+   ],
+   "serie": "Hors série",
+   "tome": 2,
+   "archive": true,
+   "archive_date": "2026-10-23",
+   "archive_raison": "Demandé par Christian"
+  },
+  {
+   "id": 8,
+   "titre": "Second Notice",
+   "categorie": "Livres",
+   "statut": "À faire",
+   "progression": 95,
+   "prochaine_etape": "Ajouter la phrase manquante au ch. 15.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Livre audio (ambiance +25 %)",
+     "url": "https://drive.google.com/file/d/1-WGkQIsEos5bE8A4HxugJ09TPKzaCw18/view"
+    }
+   ],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Second Notice - Everybody Goes Home Richer.epub",
+    "url": "https://drive.google.com/file/d/1GWxM-Y_H6fkykZ31qF_A8H2CiGqTD32S/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/second-notice.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 95 %. Prochaine étape : Ajouter la phrase manquante au ch. 15. Dernière version : Second Notice - Everybody Goes Home Richer.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "audio": [
+    {
+     "titre": "Livre audio complet (ambiance)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/second-notice.mp3",
+     "drive": "1p17VDat9L5kvOdT-hKTPR6M2bApIXIM0"
+    }
+   ],
+   "epub": "livres/second-notice.epub"
+  },
+  {
+   "id": 9,
+   "titre": "Nouveau livre",
+   "categorie": "Livres",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "Me l'envoyer ; on teste la nouvelle procédure Arena.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : Me l'envoyer ; on teste la nouvelle procédure Arena."
+    }
+   ],
+   "serie": "Hors série"
+  },
+  {
+   "id": 10,
+   "titre": "Quarante-cinq minutes — livre audio v2",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 70,
+   "prochaine_etape": "Refaire avec Arena : une seule voix fixe, aucun fichier effacé.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Dossier du livre audio",
+     "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
+    },
+    {
+     "titre": "Livre EPUB officiel",
+     "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
+    "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/quarante-cinq-minutes.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 70 %. Prochaine étape : Refaire avec Arena : une seule voix fixe, aucun fichier effacé. Dernière version : Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3 (2026-10-22)."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "audio": [
+    {
+     "titre": "Livre audio complet (ambiance, 64k)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/quarante-cinq-minutes.mp3",
+     "drive": "1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL"
+    }
+   ],
+   "epub": "livres/quarante-cinq-minutes.epub"
+  },
+  {
+   "id": 11,
+   "titre": "Le poltergeist de Shawville — livre audio",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 85,
+   "prochaine_etape": "Combler les trous des ch. 4 et 10.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Version sans musique",
+     "url": "https://drive.google.com/file/d/13RjGrh4wWkbp494ZGgzavp_jIQOrH-_1/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Le poltergeist de Shawville - Livre audio complet (ambiance).mp3",
+    "url": "https://drive.google.com/file/d/1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK/view",
+    "date": "2026-10-20"
+   },
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 85 %. Prochaine étape : Combler les trous des ch. 4 et 10. Dernière version : Le poltergeist de Shawville - Livre audio complet (ambiance).mp3 (2026-10-20)."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "audio": [
+    {
+     "titre": "Livre audio complet (ambiance)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/poltergeist-shawville.mp3",
+     "drive": "1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "titre": "Ce qu'il en reste : La Joconde",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Rien. En ligne à 5 $.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Ce qu'il en reste - La Joconde.epub",
+    "url": "https://drive.google.com/file/d/1aY6p6fs5N1NTVw-PhulpnFnmKcX_g1-p/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne à 5 $. Dernière version : Ce qu'il en reste - La Joconde.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Ce qu'il en reste",
+   "epub": "livres/ce-qu-il-en-reste-la-joconde.epub"
+  },
+  {
+   "id": 13,
+   "titre": "Wait, AI Can Do THAT?! — film/TV",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Rien. En ligne, gratuit.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne, gratuit."
+    }
+   ],
+   "serie": "Wait, AI Can Do THAT?!"
+  },
+  {
+   "id": 14,
+   "titre": "Lion Guard — vidéo v2 + Short + miniatures",
+   "categorie": "YouTube",
+   "statut": "En attente de toi",
+   "progression": 95,
+   "prochaine_etape": "Publier sur The Director Desk (vidéo, puis le Short).",
+   "bloque_par": "Toi",
+   "liens": [
+    {
+     "titre": "Short vertical",
+     "url": "https://drive.google.com/file/d/12yaabh4_-F7rqzoMLVvOxN9fAppQodY3/view"
+    },
+    {
+     "titre": "Miniature v2",
+     "url": "https://drive.google.com/file/d/1U3CSGvYZBj8sIl1jv5I7dBxNvrWhT2PG/view"
+    },
+    {
+     "titre": "Miniature option B",
+     "url": "https://drive.google.com/file/d/1ZAep14-kjfCA1ihEOg7dydRIPCGghwFZ/view"
+    },
+    {
+     "titre": "Miniature option E",
+     "url": "https://drive.google.com/file/d/1cVHh2AnuR1rZDaOwsq8owgehaJcJEI8w/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Lion_Guard_Premiere_2015_EN_Suno_v2.mp4",
+    "url": "https://drive.google.com/file/d/11xnulNKt_GS3H8oXk-1R4QSCMzKa2Bm1/view",
+    "date": "2026-10-22"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 95 %. Prochaine étape : Publier sur The Director Desk (vidéo, puis le Short). Dernière version : Lion_Guard_Premiere_2015_EN_Suno_v2.mp4 (2026-10-22)."
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "titre": "Déménagement",
+   "categorie": "Maison",
+   "statut": "En cours",
+   "progression": 40,
+   "prochaine_etape": "Confirmer la date exacte (mi-fin novembre).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 40 %. Prochaine étape : Confirmer la date exacte (mi-fin novembre)."
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "titre": "Déneigement",
+   "categorie": "Maison",
+   "statut": "En attente de toi",
+   "progression": 30,
+   "prochaine_etape": "Appeler pour des soumissions (500 $ à 1 000 $+/saison).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "Archivé à ta demande (note « Enlever la note »)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 30 %. Prochaine étape : Appeler pour des soumissions (500 $ à 1 000 $+/saison)."
+    }
+   ],
+   "archive": true,
+   "archive_date": "2026-10-22",
+   "archive_raison": "Demandé par Christian"
+  },
+  {
+   "id": 17,
+   "titre": "Assurance habitation",
+   "categorie": "Maison",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "titre": "Pneus d'hiver",
+   "categorie": "Maison",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "titre": "Recherche d'emploi",
+   "categorie": "Emploi",
+   "statut": "En cours",
+   "progression": 10,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 10 %. Prochaine étape : À confirmer."
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "titre": "Le Dernier Lait",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Livre audio sur Arena (en file, un à la fois).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Le Dernier Lait.epub",
+    "url": "https://drive.google.com/file/d/1tZjC1f-mA8VlbvSIh1mcwXTU971LwV7Q/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-lait.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio sur Arena, en file d'attente."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le Dernier Lait.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Hors série",
+   "epub": "livres/le-dernier-lait.epub"
+  },
+  {
+   "id": 21,
+   "titre": "A City of Me",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "A City of Me.epub",
+    "url": "https://drive.google.com/file/d/1XM_1HDa8G9N1ppDw9i6LHaWOtIPQU2tV/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/a-city-of-me.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : A City of Me.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/a-city-of-me.epub"
+  },
+  {
+   "id": 22,
+   "titre": "Dancingly Yours",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Dancingly Yours.epub",
+    "url": "https://drive.google.com/file/d/1JT04aQj_H8TBFB1DNXPWRWTvqcYeCb5H/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/dancingly-yours.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Dancingly Yours.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/dancingly-yours.epub"
+  },
+  {
+   "id": 23,
+   "titre": "Missing Time at Road 44",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Missing Time at Road 44.epub",
+    "url": "https://drive.google.com/file/d/1hbsOCfPPe6OfzlRPvo9qLEVXBUtCgAkX/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/missing-time-at-road-44.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Missing Time at Road 44.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/missing-time-at-road-44.epub"
+  },
+  {
+   "id": 24,
+   "titre": "Le dernier Costco",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Nouvelle couverture avec « Les Monstres qu'on s'invente ». Me dire si t'aimes.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Le dernier Costco.epub",
+    "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-costco.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite avec le lettrage de la série, comme sur le premier livre."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le dernier Costco.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Les Monstres qu'on s'invente",
+   "epub": "livres/le-dernier-costco.epub"
+  },
+  {
+   "id": 25,
+   "titre": "Les Monstres qu'on s'invente",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Les Monstres qu'on s'invente.epub",
+    "url": "https://drive.google.com/file/d/1bgIUZYQJowLry-1L5rL6Yf5tswi60dfu/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/les-monstres-qu-on-s-invente.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Les Monstres qu'on s'invente.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Les Monstres qu'on s'invente",
+   "epub": "livres/les-monstres-qu-on-s-invente.epub"
+  },
+  {
+   "id": 26,
+   "titre": "The Seventh Round",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "The Seventh Round.epub",
+    "url": "https://drive.google.com/file/d/1mhYaxIofahxXE1DnEmxpKBGPKdh-Exoe/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-seventh-round.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The Seventh Round.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/the-seventh-round.epub"
+  },
+  {
+   "id": 27,
+   "titre": "The 4th Hour: The Skull",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Livre audio sur Arena (en file, un à la fois).",
+   "bloque_par": "Toi",
+   "liens": [
+    {
+     "titre": "The 4th Hour: Series Overview",
+     "url": "https://drive.google.com/file/d/1fDRpO9j-oeJta0zYPA95Id2xW-v8E0dJ/view"
+    }
+   ],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "The 4th Hour - The Skull.epub",
+    "url": "https://drive.google.com/file/d/104LHgyGcYE2iDBt2BMUqOU5sC7HMj0tQ/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-4th-hour-the-skull.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio sur Arena, en file d'attente."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The 4th Hour - The Skull.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/the-4th-hour-the-skull.epub"
+  },
+  {
+   "id": 28,
+   "titre": "The Story Bible for Claude (référence)",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Document de référence pour l'écriture.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "The Story Bible for Claude.epub",
+    "url": "https://drive.google.com/file/d/1fAGe2hLctotry5XCrBySwPwVSsQxzyjb/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/story-bible-for-claude.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Document de référence pour l'écriture. Dernière version : The Story Bible for Claude.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Hors série",
+   "epub": "livres/story-bible-for-claude.epub"
+  },
+  {
+   "id": 29,
+   "titre": "Quarante-cinq minutes",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "",
+   "bloque_par": "",
+   "liens": [
+    {
+     "titre": "Livre EPUB officiel",
+     "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "couverture": "covers/quarante-cinq-minutes.jpg",
+   "notes_real": [],
+   "serie": "Ça s'est passé ici",
+   "epub": "livres/quarante-cinq-minutes.epub",
+   "derniere_version": {
+    "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
+    "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
+    "date": "2026-10-22"
+   }
+  },
+  {
+   "id": 30,
+   "titre": "Indiana Jones and the Debt at Havana",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 0,
+   "prochaine_etape": "Choisir la bonne version du manuscrit (3 copies sur Drive).",
+   "bloque_par": "ton choix",
+   "liens": [
+    {
+     "label": "Dossier Autres manuscrits (Drive)",
+     "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Indiana_Jones_and_the_Debt_at_Havana (Google Doc)",
+    "url": "https://docs.google.com/document/d/1KYyIcojSVYovjH3262ZMAMr3fktXI5pBO1s2s5wfhTI/edit",
+    "date": "2026-10-17"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "Manuscrit privé sur ton Drive, pas publié sur le site."
+    }
+   ],
+   "serie": "Hors série"
+  },
+  {
+   "id": 31,
+   "titre": "Le dernier Costco — livre audio",
+   "categorie": "Livres audio",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Écouter et me dire ce que t’en penses.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Le dernier Costco — 20 chapitres (MP3)",
+    "url": "https://drive.google.com/file/d/1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-costco.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "Livre audio complet : 20 chapitres sur 20, environ 3 h 33."
+    }
+   ],
+   "serie": "Les Monstres qu'on s'invente",
+   "audio": [
+    {
+     "titre": "Jeudi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch01.mp3",
+     "drive": "1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV"
+    },
+    {
+     "titre": "Treize marches",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch02.mp3",
+     "drive": "1l42I0v7Y4vHd_8xSn1kGVO0R-823YpYd"
+    },
+    {
+     "titre": "Mardi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch03.mp3",
+     "drive": "1vmC6ljC9fpeWAU9ExxTGc3FyestJ2gNi"
+    },
+    {
+     "titre": "Vingt-sept ans",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch04.mp3",
+     "drive": "1JUIfb8pZRC_FeNEbCjXT5GB9hGIXyu4N"
+    },
+    {
+     "titre": "Les toilettes",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch05.mp3",
+     "drive": "1obkwu9H7j0fu-cGC59W7Jig5dSOdtsNn"
+    },
+    {
+     "titre": "Le monsieur du fromage",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch06.mp3",
+     "drive": "1n-DNqiALv_ITj-ttf2DgWfKMbKrXoVst"
+    },
+    {
+     "titre": "Dimanche chez Denise",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch07.mp3",
+     "drive": "18g2KU598UDbhAYnBzqL3FODGxGT-JNbc"
+    },
+    {
+     "titre": "Le registre",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch08.mp3",
+     "drive": "1Jrj_aHvIhmCeiQiU5rC_Fkmm-U_9dO1r"
+    },
+    {
+     "titre": "Cinq heures quarante et une",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch09.mp3",
+     "drive": "1AXCGTa-fhtdIsRdm3hc_ogovnHIW3qUE"
+    },
+    {
+     "titre": "Le manuel",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch10.mp3",
+     "drive": "1IMysdxDY4AvHwpylY-fZgrK9elEUDs01"
+    },
+    {
+     "titre": "Le siège",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch11.mp3",
+     "drive": "1Q0uFL5-0G9zuaRQESx8BD9QubUb76P9_"
+    },
+    {
+     "titre": "Les bouteilles",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch12.mp3",
+     "drive": "1a3Zxmh1z-KIo0-npT7KErn6bPxRgontk"
+    },
+    {
+     "titre": "Cent treize quatre-vingt-un",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch13.mp3",
+     "drive": "12YUfZiiZRWma21YUfCKYu0B1MHB1QMt_"
+    },
+    {
+     "titre": "La chaise du coin",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch14.mp3",
+     "drive": "15NrwJF5NjfczRKWfHikxW8nlM67qp2o4"
+    },
+    {
+     "titre": "La salle d’attente",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch15.mp3",
+     "drive": "1CjTlvcBy2wLHOtweOZcFXRgU7oK4rkYP"
+    },
+    {
+     "titre": "Cinq heures trente",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch16.mp3",
+     "drive": "1fUVTXy5C_bntuJlaoPPg73laEyOaEjJ5"
+    },
+    {
+     "titre": "Le dernier jeudi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch17.mp3",
+     "drive": "15Hw9PIZRw0S8Y1K15EeKAPwcDVC5JqWb"
+    },
+    {
+     "titre": "Les piliers",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch18.mp3",
+     "drive": "1zgn-oBZLfy0pTzXBbbf4emUqL_HDBX_Z"
+    },
+    {
+     "titre": "Le capot de la Pacifica",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch19.mp3",
+     "drive": "1W2k4VDytH6fzcmqnyuzZgoq9YnwN3oNj"
+    },
+    {
+     "titre": "Samedi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch20.mp3",
+     "drive": "1KjyRU_Qr4dV--TiqQrulBw7bw0VVaBlm"
+    }
+   ],
+   "ajoute": "2026-10-22T19:30"
+  }
+ ]
 }
