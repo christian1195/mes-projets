@@ -1,9 +1,15 @@
 {
-  "maj": "2026-10-22",
-  "salut": "Le pitch de The Call-In Hour est prêt, avec la vidéo pis la musique de The 4th Hour. Le Costco avance tranquillement.",
+  "maj": "2026-10-23",
+  "salut": "Rien à l'agenda aujourd'hui, ça fait que la journée est à toi. Le premier jet de The Roar of Two Kingdoms est fini pis t'attend, pis le Canadien joue à Chicago à 20 h ce soir.",
   "agenda": [],
-  "agenda_maj": "2026-10-22T18:52",
+  "agenda_maj": "2026-10-23T06:05",
   "une": [
+    {
+      "titre": "The Roar of Two Kingdoms : premier jet fini",
+      "texte": "14 chapitres, environ 2 h de lecture. Lis-le pis dis-moi tes retouches.",
+      "image": "",
+      "lien": "projet:32"
+    },
     {
       "titre": "The Call-In Hour : le pitch",
       "texte": "À 3 h 40, un mort appelle à la radio de nuit. La vidéo de 4 min 47 est en haut de la page.",
@@ -25,8 +31,29 @@
   ],
   "nouvelles": [
     {
+      "titre": "The Roar of Two Kingdoms : premier jet",
+      "texte": "14 chapitres écrits par Claude, version privée. Prochaine étape : ta lecture.",
+      "image": "",
+      "lien": "projet:32",
+      "date": "2026-10-23"
+    },
+    {
+      "titre": "La Joconde : livre audio en file",
+      "texte": "Narration en français de France sur Arena, avec une petite musique parisienne.",
+      "image": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+      "lien": "projet:1",
+      "date": "2026-10-23"
+    },
+    {
+      "titre": "Guide IA vol. 3",
+      "texte": "La couverture est dans l'app. J'attends ton « oui, publie » dans le chat.",
+      "image": "covers/wait-ai-enseignants.jpg",
+      "lien": "projet:2",
+      "date": "2026-10-23"
+    },
+    {
       "titre": "Audio-pitch The Call-In Hour",
-      "texte": "Vidéo de 4 min 47 avec la musique de The 4th Hour.",
+      "texte": "Vidéo de 4 min 47 avec l'intro de The 4th Hour.",
       "image": "montre/pitch-call-in-hour/cover.webp",
       "lien": "#/montre/pitch-call-in-hour",
       "date": "2026-10-22"
@@ -37,37 +64,37 @@
       "image": "covers/le-dernier-costco.jpg",
       "lien": "#/ecouter/31",
       "date": "2026-10-22"
-    },
-    {
-      "titre": "Guide IA vol. 3",
-      "texte": "Tu as dit oui : je le publie sur Google Play dès que mon navigateur se libère.",
-      "image": "",
-      "lien": "projet:2",
-      "date": "2026-10-22"
-    },
-    {
-      "titre": "Page The 4th Hour",
-      "texte": "Toute la série au même endroit.",
-      "image": "covers/the-4th-hour-series-overview.jpg",
-      "lien": "#/montre/serie-4th-hour",
-      "date": "2026-10-22"
     }
   ],
   "idees": [],
   "pourtoi": [
     {
-      "titre": "Suno lance Speech (bêta)",
-      "texte": "Une voix pis sa musique générées ensemble, en une prise. Parfait pour des pitchs.",
-      "image": "accueil/suno.webp",
-      "lien": "https://suno.com/blog/introducing-speech-beta",
-      "date": "2026-10-01"
+      "titre": "Ce soir : Canadien à Chicago, 20 h",
+      "texte": "Le Tricolore (4-3-2) visite les Blackhawks au United Center. Mardi, défaite 4-3 en prolongation contre San Jose.",
+      "image": "accueil/habs.webp",
+      "lien": "https://www.nhl.com/fr/canadiens/schedule",
+      "date": "2026-10-23"
     },
     {
-      "titre": "Grok Imagine Video 1.5 Lite",
-      "texte": "Texte ou image vers vidéo avec son, 1 à 15 s, jusqu'en 1080p.",
+      "titre": "Marché d'Halloween à Templeton, samedi",
+      "texte": "Plus de 25 exposants, couloir des frayeurs pis cimetière hanté, de 10 h à 16 h.",
+      "image": "accueil/templeton.webp",
+      "lien": "https://monkiosque.ca/en/markets/le-marche-d-halloween-templeton-gatineau",
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "ElevenLabs : Instant Soundtracks",
+      "texte": "Tu téléverses une vidéo, ça compose la musique pis place les bruitages au bon moment.",
+      "image": "accueil/elevenlabs.webp",
+      "lien": "https://elevenlabs.io/blog/introducing-instant-soundtracks",
+      "date": "2026-10-15"
+    },
+    {
+      "titre": "Grok fait des vidéoclips",
+      "texte": "Avec Grok Imagine Video 1.5 : image, musique pis synchro des lèvres en une seule passe.",
       "image": "accueil/grok.webp",
-      "lien": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway",
-      "date": "2026-10-08"
+      "lien": "https://www.basenor.com/blogs/news/grok-can-now-make-music-videos-what-you-need-to-know",
+      "date": "2026-10-13"
     },
     {
       "titre": "Soirée hantée à Aylmer, 30 oct.",
@@ -75,13 +102,6 @@
       "image": "accueil/hantees.webp",
       "lien": "https://lepointdevente.com/tickets/honteegatineau",
       "date": "2026-10-30"
-    },
-    {
-      "titre": "Visite hantée de la vallée",
-      "texte": "Le premier poltergeist enregistré au Canada pis d'autres histoires, sur la 148.",
-      "image": "accueil/visite.webp",
-      "lien": "https://www.aventureoutaouais.ca/fr/products/ottawa_valley_haunted_tour",
-      "date": "2026-10-05"
     }
   ]
 }
