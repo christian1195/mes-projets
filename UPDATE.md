@@ -37,3 +37,11 @@ Première mise en ligne (nécessite `gh auth login`):
 ## Notes audio (lecteur #/ecouter/<id>)
 - Bouton 📝 dans le lecteur → même canal notes.json (API GitHub, clé dans Réglages). Champs en plus : type:"audio", sujet:"[Note audio] <livre> ch07 23:15", chapitre (1-based), chapitre_titre, position_s, position. Message du commit = sujet.
 - Copie locale par livre : localStorage `mp_anotes_<id>` (sent 0/1, renvoi auto si pas de clé/réseau).
+
+## Notifications (Web Push) — pour Réal
+- Clé privée VAPID : `~/.larocq/vapid_private.pem` (box, hors dépôt). Publique dans `next.js` (LX.VAPID).
+- Abonnements : `subs.json` (écrit par l'app via la clé GitHub de Christian, Réglages › Activer les notifications).
+- Envoyer : `python3 tools/notify.py new|decision|habs|custom "Titre" [--body "…"] [--url "#/ecouter/31"] [--dry] [--prune]`
+- Habs : `python3 tools/habs_watch.py --loop` (buts + final, état ~/.larocq/habs_state.json).
+## Hors ligne
+- Livres audio téléchargés dans Cache Storage `larocq-audio-v1` (réponses opaques, les assets de release n'ont pas de CORS). Le SW sert le cache pour `/releases/download/`. Ne jamais renommer ce cache sans migration.
