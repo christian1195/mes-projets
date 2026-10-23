@@ -777,15 +777,15 @@
       "categorie": "Livres",
       "statut": "En cours",
       "progression": 0,
-      "prochaine_etape": "Choisir la bonne version du manuscrit (3 copies sur Drive).",
-      "bloque_par": "ton choix",
+      "prochaine_etape": "Couverture + livre audio (Arena) dans la file, à partir de la version Google Doc du 17 oct.",
+      "bloque_par": "",
       "liens": [
         {
           "label": "Dossier Autres manuscrits (Drive)",
           "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
         }
       ],
-      "maj": "2026-10-22",
+      "maj": "2026-10-23",
       "derniere_version": {
         "label": "Indiana_Jones_and_the_Debt_at_Havana (Google Doc)",
         "url": "https://docs.google.com/document/d/1KYyIcojSVYovjH3262ZMAMr3fktXI5pBO1s2s5wfhTI/edit",
@@ -795,6 +795,10 @@
         {
           "date": "2026-10-22",
           "texte": "Manuscrit privé sur ton Drive, pas publié sur le site."
+        },
+        {
+          "date": "2026-10-23",
+          "texte": "Tu m'as demandé une couverture et un livre audio. En file, après les 3 autres livres audio."
         }
       ],
       "serie": "Hors série"
