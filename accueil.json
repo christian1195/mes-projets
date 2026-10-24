@@ -5,6 +5,12 @@
   "agenda_maj": "2026-10-24T06:10",
   "une": [
     {
+      "titre": "Mountain of the Gods : la BD est là",
+      "texte": "Ta BD d'Indiana Jones, 48 pages. 📖 Lire",
+      "image": "covers/mountain-of-the-gods-bd.jpg",
+      "lien": "#/bd/35"
+    },
+    {
       "titre": "The Skull : le livre audio est prêt",
       "texte": "The 4th Hour, 16 chapitres, 3 h 09 d'écoute. ▶ Écouter",
       "image": "covers/the-4th-hour-the-skull.jpg",
