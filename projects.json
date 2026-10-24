@@ -1141,7 +1141,7 @@
         }
       ],
       "maj": "2026-10-23",
-      "epub": "https://drive.google.com/uc?id=1lS3cclZZVhByD86ktdDbvTlOzGaUvcZn&export=download",
+      "epub": "livres/mountain-of-the-gods.epub",
       "derniere_version": {
         "label": "Mountain_of_the_Gods.epub (Drive privé)",
         "url": "https://drive.google.com/file/d/1lS3cclZZVhByD86ktdDbvTlOzGaUvcZn/view",
@@ -1150,14 +1150,11 @@
       "notes_real": [
         {
           "date": "2026-10-23",
-          "texte": "Nouveau titre : Mountain of the Gods, avec ta couverture dans l'ebook. Couverture gardée privée sur ton Drive, pas sur le site."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Ebook privé sur ton Drive (11 chapitres, environ 26 600 mots). Pas publié sur le site."
+          "texte": "Nouveau titre : Mountain of the Gods, avec ta couverture. Lecture dans l'app pis copie sur ton Drive."
         }
       ],
-      "serie": "Hors série"
+      "serie": "Hors série",
+      "couverture": "covers/mountain-of-the-gods.jpg"
     }
   ]
 }
