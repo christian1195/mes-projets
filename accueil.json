@@ -5,6 +5,12 @@
   "agenda_maj": "2026-10-24T06:10",
   "une": [
     {
+      "titre": "The Skull : le livre audio est prêt",
+      "texte": "The 4th Hour, 16 chapitres, 3 h 09 d'écoute. ▶ Écouter",
+      "image": "covers/the-4th-hour-the-skull.jpg",
+      "lien": "#/ecouter/27"
+    },
+    {
       "titre": "Mountain of the Gods : le livre audio est prêt",
       "texte": "Ta 2e aventure d'Indiana Jones, 2 h 30 d'écoute. ▶ Écouter",
       "image": "covers/mountain-of-the-gods.jpg",
