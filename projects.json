@@ -1125,6 +1125,35 @@
           "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch33.mp3"
         }
       ]
+    },
+    {
+      "id": 34,
+      "titre": "Indiana Jones and the Roof of the World",
+      "categorie": "Livres",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Ebook prêt. Télécharge-le pis lis-le.",
+      "bloque_par": "",
+      "liens": [
+        {
+          "label": "Dossier Autres manuscrits (Drive)",
+          "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
+        }
+      ],
+      "maj": "2026-10-23",
+      "epub": "https://drive.google.com/uc?id=1QYpo0HIaSmX-xfzYys_tQ2F2c3Ljz6AD&export=download",
+      "derniere_version": {
+        "label": "The_Roof_of_the_World.epub (Drive privé)",
+        "url": "https://drive.google.com/file/d/1QYpo0HIaSmX-xfzYys_tQ2F2c3Ljz6AD/view",
+        "date": "2026-10-23"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-23",
+          "texte": "Ebook privé sur ton Drive (11 chapitres, environ 26 600 mots). Pas publié sur le site."
+        }
+      ],
+      "serie": "Hors série"
     }
   ]
 }
