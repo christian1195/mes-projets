@@ -17,11 +17,12 @@
       ],
       "maj": "2026-10-24",
       "ajoute": "2026-10-24T08:30",
-      "couverture": "covers/mountain-of-the-gods-bd.jpg",
+      "couverture": "covers/mountain-of-the-gods-bd-cover.jpg",
       "serie": "Indiana Jones (privé)",
       "bd": {
         "dossier": "livres/mountain-of-the-gods-bd/",
         "pages": [
+          "000.jpg",
           "001.jpg",
           "002.jpg",
           "003.jpg",
@@ -71,7 +72,7 @@
           "047.jpg",
           "048.jpg"
         ],
-        "couverture": "001.jpg"
+        "couverture": "000.jpg"
       },
       "notes_real": [
         {

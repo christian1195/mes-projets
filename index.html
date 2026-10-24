@@ -290,7 +290,7 @@ if(g&&g.state=='in'&&hLoc(g.date)>=hLoc(Date.now()-864e5)){x=g;tag='<span class=
 else if(fin){x=fin;tag=fin.win?'🏒 Victoire!':'🏒 Défaite';ti=vs(fin);sub=/OT|SO/.test(fin.detail||'')?(/SO/.test(fin.detail)?'En fusillade':'En prolongation'):'Final';sc=`${fin.us}–${fin.them}`}
 else if(g&&hLoc(g.date)==td){x=g;tag='🏒 Ce soir, les Canadiens';ti=`${dy(g.date)}, ${hm(g.date)} · ${g.home?'Centre Bell, contre les ':'contre les '}${fr(g.opp)}`;sub=(g.tv?'📺 '+g.tv:'');}
 else return'';return `<button class="hb tap" ${go}>${logos(x)}<div class="tx"><i>${tag}</i><b>${e(ti)}</b>${sub?`<small>${e(sub)}</small>`:''}</div>${sc?`<div class="sc">${sc}</div>`:''}</button>`}
-var APPV='v72';function accueil(v){const A=AJ||{},hr=new Date().getHours(),hi=hr<5?'Bonne nuit Christian 🌙':hr<12?'Bon matin Christian ☕':hr<18?'Bon après-midi Christian ☀️':'Bonsoir Christian 🌆';
+var APPV='v73';function accueil(v){const A=AJ||{},hr=new Date().getHours(),hi=hr<5?'Bonne nuit Christian 🌙':hr<12?'Bon matin Christian ☕':hr<18?'Bon après-midi Christian ☀️':'Bonsoir Christian 🌆';
 const dt=new Date().toLocaleDateString('fr-CA',{weekday:'long',day:'numeric',month:'long'});
 const pr=[...v].filter(p=>p.couverture).sort((a,b)=>(b.maj||'').localeCompare(a.maj||''));
 const mi=M.map(x=>({titre:x.titre,texte:x.resume,image:x.image,lien:'#/montre/'+x.id}));
