@@ -1,8 +1,8 @@
 {
-  "maj": "2026-10-23",
-  "salut": "Rien à l'agenda aujourd'hui, ça fait que la journée est à toi. Le premier jet de The Roar of Two Kingdoms est fini pis t'attend, pis le Canadien joue à Chicago à 20 h ce soir.",
+  "maj": "2026-10-24",
+  "salut": "Rien à l'agenda aujourd'hui, samedi tranquille. Le Canadien a battu Chicago 4-1 hier soir avec deux buts de Jake Evans, pis le livre audio de The Skull s'est fini cette nuit : 3 h 08, dans ton Drive.",
   "agenda": [],
-  "agenda_maj": "2026-10-23T06:05",
+  "agenda_maj": "2026-10-24T06:10",
   "une": [
     {
       "titre": "Mountain of the Gods : le livre audio est prêt",
@@ -49,6 +49,27 @@
   ],
   "nouvelles": [
     {
+      "titre": "The Skull : livre audio fini",
+      "texte": "16 chapitres, 3 h 08, voix britannique. Les fichiers sont dans le dossier Drive du projet.",
+      "image": "",
+      "lien": "projet:27",
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "Mountain of the Gods : livre audio",
+      "texte": "2 h 30 d'écoute, ta 2e aventure d'Indy. ▶ Écouter",
+      "image": "covers/mountain-of-the-gods.jpg",
+      "lien": "#/ecouter/34",
+      "date": "2026-10-23"
+    },
+    {
+      "titre": "L'app : lecteur de BD + bouton 🔄",
+      "texte": "Ta BD pourra se lire direct dans l'app, pis le bouton Mettre à jour force la dernière version.",
+      "image": "",
+      "lien": "",
+      "date": "2026-10-23"
+    },
+    {
       "titre": "La Joconde : livre audio fini",
       "texte": "33 pistes, voix française pis accordéon en fond.",
       "image": "covers/ce-qu-il-en-reste-la-joconde.jpg",
@@ -63,63 +84,35 @@
       "date": "2026-10-23"
     },
     {
-      "titre": "La Joconde : livre audio en file",
-      "texte": "Narration en français de France sur Arena, avec une petite musique parisienne.",
-      "image": "covers/ce-qu-il-en-reste-la-joconde.jpg",
-      "lien": "projet:1",
-      "date": "2026-10-23"
-    },
-    {
       "titre": "Guide IA vol. 3",
       "texte": "La couverture est dans l'app. J'attends ton « oui, publie » dans le chat.",
       "image": "covers/wait-ai-enseignants.jpg",
       "lien": "projet:2",
       "date": "2026-10-23"
-    },
-    {
-      "titre": "Audio-pitch The Call-In Hour",
-      "texte": "Vidéo de 4 min 47 avec l'intro de The 4th Hour.",
-      "image": "montre/pitch-call-in-hour/cover.webp",
-      "lien": "#/montre/pitch-call-in-hour",
-      "date": "2026-10-22"
-    },
-    {
-      "titre": "Le dernier Costco : livre audio complet 20/20",
-      "texte": "Les 20 chapitres sont en ligne. Écouter dans 🎧 Audio.",
-      "image": "covers/le-dernier-costco.jpg",
-      "lien": "#/ecouter/31",
-      "date": "2026-10-22"
     }
   ],
   "idees": [],
   "pourtoi": [
     {
-      "titre": "Ce soir : Canadien à Chicago, 20 h",
-      "texte": "Le Tricolore (4-3-2) visite les Blackhawks au United Center. Mardi, défaite 4-3 en prolongation contre San Jose.",
+      "titre": "Canadien 4, Blackhawks 1",
+      "texte": "Jake Evans compte deux fois (dont un en infériorité) pis Guhle marque son premier. Dimanche 19 h : Classique Héritage à Winnipeg.",
       "image": "accueil/habs.webp",
-      "lien": "https://www.nhl.com/fr/canadiens/schedule",
-      "date": "2026-10-23"
+      "lien": "https://www.nhl.com/canadiens/news/topic/season-in-review/mtl-chi-game-recap-oct-23-2026",
+      "date": "2026-10-24"
     },
     {
-      "titre": "Marché d'Halloween à Templeton, samedi",
+      "titre": "Marché d'Halloween à Templeton, aujourd'hui",
       "texte": "Plus de 25 exposants, couloir des frayeurs pis cimetière hanté, de 10 h à 16 h.",
       "image": "accueil/templeton.webp",
       "lien": "https://monkiosque.ca/en/markets/le-marche-d-halloween-templeton-gatineau",
       "date": "2026-10-24"
     },
     {
-      "titre": "ElevenLabs : Instant Soundtracks",
-      "texte": "Tu téléverses une vidéo, ça compose la musique pis place les bruitages au bon moment.",
-      "image": "accueil/elevenlabs.webp",
-      "lien": "https://elevenlabs.io/blog/introducing-instant-soundtracks",
-      "date": "2026-10-15"
-    },
-    {
-      "titre": "Grok fait des vidéoclips",
-      "texte": "Avec Grok Imagine Video 1.5 : image, musique pis synchro des lèvres en une seule passe.",
+      "titre": "Grok Imagine fait de la musique",
+      "texte": "Un panneau Musique apparaît dans Imagine : tu décris le style pis il compose une chanson pour ta vidéo. Déploiement graduel, pas encore annoncé.",
       "image": "accueil/grok.webp",
-      "lien": "https://www.basenor.com/blogs/news/grok-can-now-make-music-videos-what-you-need-to-know",
-      "date": "2026-10-13"
+      "lien": "https://artrealmai.com/article/grok-imagine-music-in-app-video-soundtracks",
+      "date": "2026-10-14"
     },
     {
       "titre": "Soirée hantée à Aylmer, 30 oct.",
