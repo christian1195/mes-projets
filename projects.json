@@ -1132,7 +1132,7 @@
       "categorie": "Livres",
       "statut": "Terminé",
       "progression": 100,
-      "prochaine_etape": "Ebook prêt. Télécharge-le pis lis-le.",
+      "prochaine_etape": "Livre audio prêt. Écoute-le dans l'app.",
       "bloque_par": "",
       "liens": [
         {
@@ -1151,10 +1151,20 @@
         {
           "date": "2026-10-23",
           "texte": "Nouveau titre : Mountain of the Gods, avec ta couverture. Lecture dans l'app pis copie sur ton Drive."
+        },
+        {
+          "date": "2026-10-23",
+          "texte": "Livre audio complet fait sur Arena : 2 h 30, une seule piste, normalisé à -15 LUFS. Usage perso."
         }
       ],
       "serie": "Hors série",
-      "couverture": "covers/mountain-of-the-gods.jpg"
+      "couverture": "covers/mountain-of-the-gods.jpg",
+      "audio": [
+        {
+          "titre": "Livre audio complet (11 chapitres, 2 h 30)",
+          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/mountain-of-the-gods.mp3"
+        }
+      ]
     }
   ]
 }
