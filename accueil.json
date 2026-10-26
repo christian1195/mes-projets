@@ -1,9 +1,15 @@
 {
-  "maj": "2026-10-24",
+  "maj": "2026-10-26",
   "salut": "Rien à l'agenda aujourd'hui, samedi tranquille. Le Canadien a battu Chicago 4-1 hier soir avec deux buts de Jake Evans, pis le livre audio de The Skull s'est fini cette nuit : 3 h 08, dans ton Drive.",
   "agenda": [],
   "agenda_maj": "2026-10-24T06:10",
   "une": [
+    {
+      "titre": "Quarante-cinq minutes : la BD est là",
+      "texte": "20 pages, pis le roman illustré aussi. 📖 Lire",
+      "image": "covers/quarante-cinq-minutes-bd-cover.jpg",
+      "lien": "#/bd/36"
+    },
     {
       "titre": "Mountain of the Gods : la BD est là",
       "texte": "Ta BD d'Indiana Jones, 48 pages. 📖 Lire",

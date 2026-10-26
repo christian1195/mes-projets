@@ -889,6 +889,14 @@
         {
           "titre": "Livre EPUB officiel",
           "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
+        },
+        {
+          "label": "La BD",
+          "url": "#/projet/36"
+        },
+        {
+          "label": "Le roman illustré",
+          "url": "#/projet/37"
         }
       ],
       "maj": "2026-10-22",
@@ -1257,6 +1265,101 @@
         {
           "titre": "Livre audio complet (11 chapitres, 2 h 30)",
           "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/mountain-of-the-gods.mp3"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "titre": "Quarante-cinq minutes (BD)",
+      "categorie": "Livres",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Lis la BD dans l'app.",
+      "bloque_par": "",
+      "liens": [
+        {
+          "label": "Le roman illustré",
+          "url": "#/projet/37"
+        },
+        {
+          "label": "Le livre et le livre audio",
+          "url": "#/projet/29"
+        }
+      ],
+      "maj": "2026-10-26",
+      "ajoute": "2026-10-26T16:35",
+      "couverture": "covers/quarante-cinq-minutes-bd-cover.jpg",
+      "serie": "Ça s'est passé ici",
+      "bd": {
+        "dossier": "livres/quarante-cinq-minutes-bd/",
+        "pages": [
+          "001.jpg",
+          "002.jpg",
+          "003.jpg",
+          "004.jpg",
+          "005.jpg",
+          "006.jpg",
+          "007.jpg",
+          "008.jpg",
+          "009.jpg",
+          "010.jpg",
+          "011.jpg",
+          "012.jpg",
+          "013.jpg",
+          "014.jpg",
+          "015.jpg",
+          "016.jpg",
+          "017.jpg",
+          "018.jpg",
+          "019.jpg",
+          "020.jpg"
+        ],
+        "couverture": "001.jpg"
+      },
+      "derniere_version": {
+        "label": "Quarante-cinq minutes — BD complète (20 pages).pdf",
+        "url": "https://drive.google.com/file/d/1plX3Ybus9R5skIFnforP2a_nOr2JhBME/view",
+        "date": "2026-10-26"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-26",
+          "texte": "BD de 20 pages ajoutée dans l'app. Privé, usage perso seulement."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "titre": "Quarante-cinq minutes — roman illustré",
+      "categorie": "Livres",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Lis-le dans l'app.",
+      "bloque_par": "",
+      "liens": [
+        {
+          "label": "La BD",
+          "url": "#/projet/36"
+        },
+        {
+          "label": "Le livre et le livre audio",
+          "url": "#/projet/29"
+        }
+      ],
+      "maj": "2026-10-26",
+      "ajoute": "2026-10-26T16:35",
+      "couverture": "covers/quarante-cinq-minutes.jpg",
+      "serie": "Ça s'est passé ici",
+      "epub": "livres/quarante-cinq-minutes-illustre.epub",
+      "derniere_version": {
+        "label": "Quarante-cinq minutes — roman illustré (104 illustrations).epub",
+        "url": "https://drive.google.com/file/d/1rOLNqq5vwHoQcN_NLhtKnFsCyTK3XUAO/view",
+        "date": "2026-10-26"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-26",
+          "texte": "Roman illustré (104 illustrations) ajouté dans l'app. Privé, usage perso seulement."
         }
       ]
     }
