@@ -38,6 +38,7 @@ function lst(){L.innerHTML=P.film.chapitres.map((c,i)=>`<div data-i="${i}" class
 function poke(){V.classList.remove('hid');clearTimeout(hideT);if(!A.paused)hideT=setTimeout(()=>{if(!L.classList.contains('on'))V.classList.add('hid')},3500)}
 A.ontimeupdate=()=>{sync();if((A.currentTime|0)%5==0)save()};A.onplay=()=>{PP.textContent='❚❚';poke()};A.onpause=()=>{PP.textContent='▶';save();poke()};
 A.onended=()=>{if(ci<P.film.chapitres.length-1)load(ci+1,0,1);else{save()}};A.onerror=()=>{MS.textContent='Audio introuvable'};
+let wd=0,wn=0;A.addEventListener('seeking',()=>{clearTimeout(wd);const t=A.currentTime,pl=!A.paused;wd=setTimeout(()=>{if((A.seeking||A.readyState<2)&&wn<2){wn++;MS.textContent='Chargement…';const u=A.src;A.src=u;A.addEventListener('loadedmetadata',()=>{A.currentTime=t;if(pl)A.play().catch(()=>{})},{once:true})}},7000)});A.addEventListener('seeked',()=>{clearTimeout(wd);wn=0;MS.textContent=''});A.addEventListener('emptied',()=>clearTimeout(wd));
 PP.onclick=e=>{e.stopPropagation();A.paused?A.play().catch(()=>{}):A.pause()};
 q('.rw').onclick=e=>{e.stopPropagation();A.currentTime=Math.max(0,A.currentTime-15)};q('.fw').onclick=e=>{e.stopPropagation();A.currentTime=Math.min(A.duration||1e9,A.currentTime+30)};
 q('.pv').onclick=e=>{e.stopPropagation();A.currentTime>5?A.currentTime=0:load(ci-1,0,!A.paused)};q('.nx').onclick=e=>{e.stopPropagation();load(ci+1,0,!A.paused)};
