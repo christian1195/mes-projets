@@ -2635,7 +2635,7 @@
       "categorie": "YouTube",
       "statut": "En cours",
       "progression": 30,
-      "prochaine_etape": "Refaire le plan 1 au Tibet, puis le plan 2 quand tu donnes le go.",
+      "prochaine_etape": "Plan 2 quand tu donnes le go.",
       "bloque_par": "",
       "liens": [],
       "maj": "2026-10-27",
@@ -2666,6 +2666,11 @@
           "titre": "Plan 1 — désert",
           "src": "videos/action-05-plan1-desert.mp4",
           "note": "Premier plan de la séquence dictée (version désert)."
+        },
+        {
+          "titre": "Plan 1 — Tibet",
+          "src": "videos/action-06-plan1-tibet.mp4",
+          "note": "Le plan 1 refait dans une vallée du Tibet au crépuscule."
         }
       ],
       "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies », licence CC BY 4.0. Usage personnel seulement."
