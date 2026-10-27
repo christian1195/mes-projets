@@ -7,7 +7,7 @@
       "categorie": "Livres",
       "statut": "Terminé",
       "progression": 100,
-      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, nouvelle narration v4, images synchronisées à l'audio.",
+      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, narration v4 avec musique et effets sonores, images synchronisées.",
       "bloque_par": "",
       "liens": [
         {
@@ -20,7 +20,7 @@
         }
       ],
       "maj": "2026-10-26",
-      "ajoute": "2026-10-26T21:45",
+      "ajoute": "2026-10-26T22:45",
       "couverture": "covers/mountain-of-the-gods-film.jpg",
       "serie": "Indiana Jones (privé)",
       "notes_real": [
@@ -31,6 +31,10 @@
         {
           "date": "2026-10-26",
           "texte": "Narration v4 refaite (11 chapitres, voix masculine constante) avec les cues du Story Player v3. Mêmes 59 images. Usage perso seulement."
+        },
+        {
+          "date": "2026-10-26",
+          "texte": "Version immersive d'Arena : musique originale, ambiance et effets sonores mixés sous la narration v4 (mêmes cues, mêmes 59 images). Usage perso seulement."
         }
       ],
       "film": {
@@ -38,8 +42,8 @@
         "chapitres": [
           {
             "titre": "Chapitre 1",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch01.mp3",
-            "duree": 615.44,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch01.mp3",
+            "duree": 615.63,
             "scenes": [
               {
                 "at": 0.0,
@@ -145,8 +149,8 @@
           },
           {
             "titre": "Chapitre 2",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch02.mp3",
-            "duree": 765.91,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch02.mp3",
+            "duree": 766.15,
             "scenes": [
               {
                 "at": 0.0,
@@ -252,8 +256,8 @@
           },
           {
             "titre": "Chapitre 3",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch03.mp3",
-            "duree": 565.9,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch03.mp3",
+            "duree": 566.1,
             "scenes": [
               {
                 "at": 42.802,
@@ -269,8 +273,8 @@
           },
           {
             "titre": "Chapitre 4",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch04.mp3",
-            "duree": 847.14,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch04.mp3",
+            "duree": 847.41,
             "scenes": [
               {
                 "at": 503.455,
@@ -286,8 +290,8 @@
           },
           {
             "titre": "Chapitre 5",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch05.mp3",
-            "duree": 466.1,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch05.mp3",
+            "duree": 466.26,
             "scenes": [
               {
                 "at": 15.051,
@@ -308,8 +312,8 @@
           },
           {
             "titre": "Chapitre 6",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch06.mp3",
-            "duree": 546.63,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch06.mp3",
+            "duree": 546.82,
             "scenes": [
               {
                 "at": 43.969,
@@ -320,8 +324,8 @@
           },
           {
             "titre": "Chapitre 7",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch07.mp3",
-            "duree": 604.66,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch07.mp3",
+            "duree": 604.84,
             "scenes": [
               {
                 "at": 493.577,
@@ -337,8 +341,8 @@
           },
           {
             "titre": "Chapitre 8",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch08.mp3",
-            "duree": 559.26,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch08.mp3",
+            "duree": 559.46,
             "scenes": [
               {
                 "at": 383.351,
@@ -354,8 +358,8 @@
           },
           {
             "titre": "Chapitre 9",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch09.mp3",
-            "duree": 862.99,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch09.mp3",
+            "duree": 863.35,
             "scenes": [
               {
                 "at": 30.073,
@@ -371,8 +375,8 @@
           },
           {
             "titre": "Chapitre 10",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch10.mp3",
-            "duree": 1106.11,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch10.mp3",
+            "duree": 1106.55,
             "scenes": [
               {
                 "at": 532.744,
@@ -388,8 +392,8 @@
           },
           {
             "titre": "Chapitre 11",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch11.mp3",
-            "duree": 1966.2,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch11.mp3",
+            "duree": 1966.79,
             "scenes": [
               {
                 "at": 39.348,
