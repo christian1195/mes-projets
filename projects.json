@@ -2628,6 +2628,47 @@
           "texte": "Version illustrée (200 illustrations) faite sur Arena, ajoutée dans l'app."
         }
       ]
+    },
+    {
+      "id": 40,
+      "titre": "Tests séquences d'action",
+      "categorie": "YouTube",
+      "statut": "En cours",
+      "progression": 30,
+      "prochaine_etape": "Refaire le plan 1 au Tibet, puis le plan 2 quand tu donnes le go.",
+      "bloque_par": "",
+      "liens": [],
+      "maj": "2026-10-27",
+      "ajoute": "2026-10-27T13:10",
+      "couverture": "covers/tests-sequences-action.jpg",
+      "videos": [
+        {
+          "titre": "1re version (1 min)",
+          "src": "videos/action-01-premiere-version.mp4",
+          "note": "Le premier essai, jugé incohérent."
+        },
+        {
+          "titre": "Un prompt par plan",
+          "src": "videos/action-02-un-prompt-par-plan.mp4",
+          "note": "« Beaucoup mieux »."
+        },
+        {
+          "titre": "Coupes rapides",
+          "src": "videos/action-03-coupes-rapides.mp4",
+          "note": "Plus d'énergie, plans plus courts."
+        },
+        {
+          "titre": "Jetpack v1",
+          "src": "videos/action-04-jetpack-v1.mp4",
+          "note": "Scène du jetpack tirée du chapitre 10."
+        },
+        {
+          "titre": "Plan 1 — désert",
+          "src": "videos/action-05-plan1-desert.mp4",
+          "note": "Premier plan de la séquence dictée (version désert)."
+        }
+      ],
+      "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies », licence CC BY 4.0. Usage personnel seulement."
     }
   ]
 }
