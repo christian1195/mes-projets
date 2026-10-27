@@ -7,26 +7,30 @@
       "categorie": "Livres",
       "statut": "Terminé",
       "progression": 100,
-      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, images synchronisées à l'audio.",
+      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, nouvelle narration v4, images synchronisées à l'audio.",
       "bloque_par": "",
       "liens": [
         {
-          "label": "Le livre et le livre audio",
-          "url": "#/projet/34"
+          "url": "#/projet/34",
+          "titre": "Le livre et le livre audio"
         },
         {
-          "label": "La BD",
-          "url": "#/projet/35"
+          "url": "#/projet/35",
+          "titre": "La BD"
         }
       ],
       "maj": "2026-10-26",
-      "ajoute": "2026-10-26T19:00",
+      "ajoute": "2026-10-26T21:45",
       "couverture": "covers/mountain-of-the-gods-film.jpg",
       "serie": "Indiana Jones (privé)",
       "notes_real": [
         {
           "date": "2026-10-26",
           "texte": "Story Player cinématique fait sur Arena : 11 chapitres, 59 images 16:9 synchronisées à l'audio. Usage perso seulement, jamais publié ailleurs."
+        },
+        {
+          "date": "2026-10-26",
+          "texte": "Narration v4 refaite (11 chapitres, voix masculine constante) avec les cues du Story Player v3. Mêmes 59 images. Usage perso seulement."
         }
       ],
       "film": {
@@ -34,8 +38,8 @@
         "chapitres": [
           {
             "titre": "Chapitre 1",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch01.mp3",
-            "duree": 484.25,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch01.mp3",
+            "duree": 615.44,
             "scenes": [
               {
                 "at": 0.0,
@@ -43,97 +47,97 @@
                 "titre": "B-17 over the Bay of Biscay"
               },
               {
-                "at": 59.36,
+                "at": 75.73,
                 "image": "01-02.jpg",
                 "titre": "Lindt offers an orange"
               },
               {
-                "at": 93.66,
+                "at": 138.665,
                 "image": "01-03.jpg",
                 "titre": "Fighters rise into moonlight"
               },
               {
-                "at": 113.52,
+                "at": 149.61,
                 "image": "01-04.jpg",
                 "titre": "Hollis opens fire"
               },
               {
-                "at": 129.18,
+                "at": 161.65,
                 "image": "01-05.jpg",
                 "titre": "A man lands on the wing"
               },
               {
-                "at": 138.52,
+                "at": 184.999,
                 "image": "01-06.jpg",
                 "titre": "Priest at the waist gun"
               },
               {
-                "at": 142.42,
+                "at": 200.273,
                 "image": "01-07.jpg",
                 "titre": "The radio-hatch intruder"
               },
               {
-                "at": 146.22,
+                "at": 205.956,
                 "image": "01-08.jpg",
                 "titre": "Indy in the passage"
               },
               {
-                "at": 170.88,
+                "at": 232.596,
                 "image": "01-09.jpg",
                 "titre": "Hollis falls silent"
               },
               {
-                "at": 182.42,
+                "at": 245.383,
                 "image": "01-10.jpg",
                 "titre": "Lindt and the satchel"
               },
               {
-                "at": 187.12,
+                "at": 252.842,
                 "image": "01-11.jpg",
                 "titre": "The broken tail glazing"
               },
               {
-                "at": 197.12,
+                "at": 266.34,
                 "image": "01-12.jpg",
                 "titre": "The sky goes quiet"
               },
               {
-                "at": 228.06,
+                "at": 299.132,
                 "image": "01-13.jpg",
                 "titre": "St Eval landing"
               },
               {
-                "at": 234.86,
+                "at": 303.619,
                 "image": "01-14.jpg",
                 "titre": "Delgado under the wing"
               },
               {
-                "at": 267.14,
+                "at": 350.909,
                 "image": "01-15.jpg",
                 "titre": "Shaw’s London office"
               },
               {
-                "at": 297.98,
+                "at": 403.411,
                 "image": "01-16.jpg",
                 "titre": "The logistics manifest"
               },
               {
-                "at": 361.38,
+                "at": 461.465,
                 "image": "01-17.jpg",
                 "titre": "“They believe it”"
               },
               {
-                "at": 364.66,
+                "at": 465.281,
                 "image": "01-18.jpg",
                 "titre": "The tailor’s press"
               },
               {
-                "at": 432.32,
+                "at": 514.544,
                 "image": "01-19.jpg",
                 "titre": "The mission and the cover"
               },
               {
-                "at": 477.54,
+                "at": 594.979,
                 "image": "01-20.jpg",
                 "titre": "Indy folds the manifest"
               }
@@ -141,106 +145,106 @@
           },
           {
             "titre": "Chapitre 2",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch02.mp3",
-            "duree": 749.21,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch02.mp3",
+            "duree": 765.91,
             "scenes": [
               {
-                "at": 0,
+                "at": 0.0,
                 "image": "02-01.jpg",
                 "titre": "The Hump"
               },
               {
-                "at": 22.58,
+                "at": 25.493,
                 "image": "02-02.jpg",
                 "titre": "The weather eases"
               },
               {
-                "at": 40.98,
+                "at": 35.469,
                 "image": "02-03.jpg",
                 "titre": "Dinjan"
               },
               {
-                "at": 47.58,
+                "at": 38.424,
                 "image": "02-04.jpg",
                 "titre": "Quartermaster issue"
               },
               {
-                "at": 74.7,
+                "at": 59.853,
                 "image": "02-05.jpg",
                 "titre": "Six days on the trail"
               },
               {
-                "at": 85.06,
+                "at": 73.523,
                 "image": "02-06.jpg",
                 "titre": "The mule balks"
               },
               {
-                "at": 119.18,
+                "at": 98.006,
                 "image": "02-07.jpg",
                 "titre": "The wreck in the snow"
               },
               {
-                "at": 143.76,
+                "at": 444.973,
                 "image": "02-08.jpg",
                 "titre": "Tea gardens to foothills"
               },
               {
-                "at": 167.9,
+                "at": 454.586,
                 "image": "02-09.jpg",
                 "titre": "Crossing into Sikkim"
               },
               {
-                "at": 186.52,
+                "at": 462.418,
                 "image": "02-10.jpg",
                 "titre": "Gerald Whitcombe"
               },
               {
-                "at": 237.96,
+                "at": 537.905,
                 "image": "02-11.jpg",
                 "titre": "The German party"
               },
               {
-                "at": 264.42,
+                "at": 557.289,
                 "image": "02-12.jpg",
                 "titre": "Kessler’s expedition"
               },
               {
-                "at": 307.9,
+                "at": 571.724,
                 "image": "02-13.jpg",
                 "titre": "Shambhala"
               },
               {
-                "at": 364.42,
+                "at": 604.719,
                 "image": "02-14.jpg",
                 "titre": "Dawa’s postcard"
               },
               {
-                "at": 398.46,
+                "at": 640.9,
                 "image": "02-15.jpg",
                 "titre": "The letter to Tsering"
               },
               {
-                "at": 493.72,
+                "at": 652.814,
                 "image": "02-16.jpg",
                 "titre": "An uneasy night"
               },
               {
-                "at": 539.28,
+                "at": 664.047,
                 "image": "02-17.jpg",
                 "titre": "Gangtok bazaar"
               },
               {
-                "at": 592.04,
+                "at": 682.088,
                 "image": "02-18.jpg",
                 "titre": "The hat trade"
               },
               {
-                "at": 682.72,
+                "at": 709.781,
                 "image": "02-19.jpg",
                 "titre": "Rateng"
               },
               {
-                "at": 724.72,
+                "at": 753.989,
                 "image": "02-20.jpg",
                 "titre": "Toward the eastern tent"
               }
@@ -248,16 +252,16 @@
           },
           {
             "titre": "Chapitre 3",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch03.mp3",
-            "duree": 724.84,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch03.mp3",
+            "duree": 565.9,
             "scenes": [
               {
-                "at": 61.0,
+                "at": 42.802,
                 "image": "03-01.jpg",
                 "titre": "Tsering’s first appraisal"
               },
               {
-                "at": 392.92,
+                "at": 291.447,
                 "image": "03-02.jpg",
                 "titre": "Norbu’s absence"
               }
@@ -265,16 +269,16 @@
           },
           {
             "titre": "Chapitre 4",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch04.mp3",
-            "duree": 909.57,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch04.mp3",
+            "duree": 847.14,
             "scenes": [
               {
-                "at": 285.14,
+                "at": 503.455,
                 "image": "04-01.jpg",
                 "titre": "The valley goes still"
               },
               {
-                "at": 584.63,
+                "at": 686.304,
                 "image": "04-02.jpg",
                 "titre": "Something behind the fence"
               }
@@ -282,21 +286,21 @@
           },
           {
             "titre": "Chapitre 5",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch05.mp3",
-            "duree": 742.65,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch05.mp3",
+            "duree": 466.1,
             "scenes": [
               {
-                "at": 17.36,
+                "at": 15.051,
                 "image": "05-01.jpg",
                 "titre": "Pemba comes out of the dark"
               },
               {
-                "at": 468.69,
+                "at": 308.64,
                 "image": "05-02.jpg",
                 "titre": "The crate"
               },
               {
-                "at": 646.39,
+                "at": 411.766,
                 "image": "05-03.jpg",
                 "titre": "The cup left behind"
               }
@@ -304,11 +308,11 @@
           },
           {
             "titre": "Chapitre 6",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch06.mp3",
-            "duree": 784.25,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch06.mp3",
+            "duree": 546.63,
             "scenes": [
               {
-                "at": 64.06,
+                "at": 43.969,
                 "image": "06-01.jpg",
                 "titre": "Inside Kessler’s tent"
               }
@@ -316,16 +320,16 @@
           },
           {
             "titre": "Chapitre 7",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch07.mp3",
-            "duree": 917.39,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch07.mp3",
+            "duree": 604.66,
             "scenes": [
               {
-                "at": 755.85,
+                "at": 493.577,
                 "image": "07-01.jpg",
                 "titre": "Norbu’s unfinished letter"
               },
               {
-                "at": 904.45,
+                "at": 588.707,
                 "image": "07-02.jpg",
                 "titre": "The grief breaks"
               }
@@ -333,16 +337,16 @@
           },
           {
             "titre": "Chapitre 8",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch08.mp3",
-            "duree": 815.17,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch08.mp3",
+            "duree": 559.26,
             "scenes": [
               {
-                "at": 583.92,
+                "at": 383.351,
                 "image": "08-01.jpg",
                 "titre": "Rocket troopers on the ridge"
               },
               {
-                "at": 790.84,
+                "at": 520.114,
                 "image": "08-02.jpg",
                 "titre": "The plan at the fire"
               }
@@ -350,16 +354,16 @@
           },
           {
             "titre": "Chapitre 9",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch09.mp3",
-            "duree": 705.64,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch09.mp3",
+            "duree": 862.99,
             "scenes": [
               {
-                "at": 0.0,
+                "at": 30.073,
                 "image": "09-01.jpg",
                 "titre": "Voss arrives"
               },
               {
-                "at": 470.4,
+                "at": 203.418,
                 "image": "09-02.jpg",
                 "titre": "The offer"
               }
@@ -367,16 +371,16 @@
           },
           {
             "titre": "Chapitre 10",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch10.mp3",
-            "duree": 979.78,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch10.mp3",
+            "duree": 1106.11,
             "scenes": [
               {
-                "at": 723.61,
+                "at": 532.744,
                 "image": "10-01.jpg",
                 "titre": "The night break-in"
               },
               {
-                "at": 878.13,
+                "at": 1006.711,
                 "image": "10-02.jpg",
                 "titre": "The cup in the firelight"
               }
@@ -384,16 +388,16 @@
           },
           {
             "titre": "Chapitre 11",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/motg-film-ch11.mp3",
-            "duree": 871.6,
+            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v2/motg-film-v4-ch11.mp3",
+            "duree": 1966.2,
             "scenes": [
               {
-                "at": 85.67,
+                "at": 39.348,
                 "image": "11-01.jpg",
                 "titre": "Back from the crevasse"
               },
               {
-                "at": 651.29,
+                "at": 1354.42,
                 "image": "11-02.jpg",
                 "titre": "A name carried forward"
               }
@@ -1751,12 +1755,12 @@
       "bloque_par": "",
       "liens": [
         {
-          "label": "La BD",
-          "url": "#/projet/36"
+          "url": "#/projet/36",
+          "titre": "La BD"
         },
         {
-          "label": "Le livre et le livre audio",
-          "url": "#/projet/29"
+          "url": "#/projet/29",
+          "titre": "Le livre et le livre audio"
         }
       ],
       "maj": "2026-10-26",
