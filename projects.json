@@ -2681,6 +2681,31 @@
         }
       ],
       "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies », licence CC BY 4.0. Usage personnel seulement."
+    },
+    {
+      "id": 41,
+      "titre": "Mountain of the Gods — Screenplay",
+      "categorie": "Screenplay",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Lis-le pis dis-moi quel document convertir ensuite.",
+      "bloque_par": "",
+      "liens": [],
+      "maj": "2026-10-27",
+      "ajoute": "2026-10-27T18:45",
+      "couverture": "covers/screenplay-mountain-of-the-gods.jpg",
+      "serie": "Hors série",
+      "derniere_version": {
+        "label": "Format standard (Courier 12, 109 p.) · PDF, Fountain, FDX",
+        "url": "screenplay/mountain-of-the-gods.html",
+        "date": "2026-10-27"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-27",
+          "texte": "Ton document était déjà écrit en scénario; je l'ai mis en vrai format standard, sans rien changer au texte. Usage perso."
+        }
+      ]
     }
   ]
 }

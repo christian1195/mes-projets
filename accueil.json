@@ -5,6 +5,12 @@
   "agenda_maj": "2026-10-27T06:08",
   "une": [
     {
+      "titre": "Nouvelle section : Screenplay",
+      "texte": "Mountain of the Gods en format scénario standard, 109 pages. Lire ou télécharger le PDF.",
+      "image": "covers/screenplay-mountain-of-the-gods.jpg",
+      "lien": "projet:41"
+    },
+    {
       "titre": "Tests séquences d'action",
       "texte": "La séquence Tibet est finie : 5 plans, Indy contre l'homme au jetpack. ▶ Regarder",
       "image": "covers/tests-sequences-action-tibet.jpg",
