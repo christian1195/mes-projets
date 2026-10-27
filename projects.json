@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-26",
+  "maj": "2026-10-27",
   "projets": [
     {
       "id": 38,
@@ -7,7 +7,7 @@
       "categorie": "Livres",
       "statut": "Terminé",
       "progression": 100,
-      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, narration v4 avec musique et effets sonores, images synchronisées.",
+      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, musique et effets sonores, 220 images synchronisées.",
       "bloque_par": "",
       "liens": [
         {
@@ -19,8 +19,8 @@
           "titre": "La BD"
         }
       ],
-      "maj": "2026-10-26",
-      "ajoute": "2026-10-26T22:45",
+      "maj": "2026-10-27",
+      "ajoute": "2026-10-27T04:45",
       "couverture": "covers/mountain-of-the-gods-film.jpg",
       "serie": "Indiana Jones (privé)",
       "notes_real": [
@@ -35,6 +35,10 @@
         {
           "date": "2026-10-26",
           "texte": "Version immersive d'Arena : musique originale, ambiance et effets sonores mixés sous la narration v4 (mêmes cues, mêmes 59 images). Usage perso seulement."
+        },
+        {
+          "date": "2026-10-27",
+          "texte": "Chapitres 3 à 11 illustrés au complet par Arena (20 images chacun, v6) : 220 images en tout. Usage perso seulement."
         }
       ],
       "film": {
@@ -260,14 +264,104 @@
             "duree": 566.1,
             "scenes": [
               {
-                "at": 42.802,
+                "at": 0.0,
                 "image": "03-01.jpg",
-                "titre": "Tsering’s first appraisal"
+                "titre": "The trader warns Indy about Tsering at the frozen market edge."
+              },
+              {
+                "at": 42.802,
+                "image": "03-02.jpg",
+                "titre": "Tsering repairs a saddle buckle beside the cookfire as Indy arrives."
+              },
+              {
+                "at": 97.4,
+                "image": "03-03.jpg",
+                "titre": "Indy explains why he needs a guide into Shomo."
+              },
+              {
+                "at": 182.2,
+                "image": "03-04.jpg",
+                "titre": "Over butter tea, Tsering tests what Indy believes."
+              },
+              {
+                "at": 234.5,
+                "image": "03-05.jpg",
+                "titre": "Tsering recounts Norbu’s earlier German survey expedition."
               },
               {
                 "at": 291.447,
-                "image": "03-02.jpg",
-                "titre": "Norbu’s absence"
+                "image": "03-06.jpg",
+                "titre": "Tsering rejects the official story of Norbu’s death."
+              },
+              {
+                "at": 326.0,
+                "image": "03-07.jpg",
+                "titre": "Indy and Tsering recognize the unanswered truth about Norbu."
+              },
+              {
+                "at": 342.8,
+                "image": "03-08.jpg",
+                "titre": "Tsering agrees to guide Indy into Shomo."
+              },
+              {
+                "at": 363.4,
+                "image": "03-09.jpg",
+                "titre": "Tsering demands the whole truth about her brother."
+              },
+              {
+                "at": 393.4,
+                "image": "03-10.jpg",
+                "titre": "Tsering names her guiding fee beside the fire."
+              },
+              {
+                "at": 399.0,
+                "image": "03-11.jpg",
+                "titre": "Indy shows the rupees he has; Tsering stays matter-of-fact."
+              },
+              {
+                "at": 422.1,
+                "image": "03-12.jpg",
+                "titre": "Tsering weighs Indy’s expedition pack."
+              },
+              {
+                "at": 424.0,
+                "image": "03-13.jpg",
+                "titre": "Tsering assesses Indy’s travel equipment."
+              },
+              {
+                "at": 432.2,
+                "image": "03-14.jpg",
+                "titre": "Tsering weighs the Sanskrit grammar against the climb."
+              },
+              {
+                "at": 450.7,
+                "image": "03-15.jpg",
+                "titre": "Tsering removes pages from the heavy book."
+              },
+              {
+                "at": 474.8,
+                "image": "03-16.jpg",
+                "titre": "Tsering counts the socks in Indy’s pack."
+              },
+              {
+                "at": 513.2,
+                "image": "03-17.jpg",
+                "titre": "Tsering introduces the pack animals, including the gray mule."
+              },
+              {
+                "at": 519.5,
+                "image": "03-18.jpg",
+                "titre": "Tsering finds the soles of Indy’s boots splitting."
+              },
+              {
+                "at": 534.0,
+                "image": "03-19.jpg",
+                "titre": "Indy tries on a spare pair of boots that pinch."
+              },
+              {
+                "at": 554.7,
+                "image": "03-20.jpg",
+                "titre": "At first light, Indy and Tsering prepare to leave for Shomo."
               }
             ]
           },
@@ -277,14 +371,104 @@
             "duree": 847.41,
             "scenes": [
               {
-                "at": 503.455,
+                "at": 0.0,
                 "image": "04-01.jpg",
-                "titre": "The valley goes still"
+                "titre": "Indy struggles with altitude while crossing the 16,000-foot pass."
+              },
+              {
+                "at": 26.445,
+                "image": "04-02.jpg",
+                "titre": "Tsering shares tsampa beside the prayer-flag cairn."
+              },
+              {
+                "at": 79.296,
+                "image": "04-03.jpg",
+                "titre": "The mule train descends onto a broad snowfield."
+              },
+              {
+                "at": 105.8,
+                "image": "04-04.jpg",
+                "titre": "Tsering stops the train to listen near the rock opening."
+              },
+              {
+                "at": 132.25,
+                "image": "04-05.jpg",
+                "titre": "A low-flying Junkers Ju 52 crosses the ridge."
+              },
+              {
+                "at": 158.7,
+                "image": "04-06.jpg",
+                "titre": "A fracture races across the snow slope."
+              },
+              {
+                "at": 171.0,
+                "image": "04-07.jpg",
+                "titre": "Tsering cuts the lead rope and directs the team across-slope."
+              },
+              {
+                "at": 190.4,
+                "image": "04-08.jpg",
+                "titre": "Mules scatter as the avalanche bears down."
+              },
+              {
+                "at": 220.7,
+                "image": "04-09.jpg",
+                "titre": "Tsering and Indy brace together on the wooden pack saddle."
+              },
+              {
+                "at": 246.8,
+                "image": "04-10.jpg",
+                "titre": "They ride the moving snow, leaning around a boulder."
+              },
+              {
+                "at": 317.5,
+                "image": "04-11.jpg",
+                "titre": "After the avalanche, Tsering checks Indy’s fingers beside the broken saddle."
+              },
+              {
+                "at": 331.4,
+                "image": "04-12.jpg",
+                "titre": "Indy and Tsering count the surviving pack mules."
+              },
+              {
+                "at": 343.9,
+                "image": "04-13.jpg",
+                "titre": "The gray mule stands apart as the Junkers passes high above."
+              },
+              {
+                "at": 370.4,
+                "image": "04-14.jpg",
+                "titre": "At dawn, the gray treeless valley opens below them, smoke rising from camp."
+              },
+              {
+                "at": 465.6,
+                "image": "04-15.jpg",
+                "titre": "Tsering names Lhari but avoids looking at the sacred ridge."
+              },
+              {
+                "at": 503.455,
+                "image": "04-16.jpg",
+                "titre": "At midday the wind stops and the distant camp flags fall limp."
+              },
+              {
+                "at": 536.2,
+                "image": "04-17.jpg",
+                "titre": "From behind granite, they observe tents, a generator shed, mule line and enclosure."
+              },
+              {
+                "at": 606.7,
+                "image": "04-18.jpg",
+                "titre": "Tsering corrects Indy’s camp sketch and the direction of the wind."
               },
               {
                 "at": 686.304,
-                "image": "04-02.jpg",
-                "titre": "Something behind the fence"
+                "image": "04-19.jpg",
+                "titre": "A broad-shouldered figure rises from the timber-shored fenced pen."
+              },
+              {
+                "at": 777.8,
+                "image": "04-20.jpg",
+                "titre": "After retreating, Indy gives Tsering his sheepskin coat as they plan their next move."
               }
             ]
           },
@@ -294,19 +478,104 @@
             "duree": 466.26,
             "scenes": [
               {
-                "at": 15.051,
+                "at": 0.0,
                 "image": "05-01.jpg",
-                "titre": "Pemba comes out of the dark"
+                "titre": "Pemba approaches at dusk with both hands raised and empty."
+              },
+              {
+                "at": 47.9,
+                "image": "05-02.jpg",
+                "titre": "Pemba tells Indy and Tsering how long he has watched the camp."
+              },
+              {
+                "at": 95.7,
+                "image": "05-03.jpg",
+                "titre": "Pemba sketches the route into the German camp in the dirt."
+              },
+              {
+                "at": 99.0,
+                "image": "05-04.jpg",
+                "titre": "The searchlight passes overhead while the three stay hidden."
+              },
+              {
+                "at": 143.8,
+                "image": "05-05.jpg",
+                "titre": "Pemba recounts the truck accident that killed his brother."
+              },
+              {
+                "at": 167.7,
+                "image": "05-06.jpg",
+                "titre": "Pemba asks Indy to record his brother’s name correctly."
+              },
+              {
+                "at": 191.7,
+                "image": "05-07.jpg",
+                "titre": "Pemba shows the trail fork where he will hide the crate."
+              },
+              {
+                "at": 215.7,
+                "image": "05-08.jpg",
+                "titre": "Indy and Tsering weigh whether to trust Pemba."
+              },
+              {
+                "at": 239.6,
+                "image": "05-09.jpg",
+                "titre": "Tsering makes Indy practice folding into the crate."
+              },
+              {
+                "at": 266.9,
+                "image": "05-10.jpg",
+                "titre": "Tsering ties the red wool cord around Indy’s left wrist."
+              },
+              {
+                "at": 294.3,
+                "image": "05-11.jpg",
+                "titre": "Inside the crate, Indy watches through a small knot-hole."
               },
               {
                 "at": 308.64,
-                "image": "05-02.jpg",
-                "titre": "The crate"
+                "image": "05-12.jpg",
+                "titre": "Pemba taps twice on the lid to signal Indy to stay still."
+              },
+              {
+                "at": 314.5,
+                "image": "05-13.jpg",
+                "titre": "Pemba walks beside the mule train, humming to the animals."
+              },
+              {
+                "at": 321.7,
+                "image": "05-14.jpg",
+                "titre": "A German sergeant counts crates at the checkpoint."
+              },
+              {
+                "at": 342.2,
+                "image": "05-15.jpg",
+                "titre": "The closed crate is set inside a storage tent at dusk."
+              },
+              {
+                "at": 359.4,
+                "image": "05-16.jpg",
+                "titre": "Pemba brings Indy a German greatcoat with its insignia removed."
+              },
+              {
+                "at": 383.5,
+                "image": "05-17.jpg",
+                "titre": "A white-coated orderly and guard approach the fenced pen with food."
+              },
+              {
+                "at": 403.9,
+                "image": "05-18.jpg",
+                "titre": "The shadowed figure carefully accepts the tin plate."
               },
               {
                 "at": 411.766,
-                "image": "05-03.jpg",
-                "titre": "The cup left behind"
+                "image": "05-19.jpg",
+                "titre": "The figure pours out the cup and saves the rice inside it."
+              },
+              {
+                "at": 444.8,
+                "image": "05-20.jpg",
+                "titre": "Pemba points Indy toward Kessler’s tent; Indy prepares to move."
               }
             ]
           },
@@ -316,9 +585,104 @@
             "duree": 546.82,
             "scenes": [
               {
-                "at": 43.969,
+                "at": 0.0,
                 "image": "06-01.jpg",
-                "titre": "Inside Kessler’s tent"
+                "titre": "Indy crosses camp disguised in the dead man’s greatcoat, carrying tins."
+              },
+              {
+                "at": 20.0,
+                "image": "06-02.jpg",
+                "titre": "Indy passes the lit, noisy mess tent while listening to the soldiers."
+              },
+              {
+                "at": 32.9,
+                "image": "06-03.jpg",
+                "titre": "Three frozen tunics hang behind the mess tent."
+              },
+              {
+                "at": 43.969,
+                "image": "06-04.jpg",
+                "titre": "Indy slips into Kessler’s survey tent."
+              },
+              {
+                "at": 58.0,
+                "image": "06-05.jpg",
+                "titre": "Kessler’s precise tent: maps, two cups, survey table and locked trunk."
+              },
+              {
+                "at": 87.7,
+                "image": "06-06.jpg",
+                "titre": "Indy picks the trunk lock and discovers a leather folder."
+              },
+              {
+                "at": 117.0,
+                "image": "06-07.jpg",
+                "titre": "Indy studies the anthropometric photographs and calipers."
+              },
+              {
+                "at": 139.2,
+                "image": "06-08.jpg",
+                "titre": "He carefully returns a small personal photograph to its place."
+              },
+              {
+                "at": 157.2,
+                "image": "06-09.jpg",
+                "titre": "Indy reads Kessler’s private 1939 field report."
+              },
+              {
+                "at": 230.3,
+                "image": "06-10.jpg",
+                "titre": "A soldier searches the tent; Indy hides beneath the cot."
+              },
+              {
+                "at": 296.2,
+                "image": "06-11.jpg",
+                "titre": "Kessler enters and finds Indy beside the open trunk."
+              },
+              {
+                "at": 321.8,
+                "image": "06-12.jpg",
+                "titre": "Two guards raise rifles as Indy stops reaching for his revolver."
+              },
+              {
+                "at": 351.0,
+                "image": "06-13.jpg",
+                "titre": "Kessler tidies the room and restores every item to order."
+              },
+              {
+                "at": 365.6,
+                "image": "06-14.jpg",
+                "titre": "Kessler tells Indy he expected a thief, not a scholar."
+              },
+              {
+                "at": 391.4,
+                "image": "06-15.jpg",
+                "titre": "Kessler explains why he fears Berlin will misuse the discovery."
+              },
+              {
+                "at": 411.0,
+                "image": "06-16.jpg",
+                "titre": "Indy nudges a brass weight; Kessler corrects it without looking."
+              },
+              {
+                "at": 439.0,
+                "image": "06-17.jpg",
+                "titre": "Indy and Kessler argue over a scholarly footnote."
+              },
+              {
+                "at": 468.2,
+                "image": "06-18.jpg",
+                "titre": "Kessler asks Indy to examine the being and give an honest judgment."
+              },
+              {
+                "at": 497.4,
+                "image": "06-19.jpg",
+                "titre": "Kessler offers a sweet sent by his sister in Zurich."
+              },
+              {
+                "at": 526.6,
+                "image": "06-20.jpg",
+                "titre": "Kessler invites Indy to walk to the pen; Indy asks whether it has a name."
               }
             ]
           },
@@ -328,14 +692,104 @@
             "duree": 604.84,
             "scenes": [
               {
-                "at": 493.577,
+                "at": 0.0,
                 "image": "07-01.jpg",
-                "titre": "Norbu’s unfinished letter"
+                "titre": "Kessler leads Indy and two riflemen to the enclosure."
+              },
+              {
+                "at": 27.6,
+                "image": "07-02.jpg",
+                "titre": "Kessler shows Indy the tall figure seated against the far timber."
+              },
+              {
+                "at": 48.3,
+                "image": "07-03.jpg",
+                "titre": "The captive looks at Indy with patient, humanlike attention."
+              },
+              {
+                "at": 82.9,
+                "image": "07-04.jpg",
+                "titre": "Indy notices scratches at seated height on the post."
+              },
+              {
+                "at": 96.7,
+                "image": "07-05.jpg",
+                "titre": "Indy counts repeated groups of tally marks."
+              },
+              {
+                "at": 138.1,
+                "image": "07-06.jpg",
+                "titre": "He spots bright worn bolt heads at the lower pen corner."
+              },
+              {
+                "at": 145.0,
+                "image": "07-07.jpg",
+                "titre": "The captive rests its chin on its knees while Indy studies it."
+              },
+              {
+                "at": 179.6,
+                "image": "07-08.jpg",
+                "titre": "A young soldier brings Indy cold stew in the supply tent."
+              },
+              {
+                "at": 193.4,
+                "image": "07-09.jpg",
+                "titre": "The soldier quietly says he wants to go home."
+              },
+              {
+                "at": 228.0,
+                "image": "07-10.jpg",
+                "titre": "At dawn Indy leaves; the mess cook gives him bread."
+              },
+              {
+                "at": 248.7,
+                "image": "07-11.jpg",
+                "titre": "Indy hides behind a shoulder-high rock as a dog patrol approaches."
+              },
+              {
+                "at": 262.6,
+                "image": "07-12.jpg",
+                "titre": "The yellow dog sniffs toward Indy’s hiding place."
+              },
+              {
+                "at": 290.0,
+                "image": "07-13.jpg",
+                "titre": "Indy tosses bread aside to redirect the dog."
+              },
+              {
+                "at": 331.5,
+                "image": "07-14.jpg",
+                "titre": "Tsering mends her coat as Indy tells her what happened."
+              },
+              {
+                "at": 359.2,
+                "image": "07-15.jpg",
+                "titre": "Tsering stops sewing when Indy describes the photograph."
+              },
+              {
+                "at": 372.0,
+                "image": "07-16.jpg",
+                "titre": "Tsering asks about her brother’s chipped front tooth."
+              },
+              {
+                "at": 455.5,
+                "image": "07-17.jpg",
+                "titre": "Tsering draws the long-hidden letter from an inner pocket."
+              },
+              {
+                "at": 493.577,
+                "image": "07-18.jpg",
+                "titre": "Indy unfolds Norbu’s letter by the ridge fire."
+              },
+              {
+                "at": 510.0,
+                "image": "07-19.jpg",
+                "titre": "Norbu’s letter recalls bones found in the ice above camp."
               },
               {
                 "at": 588.707,
-                "image": "07-02.jpg",
-                "titre": "The grief breaks"
+                "image": "07-20.jpg",
+                "titre": "At dawn, Tsering’s grief breaks beside the spent fire."
               }
             ]
           },
@@ -345,14 +799,104 @@
             "duree": 559.46,
             "scenes": [
               {
-                "at": 383.351,
+                "at": 0.0,
                 "image": "08-01.jpg",
-                "titre": "Rocket troopers on the ridge"
+                "titre": "Indy and Tsering sit sleepless beside Norbu’s letter and a small fire."
+              },
+              {
+                "at": 20.8,
+                "image": "08-02.jpg",
+                "titre": "Tsering grips her knife, angry and intent on confronting Kessler."
+              },
+              {
+                "at": 55.5,
+                "image": "08-03.jpg",
+                "titre": "Indy argues for justice and getting the truth into the open."
+              },
+              {
+                "at": 110.9,
+                "image": "08-04.jpg",
+                "titre": "Tsering quietly pulls the blanket back over Indy’s shoulder."
+              },
+              {
+                "at": 138.7,
+                "image": "08-05.jpg",
+                "titre": "At dawn, Tsering makes butter tea as Indy warms his hands."
+              },
+              {
+                "at": 166.3,
+                "image": "08-06.jpg",
+                "titre": "Tsering recalls Norbu’s stubbornness and singing."
+              },
+              {
+                "at": 194.1,
+                "image": "08-07.jpg",
+                "titre": "Pemba arrives breathless with urgent news."
+              },
+              {
+                "at": 208.0,
+                "image": "08-08.jpg",
+                "titre": "Tsering guides Indy through a silent Lee-Enfield bolt cycle."
+              },
+              {
+                "at": 277.3,
+                "image": "08-09.jpg",
+                "titre": "Pemba describes the polite German flyers and their questions."
+              },
+              {
+                "at": 291.1,
+                "image": "08-10.jpg",
+                "titre": "The group checks their tools, rifle and fourteen rounds."
+              },
+              {
+                "at": 305.0,
+                "image": "08-11.jpg",
+                "titre": "Tsering finishes the rifle lesson; Indy learns to recognize its sound."
+              },
+              {
+                "at": 332.6,
+                "image": "08-12.jpg",
+                "titre": "They observe the transport plane and gravel landing strip."
+              },
+              {
+                "at": 353.4,
+                "image": "08-13.jpg",
+                "titre": "Six ground crew sit beside the petrol drums near the plane."
+              },
+              {
+                "at": 383.351,
+                "image": "08-14.jpg",
+                "titre": "Two rocket troopers appear above the eastern ridge."
+              },
+              {
+                "at": 394.8,
+                "image": "08-15.jpg",
+                "titre": "Indy and Tsering run for the narrow shale gully."
+              },
+              {
+                "at": 415.8,
+                "image": "08-16.jpg",
+                "titre": "Indy counts the troopers’ remaining flight time on his watch."
+              },
+              {
+                "at": 436.2,
+                "image": "08-17.jpg",
+                "titre": "Tsering raises her rifle; Indy signals her to wait."
+              },
+              {
+                "at": 457.4,
+                "image": "08-18.jpg",
+                "titre": "Flame licks the gully overhang as Indy keeps counting."
+              },
+              {
+                "at": 471.1,
+                "image": "08-19.jpg",
+                "titre": "One rocket pack sputters and the two troopers spiral away."
               },
               {
                 "at": 520.114,
-                "image": "08-02.jpg",
-                "titre": "The plan at the fire"
+                "image": "08-20.jpg",
+                "titre": "By the ridge fire, Indy, Tsering and Pemba plan to enter the camp."
               }
             ]
           },
@@ -362,14 +906,104 @@
             "duree": 863.35,
             "scenes": [
               {
-                "at": 30.073,
+                "at": 0.0,
                 "image": "09-01.jpg",
-                "titre": "Voss arrives"
+                "titre": "Tsering shaves Indy while Pemba reports the new arrival."
+              },
+              {
+                "at": 30.073,
+                "image": "09-02.jpg",
+                "titre": "Voss arrives by mule with a wireless set and fragile case; Indy and Tsering observe."
+              },
+              {
+                "at": 35.9,
+                "image": "09-03.jpg",
+                "titre": "Pemba identifies Voss as the Berlin administrator."
+              },
+              {
+                "at": 71.9,
+                "image": "09-04.jpg",
+                "titre": "Pemba recounts Voss’s precise corrections and the gramophone dispute."
+              },
+              {
+                "at": 107.8,
+                "image": "09-05.jpg",
+                "titre": "Indy and Tsering discuss exploiting the difference between Voss and Kessler."
+              },
+              {
+                "at": 140.0,
+                "image": "09-06.jpg",
+                "titre": "Tsering sets the seventh-bell schedule for entering the camp."
+              },
+              {
+                "at": 150.9,
+                "image": "09-07.jpg",
+                "titre": "Indy walks alone toward the camp at dusk."
+              },
+              {
+                "at": 172.5,
+                "image": "09-08.jpg",
+                "titre": "Sentries search Indy and return the red wrist cord."
               },
               {
                 "at": 203.418,
-                "image": "09-02.jpg",
-                "titre": "The offer"
+                "image": "09-09.jpg",
+                "titre": "Voss’s warm tent, coffee and family photograph set an unexpected tone."
+              },
+              {
+                "at": 237.1,
+                "image": "09-10.jpg",
+                "titre": "Voss leads Indy on a brisk walking inspection with Kuhn behind."
+              },
+              {
+                "at": 341.3,
+                "image": "09-11.jpg",
+                "titre": "Voss kneels at a guy rope as Indy quietly pockets a pencil."
+              },
+              {
+                "at": 402.4,
+                "image": "09-12.jpg",
+                "titre": "At the pen, the captive watches Voss and Indy with patient disinterest."
+              },
+              {
+                "at": 424.0,
+                "image": "09-13.jpg",
+                "titre": "Voss speaks of his daughters and wanting to explain the discovery to them."
+              },
+              {
+                "at": 452.7,
+                "image": "09-14.jpg",
+                "titre": "Indy points out the tally marks; Voss finally notices their meaning."
+              },
+              {
+                "at": 481.2,
+                "image": "09-15.jpg",
+                "titre": "Voss ends the walk and orders guards to escort Indy out."
+              },
+              {
+                "at": 567.6,
+                "image": "09-16.jpg",
+                "titre": "Stoll guides Indy toward the broken-ground edge and threatens a fall."
+              },
+              {
+                "at": 596.5,
+                "image": "09-17.jpg",
+                "titre": "Stoll shoves Indy into the clothesline and frozen tunics fall."
+              },
+              {
+                "at": 654.0,
+                "image": "09-18.jpg",
+                "titre": "Indy uses his belt buckle to trap Stoll’s forearm."
+              },
+              {
+                "at": 711.1,
+                "image": "09-19.jpg",
+                "titre": "Tsering charges in on the mule as the dinner bell rings."
+              },
+              {
+                "at": 833.5,
+                "image": "09-20.jpg",
+                "titre": "Tsering and Indy escape through the north perimeter on the mule."
               }
             ]
           },
@@ -379,14 +1013,104 @@
             "duree": 1106.55,
             "scenes": [
               {
-                "at": 532.744,
+                "at": 0.0,
                 "image": "10-01.jpg",
-                "titre": "The night break-in"
+                "titre": "Indy, Tsering and Pemba plan the night raid over a dirt map."
+              },
+              {
+                "at": 54.0,
+                "image": "10-02.jpg",
+                "titre": "Tsering oils her Lee-Enfield; Pemba brings stolen dried apricots."
+              },
+              {
+                "at": 112.0,
+                "image": "10-03.jpg",
+                "titre": "The team moves toward the generator shed after midnight."
+              },
+              {
+                "at": 172.0,
+                "image": "10-04.jpg",
+                "titre": "Pemba is captured while Indy restrains Tsering from rushing toward the guards."
+              },
+              {
+                "at": 239.0,
+                "image": "10-05.jpg",
+                "titre": "Tsering shoots a trooper’s cylinder, sparing the young man."
+              },
+              {
+                "at": 306.0,
+                "image": "10-06.jpg",
+                "titre": "Indy and Tsering approach the guarded trunk at the mule line."
+              },
+              {
+                "at": 369.0,
+                "image": "10-07.jpg",
+                "titre": "Indy opens the trunk and recovers Kessler’s folder and his revolver."
+              },
+              {
+                "at": 432.0,
+                "image": "10-08.jpg",
+                "titre": "Flaming harness troopers rise as searchlights sweep the camp."
+              },
+              {
+                "at": 493.0,
+                "image": "10-09.jpg",
+                "titre": "The creature calmly loosens its iron pen strap under the floodlights."
+              },
+              {
+                "at": 532.744,
+                "image": "10-10.jpg",
+                "titre": "Tsering cuts the mule picket rope; the herd surges through camp."
+              },
+              {
+                "at": 592.0,
+                "image": "10-11.jpg",
+                "titre": "Indy cuts the generator’s fuel line, plunging the camp into darkness."
+              },
+              {
+                "at": 641.0,
+                "image": "10-12.jpg",
+                "titre": "The lights fail as the creature tears free of the pen."
+              },
+              {
+                "at": 689.0,
+                "image": "10-13.jpg",
+                "titre": "Leutnant Falk descends on his flame pack and confronts Indy."
+              },
+              {
+                "at": 737.0,
+                "image": "10-14.jpg",
+                "titre": "Indy takes cover behind steel drums while Falk hovers above."
+              },
+              {
+                "at": 785.0,
+                "image": "10-15.jpg",
+                "titre": "Indy grabs Falk’s boots as the harness lifts them into the sky."
+              },
+              {
+                "at": 833.0,
+                "image": "10-16.jpg",
+                "titre": "Indy climbs toward the harness controls as the fuel gauge falls."
+              },
+              {
+                "at": 881.0,
+                "image": "10-17.jpg",
+                "titre": "A cross-valve turn sends the flying pair corkscrewing over camp."
+              },
+              {
+                "at": 929.0,
+                "image": "10-18.jpg",
+                "titre": "Falk and Indy crash into the mess tent and the cook intervenes."
               },
               {
                 "at": 1006.711,
-                "image": "10-02.jpg",
-                "titre": "The cup in the firelight"
+                "image": "10-19.jpg",
+                "titre": "The creature offers Indy its cup of rice; he raises an open hand."
+              },
+              {
+                "at": 1071.0,
+                "image": "10-20.jpg",
+                "titre": "Tsering catches Indy as the crevasse ledge gives way beneath him."
               }
             ]
           },
@@ -396,14 +1120,104 @@
             "duree": 1966.79,
             "scenes": [
               {
-                "at": 39.348,
+                "at": 0.0,
                 "image": "11-01.jpg",
-                "titre": "Back from the crevasse"
+                "titre": "Indy descends into the crevasse to recover the satchel."
+              },
+              {
+                "at": 39.348,
+                "image": "11-02.jpg",
+                "titre": "Tsering hauls Indy and the satchel over the icy rim as Kessler watches."
+              },
+              {
+                "at": 86.0,
+                "image": "11-03.jpg",
+                "titre": "Tsering confronts Kessler at the crevasse; Indy learns he did not fire."
+              },
+              {
+                "at": 147.0,
+                "image": "11-04.jpg",
+                "titre": "Kessler writes and signs his confession in the snow."
+              },
+              {
+                "at": 211.0,
+                "image": "11-05.jpg",
+                "titre": "Jo arrives in a flashbulb afterglow with her Speed Graphic camera."
+              },
+              {
+                "at": 276.0,
+                "image": "11-06.jpg",
+                "titre": "Jo introduces herself to Tsering and offers to witness the confession."
+              },
+              {
+                "at": 344.0,
+                "image": "11-07.jpg",
+                "titre": "Jo photographs each page of Kessler’s confession by torchlight."
+              },
+              {
+                "at": 411.0,
+                "image": "11-08.jpg",
+                "titre": "Voss’s soldiers gather on the snowfield to capture the creature alive."
+              },
+              {
+                "at": 481.0,
+                "image": "11-09.jpg",
+                "titre": "The creature lifts the capture net and scatters its rope-holders."
+              },
+              {
+                "at": 568.0,
+                "image": "11-10.jpg",
+                "titre": "Jo’s camera flash blinds the diving trooper and sends him off course."
+              },
+              {
+                "at": 638.0,
+                "image": "11-11.jpg",
+                "titre": "The creature throws a boulder and knocks the trooper from his path."
+              },
+              {
+                "at": 706.0,
+                "image": "11-12.jpg",
+                "titre": "The creature raises its cup toward the group and walks into the high country."
+              },
+              {
+                "at": 784.0,
+                "image": "11-13.jpg",
+                "titre": "Indy returns photographs of the Tibetan men to Tsering."
+              },
+              {
+                "at": 852.0,
+                "image": "11-14.jpg",
+                "titre": "Indy burns Kessler’s research folder to keep the mountain a rumor."
+              },
+              {
+                "at": 935.0,
+                "image": "11-15.jpg",
+                "titre": "At dawn, bruised Pemba returns; enormous tracks cross the snowfield."
+              },
+              {
+                "at": 1001.0,
+                "image": "11-16.jpg",
+                "titre": "An empty tin cup lies in the tracks, marked with one new stroke."
+              },
+              {
+                "at": 1090.0,
+                "image": "11-17.jpg",
+                "titre": "Voss returns with his surviving men and demands the documents."
+              },
+              {
+                "at": 1177.0,
+                "image": "11-18.jpg",
+                "titre": "Stoll refuses to raise his rifle as the ridge falls silent."
               },
               {
                 "at": 1354.42,
-                "image": "11-02.jpg",
-                "titre": "A name carried forward"
+                "image": "11-19.jpg",
+                "titre": "At dawn, Tsering keeps Norbu’s photograph and confession close beneath the open pass."
+              },
+              {
+                "at": 1937.0,
+                "image": "11-20.jpg",
+                "titre": "On the flight out, Indy watches the peaks vanish into cloud beside Jo."
               }
             ]
           }
