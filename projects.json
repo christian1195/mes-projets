@@ -1040,12 +1040,14 @@
               {
                 "at": 348.42,
                 "image": "10-06.jpg",
-                "titre": "Indy and Tsering approach the guarded trunk at the mule line."
+                "titre": "Indy and Tsering approach the guarded trunk at the mule line.",
+                "loop": "loops/10-06.mp4"
               },
               {
                 "at": 396.28,
                 "image": "10-07.jpg",
-                "titre": "Indy opens the trunk and recovers Kessler’s folder and his revolver."
+                "titre": "Indy opens the trunk and recovers Kessler’s folder and his revolver.",
+                "loop": "loops/10-07.mp4"
               },
               {
                 "at": 415.72,
