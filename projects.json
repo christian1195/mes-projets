@@ -2688,7 +2688,7 @@
       "categorie": "Screenplay",
       "statut": "Terminé",
       "progression": 100,
-      "prochaine_etape": "Lis-le pis dis-moi quel document convertir ensuite.",
+      "prochaine_etape": "Touche la couverture pour le lire.",
       "bloque_par": "",
       "liens": [],
       "maj": "2026-10-27",
@@ -2705,7 +2705,8 @@
           "date": "2026-10-27",
           "texte": "Ton document était déjà écrit en scénario; je l'ai mis en vrai format standard, sans rien changer au texte. Usage perso."
         }
-      ]
+      ],
+      "script": "screenplay/mountain-of-the-gods.html"
     }
   ]
 }
