@@ -1,8 +1,8 @@
 {
-  "maj": "2026-10-26",
-  "salut": "Rien à l'agenda aujourd'hui, samedi tranquille. Le Canadien a battu Chicago 4-1 hier soir avec deux buts de Jake Evans, pis le livre audio de The Skull s'est fini cette nuit : 3 h 08, dans ton Drive.",
+  "maj": "2026-10-27",
+  "salut": "Rien à l'agenda aujourd'hui, mardi tranquille. Mountain of the Gods est fini en film : nouvelle narration, musique pis 220 images. Pis le Canadien joue à St. Louis ce soir à 20 h.",
   "agenda": [],
-  "agenda_maj": "2026-10-24T06:10",
+  "agenda_maj": "2026-10-27T06:08",
   "une": [
     {
       "titre": "Mountain of the Gods : toutes les images",
@@ -79,6 +79,41 @@
   ],
   "nouvelles": [
     {
+      "titre": "Mountain of the Gods : 220 images",
+      "texte": "Les chapitres 3 à 11 sont illustrés, 20 images chacun, synchro avec la narration. 🎬 Regarder",
+      "image": "accueil/mountain-of-the-gods-film.webp",
+      "lien": "#/film/38",
+      "date": "2026-10-27"
+    },
+    {
+      "titre": "Mountain of the Gods : musique pis effets",
+      "texte": "Le Story Player a maintenant la musique, l'ambiance pis les effets sonores par-dessus la narration.",
+      "image": "",
+      "lien": "#/film/38",
+      "date": "2026-10-26"
+    },
+    {
+      "titre": "Mountain of the Gods : nouvelle narration",
+      "texte": "Les 11 chapitres refaits à partir du texte final (v4).",
+      "image": "",
+      "lien": "#/film/38",
+      "date": "2026-10-26"
+    },
+    {
+      "titre": "The Skull : la version illustrée",
+      "texte": "L'ebook avec 200 illustrations est dans l'app. 📖 Lire",
+      "image": "covers/the-4th-hour-the-skull-illustre.jpg",
+      "lien": "#/lire/39",
+      "date": "2026-10-26"
+    },
+    {
+      "titre": "Quarante-cinq minutes : BD pis roman illustré",
+      "texte": "20 pages de BD, pis le roman illustré à côté.",
+      "image": "covers/quarante-cinq-minutes-bd-cover.jpg",
+      "lien": "#/bd/36",
+      "date": "2026-10-26"
+    },
+    {
       "titre": "The Skull : livre audio fini",
       "texte": "16 chapitres, 3 h 08, voix britannique. Les fichiers sont dans le dossier Drive du projet.",
       "image": "",
@@ -90,13 +125,6 @@
       "texte": "2 h 30 d'écoute, ta 2e aventure d'Indy. ▶ Écouter",
       "image": "covers/mountain-of-the-gods.jpg",
       "lien": "#/ecouter/34",
-      "date": "2026-10-23"
-    },
-    {
-      "titre": "L'app : lecteur de BD + bouton 🔄",
-      "texte": "Ta BD pourra se lire direct dans l'app, pis le bouton Mettre à jour force la dernière version.",
-      "image": "",
-      "lien": "",
       "date": "2026-10-23"
     },
     {
@@ -124,32 +152,32 @@
   "idees": [],
   "pourtoi": [
     {
-      "titre": "Canadien 4, Blackhawks 1",
-      "texte": "Jake Evans compte deux fois (dont un en infériorité) pis Guhle marque son premier. Dimanche 19 h : Classique Héritage à Winnipeg.",
+      "titre": "Canadien 2, Jets 1 à la Classique Héritage",
+      "texte": "Hutson pis Guhle comptent, Fowler arrête 33 tirs dimanche à Winnipeg. Ce soir 20 h (HE) : à St. Louis contre les Blues.",
       "image": "accueil/habs.webp",
-      "lien": "https://www.nhl.com/canadiens/news/topic/season-in-review/mtl-chi-game-recap-oct-23-2026",
-      "date": "2026-10-24"
+      "lien": "https://www.nhl.com/fr/canadiens/news/mtl-wpg-resume-du-match-25-oct-2026",
+      "date": "2026-10-26"
     },
     {
-      "titre": "Marché d'Halloween à Templeton, aujourd'hui",
-      "texte": "Plus de 25 exposants, couloir des frayeurs pis cimetière hanté, de 10 h à 16 h.",
-      "image": "accueil/templeton.webp",
-      "lien": "https://monkiosque.ca/en/markets/le-marche-d-halloween-templeton-gatineau",
-      "date": "2026-10-24"
+      "titre": "Frankenstein en livre audio « cinéma »",
+      "texte": "ElevenReader sort une version gratuite avec distribution complète pis musique originale, faite avec Eleven v4.",
+      "image": "accueil/frank.webp",
+      "lien": "https://elevenreader.io/blog/elevenreader-original-frankenstein",
+      "date": "2026-10-26"
     },
     {
-      "titre": "Grok Imagine fait de la musique",
-      "texte": "Un panneau Musique apparaît dans Imagine : tu décris le style pis il compose une chanson pour ta vidéo. Déploiement graduel, pas encore annoncé.",
-      "image": "accueil/grok.webp",
-      "lien": "https://artrealmai.com/article/grok-imagine-music-in-app-video-soundtracks",
-      "date": "2026-10-14"
+      "titre": "Kindle Unlimited devient Kindle+",
+      "texte": "Plus de livres audio, pis la narration IA Virtual Voice gratuite pour les auteurs KDP.",
+      "image": "accueil/kindle.webp",
+      "lien": "https://www.digitaltrends.com/phones/kindle-unlimited-is-now-kindle-with-a-bigger-audiobook-lineup-and-ai-narrators/",
+      "date": "2026-10-22"
     },
     {
-      "titre": "Soirée hantée à Aylmer, 30 oct.",
-      "texte": "Radio-Canada présente le balado Hantées sur scène. Gratuit, réservation obligatoire.",
-      "image": "accueil/hantees.webp",
-      "lien": "https://lepointdevente.com/tickets/honteegatineau",
-      "date": "2026-10-30"
+      "titre": "Maison hantée aux extraterrestres à Cantley",
+      "texte": "Les 30 et 31 octobre, 18 h 30 à 21 h, navette depuis le IGA. Gratuit, dons à la Maison Papillon.",
+      "image": "accueil/cantley.webp",
+      "lien": "https://tvagatineau.ca/oserez-vous-entrer-dans-cette-maison-hantee/",
+      "date": "2026-10-26"
     }
   ]
 }
