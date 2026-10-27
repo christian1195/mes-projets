@@ -2635,13 +2635,18 @@
       "categorie": "YouTube",
       "statut": "En cours",
       "progression": 30,
-      "prochaine_etape": "Plan 2 quand tu donnes le go.",
+      "prochaine_etape": "Tes notes sur la séquence",
       "bloque_par": "",
       "liens": [],
       "maj": "2026-10-27",
       "ajoute": "2026-10-27T13:10",
-      "couverture": "covers/tests-sequences-action.jpg",
+      "couverture": "covers/tests-sequences-action-tibet.jpg",
       "videos": [
+        {
+          "titre": "Séquence Tibet (5 plans)",
+          "src": "videos/action-07-sequence-tibet.mp4",
+          "note": "La séquence complète au Tibet : Indy contre l'homme au jetpack, en 5 plans. Musique : « Five Armies »."
+        },
         {
           "titre": "1re version (1 min)",
           "src": "videos/action-01-premiere-version.mp4",
