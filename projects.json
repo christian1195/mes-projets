@@ -1217,6 +1217,10 @@
         {
           "titre": "The 4th Hour: Series Overview",
           "url": "https://drive.google.com/file/d/1fDRpO9j-oeJta0zYPA95Id2xW-v8E0dJ/view"
+        },
+        {
+          "url": "#/projet/39",
+          "titre": "Version illustrée (200 illustrations)"
         }
       ],
       "maj": "2026-10-26",
@@ -1769,6 +1773,37 @@
         {
           "date": "2026-10-26",
           "texte": "Roman illustré (104 illustrations) ajouté dans l'app. Privé, usage perso seulement."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "titre": "The 4th Hour: The Skull — illustré",
+      "categorie": "Livres",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Lis-le dans l'app.",
+      "bloque_par": "",
+      "liens": [
+        {
+          "url": "#/projet/27",
+          "titre": "Le livre et le livre audio"
+        }
+      ],
+      "maj": "2026-10-26",
+      "ajoute": "2026-10-26T21:45",
+      "couverture": "covers/the-4th-hour-the-skull-illustre.jpg",
+      "serie": "The 4th Hour",
+      "epub": "livres/the-4th-hour-the-skull-illustre.epub",
+      "derniere_version": {
+        "label": "The_4th_Hour_The_Skull_Illustrated_200.epub",
+        "url": "https://drive.google.com/file/d/1z9nFmwudsIKcyPe47KPzJNuhHyOprHtN/view",
+        "date": "2026-10-26"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-26",
+          "texte": "Version illustrée (200 illustrations) faite sur Arena, ajoutée dans l'app."
         }
       ]
     }
