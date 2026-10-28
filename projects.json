@@ -2707,6 +2707,32 @@
         }
       ],
       "script": "screenplay/mountain-of-the-gods.html"
+    },
+    {
+      "id": 42,
+      "titre": "Second Notice — Screenplay",
+      "categorie": "Screenplay",
+      "statut": "Terminé",
+      "progression": 100,
+      "prochaine_etape": "Touche la couverture pour le lire.",
+      "bloque_par": "",
+      "liens": [],
+      "maj": "2026-10-27",
+      "ajoute": "2026-10-27T21:45",
+      "couverture": "covers/screenplay-second-notice.jpg",
+      "script": "screenplay/second-notice.html",
+      "serie": "Hors série",
+      "derniere_version": {
+        "label": "Format standard (Courier 12, 52 p.) · PDF, Fountain, FDX",
+        "url": "screenplay/second-notice.html",
+        "date": "2026-10-27"
+      },
+      "notes_real": [
+        {
+          "date": "2026-10-27",
+          "texte": "Ton document était déjà écrit en scénario (~40 min); mis en format standard sans changer le texte."
+        }
+      ]
     }
   ]
 }

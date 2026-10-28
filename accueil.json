@@ -5,6 +5,12 @@
   "agenda_maj": "2026-10-27T06:08",
   "une": [
     {
+      "titre": "Second Notice : le screenplay",
+      "texte": "En format scénario standard, 52 pages (~40 min). 📖 Lire",
+      "image": "accueil/screenplay-second-notice.jpg",
+      "lien": "projet:42"
+    },
+    {
       "titre": "Nouvelle section : Screenplay",
       "texte": "Mountain of the Gods en format scénario, 111 pages. 📖 Lire",
       "image": "accueil/screenplay-mountain-of-the-gods.jpg",
