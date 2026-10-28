@@ -2696,7 +2696,7 @@
       "couverture": "covers/screenplay-mountain-of-the-gods.jpg",
       "serie": "Hors série",
       "derniere_version": {
-        "label": "Format standard (Courier 12, 111 p.) · PDF, Fountain, FDX",
+        "label": "Format standard (Courier 12, 125 p.) · version 2 · PDF, Fountain, FDX",
         "url": "screenplay/mountain-of-the-gods.html",
         "date": "2026-10-27"
       },
@@ -2704,6 +2704,10 @@
         {
           "date": "2026-10-27",
           "texte": "Ton document était déjà écrit en scénario; je l'ai mis en vrai format standard, sans rien changer au texte. Usage perso."
+        },
+        {
+          "date": "2026-10-27",
+          "texte": "Version 2 de ton scénario : 125 pages (avant 111), 87 scènes. L'ancien PDF reste là comme v1."
         }
       ],
       "script": "screenplay/mountain-of-the-gods.html"
