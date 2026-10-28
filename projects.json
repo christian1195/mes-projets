@@ -1,2742 +1,2747 @@
 {
-  "maj": "2026-10-27",
-  "projets": [
+ "maj": "2026-10-28",
+ "projets": [
+  {
+   "id": 38,
+   "titre": "Mountain of the Gods (Story Player)",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, musique et effets sonores, 220 images synchronisées.",
+   "bloque_par": "",
+   "liens": [
     {
-      "id": 38,
-      "titre": "Mountain of the Gods (Story Player)",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Regarde-le dans l'app : 11 chapitres, musique et effets sonores, 220 images synchronisées.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "url": "#/projet/34",
-          "titre": "Le livre et le livre audio"
-        },
-        {
-          "url": "#/projet/35",
-          "titre": "La BD"
-        }
-      ],
-      "maj": "2026-10-27",
-      "ajoute": "2026-10-27T04:45",
-      "couverture": "covers/mountain-of-the-gods-film.jpg",
-      "serie": "Indiana Jones (privé)",
-      "notes_real": [
-        {
-          "date": "2026-10-26",
-          "texte": "Story Player cinématique fait sur Arena : 11 chapitres, 59 images 16:9 synchronisées à l'audio. Usage perso seulement, jamais publié ailleurs."
-        },
-        {
-          "date": "2026-10-26",
-          "texte": "Narration v4 refaite (11 chapitres, voix masculine constante) avec les cues du Story Player v3. Mêmes 59 images. Usage perso seulement."
-        },
-        {
-          "date": "2026-10-26",
-          "texte": "Version immersive d'Arena : musique originale, ambiance et effets sonores mixés sous la narration v4 (mêmes cues, mêmes 59 images). Usage perso seulement."
-        },
-        {
-          "date": "2026-10-27",
-          "texte": "Chapitres 3 à 11 illustrés au complet par Arena (20 images chacun, v6) : 220 images en tout. Usage perso seulement."
-        }
-      ],
-      "film": {
-        "dossier": "livres/mountain-of-the-gods-film/",
-        "chapitres": [
-          {
-            "titre": "Chapitre 1",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch01.mp3",
-            "duree": 615.63,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "01-01.jpg",
-                "titre": "B-17 over the Bay of Biscay"
-              },
-              {
-                "at": 75.73,
-                "image": "01-02.jpg",
-                "titre": "Lindt offers an orange"
-              },
-              {
-                "at": 138.665,
-                "image": "01-03.jpg",
-                "titre": "Fighters rise into moonlight"
-              },
-              {
-                "at": 149.61,
-                "image": "01-04.jpg",
-                "titre": "Hollis opens fire"
-              },
-              {
-                "at": 161.65,
-                "image": "01-05.jpg",
-                "titre": "A man lands on the wing"
-              },
-              {
-                "at": 184.999,
-                "image": "01-06.jpg",
-                "titre": "Priest at the waist gun"
-              },
-              {
-                "at": 200.273,
-                "image": "01-07.jpg",
-                "titre": "The radio-hatch intruder"
-              },
-              {
-                "at": 205.956,
-                "image": "01-08.jpg",
-                "titre": "Indy in the passage"
-              },
-              {
-                "at": 232.596,
-                "image": "01-09.jpg",
-                "titre": "Hollis falls silent"
-              },
-              {
-                "at": 245.383,
-                "image": "01-10.jpg",
-                "titre": "Lindt and the satchel"
-              },
-              {
-                "at": 252.842,
-                "image": "01-11.jpg",
-                "titre": "The broken tail glazing"
-              },
-              {
-                "at": 266.34,
-                "image": "01-12.jpg",
-                "titre": "The sky goes quiet"
-              },
-              {
-                "at": 299.132,
-                "image": "01-13.jpg",
-                "titre": "St Eval landing"
-              },
-              {
-                "at": 303.619,
-                "image": "01-14.jpg",
-                "titre": "Delgado under the wing"
-              },
-              {
-                "at": 350.909,
-                "image": "01-15.jpg",
-                "titre": "Shaw’s London office"
-              },
-              {
-                "at": 403.411,
-                "image": "01-16.jpg",
-                "titre": "The logistics manifest"
-              },
-              {
-                "at": 461.465,
-                "image": "01-17.jpg",
-                "titre": "“They believe it”"
-              },
-              {
-                "at": 465.281,
-                "image": "01-18.jpg",
-                "titre": "The tailor’s press"
-              },
-              {
-                "at": 514.544,
-                "image": "01-19.jpg",
-                "titre": "The mission and the cover"
-              },
-              {
-                "at": 594.979,
-                "image": "01-20.jpg",
-                "titre": "Indy folds the manifest"
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 2",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch02.mp3",
-            "duree": 766.15,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "02-01.jpg",
-                "titre": "The Hump"
-              },
-              {
-                "at": 23.9,
-                "image": "02-02.jpg",
-                "titre": "The weather eases"
-              },
-              {
-                "at": 32.66,
-                "image": "02-03.jpg",
-                "titre": "Dinjan"
-              },
-              {
-                "at": 39.36,
-                "image": "02-04.jpg",
-                "titre": "Quartermaster issue"
-              },
-              {
-                "at": 56.54,
-                "image": "02-05.jpg",
-                "titre": "Six days on the trail"
-              },
-              {
-                "at": 67.88,
-                "image": "02-06.jpg",
-                "titre": "The mule balks"
-              },
-              {
-                "at": 100.08,
-                "image": "02-07.jpg",
-                "titre": "The wreck in the snow"
-              },
-              {
-                "at": 222.72,
-                "image": "02-08.jpg",
-                "titre": "Tea gardens to foothills"
-              },
-              {
-                "at": 427.8,
-                "image": "02-09.jpg",
-                "titre": "Crossing into Sikkim"
-              },
-              {
-                "at": 453.26,
-                "image": "02-10.jpg",
-                "titre": "Gerald Whitcombe"
-              },
-              {
-                "at": 535.88,
-                "image": "02-11.jpg",
-                "titre": "The German party"
-              },
-              {
-                "at": 555.8,
-                "image": "02-12.jpg",
-                "titre": "Kessler’s expedition"
-              },
-              {
-                "at": 570.18,
-                "image": "02-13.jpg",
-                "titre": "Shambhala"
-              },
-              {
-                "at": 597.72,
-                "image": "02-14.jpg",
-                "titre": "Dawa’s postcard"
-              },
-              {
-                "at": 641.62,
-                "image": "02-15.jpg",
-                "titre": "The letter to Tsering"
-              },
-              {
-                "at": 653.04,
-                "image": "02-16.jpg",
-                "titre": "An uneasy night"
-              },
-              {
-                "at": 673.06,
-                "image": "02-17.jpg",
-                "titre": "Gangtok bazaar"
-              },
-              {
-                "at": 680.78,
-                "image": "02-18.jpg",
-                "titre": "The hat trade"
-              },
-              {
-                "at": 713.06,
-                "image": "02-19.jpg",
-                "titre": "Rateng"
-              },
-              {
-                "at": 754.68,
-                "image": "02-20.jpg",
-                "titre": "Toward the eastern tent"
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 3",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch03.mp3",
-            "duree": 566.1,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "03-01.jpg",
-                "titre": "The trader warns Indy about Tsering at the frozen market edge."
-              },
-              {
-                "at": 35.46,
-                "image": "03-02.jpg",
-                "titre": "Tsering repairs a saddle buckle beside the cookfire as Indy arrives."
-              },
-              {
-                "at": 59.62,
-                "image": "03-03.jpg",
-                "titre": "Indy explains why he needs a guide into Shomo."
-              },
-              {
-                "at": 163.54,
-                "image": "03-04.jpg",
-                "titre": "Over butter tea, Tsering tests what Indy believes."
-              },
-              {
-                "at": 232.54,
-                "image": "03-05.jpg",
-                "titre": "Tsering recounts Norbu’s earlier German survey expedition."
-              },
-              {
-                "at": 290.98,
-                "image": "03-06.jpg",
-                "titre": "Tsering rejects the official story of Norbu’s death."
-              },
-              {
-                "at": 327.0,
-                "image": "03-07.jpg",
-                "titre": "Indy and Tsering recognize the unanswered truth about Norbu."
-              },
-              {
-                "at": 342.44,
-                "image": "03-08.jpg",
-                "titre": "Tsering agrees to guide Indy into Shomo."
-              },
-              {
-                "at": 364.08,
-                "image": "03-09.jpg",
-                "titre": "Tsering demands the whole truth about her brother."
-              },
-              {
-                "at": 389.82,
-                "image": "03-10.jpg",
-                "titre": "Tsering names her guiding fee beside the fire."
-              },
-              {
-                "at": 397.72,
-                "image": "03-11.jpg",
-                "titre": "Indy shows the rupees he has; Tsering stays matter-of-fact."
-              },
-              {
-                "at": 420.56,
-                "image": "03-12.jpg",
-                "titre": "Tsering weighs Indy’s expedition pack."
-              },
-              {
-                "at": 427.46,
-                "image": "03-13.jpg",
-                "titre": "Tsering assesses Indy’s travel equipment."
-              },
-              {
-                "at": 433.1,
-                "image": "03-14.jpg",
-                "titre": "Tsering weighs the Sanskrit grammar against the climb."
-              },
-              {
-                "at": 447.74,
-                "image": "03-15.jpg",
-                "titre": "Tsering removes pages from the heavy book."
-              },
-              {
-                "at": 470.78,
-                "image": "03-16.jpg",
-                "titre": "Tsering counts the socks in Indy’s pack."
-              },
-              {
-                "at": 492.62,
-                "image": "03-17.jpg",
-                "titre": "Tsering introduces the pack animals, including the gray mule."
-              },
-              {
-                "at": 516.06,
-                "image": "03-18.jpg",
-                "titre": "Tsering finds the soles of Indy’s boots splitting."
-              },
-              {
-                "at": 521.88,
-                "image": "03-19.jpg",
-                "titre": "Indy tries on a spare pair of boots that pinch."
-              },
-              {
-                "at": 554.08,
-                "image": "03-20.jpg",
-                "titre": "At first light, Indy and Tsering prepare to leave for Shomo."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 4",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch04.mp3",
-            "duree": 847.41,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "04-01.jpg",
-                "titre": "Indy struggles with altitude while crossing the 16,000-foot pass."
-              },
-              {
-                "at": 22.28,
-                "image": "04-02.jpg",
-                "titre": "Tsering shares tsampa beside the prayer-flag cairn."
-              },
-              {
-                "at": 88.56,
-                "image": "04-03.jpg",
-                "titre": "The mule train descends onto a broad snowfield."
-              },
-              {
-                "at": 102.3,
-                "image": "04-04.jpg",
-                "titre": "Tsering stops the train to listen near the rock opening."
-              },
-              {
-                "at": 128.14,
-                "image": "04-05.jpg",
-                "titre": "A low-flying Junkers Ju 52 crosses the ridge."
-              },
-              {
-                "at": 153.08,
-                "image": "04-06.jpg",
-                "titre": "A fracture races across the snow slope."
-              },
-              {
-                "at": 169.24,
-                "image": "04-07.jpg",
-                "titre": "Tsering cuts the lead rope and directs the team across-slope."
-              },
-              {
-                "at": 184.04,
-                "image": "04-08.jpg",
-                "titre": "Mules scatter as the avalanche bears down."
-              },
-              {
-                "at": 199.76,
-                "image": "04-09.jpg",
-                "titre": "Tsering and Indy brace together on the wooden pack saddle."
-              },
-              {
-                "at": 243.98,
-                "image": "04-10.jpg",
-                "titre": "They ride the moving snow, leaning around a boulder."
-              },
-              {
-                "at": 323.88,
-                "image": "04-11.jpg",
-                "titre": "After the avalanche, Tsering checks Indy’s fingers beside the broken saddle."
-              },
-              {
-                "at": 333.72,
-                "image": "04-12.jpg",
-                "titre": "Indy and Tsering count the surviving pack mules."
-              },
-              {
-                "at": 347.18,
-                "image": "04-13.jpg",
-                "titre": "The gray mule stands apart as the Junkers passes high above."
-              },
-              {
-                "at": 387.44,
-                "image": "04-14.jpg",
-                "titre": "At dawn, the gray treeless valley opens below them, smoke rising from camp."
-              },
-              {
-                "at": 478.56,
-                "image": "04-15.jpg",
-                "titre": "Tsering names Lhari but avoids looking at the sacred ridge."
-              },
-              {
-                "at": 512.52,
-                "image": "04-16.jpg",
-                "titre": "At midday the wind stops and the distant camp flags fall limp."
-              },
-              {
-                "at": 542.08,
-                "image": "04-17.jpg",
-                "titre": "From behind granite, they observe tents, a generator shed, mule line and enclosure."
-              },
-              {
-                "at": 612.74,
-                "image": "04-18.jpg",
-                "titre": "Tsering corrects Indy’s camp sketch and the direction of the wind."
-              },
-              {
-                "at": 686.22,
-                "image": "04-19.jpg",
-                "titre": "A broad-shouldered figure rises from the timber-shored fenced pen."
-              },
-              {
-                "at": 777.94,
-                "image": "04-20.jpg",
-                "titre": "After retreating, Indy gives Tsering his sheepskin coat as they plan their next move."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 5",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch05.mp3",
-            "duree": 466.26,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "05-01.jpg",
-                "titre": "Pemba approaches at dusk with both hands raised and empty."
-              },
-              {
-                "at": 52.6,
-                "image": "05-02.jpg",
-                "titre": "Pemba tells Indy and Tsering how long he has watched the camp."
-              },
-              {
-                "at": 98.2,
-                "image": "05-03.jpg",
-                "titre": "Pemba sketches the route into the German camp in the dirt."
-              },
-              {
-                "at": 104.72,
-                "image": "05-04.jpg",
-                "titre": "The searchlight passes overhead while the three stay hidden."
-              },
-              {
-                "at": 147.18,
-                "image": "05-05.jpg",
-                "titre": "Pemba recounts the truck accident that killed his brother."
-              },
-              {
-                "at": 171.32,
-                "image": "05-06.jpg",
-                "titre": "Pemba asks Indy to record his brother’s name correctly."
-              },
-              {
-                "at": 193.38,
-                "image": "05-07.jpg",
-                "titre": "Pemba shows the trail fork where he will hide the crate."
-              },
-              {
-                "at": 212.94,
-                "image": "05-08.jpg",
-                "titre": "Indy and Tsering weigh whether to trust Pemba."
-              },
-              {
-                "at": 238.94,
-                "image": "05-09.jpg",
-                "titre": "Tsering makes Indy practice folding into the crate."
-              },
-              {
-                "at": 271.18,
-                "image": "05-10.jpg",
-                "titre": "Tsering ties the red wool cord around Indy’s left wrist."
-              },
-              {
-                "at": 291.46,
-                "image": "05-11.jpg",
-                "titre": "Inside the crate, Indy watches through a small knot-hole."
-              },
-              {
-                "at": 305.34,
-                "image": "05-12.jpg",
-                "titre": "Pemba taps twice on the lid to signal Indy to stay still."
-              },
-              {
-                "at": 313.38,
-                "image": "05-13.jpg",
-                "titre": "Pemba walks beside the mule train, humming to the animals."
-              },
-              {
-                "at": 325.96,
-                "image": "05-14.jpg",
-                "titre": "A German sergeant counts crates at the checkpoint."
-              },
-              {
-                "at": 347.84,
-                "image": "05-15.jpg",
-                "titre": "The closed crate is set inside a storage tent at dusk."
-              },
-              {
-                "at": 361.48,
-                "image": "05-16.jpg",
-                "titre": "Pemba brings Indy a German greatcoat with its insignia removed."
-              },
-              {
-                "at": 380.46,
-                "image": "05-17.jpg",
-                "titre": "A white-coated orderly and guard approach the fenced pen with food."
-              },
-              {
-                "at": 400.68,
-                "image": "05-18.jpg",
-                "titre": "The shadowed figure carefully accepts the tin plate."
-              },
-              {
-                "at": 412.1,
-                "image": "05-19.jpg",
-                "titre": "The figure pours out the cup and saves the rice inside it."
-              },
-              {
-                "at": 436.7,
-                "image": "05-20.jpg",
-                "titre": "Pemba points Indy toward Kessler’s tent; Indy prepares to move."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 6",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch06.mp3",
-            "duree": 546.82,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "06-01.jpg",
-                "titre": "Indy crosses camp disguised in the dead man’s greatcoat, carrying tins."
-              },
-              {
-                "at": 12.64,
-                "image": "06-02.jpg",
-                "titre": "Indy passes the lit, noisy mess tent while listening to the soldiers."
-              },
-              {
-                "at": 37.64,
-                "image": "06-03.jpg",
-                "titre": "Three frozen tunics hang behind the mess tent."
-              },
-              {
-                "at": 46.3,
-                "image": "06-04.jpg",
-                "titre": "Indy slips into Kessler’s survey tent."
-              },
-              {
-                "at": 62.8,
-                "image": "06-05.jpg",
-                "titre": "Kessler’s precise tent: maps, two cups, survey table and locked trunk."
-              },
-              {
-                "at": 88.84,
-                "image": "06-06.jpg",
-                "titre": "Indy picks the trunk lock and discovers a leather folder."
-              },
-              {
-                "at": 101.3,
-                "image": "06-07.jpg",
-                "titre": "Indy studies the anthropometric photographs and calipers."
-              },
-              {
-                "at": 143.28,
-                "image": "06-08.jpg",
-                "titre": "He carefully returns a small personal photograph to its place."
-              },
-              {
-                "at": 152.96,
-                "image": "06-09.jpg",
-                "titre": "Indy reads Kessler’s private 1939 field report."
-              },
-              {
-                "at": 230.24,
-                "image": "06-10.jpg",
-                "titre": "A soldier searches the tent; Indy hides beneath the cot."
-              },
-              {
-                "at": 310.54,
-                "image": "06-11.jpg",
-                "titre": "Kessler enters and finds Indy beside the open trunk."
-              },
-              {
-                "at": 325.42,
-                "image": "06-12.jpg",
-                "titre": "Two guards raise rifles as Indy stops reaching for his revolver."
-              },
-              {
-                "at": 368.02,
-                "image": "06-13.jpg",
-                "titre": "Kessler tidies the room and restores every item to order."
-              },
-              {
-                "at": 382.6,
-                "image": "06-14.jpg",
-                "titre": "Kessler tells Indy he expected a thief, not a scholar."
-              },
-              {
-                "at": 397.26,
-                "image": "06-15.jpg",
-                "titre": "Kessler explains why he fears Berlin will misuse the discovery."
-              },
-              {
-                "at": 414.22,
-                "image": "06-16.jpg",
-                "titre": "Indy nudges a brass weight; Kessler corrects it without looking."
-              },
-              {
-                "at": 439.14,
-                "image": "06-17.jpg",
-                "titre": "Indy and Kessler argue over a scholarly footnote."
-              },
-              {
-                "at": 480.76,
-                "image": "06-18.jpg",
-                "titre": "Kessler asks Indy to examine the being and give an honest judgment."
-              },
-              {
-                "at": 497.3,
-                "image": "06-19.jpg",
-                "titre": "Kessler offers a sweet sent by his sister in Zurich."
-              },
-              {
-                "at": 527.8,
-                "image": "06-20.jpg",
-                "titre": "Kessler invites Indy to walk to the pen; Indy asks whether it has a name."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 7",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch07.mp3",
-            "duree": 604.84,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "07-01.jpg",
-                "titre": "Kessler leads Indy and two riflemen to the enclosure."
-              },
-              {
-                "at": 35.24,
-                "image": "07-02.jpg",
-                "titre": "Kessler shows Indy the tall figure seated against the far timber."
-              },
-              {
-                "at": 58.36,
-                "image": "07-03.jpg",
-                "titre": "The captive looks at Indy with patient, humanlike attention."
-              },
-              {
-                "at": 91.26,
-                "image": "07-04.jpg",
-                "titre": "Indy notices scratches at seated height on the post."
-              },
-              {
-                "at": 103.12,
-                "image": "07-05.jpg",
-                "titre": "Indy counts repeated groups of tally marks."
-              },
-              {
-                "at": 137.92,
-                "image": "07-06.jpg",
-                "titre": "He spots bright worn bolt heads at the lower pen corner."
-              },
-              {
-                "at": 150.88,
-                "image": "07-07.jpg",
-                "titre": "The captive rests its chin on its knees while Indy studies it."
-              },
-              {
-                "at": 184.18,
-                "image": "07-08.jpg",
-                "titre": "A young soldier brings Indy cold stew in the supply tent."
-              },
-              {
-                "at": 215.54,
-                "image": "07-09.jpg",
-                "titre": "The soldier quietly says he wants to go home."
-              },
-              {
-                "at": 226.34,
-                "image": "07-10.jpg",
-                "titre": "At dawn Indy leaves; the mess cook gives him bread."
-              },
-              {
-                "at": 250.44,
-                "image": "07-11.jpg",
-                "titre": "Indy hides behind a shoulder-high rock as a dog patrol approaches."
-              },
-              {
-                "at": 261.38,
-                "image": "07-12.jpg",
-                "titre": "The yellow dog sniffs toward Indy’s hiding place."
-              },
-              {
-                "at": 274.66,
-                "image": "07-13.jpg",
-                "titre": "Indy tosses bread aside to redirect the dog."
-              },
-              {
-                "at": 336.1,
-                "image": "07-14.jpg",
-                "titre": "Tsering mends her coat as Indy tells her what happened."
-              },
-              {
-                "at": 344.98,
-                "image": "07-15.jpg",
-                "titre": "Tsering stops sewing when Indy describes the photograph."
-              },
-              {
-                "at": 362.86,
-                "image": "07-16.jpg",
-                "titre": "Tsering asks about her brother’s chipped front tooth."
-              },
-              {
-                "at": 462.14,
-                "image": "07-17.jpg",
-                "titre": "Tsering draws the long-hidden letter from an inner pocket."
-              },
-              {
-                "at": 484.76,
-                "image": "07-18.jpg",
-                "titre": "Indy unfolds Norbu’s letter by the ridge fire."
-              },
-              {
-                "at": 506.7,
-                "image": "07-19.jpg",
-                "titre": "Norbu’s letter recalls bones found in the ice above camp."
-              },
-              {
-                "at": 589.36,
-                "image": "07-20.jpg",
-                "titre": "At dawn, Tsering’s grief breaks beside the spent fire."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 8",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch08.mp3",
-            "duree": 559.46,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "08-01.jpg",
-                "titre": "Indy and Tsering sit sleepless beside Norbu’s letter and a small fire."
-              },
-              {
-                "at": 28.2,
-                "image": "08-02.jpg",
-                "titre": "Tsering grips her knife, angry and intent on confronting Kessler."
-              },
-              {
-                "at": 51.7,
-                "image": "08-03.jpg",
-                "titre": "Indy argues for justice and getting the truth into the open."
-              },
-              {
-                "at": 116.3,
-                "image": "08-04.jpg",
-                "titre": "Tsering quietly pulls the blanket back over Indy’s shoulder."
-              },
-              {
-                "at": 126.12,
-                "image": "08-05.jpg",
-                "titre": "At dawn, Tsering makes butter tea as Indy warms his hands."
-              },
-              {
-                "at": 145.08,
-                "image": "08-06.jpg",
-                "titre": "Tsering recalls Norbu’s stubbornness and singing."
-              },
-              {
-                "at": 196.06,
-                "image": "08-07.jpg",
-                "titre": "Pemba arrives breathless with urgent news."
-              },
-              {
-                "at": 201.96,
-                "image": "08-08.jpg",
-                "titre": "Tsering guides Indy through a silent Lee-Enfield bolt cycle."
-              },
-              {
-                "at": 282.06,
-                "image": "08-09.jpg",
-                "titre": "Pemba describes the polite German flyers and their questions."
-              },
-              {
-                "at": 299.5,
-                "image": "08-10.jpg",
-                "titre": "The group checks their tools, rifle and fourteen rounds."
-              },
-              {
-                "at": 308.22,
-                "image": "08-11.jpg",
-                "titre": "Tsering finishes the rifle lesson; Indy learns to recognize its sound."
-              },
-              {
-                "at": 337.42,
-                "image": "08-12.jpg",
-                "titre": "They observe the transport plane and gravel landing strip."
-              },
-              {
-                "at": 353.36,
-                "image": "08-13.jpg",
-                "titre": "Six ground crew sit beside the petrol drums near the plane."
-              },
-              {
-                "at": 385.58,
-                "image": "08-14.jpg",
-                "titre": "Two rocket troopers appear above the eastern ridge."
-              },
-              {
-                "at": 392.12,
-                "image": "08-15.jpg",
-                "titre": "Indy and Tsering run for the narrow shale gully."
-              },
-              {
-                "at": 425.48,
-                "image": "08-16.jpg",
-                "titre": "Indy counts the troopers’ remaining flight time on his watch."
-              },
-              {
-                "at": 441.78,
-                "image": "08-17.jpg",
-                "titre": "Tsering raises her rifle; Indy signals her to wait."
-              },
-              {
-                "at": 450.7,
-                "image": "08-18.jpg",
-                "titre": "Flame licks the gully overhang as Indy keeps counting."
-              },
-              {
-                "at": 469.9,
-                "image": "08-19.jpg",
-                "titre": "One rocket pack sputters and the two troopers spiral away."
-              },
-              {
-                "at": 537.48,
-                "image": "08-20.jpg",
-                "titre": "By the ridge fire, Indy, Tsering and Pemba plan to enter the camp."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 9",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch09.mp3",
-            "duree": 863.35,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "09-01.jpg",
-                "titre": "Tsering shaves Indy while Pemba reports the new arrival."
-              },
-              {
-                "at": 27.64,
-                "image": "09-02.jpg",
-                "titre": "Voss arrives by mule with a wireless set and fragile case; Indy and Tsering observe."
-              },
-              {
-                "at": 40.38,
-                "image": "09-03.jpg",
-                "titre": "Pemba identifies Voss as the Berlin administrator."
-              },
-              {
-                "at": 66.2,
-                "image": "09-04.jpg",
-                "titre": "Pemba recounts Voss’s precise corrections and the gramophone dispute."
-              },
-              {
-                "at": 104.68,
-                "image": "09-05.jpg",
-                "titre": "Indy and Tsering discuss exploiting the difference between Voss and Kessler."
-              },
-              {
-                "at": 146.88,
-                "image": "09-06.jpg",
-                "titre": "Tsering sets the seventh-bell schedule for entering the camp."
-              },
-              {
-                "at": 156.68,
-                "image": "09-07.jpg",
-                "titre": "Indy walks alone toward the camp at dusk."
-              },
-              {
-                "at": 177.52,
-                "image": "09-08.jpg",
-                "titre": "Sentries search Indy and return the red wrist cord."
-              },
-              {
-                "at": 186.66,
-                "image": "09-09.jpg",
-                "titre": "Voss’s warm tent, coffee and family photograph set an unexpected tone."
-              },
-              {
-                "at": 247.0,
-                "image": "09-10.jpg",
-                "titre": "Voss leads Indy on a brisk walking inspection with Kuhn behind."
-              },
-              {
-                "at": 347.68,
-                "image": "09-11.jpg",
-                "titre": "Voss kneels at a guy rope as Indy quietly pockets a pencil."
-              },
-              {
-                "at": 412.58,
-                "image": "09-12.jpg",
-                "titre": "At the pen, the captive watches Voss and Indy with patient disinterest."
-              },
-              {
-                "at": 423.42,
-                "image": "09-13.jpg",
-                "titre": "Voss speaks of his daughters and wanting to explain the discovery to them."
-              },
-              {
-                "at": 470.66,
-                "image": "09-14.jpg",
-                "titre": "Indy points out the tally marks; Voss finally notices their meaning."
-              },
-              {
-                "at": 490.78,
-                "image": "09-15.jpg",
-                "titre": "Voss ends the walk and orders guards to escort Indy out."
-              },
-              {
-                "at": 571.68,
-                "image": "09-16.jpg",
-                "titre": "Stoll guides Indy toward the broken-ground edge and threatens a fall."
-              },
-              {
-                "at": 593.46,
-                "image": "09-17.jpg",
-                "titre": "Stoll shoves Indy into the clothesline and frozen tunics fall."
-              },
-              {
-                "at": 647.2,
-                "image": "09-18.jpg",
-                "titre": "Indy uses his belt buckle to trap Stoll’s forearm."
-              },
-              {
-                "at": 698.24,
-                "image": "09-19.jpg",
-                "titre": "Tsering charges in on the mule as the dinner bell rings."
-              },
-              {
-                "at": 847.94,
-                "image": "09-20.jpg",
-                "titre": "Tsering and Indy escape through the north perimeter on the mule."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 10",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch10.mp3",
-            "duree": 1106.55,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "10-01.jpg",
-                "titre": "Indy, Tsering and Pemba plan the night raid over a dirt map."
-              },
-              {
-                "at": 112.78,
-                "image": "10-02.jpg",
-                "titre": "Tsering oils her Lee-Enfield; Pemba brings stolen dried apricots."
-              },
-              {
-                "at": 167.66,
-                "image": "10-03.jpg",
-                "titre": "The team moves toward the generator shed after midnight."
-              },
-              {
-                "at": 187.62,
-                "image": "10-04.jpg",
-                "titre": "Pemba is captured while Indy restrains Tsering from rushing toward the guards."
-              },
-              {
-                "at": 302.26,
-                "image": "10-05.jpg",
-                "titre": "Tsering shoots a trooper’s cylinder, sparing the young man."
-              },
-              {
-                "at": 348.42,
-                "image": "10-06.jpg",
-                "titre": "Indy and Tsering approach the guarded trunk at the mule line.",
-                "loop": "loops/10-06.mp4"
-              },
-              {
-                "at": 396.28,
-                "image": "10-07.jpg",
-                "titre": "Indy opens the trunk and recovers Kessler’s folder and his revolver.",
-                "loop": "loops/10-07.mp4"
-              },
-              {
-                "at": 415.72,
-                "image": "10-08.jpg",
-                "titre": "Flaming harness troopers rise as searchlights sweep the camp."
-              },
-              {
-                "at": 464.44,
-                "image": "10-09.jpg",
-                "titre": "The creature calmly loosens its iron pen strap under the floodlights."
-              },
-              {
-                "at": 533.32,
-                "image": "10-10.jpg",
-                "titre": "Tsering cuts the mule picket rope; the herd surges through camp."
-              },
-              {
-                "at": 598.78,
-                "image": "10-11.jpg",
-                "titre": "Indy cuts the generator’s fuel line, plunging the camp into darkness."
-              },
-              {
-                "at": 613.44,
-                "image": "10-12.jpg",
-                "titre": "The lights fail as the creature tears free of the pen."
-              },
-              {
-                "at": 636.72,
-                "image": "10-13.jpg",
-                "titre": "Leutnant Falk descends on his flame pack and confronts Indy."
-              },
-              {
-                "at": 686.84,
-                "image": "10-14.jpg",
-                "titre": "Indy takes cover behind steel drums while Falk hovers above."
-              },
-              {
-                "at": 725.22,
-                "image": "10-15.jpg",
-                "titre": "Indy grabs Falk’s boots as the harness lifts them into the sky."
-              },
-              {
-                "at": 774.78,
-                "image": "10-16.jpg",
-                "titre": "Indy climbs toward the harness controls as the fuel gauge falls."
-              },
-              {
-                "at": 806.58,
-                "image": "10-17.jpg",
-                "titre": "A cross-valve turn sends the flying pair corkscrewing over camp."
-              },
-              {
-                "at": 860.72,
-                "image": "10-18.jpg",
-                "titre": "Falk and Indy crash into the mess tent and the cook intervenes."
-              },
-              {
-                "at": 1019.76,
-                "image": "10-19.jpg",
-                "titre": "The creature offers Indy its cup of rice; he raises an open hand."
-              },
-              {
-                "at": 1051.54,
-                "image": "10-20.jpg",
-                "titre": "Tsering catches Indy as the crevasse ledge gives way beneath him."
-              }
-            ]
-          },
-          {
-            "titre": "Chapitre 11",
-            "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch11.mp3",
-            "duree": 1966.79,
-            "scenes": [
-              {
-                "at": 0.0,
-                "image": "11-01.jpg",
-                "titre": "Indy descends into the crevasse to recover the satchel."
-              },
-              {
-                "at": 35.62,
-                "image": "11-02.jpg",
-                "titre": "Tsering hauls Indy and the satchel over the icy rim as Kessler watches."
-              },
-              {
-                "at": 67.76,
-                "image": "11-03.jpg",
-                "titre": "Tsering confronts Kessler at the crevasse; Indy learns he did not fire."
-              },
-              {
-                "at": 203.76,
-                "image": "11-04.jpg",
-                "titre": "Kessler writes and signs his confession in the snow."
-              },
-              {
-                "at": 219.08,
-                "image": "11-05.jpg",
-                "titre": "Jo arrives in a flashbulb afterglow with her Speed Graphic camera."
-              },
-              {
-                "at": 291.02,
-                "image": "11-06.jpg",
-                "titre": "Jo introduces herself to Tsering and offers to witness the confession."
-              },
-              {
-                "at": 350.38,
-                "image": "11-07.jpg",
-                "titre": "Jo photographs each page of Kessler’s confession by torchlight."
-              },
-              {
-                "at": 371.84,
-                "image": "11-08.jpg",
-                "titre": "Voss’s soldiers gather on the snowfield to capture the creature alive."
-              },
-              {
-                "at": 451.08,
-                "image": "11-09.jpg",
-                "titre": "The creature lifts the capture net and scatters its rope-holders."
-              },
-              {
-                "at": 662.98,
-                "image": "11-10.jpg",
-                "titre": "Jo’s camera flash blinds the diving trooper and sends him off course."
-              },
-              {
-                "at": 696.78,
-                "image": "11-11.jpg",
-                "titre": "The creature throws a boulder and knocks the trooper from his path."
-              },
-              {
-                "at": 761.52,
-                "image": "11-12.jpg",
-                "titre": "The creature raises its cup toward the group and walks into the high country."
-              },
-              {
-                "at": 871.64,
-                "image": "11-13.jpg",
-                "titre": "Indy returns photographs of the Tibetan men to Tsering."
-              },
-              {
-                "at": 917.44,
-                "image": "11-14.jpg",
-                "titre": "Indy burns Kessler’s research folder to keep the mountain a rumor."
-              },
-              {
-                "at": 967.14,
-                "image": "11-15.jpg",
-                "titre": "At dawn, bruised Pemba returns; enormous tracks cross the snowfield."
-              },
-              {
-                "at": 995.98,
-                "image": "11-16.jpg",
-                "titre": "An empty tin cup lies in the tracks, marked with one new stroke."
-              },
-              {
-                "at": 1069.24,
-                "image": "11-17.jpg",
-                "titre": "Voss returns with his surviving men and demands the documents."
-              },
-              {
-                "at": 1138.78,
-                "image": "11-18.jpg",
-                "titre": "Stoll refuses to raise his rifle as the ridge falls silent."
-              },
-              {
-                "at": 1636.84,
-                "image": "11-19.jpg",
-                "titre": "At dawn, Tsering keeps Norbu’s photograph and confession close beneath the open pass."
-              },
-              {
-                "at": 1906.1,
-                "image": "11-20.jpg",
-                "titre": "On the flight out, Indy watches the peaks vanish into cloud beside Jo."
-              }
-            ]
-          }
-        ]
-      }
+     "url": "#/projet/34",
+     "titre": "Le livre et le livre audio"
     },
     {
-      "id": 35,
-      "titre": "Mountain of the Gods (BD)",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Lis la BD dans l'app.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "label": "Le livre et le livre audio",
-          "url": "#/projet/34"
-        },
-        {
-          "label": "Le Story Player (images + audio)",
-          "url": "#/projet/38"
-        }
-      ],
-      "maj": "2026-10-24",
-      "ajoute": "2026-10-24T08:30",
-      "couverture": "covers/mountain-of-the-gods-bd-cover.jpg",
-      "serie": "Indiana Jones (privé)",
-      "bd": {
-        "dossier": "livres/mountain-of-the-gods-bd/",
-        "pages": [
-          "000.jpg",
-          "001.jpg",
-          "002.jpg",
-          "003.jpg",
-          "004.jpg",
-          "005.jpg",
-          "006.jpg",
-          "007.jpg",
-          "008.jpg",
-          "009.jpg",
-          "010.jpg",
-          "011.jpg",
-          "012.jpg",
-          "013.jpg",
-          "014.jpg",
-          "015.jpg",
-          "016.jpg",
-          "017.jpg",
-          "018.jpg",
-          "019.jpg",
-          "020.jpg",
-          "021.jpg",
-          "022.jpg",
-          "023.jpg",
-          "024.jpg",
-          "025.jpg",
-          "026.jpg",
-          "027.jpg",
-          "028.jpg",
-          "029.jpg",
-          "030.jpg",
-          "031.jpg",
-          "032.jpg",
-          "033.jpg",
-          "034.jpg",
-          "035.jpg",
-          "036.jpg",
-          "037.jpg",
-          "038.jpg",
-          "039.jpg",
-          "040.jpg",
-          "041.jpg",
-          "042.jpg",
-          "043.jpg",
-          "044.jpg",
-          "045.jpg",
-          "046.jpg",
-          "047.jpg",
-          "048.jpg"
-        ],
-        "couverture": "000.jpg"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-24",
-          "texte": "BD de 48 pages ajoutée dans l'app. Usage perso seulement."
-        }
-      ]
-    },
-    {
-      "id": 32,
-      "titre": "The Roar of Two Kingdoms (Lion Guard, privé)",
-      "categorie": "Livres",
-      "statut": "Livre fini (v4)",
-      "progression": 100,
-      "prochaine_etape": "Lire la v4 dans l'app. Livre audio plus tard.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-23",
-      "ajoute": "2026-10-23T08:44",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "v4 finie (passe anti-IA), EPUB dans l'app à ta demande."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Pitch anglais prêt sur ma box. Projet privé, usage perso seulement (Disney) : le texte reste hors du site."
-        }
-      ],
-      "serie": "Hors série",
-      "pitch": "# The Roar of Two Kingdoms\n*An original Lion Guard story — audiobook pitch (private, personal use)*\n\n**Logline:** Years after the Tree of Life, King Kion must answer to two kingdoms at once. A pride born of drought is uniting the Outlands, and the only way to save both homes is the power he swore never to misuse: the Roar of the Elders.\n\n**Hook:** Kion has a crown, his queen Rani, and a scar that still burns when he's angry. Kiara rules the Pride Lands with Kovu. When the rains fail in both realms, a new lioness, Zuri-Ama, gives starving Outsiders a home in the old volcano. War looms with Kion's own family on opposite sides, and the original Guard reunites for one last patrol.\n\n## Why fans will love it\n- The original Guard reunites.\n- Kion and Kiara rule side by side.\n- Ono's eyesight gets a heroic payoff.\n- It answers whether the scar's venom is really gone, and bridges to the Lion King II timeline.\n- Rani, Makini, Janja and Fuli all get real arcs.\n\n## Cast\nKion, Rani, Kiara, Kovu, Bunga, Fuli, Beshte, Ono, Makini, Janja, Rafiki and Mufasa's spirit.\nNew: **Zuri-Ama**, an antagonist you end up feeling for, and **Tamu**, Rani's young cousin.\n\n## Tone\nA warm adventure for ages 8 and up, with grown-up themes of duty, grief and forgiveness.\n\n## 14 chapters\n1. Dry Season\n2. Message from Pride Rock\n3. The Volcano Pride\n4. Old Friends\n5. Janja's Warning\n6. Split Council\n7. Riverbed Ambush\n8. Through Ono's Eyes\n9. The Scar Wakes\n10. Mufasa in the Clouds\n11. Two Kingdoms March\n12. Zuri-Ama's Truth\n13. The Gentle Roar — Kion calls the storm instead of the army.\n14. Rain on Both Kingdoms — Tamu joins the next Guard.\n\n## Length\nAbout 2 h 30, around 23,000 words (10–11 minutes per chapter).\n\n## Narration\nOne warm Arena voice with light character voices: Bunga talks fast, Fuli is clipped, Beshte is slow, Zuri-Ama is low and kind. Savanna ambience between chapters; drums only for the Roar scenes. No Disney songs.\n",
-      "epub": "livres/the-roar-of-two-kingdoms.epub",
-      "derniere_version": {
-        "label": "The Roar of Two Kingdoms v4.epub",
-        "url": "livres/the-roar-of-two-kingdoms.epub",
-        "date": "2026-10-23"
-      }
-    },
-    {
-      "id": 1,
-      "titre": "La Joconde — livre audio (Google Play)",
-      "categorie": "Livres audio",
-      "statut": "En cours",
-      "progression": 90,
-      "prochaine_etape": "Narration FR sur Arena + musique comédie parisienne (en file).",
-      "bloque_par": "",
-      "liens": [],
-      "maj": "2026-10-23",
-      "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Archivé à ta demande. La version Arena (33 pistes) est dans le projet « Ce qu'il en reste : La Joconde — livre audio »."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Livre audio en français sur Arena, avec musique de fond comédie légère parisienne. En file d'attente."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "Tu m'as demandé de faire le livre audio et de le mettre dans l'app. Production à lancer."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
-        }
-      ],
-      "serie": "Ce qu'il en reste",
-      "archive": true,
-      "archive_date": "2026-10-23",
-      "archive_raison": "Demandé par Christian — remplacé par « Ce qu'il en reste : La Joconde — livre audio » (Arena)"
-    },
-    {
-      "id": 2,
-      "titre": "Guide IA pour enseignants (vol. 3)",
-      "categorie": "Livres",
-      "statut": "En attente de toi",
-      "progression": 95,
-      "prochaine_etape": "Confirmer la publication sur Google Play.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-23",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Couverture ajoutée dans l'app (elle manquait dans la fiche). Publication : j'attends ton « oui, publie » dans le chat."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "Go reçu par note; j'attends ton « oui, publie » dans le chat avant de publier."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 95 %. Prochaine étape : Confirmer la publication sur Google Play."
-        }
-      ],
-      "serie": "Wait, AI Can Do THAT?!",
-      "couverture": "covers/wait-ai-enseignants.jpg",
-      "epub": "livres/wait-ai-enseignants.epub"
-    },
-    {
-      "id": 3,
-      "titre": "Ça s'est passé ici (Outaouais)",
-      "categorie": "Livres",
-      "statut": "Bloqué",
-      "progression": 80,
-      "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
-      "bloque_par": "Google · ton OK",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Ça s'est passé ici (Outaouais).epub",
-        "url": "https://drive.google.com/file/d/1EnsrAaL5oKheDs_YaXgMPvAHWlDOV5qB/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images en meilleure qualité (erreur 001 Google). Dernière version : Ça s'est passé ici (Outaouais).epub (2026-10-22)."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "epub": "livres/ca-s-est-passe-ici-outaouais.epub"
-    },
-    {
-      "id": 4,
-      "titre": "Wait, AI Can Do THAT?! — immobilier",
-      "categorie": "Livres",
-      "statut": "Bloqué",
-      "progression": 80,
-      "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
-      "bloque_par": "Google · ton OK",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Wait, AI Can Do THAT - immobilier.epub",
-        "url": "https://drive.google.com/file/d/12IefGjkwdnpPCVh3TdWhGw22vIP6GObU/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/wait-ai-immobilier.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : Wait, AI Can Do THAT - immobilier.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Wait, AI Can Do THAT?!",
-      "epub": "livres/wait-ai-immobilier.epub"
-    },
-    {
-      "id": 5,
-      "titre": "The Lines That Live",
-      "categorie": "Livres",
-      "statut": "Bloqué",
-      "progression": 80,
-      "prochaine_etape": "Images remises dans le livre (10 photos). Relire pis me dire si c'est beau.",
-      "bloque_par": "Google · ton OK",
-      "liens": [],
-      "maj": "2026-10-23",
-      "derniere_version": {
-        "label": "The Lines That Live.epub",
-        "url": "https://drive.google.com/file/d/1u5CUP26En3rt2I7-y1-fpZ8wcyVNqmWC/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/the-lines-that-live.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Les 10 images manquaient dans le fichier EPUB : je les ai remises dans les bons chapitres."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : The Lines That Live.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Hors série",
-      "epub": "livres/the-lines-that-live.epub"
-    },
-    {
-      "id": 6,
-      "titre": "Les morts du premier ministre (Kingsmere)",
-      "categorie": "Livres",
-      "statut": "Archivé",
-      "progression": 60,
-      "prochaine_etape": "Rien : intégré au livre Outaouais.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-23",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Fusionné dans « Ça s'est passé ici (Outaouais) », à ta demande."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 60 %. Prochaine étape : Écrire ch. 9–14."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "archive": true,
-      "archive_date": "2026-10-23",
-      "archive_raison": "Fusionné dans « Ça s'est passé ici (Outaouais) »"
-    },
-    {
-      "id": 7,
-      "titre": "La chose du sixième rang — Livre 2",
-      "categorie": "Livres",
-      "statut": "Archivé",
-      "progression": 25,
-      "prochaine_etape": "Continuer au ch. 5.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-23",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Archivé à ta demande."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 25 %. Prochaine étape : Continuer au ch. 5."
-        }
-      ],
-      "serie": "Hors série",
-      "tome": 2,
-      "archive": true,
-      "archive_date": "2026-10-23",
-      "archive_raison": "Demandé par Christian"
-    },
-    {
-      "id": 8,
-      "titre": "Second Notice",
-      "categorie": "Livres",
-      "statut": "À faire",
-      "progression": 95,
-      "prochaine_etape": "Ajouter la phrase manquante au ch. 15.",
-      "bloque_par": "Réal",
-      "liens": [
-        {
-          "titre": "Livre audio (ambiance +25 %)",
-          "url": "https://drive.google.com/file/d/1-WGkQIsEos5bE8A4HxugJ09TPKzaCw18/view"
-        }
-      ],
-      "maj": "2026-10-23",
-      "derniere_version": {
-        "label": "Second Notice - Everybody Goes Home Richer.epub",
-        "url": "https://drive.google.com/file/d/1GWxM-Y_H6fkykZ31qF_A8H2CiGqTD32S/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/second-notice.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 95 %. Prochaine étape : Ajouter la phrase manquante au ch. 15. Dernière version : Second Notice - Everybody Goes Home Richer.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "audio": [
-        {
-          "titre": "Livre audio complet (ambiance)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/second-notice.mp3",
-          "drive": "1p17VDat9L5kvOdT-hKTPR6M2bApIXIM0"
-        }
-      ],
-      "epub": "livres/second-notice.epub"
-    },
-    {
-      "id": 9,
-      "titre": "Nouveau livre",
-      "categorie": "Livres",
-      "statut": "À faire",
-      "progression": 0,
-      "prochaine_etape": "Me l'envoyer ; on teste la nouvelle procédure Arena.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 0 %. Prochaine étape : Me l'envoyer ; on teste la nouvelle procédure Arena."
-        }
-      ],
-      "serie": "Hors série"
-    },
-    {
-      "id": 10,
-      "titre": "Quarante-cinq minutes — livre audio v2",
-      "categorie": "Livres audio",
-      "statut": "En cours",
-      "progression": 70,
-      "prochaine_etape": "Refaire avec Arena : une seule voix fixe, aucun fichier effacé.",
-      "bloque_par": "Réal",
-      "liens": [
-        {
-          "titre": "Dossier du livre audio",
-          "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
-        },
-        {
-          "titre": "Livre EPUB officiel",
-          "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
-        "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/quarante-cinq-minutes.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 70 %. Prochaine étape : Refaire avec Arena : une seule voix fixe, aucun fichier effacé. Dernière version : Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3 (2026-10-22)."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "audio": [
-        {
-          "titre": "Livre audio complet (ambiance, 64k)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/quarante-cinq-minutes.mp3",
-          "drive": "1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL"
-        }
-      ],
-      "epub": "livres/quarante-cinq-minutes.epub"
-    },
-    {
-      "id": 11,
-      "titre": "Le poltergeist de Shawville — livre audio",
-      "categorie": "Livres audio",
-      "statut": "En cours",
-      "progression": 85,
-      "prochaine_etape": "Combler les trous des ch. 4 et 10.",
-      "bloque_par": "Réal",
-      "liens": [
-        {
-          "titre": "Version sans musique",
-          "url": "https://drive.google.com/file/d/13RjGrh4wWkbp494ZGgzavp_jIQOrH-_1/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Le poltergeist de Shawville - Livre audio complet (ambiance).mp3",
-        "url": "https://drive.google.com/file/d/1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK/view",
-        "date": "2026-10-20"
-      },
-      "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 85 %. Prochaine étape : Combler les trous des ch. 4 et 10. Dernière version : Le poltergeist de Shawville - Livre audio complet (ambiance).mp3 (2026-10-20)."
-        }
-      ],
-      "serie": "Ça s'est passé ici",
-      "audio": [
-        {
-          "titre": "Livre audio complet (ambiance)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/poltergeist-shawville.mp3",
-          "drive": "1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "titre": "Ce qu'il en reste : La Joconde",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Rien. En ligne à 5 $.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Ce qu'il en reste - La Joconde.epub",
-        "url": "https://drive.google.com/file/d/1aY6p6fs5N1NTVw-PhulpnFnmKcX_g1-p/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne à 5 $. Dernière version : Ce qu'il en reste - La Joconde.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Ce qu'il en reste",
-      "epub": "livres/ce-qu-il-en-reste-la-joconde.epub"
-    },
-    {
-      "id": 13,
-      "titre": "Wait, AI Can Do THAT?! — film/TV",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Rien. En ligne, gratuit.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne, gratuit."
-        }
-      ],
-      "serie": "Wait, AI Can Do THAT?!"
-    },
-    {
-      "id": 14,
-      "titre": "Lion Guard — vidéo v2 + Short + miniatures",
-      "categorie": "YouTube",
-      "statut": "En attente de toi",
-      "progression": 95,
-      "prochaine_etape": "Publier sur The Director Desk (vidéo, puis le Short).",
-      "bloque_par": "Toi",
-      "liens": [
-        {
-          "titre": "Short vertical",
-          "url": "https://drive.google.com/file/d/12yaabh4_-F7rqzoMLVvOxN9fAppQodY3/view"
-        },
-        {
-          "titre": "Miniature v2",
-          "url": "https://drive.google.com/file/d/1U3CSGvYZBj8sIl1jv5I7dBxNvrWhT2PG/view"
-        },
-        {
-          "titre": "Miniature option B",
-          "url": "https://drive.google.com/file/d/1ZAep14-kjfCA1ihEOg7dydRIPCGghwFZ/view"
-        },
-        {
-          "titre": "Miniature option E",
-          "url": "https://drive.google.com/file/d/1cVHh2AnuR1rZDaOwsq8owgehaJcJEI8w/view"
-        }
-      ],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Lion_Guard_Premiere_2015_EN_Suno_v2.mp4",
-        "url": "https://drive.google.com/file/d/11xnulNKt_GS3H8oXk-1R4QSCMzKa2Bm1/view",
-        "date": "2026-10-22"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 95 %. Prochaine étape : Publier sur The Director Desk (vidéo, puis le Short). Dernière version : Lion_Guard_Premiere_2015_EN_Suno_v2.mp4 (2026-10-22)."
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "titre": "Déménagement",
-      "categorie": "Maison",
-      "statut": "En cours",
-      "progression": 40,
-      "prochaine_etape": "Confirmer la date exacte (mi-fin novembre).",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 40 %. Prochaine étape : Confirmer la date exacte (mi-fin novembre)."
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "titre": "Déneigement",
-      "categorie": "Maison",
-      "statut": "En attente de toi",
-      "progression": 30,
-      "prochaine_etape": "Appeler pour des soumissions (500 $ à 1 000 $+/saison).",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Archivé à ta demande (note « Enlever la note »)."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en attente de toi, 30 %. Prochaine étape : Appeler pour des soumissions (500 $ à 1 000 $+/saison)."
-        }
-      ],
-      "archive": true,
-      "archive_date": "2026-10-22",
-      "archive_raison": "Demandé par Christian"
-    },
-    {
-      "id": 17,
-      "titre": "Assurance habitation",
-      "categorie": "Maison",
-      "statut": "À faire",
-      "progression": 0,
-      "prochaine_etape": "À confirmer.",
-      "bloque_par": "À confirmer",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "titre": "Pneus d'hiver",
-      "categorie": "Maison",
-      "statut": "À faire",
-      "progression": 0,
-      "prochaine_etape": "À confirmer.",
-      "bloque_par": "À confirmer",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "titre": "Recherche d'emploi",
-      "categorie": "Emploi",
-      "statut": "En cours",
-      "progression": 10,
-      "prochaine_etape": "À confirmer.",
-      "bloque_par": "À confirmer",
-      "liens": [],
-      "maj": "2026-10-22",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 10 %. Prochaine étape : À confirmer."
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "titre": "Le Dernier Lait",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Livre audio sur Arena (en file, un à la fois).",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-23",
-      "derniere_version": {
-        "label": "Le Dernier Lait.epub",
-        "url": "https://drive.google.com/file/d/1tZjC1f-mA8VlbvSIh1mcwXTU971LwV7Q/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/le-dernier-lait.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Livre audio sur Arena, en file d'attente."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le Dernier Lait.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Hors série",
-      "epub": "livres/le-dernier-lait.epub"
-    },
-    {
-      "id": 21,
-      "titre": "A City of Me",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "A City of Me.epub",
-        "url": "https://drive.google.com/file/d/1XM_1HDa8G9N1ppDw9i6LHaWOtIPQU2tV/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/a-city-of-me.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : A City of Me.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/a-city-of-me.epub"
-    },
-    {
-      "id": 22,
-      "titre": "Dancingly Yours",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Dancingly Yours.epub",
-        "url": "https://drive.google.com/file/d/1JT04aQj_H8TBFB1DNXPWRWTvqcYeCb5H/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/dancingly-yours.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Dancingly Yours.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/dancingly-yours.epub"
-    },
-    {
-      "id": 23,
-      "titre": "Missing Time at Road 44",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Missing Time at Road 44.epub",
-        "url": "https://drive.google.com/file/d/1hbsOCfPPe6OfzlRPvo9qLEVXBUtCgAkX/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/missing-time-at-road-44.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Missing Time at Road 44.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/missing-time-at-road-44.epub"
-    },
-    {
-      "id": 24,
-      "titre": "Le dernier Costco",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Nouvelle couverture avec « Les Monstres qu'on s'invente ». Me dire si t'aimes.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-23",
-      "derniere_version": {
-        "label": "Le dernier Costco.epub",
-        "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/le-dernier-costco.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Couverture refaite avec le lettrage de la série, comme sur le premier livre."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le dernier Costco.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Les Monstres qu'on s'invente",
-      "epub": "livres/le-dernier-costco.epub"
-    },
-    {
-      "id": 25,
-      "titre": "Les Monstres qu'on s'invente",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Les Monstres qu'on s'invente.epub",
-        "url": "https://drive.google.com/file/d/1bgIUZYQJowLry-1L5rL6Yf5tswi60dfu/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/les-monstres-qu-on-s-invente.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Les Monstres qu'on s'invente.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Les Monstres qu'on s'invente",
-      "epub": "livres/les-monstres-qu-on-s-invente.epub"
-    },
-    {
-      "id": 26,
-      "titre": "The Seventh Round",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 80,
-      "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-23",
-      "derniere_version": {
-        "label": "The Seventh Round.epub",
-        "url": "https://drive.google.com/file/d/1mhYaxIofahxXE1DnEmxpKBGPKdh-Exoe/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/the-seventh-round.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The Seventh Round.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/the-seventh-round.epub"
-    },
-    {
-      "id": 27,
-      "titre": "The 4th Hour: The Skull",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Livre audio prêt. Écoute-le dans l'app.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "titre": "The 4th Hour: Series Overview",
-          "url": "https://drive.google.com/file/d/1fDRpO9j-oeJta0zYPA95Id2xW-v8E0dJ/view"
-        },
-        {
-          "url": "#/projet/39",
-          "titre": "Version illustrée (200 illustrations)"
-        }
-      ],
-      "maj": "2026-10-26",
-      "derniere_version": {
-        "label": "The_4th_Hour_The_Skull_corrige.epub",
-        "url": "https://drive.google.com/file/d/1qj7J-66gjNphge6YiHSUV-ROH4GhmPxE/view",
-        "date": "2026-10-26"
-      },
-      "couverture": "covers/the-4th-hour-the-skull.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-24",
-          "texte": "Livre audio ajouté dans l'app : 3 h 09, une seule piste, voix féminine britannique, monté à -15 LUFS. Usage perso."
-        },
-        {
-          "date": "2026-10-24",
-          "texte": "Livre audio complété par Arena (16 chapitres, 3:08:50, narration seulement, voix féminine britannique), masters dans le Drive du projet. Ajout dans l'app à faire."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Livre audio sur Arena, en file d'attente."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
-        },
-        {
-          "date": "2026-10-22",
-          "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The 4th Hour - The Skull.epub (2026-10-22)."
-        }
-      ],
-      "serie": "The 4th Hour",
-      "epub": "livres/the-4th-hour-the-skull.epub",
-      "audio": [
-        {
-          "titre": "Livre audio complet (16 chapitres, 3 h 09)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/the-4th-hour-the-skull.mp3"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "titre": "The Story Bible for Claude (référence)",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Document de référence pour l'écriture.",
-      "bloque_par": "Personne",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "The Story Bible for Claude.epub",
-        "url": "https://drive.google.com/file/d/1fAGe2hLctotry5XCrBySwPwVSsQxzyjb/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/story-bible-for-claude.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "État : terminé, 100 %. Prochaine étape : Document de référence pour l'écriture. Dernière version : The Story Bible for Claude.epub (2026-10-22)."
-        }
-      ],
-      "serie": "Hors série",
-      "epub": "livres/story-bible-for-claude.epub"
-    },
-    {
-      "id": 29,
-      "titre": "Quarante-cinq minutes",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "",
-      "bloque_par": "",
-      "liens": [
-        {
-          "titre": "Livre EPUB officiel",
-          "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
-        },
-        {
-          "label": "La BD",
-          "url": "#/projet/36"
-        },
-        {
-          "label": "Le roman illustré",
-          "url": "#/projet/37"
-        }
-      ],
-      "maj": "2026-10-22",
-      "couverture": "covers/quarante-cinq-minutes.jpg",
-      "notes_real": [],
-      "serie": "Ça s'est passé ici",
-      "epub": "livres/quarante-cinq-minutes.epub",
-      "derniere_version": {
-        "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
-        "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
-        "date": "2026-10-22"
-      }
-    },
-    {
-      "id": 30,
-      "titre": "Indiana Jones and the Debt at Havana",
-      "categorie": "Livres",
-      "statut": "En cours",
-      "progression": 0,
-      "prochaine_etape": "Couverture + livre audio (Arena) dans la file, à partir de la version Google Doc du 17 oct.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "label": "Dossier Autres manuscrits (Drive)",
-          "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
-        }
-      ],
-      "maj": "2026-10-23",
-      "derniere_version": {
-        "label": "Indiana_Jones_and_the_Debt_at_Havana (Google Doc)",
-        "url": "https://docs.google.com/document/d/1KYyIcojSVYovjH3262ZMAMr3fktXI5pBO1s2s5wfhTI/edit",
-        "date": "2026-10-17"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Manuscrit privé sur ton Drive, pas publié sur le site."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Tu m'as demandé une couverture et un livre audio. En file, après les 3 autres livres audio."
-        }
-      ],
-      "serie": "Hors série"
-    },
-    {
-      "id": 31,
-      "titre": "Le dernier Costco — livre audio",
-      "categorie": "Livres audio",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Écouter et me dire ce que t’en penses.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-22",
-      "derniere_version": {
-        "label": "Le dernier Costco — 20 chapitres (MP3)",
-        "url": "https://drive.google.com/file/d/1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV/view",
-        "date": "2026-10-22"
-      },
-      "couverture": "covers/le-dernier-costco.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-22",
-          "texte": "Livre audio complet : 20 chapitres sur 20, environ 3 h 33."
-        }
-      ],
-      "serie": "Les Monstres qu'on s'invente",
-      "audio": [
-        {
-          "titre": "Jeudi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch01.mp3",
-          "drive": "1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV"
-        },
-        {
-          "titre": "Treize marches",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch02.mp3",
-          "drive": "1l42I0v7Y4vHd_8xSn1kGVO0R-823YpYd"
-        },
-        {
-          "titre": "Mardi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch03.mp3",
-          "drive": "1vmC6ljC9fpeWAU9ExxTGc3FyestJ2gNi"
-        },
-        {
-          "titre": "Vingt-sept ans",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch04.mp3",
-          "drive": "1JUIfb8pZRC_FeNEbCjXT5GB9hGIXyu4N"
-        },
-        {
-          "titre": "Les toilettes",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch05.mp3",
-          "drive": "1obkwu9H7j0fu-cGC59W7Jig5dSOdtsNn"
-        },
-        {
-          "titre": "Le monsieur du fromage",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch06.mp3",
-          "drive": "1n-DNqiALv_ITj-ttf2DgWfKMbKrXoVst"
-        },
-        {
-          "titre": "Dimanche chez Denise",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch07.mp3",
-          "drive": "18g2KU598UDbhAYnBzqL3FODGxGT-JNbc"
-        },
-        {
-          "titre": "Le registre",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch08.mp3",
-          "drive": "1Jrj_aHvIhmCeiQiU5rC_Fkmm-U_9dO1r"
-        },
-        {
-          "titre": "Cinq heures quarante et une",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch09.mp3",
-          "drive": "1AXCGTa-fhtdIsRdm3hc_ogovnHIW3qUE"
-        },
-        {
-          "titre": "Le manuel",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch10.mp3",
-          "drive": "1IMysdxDY4AvHwpylY-fZgrK9elEUDs01"
-        },
-        {
-          "titre": "Le siège",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch11.mp3",
-          "drive": "1Q0uFL5-0G9zuaRQESx8BD9QubUb76P9_"
-        },
-        {
-          "titre": "Les bouteilles",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch12.mp3",
-          "drive": "1a3Zxmh1z-KIo0-npT7KErn6bPxRgontk"
-        },
-        {
-          "titre": "Cent treize quatre-vingt-un",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch13.mp3",
-          "drive": "12YUfZiiZRWma21YUfCKYu0B1MHB1QMt_"
-        },
-        {
-          "titre": "La chaise du coin",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch14.mp3",
-          "drive": "15NrwJF5NjfczRKWfHikxW8nlM67qp2o4"
-        },
-        {
-          "titre": "La salle d’attente",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch15.mp3",
-          "drive": "1CjTlvcBy2wLHOtweOZcFXRgU7oK4rkYP"
-        },
-        {
-          "titre": "Cinq heures trente",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch16.mp3",
-          "drive": "1fUVTXy5C_bntuJlaoPPg73laEyOaEjJ5"
-        },
-        {
-          "titre": "Le dernier jeudi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch17.mp3",
-          "drive": "15Hw9PIZRw0S8Y1K15EeKAPwcDVC5JqWb"
-        },
-        {
-          "titre": "Les piliers",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch18.mp3",
-          "drive": "1zgn-oBZLfy0pTzXBbbf4emUqL_HDBX_Z"
-        },
-        {
-          "titre": "Le capot de la Pacifica",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch19.mp3",
-          "drive": "1W2k4VDytH6fzcmqnyuzZgoq9YnwN3oNj"
-        },
-        {
-          "titre": "Samedi",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch20.mp3",
-          "drive": "1KjyRU_Qr4dV--TiqQrulBw7bw0VVaBlm"
-        }
-      ],
-      "ajoute": "2026-10-22T19:30"
-    },
-    {
-      "id": 33,
-      "titre": "Ce qu'il en reste : La Joconde — livre audio",
-      "categorie": "Livres audio",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Écouter et me dire ce que t’en penses.",
-      "bloque_par": "Toi",
-      "liens": [],
-      "maj": "2026-10-23",
-      "ajoute": "2026-10-23T11:58",
-      "derniere_version": {
-        "label": "La Joconde — 33 pistes (MP3)",
-        "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch01.mp3",
-        "date": "2026-10-23"
-      },
-      "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Livre audio complet : 33 pistes, environ 3 h 47. Voix d'homme français (essai 1), valse « Parisian » de Kevin MacLeod (CC BY 4.0) en fond, musique baissée. Usage perso."
-        }
-      ],
-      "serie": "Ce qu'il en reste",
-      "audio": [
-        {
-          "titre": "Chapitre Un",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch01.mp3"
-        },
-        {
-          "titre": "Chapitre Deux",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch02.mp3"
-        },
-        {
-          "titre": "Chapitre Trois",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch03.mp3"
-        },
-        {
-          "titre": "Chapitre Quatre",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch04.mp3"
-        },
-        {
-          "titre": "Chapitre Cinq",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch05.mp3"
-        },
-        {
-          "titre": "Chapitre Six",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch06.mp3"
-        },
-        {
-          "titre": "Chapitre Sept",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch07.mp3"
-        },
-        {
-          "titre": "Chapitre Huit",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch08.mp3"
-        },
-        {
-          "titre": "Chapitre Neuf",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch09.mp3"
-        },
-        {
-          "titre": "Chapitre Dix",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch10.mp3"
-        },
-        {
-          "titre": "Chapitre Onze",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch11.mp3"
-        },
-        {
-          "titre": "Chapitre Douze",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch12.mp3"
-        },
-        {
-          "titre": "Chapitre Treize",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch13.mp3"
-        },
-        {
-          "titre": "Chapitre Quatorze",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch14.mp3"
-        },
-        {
-          "titre": "Chapitre Quinze",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch15.mp3"
-        },
-        {
-          "titre": "Chapitre Seize",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch16.mp3"
-        },
-        {
-          "titre": "Chapitre Dix-sept",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch17.mp3"
-        },
-        {
-          "titre": "Chapitre Dix-huit",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch18.mp3"
-        },
-        {
-          "titre": "Chapitre Dix-neuf",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch19.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch20.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt et un",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch21.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-deux",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch22.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-trois",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch23.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-quatre",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch24.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-cinq",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch25.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-six",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch26.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-sept",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch27.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-huit",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch28.mp3"
-        },
-        {
-          "titre": "Chapitre Vingt-neuf",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch29.mp3"
-        },
-        {
-          "titre": "Chapitre Trente",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch30.mp3"
-        },
-        {
-          "titre": "Chapitre Trente et un",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch31.mp3"
-        },
-        {
-          "titre": "Chapitre Trente-deux",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch32.mp3"
-        },
-        {
-          "titre": "Note de l'auteur",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch33.mp3"
-        }
-      ]
-    },
-    {
-      "id": 34,
-      "titre": "Indiana Jones and the Mountain of the Gods",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Livre audio prêt. Écoute-le dans l'app.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "label": "Le Story Player (images + audio)",
-          "url": "#/projet/38"
-        },
-        {
-          "label": "Dossier Autres manuscrits (Drive)",
-          "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
-        }
-      ],
-      "maj": "2026-10-26",
-      "epub": "livres/mountain-of-the-gods.epub",
-      "derniere_version": {
-        "label": "Indiana_Jones_and_the_Mountain_of_the_Gods_Revised_v4_Tight.epub (Drive privé)",
-        "url": "https://drive.google.com/file/d/1YFgo2KEZ8SoAfJkI_GMgDZNicy72HO1Q/view",
-        "date": "2026-10-26"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-23",
-          "texte": "Nouveau titre : Mountain of the Gods, avec ta couverture. Lecture dans l'app pis copie sur ton Drive."
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Livre audio complet fait sur Arena : 2 h 30, une seule piste, normalisé à -15 LUFS. Usage perso."
-        }
-      ],
-      "serie": "Hors série",
-      "couverture": "covers/mountain-of-the-gods.jpg",
-      "audio": [
-        {
-          "titre": "Livre audio complet (11 chapitres, 2 h 30)",
-          "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/mountain-of-the-gods.mp3"
-        }
-      ]
-    },
-    {
-      "id": 36,
-      "titre": "Quarante-cinq minutes (BD)",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Lis la BD dans l'app.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "label": "Le roman illustré",
-          "url": "#/projet/37"
-        },
-        {
-          "label": "Le livre et le livre audio",
-          "url": "#/projet/29"
-        }
-      ],
-      "maj": "2026-10-26",
-      "ajoute": "2026-10-26T16:35",
-      "couverture": "covers/quarante-cinq-minutes-bd-cover.jpg",
-      "serie": "Ça s'est passé ici",
-      "bd": {
-        "dossier": "livres/quarante-cinq-minutes-bd/",
-        "pages": [
-          "001.jpg",
-          "002.jpg",
-          "003.jpg",
-          "004.jpg",
-          "005.jpg",
-          "006.jpg",
-          "007.jpg",
-          "008.jpg",
-          "009.jpg",
-          "010.jpg",
-          "011.jpg",
-          "012.jpg",
-          "013.jpg",
-          "014.jpg",
-          "015.jpg",
-          "016.jpg",
-          "017.jpg",
-          "018.jpg",
-          "019.jpg",
-          "020.jpg"
-        ],
-        "couverture": "001.jpg"
-      },
-      "derniere_version": {
-        "label": "Quarante-cinq minutes — BD complète (20 pages).pdf",
-        "url": "https://drive.google.com/file/d/1plX3Ybus9R5skIFnforP2a_nOr2JhBME/view",
-        "date": "2026-10-26"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-26",
-          "texte": "BD de 20 pages ajoutée dans l'app. Privé, usage perso seulement."
-        }
-      ]
-    },
-    {
-      "id": 37,
-      "titre": "Quarante-cinq minutes — roman illustré",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Lis-le dans l'app.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "url": "#/projet/36",
-          "titre": "La BD"
-        },
-        {
-          "url": "#/projet/29",
-          "titre": "Le livre et le livre audio"
-        }
-      ],
-      "maj": "2026-10-26",
-      "ajoute": "2026-10-26T16:35",
-      "couverture": "covers/quarante-cinq-minutes.jpg",
-      "serie": "Ça s'est passé ici",
-      "epub": "livres/quarante-cinq-minutes-illustre.epub",
-      "derniere_version": {
-        "label": "Quarante-cinq minutes — roman illustré (104 illustrations).epub",
-        "url": "https://drive.google.com/file/d/1rOLNqq5vwHoQcN_NLhtKnFsCyTK3XUAO/view",
-        "date": "2026-10-26"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-26",
-          "texte": "Roman illustré (104 illustrations) ajouté dans l'app. Privé, usage perso seulement."
-        }
-      ]
-    },
-    {
-      "id": 39,
-      "titre": "The 4th Hour: The Skull — illustré",
-      "categorie": "Livres",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Lis-le dans l'app.",
-      "bloque_par": "",
-      "liens": [
-        {
-          "url": "#/projet/27",
-          "titre": "Le livre et le livre audio"
-        }
-      ],
-      "maj": "2026-10-26",
-      "ajoute": "2026-10-26T21:45",
-      "couverture": "covers/the-4th-hour-the-skull-illustre.jpg",
-      "serie": "The 4th Hour",
-      "epub": "livres/the-4th-hour-the-skull-illustre.epub",
-      "derniere_version": {
-        "label": "The_4th_Hour_The_Skull_Illustrated_200.epub",
-        "url": "https://drive.google.com/file/d/1z9nFmwudsIKcyPe47KPzJNuhHyOprHtN/view",
-        "date": "2026-10-26"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-26",
-          "texte": "Version illustrée (200 illustrations) faite sur Arena, ajoutée dans l'app."
-        }
-      ]
-    },
-    {
-      "id": 40,
-      "titre": "Tests séquences d'action",
-      "categorie": "YouTube",
-      "statut": "En cours",
-      "progression": 30,
-      "prochaine_etape": "Tes notes sur la séquence",
-      "bloque_par": "",
-      "liens": [],
-      "maj": "2026-10-27",
-      "ajoute": "2026-10-27T13:10",
-      "couverture": "covers/tests-sequences-action-tibet.jpg",
-      "videos": [
-        {
-          "titre": "Séquence Tibet (5 plans)",
-          "src": "videos/action-07-sequence-tibet.mp4",
-          "note": "La séquence complète au Tibet : Indy contre l'homme au jetpack, en 5 plans. Musique : « Five Armies »."
-        },
-        {
-          "titre": "1re version (1 min)",
-          "src": "videos/action-01-premiere-version.mp4",
-          "note": "Le premier essai, jugé incohérent."
-        },
-        {
-          "titre": "Un prompt par plan",
-          "src": "videos/action-02-un-prompt-par-plan.mp4",
-          "note": "« Beaucoup mieux »."
-        },
-        {
-          "titre": "Coupes rapides",
-          "src": "videos/action-03-coupes-rapides.mp4",
-          "note": "Plus d'énergie, plans plus courts."
-        },
-        {
-          "titre": "Jetpack v1",
-          "src": "videos/action-04-jetpack-v1.mp4",
-          "note": "Scène du jetpack tirée du chapitre 10."
-        },
-        {
-          "titre": "Plan 1 — désert",
-          "src": "videos/action-05-plan1-desert.mp4",
-          "note": "Premier plan de la séquence dictée (version désert)."
-        },
-        {
-          "titre": "Plan 1 — Tibet",
-          "src": "videos/action-06-plan1-tibet.mp4",
-          "note": "Le plan 1 refait dans une vallée du Tibet au crépuscule."
-        }
-      ],
-      "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies », licence CC BY 4.0. Usage personnel seulement."
-    },
-    {
-      "id": 41,
-      "titre": "Mountain of the Gods — Screenplay",
-      "categorie": "Screenplay",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Touche la couverture pour le lire.",
-      "bloque_par": "",
-      "liens": [],
-      "maj": "2026-10-27",
-      "ajoute": "2026-10-27T18:45",
-      "couverture": "covers/screenplay-mountain-of-the-gods.jpg",
-      "serie": "Hors série",
-      "derniere_version": {
-        "label": "Format standard (Courier 12, 125 p.) · version 2 · PDF, Fountain, FDX",
-        "url": "screenplay/mountain-of-the-gods.html",
-        "date": "2026-10-27"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-27",
-          "texte": "Ton document était déjà écrit en scénario; je l'ai mis en vrai format standard, sans rien changer au texte. Usage perso."
-        },
-        {
-          "date": "2026-10-27",
-          "texte": "Version 2 de ton scénario : 125 pages (avant 111), 87 scènes. L'ancien PDF reste là comme v1."
-        }
-      ],
-      "script": "screenplay/mountain-of-the-gods.html"
-    },
-    {
-      "id": 42,
-      "titre": "Second Notice — Screenplay",
-      "categorie": "Screenplay",
-      "statut": "Terminé",
-      "progression": 100,
-      "prochaine_etape": "Touche la couverture pour le lire.",
-      "bloque_par": "",
-      "liens": [],
-      "maj": "2026-10-27",
-      "ajoute": "2026-10-27T21:45",
-      "couverture": "covers/screenplay-second-notice.jpg",
-      "script": "screenplay/second-notice.html",
-      "serie": "Hors série",
-      "derniere_version": {
-        "label": "Format standard (Courier 12, 52 p.) · PDF, Fountain, FDX",
-        "url": "screenplay/second-notice.html",
-        "date": "2026-10-27"
-      },
-      "notes_real": [
-        {
-          "date": "2026-10-27",
-          "texte": "Ton document était déjà écrit en scénario (~40 min); mis en format standard sans changer le texte."
-        }
-      ]
+     "url": "#/projet/35",
+     "titre": "La BD"
     }
-  ]
+   ],
+   "maj": "2026-10-27",
+   "ajoute": "2026-10-27T04:45",
+   "couverture": "covers/mountain-of-the-gods-film.jpg",
+   "serie": "Indiana Jones (privé)",
+   "notes_real": [
+    {
+     "date": "2026-10-26",
+     "texte": "Story Player cinématique fait sur Arena : 11 chapitres, 59 images 16:9 synchronisées à l'audio. Usage perso seulement, jamais publié ailleurs."
+    },
+    {
+     "date": "2026-10-26",
+     "texte": "Narration v4 refaite (11 chapitres, voix masculine constante) avec les cues du Story Player v3. Mêmes 59 images. Usage perso seulement."
+    },
+    {
+     "date": "2026-10-26",
+     "texte": "Version immersive d'Arena : musique originale, ambiance et effets sonores mixés sous la narration v4 (mêmes cues, mêmes 59 images). Usage perso seulement."
+    },
+    {
+     "date": "2026-10-27",
+     "texte": "Chapitres 3 à 11 illustrés au complet par Arena (20 images chacun, v6) : 220 images en tout. Usage perso seulement."
+    }
+   ],
+   "film": {
+    "dossier": "livres/mountain-of-the-gods-film/",
+    "chapitres": [
+     {
+      "titre": "Chapitre 1",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch01.mp3",
+      "duree": 615.63,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "01-01.jpg",
+        "titre": "B-17 over the Bay of Biscay"
+       },
+       {
+        "at": 75.73,
+        "image": "01-02.jpg",
+        "titre": "Lindt offers an orange"
+       },
+       {
+        "at": 138.665,
+        "image": "01-03.jpg",
+        "titre": "Fighters rise into moonlight"
+       },
+       {
+        "at": 149.61,
+        "image": "01-04.jpg",
+        "titre": "Hollis opens fire"
+       },
+       {
+        "at": 161.65,
+        "image": "01-05.jpg",
+        "titre": "A man lands on the wing"
+       },
+       {
+        "at": 184.999,
+        "image": "01-06.jpg",
+        "titre": "Priest at the waist gun"
+       },
+       {
+        "at": 200.273,
+        "image": "01-07.jpg",
+        "titre": "The radio-hatch intruder"
+       },
+       {
+        "at": 205.956,
+        "image": "01-08.jpg",
+        "titre": "Indy in the passage"
+       },
+       {
+        "at": 232.596,
+        "image": "01-09.jpg",
+        "titre": "Hollis falls silent"
+       },
+       {
+        "at": 245.383,
+        "image": "01-10.jpg",
+        "titre": "Lindt and the satchel"
+       },
+       {
+        "at": 252.842,
+        "image": "01-11.jpg",
+        "titre": "The broken tail glazing"
+       },
+       {
+        "at": 266.34,
+        "image": "01-12.jpg",
+        "titre": "The sky goes quiet"
+       },
+       {
+        "at": 299.132,
+        "image": "01-13.jpg",
+        "titre": "St Eval landing"
+       },
+       {
+        "at": 303.619,
+        "image": "01-14.jpg",
+        "titre": "Delgado under the wing"
+       },
+       {
+        "at": 350.909,
+        "image": "01-15.jpg",
+        "titre": "Shaw’s London office"
+       },
+       {
+        "at": 403.411,
+        "image": "01-16.jpg",
+        "titre": "The logistics manifest"
+       },
+       {
+        "at": 461.465,
+        "image": "01-17.jpg",
+        "titre": "“They believe it”"
+       },
+       {
+        "at": 465.281,
+        "image": "01-18.jpg",
+        "titre": "The tailor’s press"
+       },
+       {
+        "at": 514.544,
+        "image": "01-19.jpg",
+        "titre": "The mission and the cover"
+       },
+       {
+        "at": 594.979,
+        "image": "01-20.jpg",
+        "titre": "Indy folds the manifest"
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 2",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch02.mp3",
+      "duree": 766.15,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "02-01.jpg",
+        "titre": "The Hump"
+       },
+       {
+        "at": 23.9,
+        "image": "02-02.jpg",
+        "titre": "The weather eases"
+       },
+       {
+        "at": 32.66,
+        "image": "02-03.jpg",
+        "titre": "Dinjan"
+       },
+       {
+        "at": 39.36,
+        "image": "02-04.jpg",
+        "titre": "Quartermaster issue"
+       },
+       {
+        "at": 56.54,
+        "image": "02-05.jpg",
+        "titre": "Six days on the trail"
+       },
+       {
+        "at": 67.88,
+        "image": "02-06.jpg",
+        "titre": "The mule balks"
+       },
+       {
+        "at": 100.08,
+        "image": "02-07.jpg",
+        "titre": "The wreck in the snow"
+       },
+       {
+        "at": 222.72,
+        "image": "02-08.jpg",
+        "titre": "Tea gardens to foothills"
+       },
+       {
+        "at": 427.8,
+        "image": "02-09.jpg",
+        "titre": "Crossing into Sikkim"
+       },
+       {
+        "at": 453.26,
+        "image": "02-10.jpg",
+        "titre": "Gerald Whitcombe"
+       },
+       {
+        "at": 535.88,
+        "image": "02-11.jpg",
+        "titre": "The German party"
+       },
+       {
+        "at": 555.8,
+        "image": "02-12.jpg",
+        "titre": "Kessler’s expedition"
+       },
+       {
+        "at": 570.18,
+        "image": "02-13.jpg",
+        "titre": "Shambhala"
+       },
+       {
+        "at": 597.72,
+        "image": "02-14.jpg",
+        "titre": "Dawa’s postcard"
+       },
+       {
+        "at": 641.62,
+        "image": "02-15.jpg",
+        "titre": "The letter to Tsering"
+       },
+       {
+        "at": 653.04,
+        "image": "02-16.jpg",
+        "titre": "An uneasy night"
+       },
+       {
+        "at": 673.06,
+        "image": "02-17.jpg",
+        "titre": "Gangtok bazaar"
+       },
+       {
+        "at": 680.78,
+        "image": "02-18.jpg",
+        "titre": "The hat trade"
+       },
+       {
+        "at": 713.06,
+        "image": "02-19.jpg",
+        "titre": "Rateng"
+       },
+       {
+        "at": 754.68,
+        "image": "02-20.jpg",
+        "titre": "Toward the eastern tent"
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 3",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch03.mp3",
+      "duree": 566.1,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "03-01.jpg",
+        "titre": "The trader warns Indy about Tsering at the frozen market edge."
+       },
+       {
+        "at": 35.46,
+        "image": "03-02.jpg",
+        "titre": "Tsering repairs a saddle buckle beside the cookfire as Indy arrives."
+       },
+       {
+        "at": 59.62,
+        "image": "03-03.jpg",
+        "titre": "Indy explains why he needs a guide into Shomo."
+       },
+       {
+        "at": 163.54,
+        "image": "03-04.jpg",
+        "titre": "Over butter tea, Tsering tests what Indy believes."
+       },
+       {
+        "at": 232.54,
+        "image": "03-05.jpg",
+        "titre": "Tsering recounts Norbu’s earlier German survey expedition."
+       },
+       {
+        "at": 290.98,
+        "image": "03-06.jpg",
+        "titre": "Tsering rejects the official story of Norbu’s death."
+       },
+       {
+        "at": 327.0,
+        "image": "03-07.jpg",
+        "titre": "Indy and Tsering recognize the unanswered truth about Norbu."
+       },
+       {
+        "at": 342.44,
+        "image": "03-08.jpg",
+        "titre": "Tsering agrees to guide Indy into Shomo."
+       },
+       {
+        "at": 364.08,
+        "image": "03-09.jpg",
+        "titre": "Tsering demands the whole truth about her brother."
+       },
+       {
+        "at": 389.82,
+        "image": "03-10.jpg",
+        "titre": "Tsering names her guiding fee beside the fire."
+       },
+       {
+        "at": 397.72,
+        "image": "03-11.jpg",
+        "titre": "Indy shows the rupees he has; Tsering stays matter-of-fact."
+       },
+       {
+        "at": 420.56,
+        "image": "03-12.jpg",
+        "titre": "Tsering weighs Indy’s expedition pack."
+       },
+       {
+        "at": 427.46,
+        "image": "03-13.jpg",
+        "titre": "Tsering assesses Indy’s travel equipment."
+       },
+       {
+        "at": 433.1,
+        "image": "03-14.jpg",
+        "titre": "Tsering weighs the Sanskrit grammar against the climb."
+       },
+       {
+        "at": 447.74,
+        "image": "03-15.jpg",
+        "titre": "Tsering removes pages from the heavy book."
+       },
+       {
+        "at": 470.78,
+        "image": "03-16.jpg",
+        "titre": "Tsering counts the socks in Indy’s pack."
+       },
+       {
+        "at": 492.62,
+        "image": "03-17.jpg",
+        "titre": "Tsering introduces the pack animals, including the gray mule."
+       },
+       {
+        "at": 516.06,
+        "image": "03-18.jpg",
+        "titre": "Tsering finds the soles of Indy’s boots splitting."
+       },
+       {
+        "at": 521.88,
+        "image": "03-19.jpg",
+        "titre": "Indy tries on a spare pair of boots that pinch."
+       },
+       {
+        "at": 554.08,
+        "image": "03-20.jpg",
+        "titre": "At first light, Indy and Tsering prepare to leave for Shomo."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 4",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch04.mp3",
+      "duree": 847.41,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "04-01.jpg",
+        "titre": "Indy struggles with altitude while crossing the 16,000-foot pass."
+       },
+       {
+        "at": 22.28,
+        "image": "04-02.jpg",
+        "titre": "Tsering shares tsampa beside the prayer-flag cairn."
+       },
+       {
+        "at": 88.56,
+        "image": "04-03.jpg",
+        "titre": "The mule train descends onto a broad snowfield."
+       },
+       {
+        "at": 102.3,
+        "image": "04-04.jpg",
+        "titre": "Tsering stops the train to listen near the rock opening."
+       },
+       {
+        "at": 128.14,
+        "image": "04-05.jpg",
+        "titre": "A low-flying Junkers Ju 52 crosses the ridge."
+       },
+       {
+        "at": 153.08,
+        "image": "04-06.jpg",
+        "titre": "A fracture races across the snow slope."
+       },
+       {
+        "at": 169.24,
+        "image": "04-07.jpg",
+        "titre": "Tsering cuts the lead rope and directs the team across-slope."
+       },
+       {
+        "at": 184.04,
+        "image": "04-08.jpg",
+        "titre": "Mules scatter as the avalanche bears down."
+       },
+       {
+        "at": 199.76,
+        "image": "04-09.jpg",
+        "titre": "Tsering and Indy brace together on the wooden pack saddle."
+       },
+       {
+        "at": 243.98,
+        "image": "04-10.jpg",
+        "titre": "They ride the moving snow, leaning around a boulder."
+       },
+       {
+        "at": 323.88,
+        "image": "04-11.jpg",
+        "titre": "After the avalanche, Tsering checks Indy’s fingers beside the broken saddle."
+       },
+       {
+        "at": 333.72,
+        "image": "04-12.jpg",
+        "titre": "Indy and Tsering count the surviving pack mules."
+       },
+       {
+        "at": 347.18,
+        "image": "04-13.jpg",
+        "titre": "The gray mule stands apart as the Junkers passes high above."
+       },
+       {
+        "at": 387.44,
+        "image": "04-14.jpg",
+        "titre": "At dawn, the gray treeless valley opens below them, smoke rising from camp."
+       },
+       {
+        "at": 478.56,
+        "image": "04-15.jpg",
+        "titre": "Tsering names Lhari but avoids looking at the sacred ridge."
+       },
+       {
+        "at": 512.52,
+        "image": "04-16.jpg",
+        "titre": "At midday the wind stops and the distant camp flags fall limp."
+       },
+       {
+        "at": 542.08,
+        "image": "04-17.jpg",
+        "titre": "From behind granite, they observe tents, a generator shed, mule line and enclosure."
+       },
+       {
+        "at": 612.74,
+        "image": "04-18.jpg",
+        "titre": "Tsering corrects Indy’s camp sketch and the direction of the wind."
+       },
+       {
+        "at": 686.22,
+        "image": "04-19.jpg",
+        "titre": "A broad-shouldered figure rises from the timber-shored fenced pen."
+       },
+       {
+        "at": 777.94,
+        "image": "04-20.jpg",
+        "titre": "After retreating, Indy gives Tsering his sheepskin coat as they plan their next move."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 5",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch05.mp3",
+      "duree": 466.26,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "05-01.jpg",
+        "titre": "Pemba approaches at dusk with both hands raised and empty."
+       },
+       {
+        "at": 52.6,
+        "image": "05-02.jpg",
+        "titre": "Pemba tells Indy and Tsering how long he has watched the camp."
+       },
+       {
+        "at": 98.2,
+        "image": "05-03.jpg",
+        "titre": "Pemba sketches the route into the German camp in the dirt."
+       },
+       {
+        "at": 104.72,
+        "image": "05-04.jpg",
+        "titre": "The searchlight passes overhead while the three stay hidden."
+       },
+       {
+        "at": 147.18,
+        "image": "05-05.jpg",
+        "titre": "Pemba recounts the truck accident that killed his brother."
+       },
+       {
+        "at": 171.32,
+        "image": "05-06.jpg",
+        "titre": "Pemba asks Indy to record his brother’s name correctly."
+       },
+       {
+        "at": 193.38,
+        "image": "05-07.jpg",
+        "titre": "Pemba shows the trail fork where he will hide the crate."
+       },
+       {
+        "at": 212.94,
+        "image": "05-08.jpg",
+        "titre": "Indy and Tsering weigh whether to trust Pemba."
+       },
+       {
+        "at": 238.94,
+        "image": "05-09.jpg",
+        "titre": "Tsering makes Indy practice folding into the crate."
+       },
+       {
+        "at": 271.18,
+        "image": "05-10.jpg",
+        "titre": "Tsering ties the red wool cord around Indy’s left wrist."
+       },
+       {
+        "at": 291.46,
+        "image": "05-11.jpg",
+        "titre": "Inside the crate, Indy watches through a small knot-hole."
+       },
+       {
+        "at": 305.34,
+        "image": "05-12.jpg",
+        "titre": "Pemba taps twice on the lid to signal Indy to stay still."
+       },
+       {
+        "at": 313.38,
+        "image": "05-13.jpg",
+        "titre": "Pemba walks beside the mule train, humming to the animals."
+       },
+       {
+        "at": 325.96,
+        "image": "05-14.jpg",
+        "titre": "A German sergeant counts crates at the checkpoint."
+       },
+       {
+        "at": 347.84,
+        "image": "05-15.jpg",
+        "titre": "The closed crate is set inside a storage tent at dusk."
+       },
+       {
+        "at": 361.48,
+        "image": "05-16.jpg",
+        "titre": "Pemba brings Indy a German greatcoat with its insignia removed."
+       },
+       {
+        "at": 380.46,
+        "image": "05-17.jpg",
+        "titre": "A white-coated orderly and guard approach the fenced pen with food."
+       },
+       {
+        "at": 400.68,
+        "image": "05-18.jpg",
+        "titre": "The shadowed figure carefully accepts the tin plate."
+       },
+       {
+        "at": 412.1,
+        "image": "05-19.jpg",
+        "titre": "The figure pours out the cup and saves the rice inside it."
+       },
+       {
+        "at": 436.7,
+        "image": "05-20.jpg",
+        "titre": "Pemba points Indy toward Kessler’s tent; Indy prepares to move."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 6",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch06.mp3",
+      "duree": 546.82,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "06-01.jpg",
+        "titre": "Indy crosses camp disguised in the dead man’s greatcoat, carrying tins."
+       },
+       {
+        "at": 12.64,
+        "image": "06-02.jpg",
+        "titre": "Indy passes the lit, noisy mess tent while listening to the soldiers."
+       },
+       {
+        "at": 37.64,
+        "image": "06-03.jpg",
+        "titre": "Three frozen tunics hang behind the mess tent."
+       },
+       {
+        "at": 46.3,
+        "image": "06-04.jpg",
+        "titre": "Indy slips into Kessler’s survey tent."
+       },
+       {
+        "at": 62.8,
+        "image": "06-05.jpg",
+        "titre": "Kessler’s precise tent: maps, two cups, survey table and locked trunk."
+       },
+       {
+        "at": 88.84,
+        "image": "06-06.jpg",
+        "titre": "Indy picks the trunk lock and discovers a leather folder."
+       },
+       {
+        "at": 101.3,
+        "image": "06-07.jpg",
+        "titre": "Indy studies the anthropometric photographs and calipers."
+       },
+       {
+        "at": 143.28,
+        "image": "06-08.jpg",
+        "titre": "He carefully returns a small personal photograph to its place."
+       },
+       {
+        "at": 152.96,
+        "image": "06-09.jpg",
+        "titre": "Indy reads Kessler’s private 1939 field report."
+       },
+       {
+        "at": 230.24,
+        "image": "06-10.jpg",
+        "titre": "A soldier searches the tent; Indy hides beneath the cot."
+       },
+       {
+        "at": 310.54,
+        "image": "06-11.jpg",
+        "titre": "Kessler enters and finds Indy beside the open trunk."
+       },
+       {
+        "at": 325.42,
+        "image": "06-12.jpg",
+        "titre": "Two guards raise rifles as Indy stops reaching for his revolver."
+       },
+       {
+        "at": 368.02,
+        "image": "06-13.jpg",
+        "titre": "Kessler tidies the room and restores every item to order."
+       },
+       {
+        "at": 382.6,
+        "image": "06-14.jpg",
+        "titre": "Kessler tells Indy he expected a thief, not a scholar."
+       },
+       {
+        "at": 397.26,
+        "image": "06-15.jpg",
+        "titre": "Kessler explains why he fears Berlin will misuse the discovery."
+       },
+       {
+        "at": 414.22,
+        "image": "06-16.jpg",
+        "titre": "Indy nudges a brass weight; Kessler corrects it without looking."
+       },
+       {
+        "at": 439.14,
+        "image": "06-17.jpg",
+        "titre": "Indy and Kessler argue over a scholarly footnote."
+       },
+       {
+        "at": 480.76,
+        "image": "06-18.jpg",
+        "titre": "Kessler asks Indy to examine the being and give an honest judgment."
+       },
+       {
+        "at": 497.3,
+        "image": "06-19.jpg",
+        "titre": "Kessler offers a sweet sent by his sister in Zurich."
+       },
+       {
+        "at": 527.8,
+        "image": "06-20.jpg",
+        "titre": "Kessler invites Indy to walk to the pen; Indy asks whether it has a name."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 7",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch07.mp3",
+      "duree": 604.84,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "07-01.jpg",
+        "titre": "Kessler leads Indy and two riflemen to the enclosure."
+       },
+       {
+        "at": 35.24,
+        "image": "07-02.jpg",
+        "titre": "Kessler shows Indy the tall figure seated against the far timber."
+       },
+       {
+        "at": 58.36,
+        "image": "07-03.jpg",
+        "titre": "The captive looks at Indy with patient, humanlike attention."
+       },
+       {
+        "at": 91.26,
+        "image": "07-04.jpg",
+        "titre": "Indy notices scratches at seated height on the post."
+       },
+       {
+        "at": 103.12,
+        "image": "07-05.jpg",
+        "titre": "Indy counts repeated groups of tally marks."
+       },
+       {
+        "at": 137.92,
+        "image": "07-06.jpg",
+        "titre": "He spots bright worn bolt heads at the lower pen corner."
+       },
+       {
+        "at": 150.88,
+        "image": "07-07.jpg",
+        "titre": "The captive rests its chin on its knees while Indy studies it."
+       },
+       {
+        "at": 184.18,
+        "image": "07-08.jpg",
+        "titre": "A young soldier brings Indy cold stew in the supply tent."
+       },
+       {
+        "at": 215.54,
+        "image": "07-09.jpg",
+        "titre": "The soldier quietly says he wants to go home."
+       },
+       {
+        "at": 226.34,
+        "image": "07-10.jpg",
+        "titre": "At dawn Indy leaves; the mess cook gives him bread."
+       },
+       {
+        "at": 250.44,
+        "image": "07-11.jpg",
+        "titre": "Indy hides behind a shoulder-high rock as a dog patrol approaches."
+       },
+       {
+        "at": 261.38,
+        "image": "07-12.jpg",
+        "titre": "The yellow dog sniffs toward Indy’s hiding place."
+       },
+       {
+        "at": 274.66,
+        "image": "07-13.jpg",
+        "titre": "Indy tosses bread aside to redirect the dog."
+       },
+       {
+        "at": 336.1,
+        "image": "07-14.jpg",
+        "titre": "Tsering mends her coat as Indy tells her what happened."
+       },
+       {
+        "at": 344.98,
+        "image": "07-15.jpg",
+        "titre": "Tsering stops sewing when Indy describes the photograph."
+       },
+       {
+        "at": 362.86,
+        "image": "07-16.jpg",
+        "titre": "Tsering asks about her brother’s chipped front tooth."
+       },
+       {
+        "at": 462.14,
+        "image": "07-17.jpg",
+        "titre": "Tsering draws the long-hidden letter from an inner pocket."
+       },
+       {
+        "at": 484.76,
+        "image": "07-18.jpg",
+        "titre": "Indy unfolds Norbu’s letter by the ridge fire."
+       },
+       {
+        "at": 506.7,
+        "image": "07-19.jpg",
+        "titre": "Norbu’s letter recalls bones found in the ice above camp."
+       },
+       {
+        "at": 589.36,
+        "image": "07-20.jpg",
+        "titre": "At dawn, Tsering’s grief breaks beside the spent fire."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 8",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch08.mp3",
+      "duree": 559.46,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "08-01.jpg",
+        "titre": "Indy and Tsering sit sleepless beside Norbu’s letter and a small fire."
+       },
+       {
+        "at": 28.2,
+        "image": "08-02.jpg",
+        "titre": "Tsering grips her knife, angry and intent on confronting Kessler."
+       },
+       {
+        "at": 51.7,
+        "image": "08-03.jpg",
+        "titre": "Indy argues for justice and getting the truth into the open."
+       },
+       {
+        "at": 116.3,
+        "image": "08-04.jpg",
+        "titre": "Tsering quietly pulls the blanket back over Indy’s shoulder."
+       },
+       {
+        "at": 126.12,
+        "image": "08-05.jpg",
+        "titre": "At dawn, Tsering makes butter tea as Indy warms his hands."
+       },
+       {
+        "at": 145.08,
+        "image": "08-06.jpg",
+        "titre": "Tsering recalls Norbu’s stubbornness and singing."
+       },
+       {
+        "at": 196.06,
+        "image": "08-07.jpg",
+        "titre": "Pemba arrives breathless with urgent news."
+       },
+       {
+        "at": 201.96,
+        "image": "08-08.jpg",
+        "titre": "Tsering guides Indy through a silent Lee-Enfield bolt cycle."
+       },
+       {
+        "at": 282.06,
+        "image": "08-09.jpg",
+        "titre": "Pemba describes the polite German flyers and their questions."
+       },
+       {
+        "at": 299.5,
+        "image": "08-10.jpg",
+        "titre": "The group checks their tools, rifle and fourteen rounds."
+       },
+       {
+        "at": 308.22,
+        "image": "08-11.jpg",
+        "titre": "Tsering finishes the rifle lesson; Indy learns to recognize its sound."
+       },
+       {
+        "at": 337.42,
+        "image": "08-12.jpg",
+        "titre": "They observe the transport plane and gravel landing strip."
+       },
+       {
+        "at": 353.36,
+        "image": "08-13.jpg",
+        "titre": "Six ground crew sit beside the petrol drums near the plane."
+       },
+       {
+        "at": 385.58,
+        "image": "08-14.jpg",
+        "titre": "Two rocket troopers appear above the eastern ridge."
+       },
+       {
+        "at": 392.12,
+        "image": "08-15.jpg",
+        "titre": "Indy and Tsering run for the narrow shale gully."
+       },
+       {
+        "at": 425.48,
+        "image": "08-16.jpg",
+        "titre": "Indy counts the troopers’ remaining flight time on his watch."
+       },
+       {
+        "at": 441.78,
+        "image": "08-17.jpg",
+        "titre": "Tsering raises her rifle; Indy signals her to wait."
+       },
+       {
+        "at": 450.7,
+        "image": "08-18.jpg",
+        "titre": "Flame licks the gully overhang as Indy keeps counting."
+       },
+       {
+        "at": 469.9,
+        "image": "08-19.jpg",
+        "titre": "One rocket pack sputters and the two troopers spiral away."
+       },
+       {
+        "at": 537.48,
+        "image": "08-20.jpg",
+        "titre": "By the ridge fire, Indy, Tsering and Pemba plan to enter the camp."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 9",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch09.mp3",
+      "duree": 863.35,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "09-01.jpg",
+        "titre": "Tsering shaves Indy while Pemba reports the new arrival."
+       },
+       {
+        "at": 27.64,
+        "image": "09-02.jpg",
+        "titre": "Voss arrives by mule with a wireless set and fragile case; Indy and Tsering observe."
+       },
+       {
+        "at": 40.38,
+        "image": "09-03.jpg",
+        "titre": "Pemba identifies Voss as the Berlin administrator."
+       },
+       {
+        "at": 66.2,
+        "image": "09-04.jpg",
+        "titre": "Pemba recounts Voss’s precise corrections and the gramophone dispute."
+       },
+       {
+        "at": 104.68,
+        "image": "09-05.jpg",
+        "titre": "Indy and Tsering discuss exploiting the difference between Voss and Kessler."
+       },
+       {
+        "at": 146.88,
+        "image": "09-06.jpg",
+        "titre": "Tsering sets the seventh-bell schedule for entering the camp."
+       },
+       {
+        "at": 156.68,
+        "image": "09-07.jpg",
+        "titre": "Indy walks alone toward the camp at dusk."
+       },
+       {
+        "at": 177.52,
+        "image": "09-08.jpg",
+        "titre": "Sentries search Indy and return the red wrist cord."
+       },
+       {
+        "at": 186.66,
+        "image": "09-09.jpg",
+        "titre": "Voss’s warm tent, coffee and family photograph set an unexpected tone."
+       },
+       {
+        "at": 247.0,
+        "image": "09-10.jpg",
+        "titre": "Voss leads Indy on a brisk walking inspection with Kuhn behind."
+       },
+       {
+        "at": 347.68,
+        "image": "09-11.jpg",
+        "titre": "Voss kneels at a guy rope as Indy quietly pockets a pencil."
+       },
+       {
+        "at": 412.58,
+        "image": "09-12.jpg",
+        "titre": "At the pen, the captive watches Voss and Indy with patient disinterest."
+       },
+       {
+        "at": 423.42,
+        "image": "09-13.jpg",
+        "titre": "Voss speaks of his daughters and wanting to explain the discovery to them."
+       },
+       {
+        "at": 470.66,
+        "image": "09-14.jpg",
+        "titre": "Indy points out the tally marks; Voss finally notices their meaning."
+       },
+       {
+        "at": 490.78,
+        "image": "09-15.jpg",
+        "titre": "Voss ends the walk and orders guards to escort Indy out."
+       },
+       {
+        "at": 571.68,
+        "image": "09-16.jpg",
+        "titre": "Stoll guides Indy toward the broken-ground edge and threatens a fall."
+       },
+       {
+        "at": 593.46,
+        "image": "09-17.jpg",
+        "titre": "Stoll shoves Indy into the clothesline and frozen tunics fall."
+       },
+       {
+        "at": 647.2,
+        "image": "09-18.jpg",
+        "titre": "Indy uses his belt buckle to trap Stoll’s forearm."
+       },
+       {
+        "at": 698.24,
+        "image": "09-19.jpg",
+        "titre": "Tsering charges in on the mule as the dinner bell rings."
+       },
+       {
+        "at": 847.94,
+        "image": "09-20.jpg",
+        "titre": "Tsering and Indy escape through the north perimeter on the mule."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 10",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch10.mp3",
+      "duree": 1106.55,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "10-01.jpg",
+        "titre": "Indy, Tsering and Pemba plan the night raid over a dirt map."
+       },
+       {
+        "at": 112.78,
+        "image": "10-02.jpg",
+        "titre": "Tsering oils her Lee-Enfield; Pemba brings stolen dried apricots."
+       },
+       {
+        "at": 167.66,
+        "image": "10-03.jpg",
+        "titre": "The team moves toward the generator shed after midnight."
+       },
+       {
+        "at": 187.62,
+        "image": "10-04.jpg",
+        "titre": "Pemba is captured while Indy restrains Tsering from rushing toward the guards."
+       },
+       {
+        "at": 302.26,
+        "image": "10-05.jpg",
+        "titre": "Tsering shoots a trooper’s cylinder, sparing the young man."
+       },
+       {
+        "at": 348.42,
+        "image": "10-06.jpg",
+        "titre": "Indy and Tsering approach the guarded trunk at the mule line.",
+        "loop": "loops/10-06.mp4"
+       },
+       {
+        "at": 396.28,
+        "image": "10-07.jpg",
+        "titre": "Indy opens the trunk and recovers Kessler’s folder and his revolver.",
+        "loop": "loops/10-07.mp4"
+       },
+       {
+        "at": 415.72,
+        "image": "10-08.jpg",
+        "titre": "Flaming harness troopers rise as searchlights sweep the camp."
+       },
+       {
+        "at": 464.44,
+        "image": "10-09.jpg",
+        "titre": "The creature calmly loosens its iron pen strap under the floodlights."
+       },
+       {
+        "at": 533.32,
+        "image": "10-10.jpg",
+        "titre": "Tsering cuts the mule picket rope; the herd surges through camp."
+       },
+       {
+        "at": 598.78,
+        "image": "10-11.jpg",
+        "titre": "Indy cuts the generator’s fuel line, plunging the camp into darkness."
+       },
+       {
+        "at": 613.44,
+        "image": "10-12.jpg",
+        "titre": "The lights fail as the creature tears free of the pen."
+       },
+       {
+        "at": 636.72,
+        "image": "10-13.jpg",
+        "titre": "Leutnant Falk descends on his flame pack and confronts Indy."
+       },
+       {
+        "at": 686.84,
+        "image": "10-14.jpg",
+        "titre": "Indy takes cover behind steel drums while Falk hovers above."
+       },
+       {
+        "at": 725.22,
+        "image": "10-15.jpg",
+        "titre": "Indy grabs Falk’s boots as the harness lifts them into the sky."
+       },
+       {
+        "at": 774.78,
+        "image": "10-16.jpg",
+        "titre": "Indy climbs toward the harness controls as the fuel gauge falls."
+       },
+       {
+        "at": 806.58,
+        "image": "10-17.jpg",
+        "titre": "A cross-valve turn sends the flying pair corkscrewing over camp."
+       },
+       {
+        "at": 860.72,
+        "image": "10-18.jpg",
+        "titre": "Falk and Indy crash into the mess tent and the cook intervenes."
+       },
+       {
+        "at": 1019.76,
+        "image": "10-19.jpg",
+        "titre": "The creature offers Indy its cup of rice; he raises an open hand."
+       },
+       {
+        "at": 1051.54,
+        "image": "10-20.jpg",
+        "titre": "Tsering catches Indy as the crevasse ledge gives way beneath him."
+       }
+      ]
+     },
+     {
+      "titre": "Chapitre 11",
+      "audio": "https://github.com/christian1195/mes-projets/releases/download/audio-v3/motg-film-mix-ch11.mp3",
+      "duree": 1966.79,
+      "scenes": [
+       {
+        "at": 0.0,
+        "image": "11-01.jpg",
+        "titre": "Indy descends into the crevasse to recover the satchel."
+       },
+       {
+        "at": 35.62,
+        "image": "11-02.jpg",
+        "titre": "Tsering hauls Indy and the satchel over the icy rim as Kessler watches."
+       },
+       {
+        "at": 67.76,
+        "image": "11-03.jpg",
+        "titre": "Tsering confronts Kessler at the crevasse; Indy learns he did not fire."
+       },
+       {
+        "at": 203.76,
+        "image": "11-04.jpg",
+        "titre": "Kessler writes and signs his confession in the snow."
+       },
+       {
+        "at": 219.08,
+        "image": "11-05.jpg",
+        "titre": "Jo arrives in a flashbulb afterglow with her Speed Graphic camera."
+       },
+       {
+        "at": 291.02,
+        "image": "11-06.jpg",
+        "titre": "Jo introduces herself to Tsering and offers to witness the confession."
+       },
+       {
+        "at": 350.38,
+        "image": "11-07.jpg",
+        "titre": "Jo photographs each page of Kessler’s confession by torchlight."
+       },
+       {
+        "at": 371.84,
+        "image": "11-08.jpg",
+        "titre": "Voss’s soldiers gather on the snowfield to capture the creature alive."
+       },
+       {
+        "at": 451.08,
+        "image": "11-09.jpg",
+        "titre": "The creature lifts the capture net and scatters its rope-holders."
+       },
+       {
+        "at": 662.98,
+        "image": "11-10.jpg",
+        "titre": "Jo’s camera flash blinds the diving trooper and sends him off course."
+       },
+       {
+        "at": 696.78,
+        "image": "11-11.jpg",
+        "titre": "The creature throws a boulder and knocks the trooper from his path."
+       },
+       {
+        "at": 761.52,
+        "image": "11-12.jpg",
+        "titre": "The creature raises its cup toward the group and walks into the high country."
+       },
+       {
+        "at": 871.64,
+        "image": "11-13.jpg",
+        "titre": "Indy returns photographs of the Tibetan men to Tsering."
+       },
+       {
+        "at": 917.44,
+        "image": "11-14.jpg",
+        "titre": "Indy burns Kessler’s research folder to keep the mountain a rumor."
+       },
+       {
+        "at": 967.14,
+        "image": "11-15.jpg",
+        "titre": "At dawn, bruised Pemba returns; enormous tracks cross the snowfield."
+       },
+       {
+        "at": 995.98,
+        "image": "11-16.jpg",
+        "titre": "An empty tin cup lies in the tracks, marked with one new stroke."
+       },
+       {
+        "at": 1069.24,
+        "image": "11-17.jpg",
+        "titre": "Voss returns with his surviving men and demands the documents."
+       },
+       {
+        "at": 1138.78,
+        "image": "11-18.jpg",
+        "titre": "Stoll refuses to raise his rifle as the ridge falls silent."
+       },
+       {
+        "at": 1636.84,
+        "image": "11-19.jpg",
+        "titre": "At dawn, Tsering keeps Norbu’s photograph and confession close beneath the open pass."
+       },
+       {
+        "at": 1906.1,
+        "image": "11-20.jpg",
+        "titre": "On the flight out, Indy watches the peaks vanish into cloud beside Jo."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 35,
+   "titre": "Mountain of the Gods (BD)",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Lis la BD dans l'app.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "label": "Le livre et le livre audio",
+     "url": "#/projet/34"
+    },
+    {
+     "label": "Le Story Player (images + audio)",
+     "url": "#/projet/38"
+    }
+   ],
+   "maj": "2026-10-24",
+   "ajoute": "2026-10-24T08:30",
+   "couverture": "covers/mountain-of-the-gods-bd-cover.jpg",
+   "serie": "Indiana Jones (privé)",
+   "bd": {
+    "dossier": "livres/mountain-of-the-gods-bd/",
+    "pages": [
+     "000.jpg",
+     "001.jpg",
+     "002.jpg",
+     "003.jpg",
+     "004.jpg",
+     "005.jpg",
+     "006.jpg",
+     "007.jpg",
+     "008.jpg",
+     "009.jpg",
+     "010.jpg",
+     "011.jpg",
+     "012.jpg",
+     "013.jpg",
+     "014.jpg",
+     "015.jpg",
+     "016.jpg",
+     "017.jpg",
+     "018.jpg",
+     "019.jpg",
+     "020.jpg",
+     "021.jpg",
+     "022.jpg",
+     "023.jpg",
+     "024.jpg",
+     "025.jpg",
+     "026.jpg",
+     "027.jpg",
+     "028.jpg",
+     "029.jpg",
+     "030.jpg",
+     "031.jpg",
+     "032.jpg",
+     "033.jpg",
+     "034.jpg",
+     "035.jpg",
+     "036.jpg",
+     "037.jpg",
+     "038.jpg",
+     "039.jpg",
+     "040.jpg",
+     "041.jpg",
+     "042.jpg",
+     "043.jpg",
+     "044.jpg",
+     "045.jpg",
+     "046.jpg",
+     "047.jpg",
+     "048.jpg"
+    ],
+    "couverture": "000.jpg"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-24",
+     "texte": "BD de 48 pages ajoutée dans l'app. Usage perso seulement."
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "titre": "The Roar of Two Kingdoms (Lion Guard, privé)",
+   "categorie": "Livres",
+   "statut": "Livre fini (v4)",
+   "progression": 100,
+   "prochaine_etape": "Lire la v4 dans l'app. Livre audio plus tard.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-23",
+   "ajoute": "2026-10-23T08:44",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "v4 finie (passe anti-IA), EPUB dans l'app à ta demande."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Pitch anglais prêt sur ma box. Projet privé, usage perso seulement (Disney) : le texte reste hors du site."
+    }
+   ],
+   "serie": "Hors série",
+   "pitch": "# The Roar of Two Kingdoms\n*An original Lion Guard story — audiobook pitch (private, personal use)*\n\n**Logline:** Years after the Tree of Life, King Kion must answer to two kingdoms at once. A pride born of drought is uniting the Outlands, and the only way to save both homes is the power he swore never to misuse: the Roar of the Elders.\n\n**Hook:** Kion has a crown, his queen Rani, and a scar that still burns when he's angry. Kiara rules the Pride Lands with Kovu. When the rains fail in both realms, a new lioness, Zuri-Ama, gives starving Outsiders a home in the old volcano. War looms with Kion's own family on opposite sides, and the original Guard reunites for one last patrol.\n\n## Why fans will love it\n- The original Guard reunites.\n- Kion and Kiara rule side by side.\n- Ono's eyesight gets a heroic payoff.\n- It answers whether the scar's venom is really gone, and bridges to the Lion King II timeline.\n- Rani, Makini, Janja and Fuli all get real arcs.\n\n## Cast\nKion, Rani, Kiara, Kovu, Bunga, Fuli, Beshte, Ono, Makini, Janja, Rafiki and Mufasa's spirit.\nNew: **Zuri-Ama**, an antagonist you end up feeling for, and **Tamu**, Rani's young cousin.\n\n## Tone\nA warm adventure for ages 8 and up, with grown-up themes of duty, grief and forgiveness.\n\n## 14 chapters\n1. Dry Season\n2. Message from Pride Rock\n3. The Volcano Pride\n4. Old Friends\n5. Janja's Warning\n6. Split Council\n7. Riverbed Ambush\n8. Through Ono's Eyes\n9. The Scar Wakes\n10. Mufasa in the Clouds\n11. Two Kingdoms March\n12. Zuri-Ama's Truth\n13. The Gentle Roar — Kion calls the storm instead of the army.\n14. Rain on Both Kingdoms — Tamu joins the next Guard.\n\n## Length\nAbout 2 h 30, around 23,000 words (10–11 minutes per chapter).\n\n## Narration\nOne warm Arena voice with light character voices: Bunga talks fast, Fuli is clipped, Beshte is slow, Zuri-Ama is low and kind. Savanna ambience between chapters; drums only for the Roar scenes. No Disney songs.\n",
+   "epub": "livres/the-roar-of-two-kingdoms.epub",
+   "derniere_version": {
+    "label": "The Roar of Two Kingdoms v4.epub",
+    "url": "livres/the-roar-of-two-kingdoms.epub",
+    "date": "2026-10-23"
+   }
+  },
+  {
+   "id": 1,
+   "titre": "La Joconde — livre audio (Google Play)",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 90,
+   "prochaine_etape": "Narration FR sur Arena + musique comédie parisienne (en file).",
+   "bloque_par": "",
+   "liens": [],
+   "maj": "2026-10-23",
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Archivé à ta demande. La version Arena (33 pistes) est dans le projet « Ce qu'il en reste : La Joconde — livre audio »."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio en français sur Arena, avec musique de fond comédie légère parisienne. En file d'attente."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "Tu m'as demandé de faire le livre audio et de le mettre dans l'app. Production à lancer."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 90 %. Prochaine étape : Choisir le prix et le genre."
+    }
+   ],
+   "serie": "Ce qu'il en reste",
+   "archive": true,
+   "archive_date": "2026-10-23",
+   "archive_raison": "Demandé par Christian — remplacé par « Ce qu'il en reste : La Joconde — livre audio » (Arena)"
+  },
+  {
+   "id": 2,
+   "titre": "Guide IA pour enseignants (vol. 3)",
+   "categorie": "Livres",
+   "statut": "En attente de toi",
+   "progression": 95,
+   "prochaine_etape": "Confirmer la publication sur Google Play.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture ajoutée dans l'app (elle manquait dans la fiche). Publication : j'attends ton « oui, publie » dans le chat."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "Go reçu par note; j'attends ton « oui, publie » dans le chat avant de publier."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 95 %. Prochaine étape : Confirmer la publication sur Google Play."
+    }
+   ],
+   "serie": "Wait, AI Can Do THAT?!",
+   "couverture": "covers/wait-ai-enseignants.jpg",
+   "epub": "livres/wait-ai-enseignants.epub"
+  },
+  {
+   "id": 3,
+   "titre": "Ça s'est passé ici (Outaouais)",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images en meilleure qualité (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Ça s'est passé ici (Outaouais).epub",
+    "url": "https://drive.google.com/file/d/1EnsrAaL5oKheDs_YaXgMPvAHWlDOV5qB/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images en meilleure qualité (erreur 001 Google). Dernière version : Ça s'est passé ici (Outaouais).epub (2026-10-22)."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "epub": "livres/ca-s-est-passe-ici-outaouais.epub"
+  },
+  {
+   "id": 4,
+   "titre": "Wait, AI Can Do THAT?! — immobilier",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Refaire couverture/images (erreur 001 Google).",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Wait, AI Can Do THAT - immobilier.epub",
+    "url": "https://drive.google.com/file/d/12IefGjkwdnpPCVh3TdWhGw22vIP6GObU/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/wait-ai-immobilier.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : Wait, AI Can Do THAT - immobilier.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Wait, AI Can Do THAT?!",
+   "epub": "livres/wait-ai-immobilier.epub"
+  },
+  {
+   "id": 5,
+   "titre": "The Lines That Live",
+   "categorie": "Livres",
+   "statut": "Bloqué",
+   "progression": 80,
+   "prochaine_etape": "Images remises dans le livre (10 photos). Relire pis me dire si c'est beau.",
+   "bloque_par": "Google · ton OK",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "The Lines That Live.epub",
+    "url": "https://drive.google.com/file/d/1u5CUP26En3rt2I7-y1-fpZ8wcyVNqmWC/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-lines-that-live.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Les 10 images manquaient dans le fichier EPUB : je les ai remises dans les bons chapitres."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : bloqué, 80 %. Prochaine étape : Refaire couverture/images (erreur 001 Google). Dernière version : The Lines That Live.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Hors série",
+   "epub": "livres/the-lines-that-live.epub"
+  },
+  {
+   "id": 6,
+   "titre": "Les morts du premier ministre (Kingsmere)",
+   "categorie": "Livres",
+   "statut": "Archivé",
+   "progression": 60,
+   "prochaine_etape": "Rien : intégré au livre Outaouais.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-23",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Fusionné dans « Ça s'est passé ici (Outaouais) », à ta demande."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 60 %. Prochaine étape : Écrire ch. 9–14."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "archive": true,
+   "archive_date": "2026-10-23",
+   "archive_raison": "Fusionné dans « Ça s'est passé ici (Outaouais) »"
+  },
+  {
+   "id": 7,
+   "titre": "La chose du sixième rang — Livre 2",
+   "categorie": "Livres",
+   "statut": "Archivé",
+   "progression": 25,
+   "prochaine_etape": "Continuer au ch. 5.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-23",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Archivé à ta demande."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 25 %. Prochaine étape : Continuer au ch. 5."
+    }
+   ],
+   "serie": "Hors série",
+   "tome": 2,
+   "archive": true,
+   "archive_date": "2026-10-23",
+   "archive_raison": "Demandé par Christian"
+  },
+  {
+   "id": 8,
+   "titre": "Second Notice",
+   "categorie": "Livres",
+   "statut": "À faire",
+   "progression": 95,
+   "prochaine_etape": "Ajouter la phrase manquante au ch. 15.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Livre audio (ambiance +25 %)",
+     "url": "https://drive.google.com/file/d/1-WGkQIsEos5bE8A4HxugJ09TPKzaCw18/view"
+    }
+   ],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Second Notice - Everybody Goes Home Richer.epub",
+    "url": "https://drive.google.com/file/d/1GWxM-Y_H6fkykZ31qF_A8H2CiGqTD32S/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/second-notice.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 95 %. Prochaine étape : Ajouter la phrase manquante au ch. 15. Dernière version : Second Notice - Everybody Goes Home Richer.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "audio": [
+    {
+     "titre": "Livre audio complet (ambiance)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/second-notice.mp3",
+     "drive": "1p17VDat9L5kvOdT-hKTPR6M2bApIXIM0"
+    }
+   ],
+   "epub": "livres/second-notice.epub"
+  },
+  {
+   "id": 9,
+   "titre": "Nouveau livre",
+   "categorie": "Livres",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "Me l'envoyer ; on teste la nouvelle procédure Arena.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : Me l'envoyer ; on teste la nouvelle procédure Arena."
+    }
+   ],
+   "serie": "Hors série"
+  },
+  {
+   "id": 10,
+   "titre": "Quarante-cinq minutes — livre audio v2",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 70,
+   "prochaine_etape": "Refaire avec Arena : une seule voix fixe, aucun fichier effacé.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Dossier du livre audio",
+     "url": "https://drive.google.com/drive/folders/1V5_nXNMsAvfBeDbfnbqZZa4G0HdJoEwS"
+    },
+    {
+     "titre": "Livre EPUB officiel",
+     "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
+    "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/quarante-cinq-minutes.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 70 %. Prochaine étape : Refaire avec Arena : une seule voix fixe, aucun fichier effacé. Dernière version : Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3 (2026-10-22)."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "audio": [
+    {
+     "titre": "Livre audio complet (ambiance, 64k)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/quarante-cinq-minutes.mp3",
+     "drive": "1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL"
+    }
+   ],
+   "epub": "livres/quarante-cinq-minutes.epub"
+  },
+  {
+   "id": 11,
+   "titre": "Le poltergeist de Shawville — livre audio",
+   "categorie": "Livres audio",
+   "statut": "En cours",
+   "progression": 85,
+   "prochaine_etape": "Combler les trous des ch. 4 et 10.",
+   "bloque_par": "Réal",
+   "liens": [
+    {
+     "titre": "Version sans musique",
+     "url": "https://drive.google.com/file/d/13RjGrh4wWkbp494ZGgzavp_jIQOrH-_1/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Le poltergeist de Shawville - Livre audio complet (ambiance).mp3",
+    "url": "https://drive.google.com/file/d/1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK/view",
+    "date": "2026-10-20"
+   },
+   "couverture": "covers/ca-s-est-passe-ici-outaouais.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 85 %. Prochaine étape : Combler les trous des ch. 4 et 10. Dernière version : Le poltergeist de Shawville - Livre audio complet (ambiance).mp3 (2026-10-20)."
+    }
+   ],
+   "serie": "Ça s'est passé ici",
+   "audio": [
+    {
+     "titre": "Livre audio complet (ambiance)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/poltergeist-shawville.mp3",
+     "drive": "1YfOpDJrPvMZ73U0T8DqpCKw4WTubpRFK"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "titre": "Ce qu'il en reste : La Joconde",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Rien. En ligne à 5 $.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Ce qu'il en reste - La Joconde.epub",
+    "url": "https://drive.google.com/file/d/1aY6p6fs5N1NTVw-PhulpnFnmKcX_g1-p/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne à 5 $. Dernière version : Ce qu'il en reste - La Joconde.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Ce qu'il en reste",
+   "epub": "livres/ce-qu-il-en-reste-la-joconde.epub"
+  },
+  {
+   "id": 13,
+   "titre": "Wait, AI Can Do THAT?! — film/TV",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Rien. En ligne, gratuit.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Rien. En ligne, gratuit."
+    }
+   ],
+   "serie": "Wait, AI Can Do THAT?!"
+  },
+  {
+   "id": 14,
+   "titre": "Lion Guard — vidéo v2 + Short + miniatures",
+   "categorie": "YouTube",
+   "statut": "En attente de toi",
+   "progression": 95,
+   "prochaine_etape": "Publier sur The Director Desk (vidéo, puis le Short).",
+   "bloque_par": "Toi",
+   "liens": [
+    {
+     "titre": "Short vertical",
+     "url": "https://drive.google.com/file/d/12yaabh4_-F7rqzoMLVvOxN9fAppQodY3/view"
+    },
+    {
+     "titre": "Miniature v2",
+     "url": "https://drive.google.com/file/d/1U3CSGvYZBj8sIl1jv5I7dBxNvrWhT2PG/view"
+    },
+    {
+     "titre": "Miniature option B",
+     "url": "https://drive.google.com/file/d/1ZAep14-kjfCA1ihEOg7dydRIPCGghwFZ/view"
+    },
+    {
+     "titre": "Miniature option E",
+     "url": "https://drive.google.com/file/d/1cVHh2AnuR1rZDaOwsq8owgehaJcJEI8w/view"
+    }
+   ],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Lion_Guard_Premiere_2015_EN_Suno_v2.mp4",
+    "url": "https://drive.google.com/file/d/11xnulNKt_GS3H8oXk-1R4QSCMzKa2Bm1/view",
+    "date": "2026-10-22"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 95 %. Prochaine étape : Publier sur The Director Desk (vidéo, puis le Short). Dernière version : Lion_Guard_Premiere_2015_EN_Suno_v2.mp4 (2026-10-22)."
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "titre": "Déménagement",
+   "categorie": "Maison",
+   "statut": "En cours",
+   "progression": 40,
+   "prochaine_etape": "Confirmer la date exacte (mi-fin novembre).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 40 %. Prochaine étape : Confirmer la date exacte (mi-fin novembre)."
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "titre": "Déneigement",
+   "categorie": "Maison",
+   "statut": "En attente de toi",
+   "progression": 30,
+   "prochaine_etape": "Appeler pour des soumissions (500 $ à 1 000 $+/saison).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "Archivé à ta demande (note « Enlever la note »)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en attente de toi, 30 %. Prochaine étape : Appeler pour des soumissions (500 $ à 1 000 $+/saison)."
+    }
+   ],
+   "archive": true,
+   "archive_date": "2026-10-22",
+   "archive_raison": "Demandé par Christian"
+  },
+  {
+   "id": 17,
+   "titre": "Assurance habitation",
+   "categorie": "Maison",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "titre": "Pneus d'hiver",
+   "categorie": "Maison",
+   "statut": "À faire",
+   "progression": 0,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : à faire, 0 %. Prochaine étape : À confirmer."
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "titre": "Recherche d'emploi",
+   "categorie": "Emploi",
+   "statut": "En cours",
+   "progression": 10,
+   "prochaine_etape": "À confirmer.",
+   "bloque_par": "À confirmer",
+   "liens": [],
+   "maj": "2026-10-22",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 10 %. Prochaine étape : À confirmer."
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "titre": "Le Dernier Lait",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Livre audio sur Arena (en file, un à la fois).",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Le Dernier Lait.epub",
+    "url": "https://drive.google.com/file/d/1tZjC1f-mA8VlbvSIh1mcwXTU971LwV7Q/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-lait.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio sur Arena, en file d'attente."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le Dernier Lait.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Hors série",
+   "epub": "livres/le-dernier-lait.epub"
+  },
+  {
+   "id": 21,
+   "titre": "A City of Me",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "A City of Me.epub",
+    "url": "https://drive.google.com/file/d/1XM_1HDa8G9N1ppDw9i6LHaWOtIPQU2tV/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/a-city-of-me.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : A City of Me.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/a-city-of-me.epub"
+  },
+  {
+   "id": 22,
+   "titre": "Dancingly Yours",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Dancingly Yours.epub",
+    "url": "https://drive.google.com/file/d/1JT04aQj_H8TBFB1DNXPWRWTvqcYeCb5H/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/dancingly-yours.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Dancingly Yours.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/dancingly-yours.epub"
+  },
+  {
+   "id": 23,
+   "titre": "Missing Time at Road 44",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Missing Time at Road 44.epub",
+    "url": "https://drive.google.com/file/d/1hbsOCfPPe6OfzlRPvo9qLEVXBUtCgAkX/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/missing-time-at-road-44.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Missing Time at Road 44.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/missing-time-at-road-44.epub"
+  },
+  {
+   "id": 24,
+   "titre": "Le dernier Costco",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Nouvelle couverture avec « Les Monstres qu'on s'invente ». Me dire si t'aimes.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Le dernier Costco.epub",
+    "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-costco.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite avec le lettrage de la série, comme sur le premier livre."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Le dernier Costco.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Les Monstres qu'on s'invente",
+   "epub": "livres/le-dernier-costco.epub"
+  },
+  {
+   "id": 25,
+   "titre": "Les Monstres qu'on s'invente",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Les Monstres qu'on s'invente.epub",
+    "url": "https://drive.google.com/file/d/1bgIUZYQJowLry-1L5rL6Yf5tswi60dfu/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/les-monstres-qu-on-s-invente.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : Les Monstres qu'on s'invente.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Les Monstres qu'on s'invente",
+   "epub": "livres/les-monstres-qu-on-s-invente.epub"
+  },
+  {
+   "id": 26,
+   "titre": "The Seventh Round",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 80,
+   "prochaine_etape": "Version officielle reçue de Christian. Décider la suite.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "The Seventh Round.epub",
+    "url": "https://drive.google.com/file/d/1mhYaxIofahxXE1DnEmxpKBGPKdh-Exoe/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/the-seventh-round.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The Seventh Round.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/the-seventh-round.epub"
+  },
+  {
+   "id": 27,
+   "titre": "The 4th Hour: The Skull",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Livre audio prêt. Écoute-le dans l'app.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "titre": "The 4th Hour: Series Overview",
+     "url": "https://drive.google.com/file/d/1fDRpO9j-oeJta0zYPA95Id2xW-v8E0dJ/view"
+    },
+    {
+     "url": "#/projet/39",
+     "titre": "Version illustrée (200 illustrations)"
+    }
+   ],
+   "maj": "2026-10-26",
+   "derniere_version": {
+    "label": "The_4th_Hour_The_Skull_corrige.epub",
+    "url": "https://drive.google.com/file/d/1qj7J-66gjNphge6YiHSUV-ROH4GhmPxE/view",
+    "date": "2026-10-26"
+   },
+   "couverture": "covers/the-4th-hour-the-skull.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-24",
+     "texte": "Livre audio ajouté dans l'app : 3 h 09, une seule piste, voix féminine britannique, monté à -15 LUFS. Usage perso."
+    },
+    {
+     "date": "2026-10-24",
+     "texte": "Livre audio complété par Arena (16 chapitres, 3:08:50, narration seulement, voix féminine britannique), masters dans le Drive du projet. Ajout dans l'app à faire."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio sur Arena, en file d'attente."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Couverture refaite au style The Fourth Hour (même police pis placement que Missing Time / A City of Me)."
+    },
+    {
+     "date": "2026-10-22",
+     "texte": "État : en cours, 80 %. Prochaine étape : Version officielle reçue de Christian. Décider la suite. Dernière version : The 4th Hour - The Skull.epub (2026-10-22)."
+    }
+   ],
+   "serie": "The 4th Hour",
+   "epub": "livres/the-4th-hour-the-skull.epub",
+   "audio": [
+    {
+     "titre": "Livre audio complet (16 chapitres, 3 h 09)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/the-4th-hour-the-skull.mp3"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "titre": "The Story Bible for Claude (référence)",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Document de référence pour l'écriture.",
+   "bloque_par": "Personne",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "The Story Bible for Claude.epub",
+    "url": "https://drive.google.com/file/d/1fAGe2hLctotry5XCrBySwPwVSsQxzyjb/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/story-bible-for-claude.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "État : terminé, 100 %. Prochaine étape : Document de référence pour l'écriture. Dernière version : The Story Bible for Claude.epub (2026-10-22)."
+    }
+   ],
+   "serie": "Hors série",
+   "epub": "livres/story-bible-for-claude.epub"
+  },
+  {
+   "id": 29,
+   "titre": "Quarante-cinq minutes",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "",
+   "bloque_par": "",
+   "liens": [
+    {
+     "titre": "Livre EPUB officiel",
+     "url": "https://drive.google.com/file/d/1kFMjRWDPY4MEOcvKfAQadptF7rnkm7Hh/view"
+    },
+    {
+     "label": "La BD",
+     "url": "#/projet/36"
+    },
+    {
+     "label": "Le roman illustré",
+     "url": "#/projet/37"
+    }
+   ],
+   "maj": "2026-10-22",
+   "couverture": "covers/quarante-cinq-minutes.jpg",
+   "notes_real": [],
+   "serie": "Ça s'est passé ici",
+   "epub": "livres/quarante-cinq-minutes.epub",
+   "derniere_version": {
+    "label": "Quarante-cinq minutes - Livre audio complet (ambiance) 64k.mp3",
+    "url": "https://drive.google.com/file/d/1LzpFZgEcO2emiiCZhxxbboKVEMuOl3DL/view",
+    "date": "2026-10-22"
+   }
+  },
+  {
+   "id": 30,
+   "titre": "Indiana Jones and the Debt at Havana",
+   "categorie": "Livres",
+   "statut": "En cours",
+   "progression": 0,
+   "prochaine_etape": "Couverture + livre audio (Arena) dans la file, à partir de la version Google Doc du 17 oct.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "label": "Dossier Autres manuscrits (Drive)",
+     "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
+    }
+   ],
+   "maj": "2026-10-23",
+   "derniere_version": {
+    "label": "Indiana_Jones_and_the_Debt_at_Havana (Google Doc)",
+    "url": "https://docs.google.com/document/d/1KYyIcojSVYovjH3262ZMAMr3fktXI5pBO1s2s5wfhTI/edit",
+    "date": "2026-10-17"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "Manuscrit privé sur ton Drive, pas publié sur le site."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Tu m'as demandé une couverture et un livre audio. En file, après les 3 autres livres audio."
+    }
+   ],
+   "serie": "Hors série"
+  },
+  {
+   "id": 31,
+   "titre": "Le dernier Costco — livre audio",
+   "categorie": "Livres audio",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Écouter et me dire ce que t’en penses.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-22",
+   "derniere_version": {
+    "label": "Le dernier Costco — 20 chapitres (MP3)",
+    "url": "https://drive.google.com/file/d/1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV/view",
+    "date": "2026-10-22"
+   },
+   "couverture": "covers/le-dernier-costco.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-22",
+     "texte": "Livre audio complet : 20 chapitres sur 20, environ 3 h 33."
+    }
+   ],
+   "serie": "Les Monstres qu'on s'invente",
+   "audio": [
+    {
+     "titre": "Jeudi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch01.mp3",
+     "drive": "1goAYRMG-BRajCHo18Vg-jnsb38nU4_dV"
+    },
+    {
+     "titre": "Treize marches",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch02.mp3",
+     "drive": "1l42I0v7Y4vHd_8xSn1kGVO0R-823YpYd"
+    },
+    {
+     "titre": "Mardi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch03.mp3",
+     "drive": "1vmC6ljC9fpeWAU9ExxTGc3FyestJ2gNi"
+    },
+    {
+     "titre": "Vingt-sept ans",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch04.mp3",
+     "drive": "1JUIfb8pZRC_FeNEbCjXT5GB9hGIXyu4N"
+    },
+    {
+     "titre": "Les toilettes",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch05.mp3",
+     "drive": "1obkwu9H7j0fu-cGC59W7Jig5dSOdtsNn"
+    },
+    {
+     "titre": "Le monsieur du fromage",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch06.mp3",
+     "drive": "1n-DNqiALv_ITj-ttf2DgWfKMbKrXoVst"
+    },
+    {
+     "titre": "Dimanche chez Denise",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch07.mp3",
+     "drive": "18g2KU598UDbhAYnBzqL3FODGxGT-JNbc"
+    },
+    {
+     "titre": "Le registre",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch08.mp3",
+     "drive": "1Jrj_aHvIhmCeiQiU5rC_Fkmm-U_9dO1r"
+    },
+    {
+     "titre": "Cinq heures quarante et une",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch09.mp3",
+     "drive": "1AXCGTa-fhtdIsRdm3hc_ogovnHIW3qUE"
+    },
+    {
+     "titre": "Le manuel",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch10.mp3",
+     "drive": "1IMysdxDY4AvHwpylY-fZgrK9elEUDs01"
+    },
+    {
+     "titre": "Le siège",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch11.mp3",
+     "drive": "1Q0uFL5-0G9zuaRQESx8BD9QubUb76P9_"
+    },
+    {
+     "titre": "Les bouteilles",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch12.mp3",
+     "drive": "1a3Zxmh1z-KIo0-npT7KErn6bPxRgontk"
+    },
+    {
+     "titre": "Cent treize quatre-vingt-un",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch13.mp3",
+     "drive": "12YUfZiiZRWma21YUfCKYu0B1MHB1QMt_"
+    },
+    {
+     "titre": "La chaise du coin",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch14.mp3",
+     "drive": "15NrwJF5NjfczRKWfHikxW8nlM67qp2o4"
+    },
+    {
+     "titre": "La salle d’attente",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch15.mp3",
+     "drive": "1CjTlvcBy2wLHOtweOZcFXRgU7oK4rkYP"
+    },
+    {
+     "titre": "Cinq heures trente",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch16.mp3",
+     "drive": "1fUVTXy5C_bntuJlaoPPg73laEyOaEjJ5"
+    },
+    {
+     "titre": "Le dernier jeudi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch17.mp3",
+     "drive": "15Hw9PIZRw0S8Y1K15EeKAPwcDVC5JqWb"
+    },
+    {
+     "titre": "Les piliers",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch18.mp3",
+     "drive": "1zgn-oBZLfy0pTzXBbbf4emUqL_HDBX_Z"
+    },
+    {
+     "titre": "Le capot de la Pacifica",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch19.mp3",
+     "drive": "1W2k4VDytH6fzcmqnyuzZgoq9YnwN3oNj"
+    },
+    {
+     "titre": "Samedi",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/dernier-costco-ch20.mp3",
+     "drive": "1KjyRU_Qr4dV--TiqQrulBw7bw0VVaBlm"
+    }
+   ],
+   "ajoute": "2026-10-22T19:30"
+  },
+  {
+   "id": 33,
+   "titre": "Ce qu'il en reste : La Joconde — livre audio",
+   "categorie": "Livres audio",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Écouter et me dire ce que t’en penses.",
+   "bloque_par": "Toi",
+   "liens": [],
+   "maj": "2026-10-23",
+   "ajoute": "2026-10-23T11:58",
+   "derniere_version": {
+    "label": "La Joconde — 33 pistes (MP3)",
+    "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch01.mp3",
+    "date": "2026-10-23"
+   },
+   "couverture": "covers/ce-qu-il-en-reste-la-joconde.jpg",
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio complet : 33 pistes, environ 3 h 47. Voix d'homme français (essai 1), valse « Parisian » de Kevin MacLeod (CC BY 4.0) en fond, musique baissée. Usage perso."
+    }
+   ],
+   "serie": "Ce qu'il en reste",
+   "audio": [
+    {
+     "titre": "Chapitre Un",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch01.mp3"
+    },
+    {
+     "titre": "Chapitre Deux",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch02.mp3"
+    },
+    {
+     "titre": "Chapitre Trois",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch03.mp3"
+    },
+    {
+     "titre": "Chapitre Quatre",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch04.mp3"
+    },
+    {
+     "titre": "Chapitre Cinq",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch05.mp3"
+    },
+    {
+     "titre": "Chapitre Six",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch06.mp3"
+    },
+    {
+     "titre": "Chapitre Sept",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch07.mp3"
+    },
+    {
+     "titre": "Chapitre Huit",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch08.mp3"
+    },
+    {
+     "titre": "Chapitre Neuf",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch09.mp3"
+    },
+    {
+     "titre": "Chapitre Dix",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch10.mp3"
+    },
+    {
+     "titre": "Chapitre Onze",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch11.mp3"
+    },
+    {
+     "titre": "Chapitre Douze",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch12.mp3"
+    },
+    {
+     "titre": "Chapitre Treize",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch13.mp3"
+    },
+    {
+     "titre": "Chapitre Quatorze",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch14.mp3"
+    },
+    {
+     "titre": "Chapitre Quinze",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch15.mp3"
+    },
+    {
+     "titre": "Chapitre Seize",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch16.mp3"
+    },
+    {
+     "titre": "Chapitre Dix-sept",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch17.mp3"
+    },
+    {
+     "titre": "Chapitre Dix-huit",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch18.mp3"
+    },
+    {
+     "titre": "Chapitre Dix-neuf",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch19.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch20.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt et un",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch21.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-deux",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch22.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-trois",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch23.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-quatre",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch24.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-cinq",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch25.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-six",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch26.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-sept",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch27.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-huit",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch28.mp3"
+    },
+    {
+     "titre": "Chapitre Vingt-neuf",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch29.mp3"
+    },
+    {
+     "titre": "Chapitre Trente",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch30.mp3"
+    },
+    {
+     "titre": "Chapitre Trente et un",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch31.mp3"
+    },
+    {
+     "titre": "Chapitre Trente-deux",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch32.mp3"
+    },
+    {
+     "titre": "Note de l'auteur",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/joconde-ch33.mp3"
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "titre": "Indiana Jones and the Mountain of the Gods",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Livre audio prêt. Écoute-le dans l'app.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "label": "Le Story Player (images + audio)",
+     "url": "#/projet/38"
+    },
+    {
+     "label": "Dossier Autres manuscrits (Drive)",
+     "url": "https://drive.google.com/drive/folders/1w_WgQDWfRPtWnyYHIkruAOmZ_vHLl6iP"
+    }
+   ],
+   "maj": "2026-10-26",
+   "epub": "livres/mountain-of-the-gods.epub",
+   "derniere_version": {
+    "label": "Indiana_Jones_and_the_Mountain_of_the_Gods_Revised_v4_Tight.epub (Drive privé)",
+    "url": "https://drive.google.com/file/d/1YFgo2KEZ8SoAfJkI_GMgDZNicy72HO1Q/view",
+    "date": "2026-10-26"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-23",
+     "texte": "Nouveau titre : Mountain of the Gods, avec ta couverture. Lecture dans l'app pis copie sur ton Drive."
+    },
+    {
+     "date": "2026-10-23",
+     "texte": "Livre audio complet fait sur Arena : 2 h 30, une seule piste, normalisé à -15 LUFS. Usage perso."
+    }
+   ],
+   "serie": "Hors série",
+   "couverture": "covers/mountain-of-the-gods.jpg",
+   "audio": [
+    {
+     "titre": "Livre audio complet (11 chapitres, 2 h 30)",
+     "url": "https://github.com/christian1195/mes-projets/releases/download/audio-v1/mountain-of-the-gods.mp3"
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "titre": "Quarante-cinq minutes (BD)",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Lis la BD dans l'app.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "label": "Le roman illustré",
+     "url": "#/projet/37"
+    },
+    {
+     "label": "Le livre et le livre audio",
+     "url": "#/projet/29"
+    }
+   ],
+   "maj": "2026-10-26",
+   "ajoute": "2026-10-26T16:35",
+   "couverture": "covers/quarante-cinq-minutes-bd-cover.jpg",
+   "serie": "Ça s'est passé ici",
+   "bd": {
+    "dossier": "livres/quarante-cinq-minutes-bd/",
+    "pages": [
+     "001.jpg",
+     "002.jpg",
+     "003.jpg",
+     "004.jpg",
+     "005.jpg",
+     "006.jpg",
+     "007.jpg",
+     "008.jpg",
+     "009.jpg",
+     "010.jpg",
+     "011.jpg",
+     "012.jpg",
+     "013.jpg",
+     "014.jpg",
+     "015.jpg",
+     "016.jpg",
+     "017.jpg",
+     "018.jpg",
+     "019.jpg",
+     "020.jpg"
+    ],
+    "couverture": "001.jpg"
+   },
+   "derniere_version": {
+    "label": "Quarante-cinq minutes — BD complète (20 pages).pdf",
+    "url": "https://drive.google.com/file/d/1plX3Ybus9R5skIFnforP2a_nOr2JhBME/view",
+    "date": "2026-10-26"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-26",
+     "texte": "BD de 20 pages ajoutée dans l'app. Privé, usage perso seulement."
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "titre": "Quarante-cinq minutes — roman illustré",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Lis-le dans l'app.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "url": "#/projet/36",
+     "titre": "La BD"
+    },
+    {
+     "url": "#/projet/29",
+     "titre": "Le livre et le livre audio"
+    }
+   ],
+   "maj": "2026-10-26",
+   "ajoute": "2026-10-26T16:35",
+   "couverture": "covers/quarante-cinq-minutes.jpg",
+   "serie": "Ça s'est passé ici",
+   "epub": "livres/quarante-cinq-minutes-illustre.epub",
+   "derniere_version": {
+    "label": "Quarante-cinq minutes — roman illustré (104 illustrations).epub",
+    "url": "https://drive.google.com/file/d/1rOLNqq5vwHoQcN_NLhtKnFsCyTK3XUAO/view",
+    "date": "2026-10-26"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-26",
+     "texte": "Roman illustré (104 illustrations) ajouté dans l'app. Privé, usage perso seulement."
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "titre": "The 4th Hour: The Skull — illustré",
+   "categorie": "Livres",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Lis-le dans l'app.",
+   "bloque_par": "",
+   "liens": [
+    {
+     "url": "#/projet/27",
+     "titre": "Le livre et le livre audio"
+    }
+   ],
+   "maj": "2026-10-26",
+   "ajoute": "2026-10-26T21:45",
+   "couverture": "covers/the-4th-hour-the-skull-illustre.jpg",
+   "serie": "The 4th Hour",
+   "epub": "livres/the-4th-hour-the-skull-illustre.epub",
+   "derniere_version": {
+    "label": "The_4th_Hour_The_Skull_Illustrated_200.epub",
+    "url": "https://drive.google.com/file/d/1z9nFmwudsIKcyPe47KPzJNuhHyOprHtN/view",
+    "date": "2026-10-26"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-26",
+     "texte": "Version illustrée (200 illustrations) faite sur Arena, ajoutée dans l'app."
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "titre": "Tests séquences d'action",
+   "categorie": "YouTube",
+   "statut": "En cours",
+   "progression": 30,
+   "prochaine_etape": "Tes notes sur Second Notice séq. 01 (suite en production)",
+   "bloque_par": "",
+   "liens": [],
+   "maj": "2026-10-28",
+   "ajoute": "2026-10-27T13:10",
+   "couverture": "covers/tests-sequences-action-tibet.jpg",
+   "videos": [
+    {
+     "titre": "Second Notice — Séquence 01 (v1, plans 02 à 09)",
+     "src": "videos/action-08-second-notice-seq01.mp4",
+     "note": "Coupe rapide de la séquence 01 de Second Notice faite dans Seedance 2.5 : le camion stallé sur le chemin de gravelle, Jim pis Dog, le premier cogne, la main de Jim, les deux cognes, le X blanc. 44 s, accéléré. Musique : « Volatile Reaction ». La suite s'en vient."
+    },
+    {
+     "titre": "Séquence Tibet (5 plans)",
+     "src": "videos/action-07-sequence-tibet.mp4",
+     "note": "La séquence complète au Tibet : Indy contre l'homme au jetpack, en 5 plans. Musique : « Five Armies »."
+    },
+    {
+     "titre": "1re version (1 min)",
+     "src": "videos/action-01-premiere-version.mp4",
+     "note": "Le premier essai, jugé incohérent."
+    },
+    {
+     "titre": "Un prompt par plan",
+     "src": "videos/action-02-un-prompt-par-plan.mp4",
+     "note": "« Beaucoup mieux »."
+    },
+    {
+     "titre": "Coupes rapides",
+     "src": "videos/action-03-coupes-rapides.mp4",
+     "note": "Plus d'énergie, plans plus courts."
+    },
+    {
+     "titre": "Jetpack v1",
+     "src": "videos/action-04-jetpack-v1.mp4",
+     "note": "Scène du jetpack tirée du chapitre 10."
+    },
+    {
+     "titre": "Plan 1 — désert",
+     "src": "videos/action-05-plan1-desert.mp4",
+     "note": "Premier plan de la séquence dictée (version désert)."
+    },
+    {
+     "titre": "Plan 1 — Tibet",
+     "src": "videos/action-06-plan1-tibet.mp4",
+     "note": "Le plan 1 refait dans une vallée du Tibet au crépuscule."
+    }
+   ],
+   "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies » et « Volatile Reaction », licence CC BY 4.0. Usage personnel seulement."
+  },
+  {
+   "id": 41,
+   "titre": "Mountain of the Gods — Screenplay",
+   "categorie": "Screenplay",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Touche la couverture pour le lire.",
+   "bloque_par": "",
+   "liens": [],
+   "maj": "2026-10-27",
+   "ajoute": "2026-10-27T18:45",
+   "couverture": "covers/screenplay-mountain-of-the-gods.jpg",
+   "serie": "Hors série",
+   "derniere_version": {
+    "label": "Format standard (Courier 12, 125 p.) · version 2 · PDF, Fountain, FDX",
+    "url": "screenplay/mountain-of-the-gods.html",
+    "date": "2026-10-27"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-27",
+     "texte": "Ton document était déjà écrit en scénario; je l'ai mis en vrai format standard, sans rien changer au texte. Usage perso."
+    },
+    {
+     "date": "2026-10-27",
+     "texte": "Version 2 de ton scénario : 125 pages (avant 111), 87 scènes. L'ancien PDF reste là comme v1."
+    }
+   ],
+   "script": "screenplay/mountain-of-the-gods.html"
+  },
+  {
+   "id": 42,
+   "titre": "Second Notice — Screenplay",
+   "categorie": "Screenplay",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Touche la couverture pour le lire.",
+   "bloque_par": "",
+   "liens": [],
+   "maj": "2026-10-27",
+   "ajoute": "2026-10-27T21:45",
+   "couverture": "covers/screenplay-second-notice.jpg",
+   "script": "screenplay/second-notice.html",
+   "serie": "Hors série",
+   "derniere_version": {
+    "label": "Format standard (Courier 12, 52 p.) · PDF, Fountain, FDX",
+    "url": "screenplay/second-notice.html",
+    "date": "2026-10-27"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-27",
+     "texte": "Ton document était déjà écrit en scénario (~40 min); mis en format standard sans changer le texte."
+    }
+   ]
+  }
+ ]
 }
