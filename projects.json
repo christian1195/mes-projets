@@ -2637,13 +2637,18 @@
    "categorie": "YouTube",
    "statut": "En cours",
    "progression": 30,
-   "prochaine_etape": "Tes notes sur Second Notice séq. 01 (suite en production)",
+   "prochaine_etape": "Chaîne Seedance chunk par chunk (01 à 38), brut livré aux 3 chunks",
    "bloque_par": "",
    "liens": [],
    "maj": "2026-10-28",
    "ajoute": "2026-10-27T13:10",
    "couverture": "covers/tests-sequences-action-tibet.jpg",
    "videos": [
+    {
+     "titre": "Second Notice — Séquence 01 BRUT (chunks 01 à 03)",
+     "src": "videos/second-notice-seq01-brut.mp4",
+     "note": "Coupe brute de la nouvelle chaîne Seedance 2.5 : chunks 01 à 03 de ton PDF, pleine longueur, son original de Seedance, pas de musique. 45 s. Le noir du début, le camion stallé au crépuscule, pis la route qui se révèle. La suite s'en vient (chunk 04 en route)."
+    },
     {
      "titre": "Second Notice — Séquence 01 (v1, plans 02 à 09)",
      "src": "videos/action-08-second-notice-seq01.mp4",
@@ -2685,7 +2690,13 @@
      "note": "Le plan 1 refait dans une vallée du Tibet au crépuscule."
     }
    ],
-   "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies » et « Volatile Reaction », licence CC BY 4.0. Usage personnel seulement."
+   "credit": "Musique des montages : Kevin MacLeod (incompetech.com), dont « Five Armies » et « Volatile Reaction », licence CC BY 4.0. Usage personnel seulement.",
+   "notes_real": [
+    {
+     "date": "2026-10-28",
+     "texte": "Brut chunks 01 à 03 ajouté (son Seedance original)."
+    }
+   ]
   },
   {
    "id": 41,
