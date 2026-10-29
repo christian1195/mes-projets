@@ -2753,6 +2753,32 @@
      "texte": "Ton document était déjà écrit en scénario (~40 min); mis en format standard sans changer le texte."
     }
    ]
+  },
+  {
+   "id": 43,
+   "titre": "Second Notice — Part One (screenplay)",
+   "categorie": "Screenplay",
+   "statut": "Terminé",
+   "progression": 100,
+   "prochaine_etape": "Touche la couverture pour le lire.",
+   "bloque_par": "",
+   "liens": [],
+   "maj": "2026-10-29",
+   "ajoute": "2026-10-29T18:50",
+   "couverture": "covers/screenplay-second-notice-part-one.jpg",
+   "script": "screenplay/second-notice-part-one.html",
+   "serie": "Hors série",
+   "derniere_version": {
+    "label": "Format standard (Courier 12, 13 p.) · PDF, Fountain, FDX",
+    "url": "screenplay/second-notice-part-one.html",
+    "date": "2026-10-29"
+   },
+   "notes_real": [
+    {
+     "date": "2026-10-29",
+     "texte": "Ta nouvelle Partie 1, mise en format scénario standard sans changer le texte. Usage perso."
+    }
+   ]
   }
  ]
 }

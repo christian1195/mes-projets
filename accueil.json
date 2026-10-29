@@ -1,9 +1,15 @@
 {
- "maj": "2026-10-27",
+ "maj": "2026-10-29",
  "salut": "Rien à l'agenda aujourd'hui, mardi tranquille. Mountain of the Gods est fini en film : nouvelle narration, musique pis 220 images. Pis le Canadien joue à St. Louis ce soir à 20 h.",
  "agenda": [],
  "agenda_maj": "2026-10-27T06:08",
  "une": [
+  {
+   "titre": "Second Notice — Part One : le screenplay",
+   "texte": "Ta nouvelle Partie 1 en format scénario, 13 pages. 📖 Lire",
+   "image": "accueil/screenplay-second-notice-part-one.jpg",
+   "lien": "projet:43"
+  },
   {
    "titre": "Second Notice : séquence 01, coupe brute",
    "texte": "Chunks 01 à 21 (21 sur 38) de ton PDF, 5 min 16, son original Seedance, pas de musique. ▶ Regarder",
