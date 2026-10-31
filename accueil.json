@@ -5,6 +5,12 @@
  "agenda_maj": "2026-10-27T06:08",
  "une": [
   {
+   "titre": "Le dernier Costco : la nouvelle version",
+   "texte": "Ta version à jour du livre, 20 chapitres pis 4 interludes. 📖 Lire",
+   "image": "covers/le-dernier-costco.jpg",
+   "lien": "#/lire/24"
+  },
+  {
    "titre": "Second Notice — Part One : le screenplay",
    "texte": "Ta nouvelle Partie 1 en format scénario, 13 pages. 📖 Lire",
    "image": "accueil/screenplay-second-notice-part-one.jpg",

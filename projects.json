@@ -1952,17 +1952,21 @@
    "categorie": "Livres",
    "statut": "En cours",
    "progression": 80,
-   "prochaine_etape": "Nouvelle couverture avec « Les Monstres qu'on s'invente ». Me dire si t'aimes.",
+   "prochaine_etape": "Nouvelle version reçue (20 chapitres + 4 interludes, ~34 300 mots). Bonne lecture!",
    "bloque_par": "Toi",
    "liens": [],
-   "maj": "2026-10-23",
+   "maj": "2026-10-31",
    "derniere_version": {
     "label": "Le dernier Costco.epub",
-    "url": "https://drive.google.com/file/d/1jCq0iPosEZXF0g4J2coY-JKHeTajFdnu/view",
-    "date": "2026-10-22"
+    "url": "livres/le-dernier-costco.epub",
+    "date": "2026-10-31"
    },
    "couverture": "covers/le-dernier-costco.jpg",
    "notes_real": [
+    {
+     "date": "2026-10-31",
+     "texte": "Nouvelle version de l'EPUB ajoutée (~34 300 mots, avant ~32 500)."
+    },
     {
      "date": "2026-10-23",
      "texte": "Couverture refaite avec le lettrage de la série, comme sur le premier livre."
@@ -1973,7 +1977,8 @@
     }
    ],
    "serie": "Les Monstres qu'on s'invente",
-   "epub": "livres/le-dernier-costco.epub"
+   "epub": "livres/le-dernier-costco.epub",
+   "ajoute": "2026-10-31T11:40"
   },
   {
    "id": 25,
