@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1419">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Banque Plateau</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- HOME -->
+    <section id="screen-home" class="screen active">
+      <div class="header">
+        <h1>Banque Plateau</h1>
+      </div>
+      <p class="hint">Compagnon d'argent pour jouer sur le <strong>vrai plateau</strong> : soldes, terrains, maisons, Chance et Caisse commune. Un téléphone = banque ; les autres rejoignent avec un code.</p>
+
+      <div class="card">
+        <h2>Créer (téléphone banque)</h2>
+        <label for="hostName">Ton nom</label>
+        <input id="hostName" maxlength="20" placeholder="ex. Christian" autocomplete="nickname">
+        <label for="hostColor">Couleur</label>
+        <select id="hostColor"></select>
+        <div style="margin-top:14px">
+          <button id="btnCreate" style="width:100%">Créer une partie</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Rejoindre</h2>
+        <label for="joinCode">Code de la partie</label>
+        <input id="joinCode" maxlength="6" placeholder="ex. K7MQ" autocomplete="off" style="text-transform:uppercase;letter-spacing:.15em;font-weight:800">
+        <label for="joinName">Ton nom</label>
+        <input id="joinName" maxlength="20" placeholder="ex. Caroline" autocomplete="nickname">
+        <label for="joinColor">Couleur</label>
+        <select id="joinColor"></select>
+        <div style="margin-top:14px">
+          <button id="btnJoin" class="secondary" style="width:100%">Rejoindre</button>
+        </div>
+      </div>
+      <p class="hint">Gratuit · sync via PeerJS (besoin d'Internet). Même Wi‑Fi recommandé. Pas de logo de marque — noms de terrains génériques (même structure de prix).</p>
+    </section>
+
+    <!-- LOBBY -->
+    <section id="screen-lobby" class="screen">
+      <div class="header">
+        <h1>Salon</h1>
+        <div class="badge" id="connBadge"><span class="dot"></span><span>En ligne</span></div>
+      </div>
+      <div class="card">
+        <p class="hint" style="margin-top:0">Code à partager</p>
+        <div class="code-xl" id="lobbyCode">----</div>
+        <button id="btnCopyCode" class="secondary" style="width:100%">Copier le code</button>
+        <p class="hint" id="lobbyStatus">…</p>
+      </div>
+      <div class="card">
+        <h2>Joueurs</h2>
+        <div id="lobbyPlayers"></div>
+        <button id="btnStartGame" style="width:100%;margin-top:10px;display:none">Démarrer la partie</button>
+      </div>
+    </section>
+
+    <!-- GAME -->
+    <section id="screen-game" class="screen">
+      <div class="header">
+        <div>
+          <h1 id="myName">—</h1>
+          <div class="hint" style="margin:0">Code <strong id="gameCodeLabel">----</strong></div>
+        </div>
+        <div class="badge" id="connBadgeGame"><span class="dot"></span><span>En ligne</span></div>
+      </div>
+      <div class="card" style="text-align:center">
+        <div class="hint" style="margin:0">Solde</div>
+        <div class="big-money" id="myCash">0 $</div>
+      </div>
+      <div id="auctionBanner" class="card" style="display:none;border-color:var(--warn)"></div>
+      <div id="lastCard" class="card" style="display:none"></div>
+      <div class="card">
+        <h2>Table</h2>
+        <div id="playersList"></div>
+      </div>
+      <div class="tabs">
+        <button type="button" data-tab="moi" class="on">Moi</button>
+        <button type="button" data-tab="actions">Actions</button>
+        <button type="button" data-tab="terrains">Terrains</button>
+        <button type="button" data-tab="cartes">Cartes</button>
+        <button type="button" data-tab="histo">Historique</button>
+      </div>
+      <div id="tabPane"></div>
+      <div id="hostTools" class="card" style="display:none">
+        <h2>Banque (hôte)</h2>
+        <p class="hint">Maisons en banque et contrôles réservés à ce téléphone. Les autres voient leurs soldes en direct.</p>
+      </div>
+      <button id="btnLeave" class="ghost" style="width:100%;margin-top:8px">Quitter</button>
+    </section>
+  </div>
+
+  <div class="footer-bar" id="footerBar">
+    <button type="button" id="fabGo" class="secondary">+200 Départ</button>
+    <button type="button" id="fabPay">Payer</button>
+  </div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle">Titre</h3>
+      <div id="modalBody"></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="modalCancel">Annuler</button>
+        <button type="button" id="modalOk">OK</button>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Sync both badges + FAB shortcuts
+    (function () {
+      const obs = new MutationObserver(() => {
+        const a = document.getElementById("connBadge");
+        const b = document.getElementById("connBadgeGame");
+        if (a && b) b.className = a.className, b.innerHTML = a.innerHTML;
+      });
+      const a = document.getElementById("connBadge");
+      if (a) obs.observe(a, { attributes: true, childList: true, subtree: true });
+      document.getElementById("fabGo").onclick = () => {
+        if (window.__BP) window.__BP.sendAction({ type: "pass_go", playerId: window.__BP.myPlayerId() });
+      };
+      document.getElementById("fabPay").onclick = () => {
+        document.querySelector('.tabs button[data-tab="actions"]').click();
+      };
+    })();
+  </script>
+</body>
+</html>
