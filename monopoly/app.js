@@ -579,6 +579,16 @@
   function moneyPlain(n) {
     return Math.abs(n).toLocaleString("fr-CA") + "\u00a0$";
   }
+  function fadeBand(hex) {
+    // desaturate / warm for 1980s offset print feel
+    const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    if (!m) return hex;
+    let r = parseInt(m[1], 16), g = parseInt(m[2], 16), b = parseInt(m[3], 16);
+    const mix = (c, toward, amt) => Math.round(c * (1 - amt) + toward * amt);
+    r = mix(r, 180, 0.18); g = mix(g, 140, 0.14); b = mix(b, 90, 0.16);
+    const to = (n) => n.toString(16).padStart(2, "0");
+    return "#" + to(r) + to(g) + to(b);
+  }
   function locoSVG() {
     return '<svg viewBox="0 0 96 64" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
       '<rect x="18" y="28" width="52" height="18" rx="2"/><path d="M28 28 V16 h22 v12"/><circle cx="34" cy="50" r="6"/><circle cx="58" cy="50" r="6"/>' +
@@ -596,7 +606,7 @@
   function deedFrontHTML(pr) {
     const name = escapeHtml(pr.name.toUpperCase());
     if (pr.type === "street") {
-      const band = D.GROUP_HEX[pr.group] || "#555";
+      const band = fadeBand(D.GROUP_HEX[pr.group] || "#555");
       return '<div class="deed-band" style="background:' + band + '">' +
         '<div class="deed-band-label">Titre de propriété</div>' +
         '<div class="deed-band-name">' + name + "</div></div>" +
@@ -646,6 +656,9 @@
     const wrap = document.createElement("div");
     wrap.className = "deed-wrap";
     wrap.dataset.propId = pr.id;
+    // slight random tilt like a well-used 80s set on the table
+    const tilt = ((pr.id.charCodeAt(0) * 17 + pr.id.length * 13) % 21 - 10) / 5; // -2°..+2°
+    wrap.style.setProperty("--tilt", tilt.toFixed(2) + "deg");
 
     const flip = document.createElement("div");
     flip.className = "deed-flip" + (deed && deed.mortgaged ? " is-mortgaged" : "");
@@ -738,7 +751,8 @@
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className = "bank-chip";
-      chip.style.borderTopColor = D.GROUP_HEX[pr.group] || "#888";
+      chip.style.borderTopColor = fadeBand(D.GROUP_HEX[pr.group] || "#888");
+      chip.style.setProperty("--tilt", (((pr.id.charCodeAt(1) || 1) % 9) - 4) / 4 + "deg");
       chip.innerHTML = '<div class="n">' + escapeHtml(pr.name) + '</div><div class="p">' + money(pr.price) + "</div>";
       chip.onclick = () => {
         sendAction({ type: "buy", playerId: myPlayerId, propId: pr.id, price: pr.price });
