@@ -17,6 +17,23 @@
       </div>
       <p class="hint">Compagnon d'argent pour jouer sur le <strong>vrai plateau</strong> : soldes, terrains, maisons, Chance et Caisse commune. Un téléphone = banque ; les autres rejoignent avec un code.</p>
 
+      <div class="card" style="border-color:var(--accent)">
+        <h2>Mode simulation</h2>
+        <p class="hint" style="margin-top:0">Un seul téléphone · <strong>aucun réseau</strong> · 2 à 6 joueurs fictifs. Tu changes de joueur pour jouer chaque tour. Idéal pour tester ou jouer sans multi.</p>
+        <label for="simCount">Nombre de joueurs</label>
+        <select id="simCount">
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <div id="simNames" style="margin-top:8px"></div>
+        <div style="margin-top:14px">
+          <button id="btnSim" style="width:100%">Lancer la simulation</button>
+        </div>
+      </div>
+
       <div class="card">
         <h2>Créer (téléphone banque)</h2>
         <label for="hostName">Ton nom</label>
@@ -67,9 +84,15 @@
       <div class="header">
         <div>
           <h1 id="myName">—</h1>
-          <div class="hint" style="margin:0">Code <strong id="gameCodeLabel">----</strong></div>
+          <div class="hint" style="margin:0"><span id="modeLabel">Code</span> <strong id="gameCodeLabel">----</strong></div>
         </div>
         <div class="badge" id="connBadgeGame"><span class="dot"></span><span>En ligne</span></div>
+      </div>
+      <div id="simBanner" class="card" style="display:none;border-color:var(--warn);background:#2a2208">
+        <strong>MODE SIMULATION</strong>
+        <p class="hint" style="margin:6px 0 10px">Hors ligne · un téléphone · change de joueur pour chaque action.</p>
+        <label for="simPlayerSelect">Joueur actif</label>
+        <select id="simPlayerSelect" style="font-size:1.25rem;font-weight:800;min-height:56px"></select>
       </div>
       <div class="card" style="text-align:center">
         <div class="hint" style="margin:0">Solde</div>

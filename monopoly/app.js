@@ -11,10 +11,12 @@
   /** @type {Record<string, any>} */
   let connections = {};
   let isHost = false;
+  let isSim = false;
   let myPeerId = null;
   let myPlayerId = null;
   let gameCode = null;
   let connected = false;
+  const SIM_DEFAULT_NAMES = ["Christian", "Caroline", "Tristan", "Alex", "Sam", "Jo"];
 
   /** @type {any} */
   let state = null;
@@ -78,6 +80,7 @@
       version: 1,
       code: gameCode,
       started: false,
+      simulation: false,
       players: [
         { id: hostId, name: hostName, color: hostColor, cash: D.START_CASH, jailFree: 0, isHost: true }
       ],
@@ -87,6 +90,32 @@
       history: [],
       decks: freshDecks(),
       auction: null, // { propId, highBid, highBidderId, open }
+      lastCard: null
+    };
+  }
+
+  function createSimState(names) {
+    const players = names.map((name, i) => ({
+      id: uid(),
+      name: name || ("Joueur " + (i + 1)),
+      color: D.COLORS[i % D.COLORS.length].id,
+      cash: D.START_CASH,
+      jailFree: 0,
+      isHost: i === 0
+    }));
+    myPlayerId = players[0].id;
+    return {
+      version: 1,
+      code: "SIMU",
+      started: true,
+      simulation: true,
+      players,
+      deeds: {},
+      bankHouses: 32,
+      bankHotels: 12,
+      history: [{ t: Date.now(), text: "Mode simulation démarré (" + players.length + " joueurs)" }],
+      decks: freshDecks(),
+      auction: null,
       lastCard: null
     };
   }
@@ -114,7 +143,7 @@
   function persist() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        isHost, myPlayerId, gameCode, state, myPeerId
+        isHost, isSim, myPlayerId, gameCode, state, myPeerId
       }));
     } catch (_) {}
   }
@@ -579,15 +608,38 @@
       if (!$("screen-game").classList.contains("active")) showScreen("game");
     }
     $("gameCodeLabel").textContent = state.code || gameCode || "----";
+    const modeLabel = $("modeLabel");
+    if (modeLabel) modeLabel.textContent = isSim ? "Mode" : "Code";
+    const simBanner = $("simBanner");
+    if (simBanner) {
+      simBanner.style.display = isSim ? "block" : "none";
+      if (isSim) fillSimPlayerSelect();
+    }
+    if (isSim) {
+      setConnBadge(true);
+      const b = $("connBadgeGame");
+      if (b) {
+        b.classList.remove("offline");
+        const label = b.querySelector("span:last-child");
+        if (label) label.textContent = "Simulation";
+      }
+    }
     const p = me();
     if (p) {
-      $("myName").textContent = p.name;
+      $("myName").textContent = p.name + (isSim ? " (actif)" : "");
       $("myCash").textContent = money(p.cash);
       $("myCash").style.color = colorHex(p.color);
     }
     renderPlayers();
     renderTab();
-    $("hostTools").style.display = isHost ? "block" : "none";
+    $("hostTools").style.display = (isHost || isSim) ? "block" : "none";
+    if ($("hostTools") && (isHost || isSim)) {
+      $("hostTools").querySelector("h2").textContent = isSim ? "Simulation (banque locale)" : "Banque (hôte)";
+      const hint = $("hostTools").querySelector(".hint");
+      if (hint) hint.textContent = isSim
+        ? "Tout reste sur ce téléphone. Utilise le sélecteur « Joueur actif » pour chaque tour."
+        : "Maisons en banque et contrôles réservés à ce téléphone. Les autres voient leurs soldes en direct.";
+    }
     if (state.auction && state.auction.open) {
       $("auctionBanner").style.display = "block";
       const prop = propById(state.auction.propId);
@@ -675,7 +727,7 @@
       (build ? " · " + build : "") +
       (owner ? " · " + escapeHtml(owner.name) : " · Banque") +
       "</div></div>";
-    if (withBtns && deed && isHost) {
+    if (withBtns && deed && (isHost || isSim)) {
       const row = document.createElement("div");
       row.style.display = "flex";
       row.style.flexDirection = "column";
@@ -719,7 +771,7 @@
       ["Acheter terrain", () => openBuyModal()],
       ["Payer loyer", () => openRentModal()],
       ["Enchère", () => openAuctionModal()],
-      ["Annuler ↩", () => { if (isHost) runAction({ type: "undo" }, myPlayerId); else toast("Seul l'hôte peut annuler"); }]
+      ["Annuler ↩", () => { if (isHost || isSim) runAction({ type: "undo" }, myPlayerId); else toast("Seul l'hôte peut annuler"); }]
     ];
     actions.forEach(([label, fn]) => {
       const b = document.createElement("button");
@@ -763,7 +815,7 @@
         };
         bank.appendChild(btn);
       } else {
-        owned.appendChild(propEl(pr, deed, deed.ownerId === myPlayerId || isHost));
+        owned.appendChild(propEl(pr, deed, deed.ownerId === myPlayerId || isHost || isSim));
       }
     });
     pane.appendChild(bank);
@@ -930,7 +982,7 @@
         sendAction({ type: "auction_bid", playerId: myPlayerId, amount: Math.floor(+$("mAmt").value || 0) });
       }, "Enchérir");
       // also allow host to end via second button injection
-      if (isHost) {
+      if (isHost || isSim) {
         const end = document.createElement("button");
         end.className = "danger";
         end.textContent = "Clore l'enchère";
@@ -964,17 +1016,79 @@
     });
   }
 
+  function refreshSimNameInputs() {
+    const box = $("simNames");
+    if (!box) return;
+    const n = Math.max(2, Math.min(6, +($("simCount").value || 3)));
+    const prev = [];
+    box.querySelectorAll("input").forEach((inp) => prev.push(inp.value));
+    box.innerHTML = "";
+    for (let i = 0; i < n; i++) {
+      const lab = document.createElement("label");
+      lab.textContent = "Joueur " + (i + 1);
+      lab.setAttribute("for", "simName" + i);
+      const inp = document.createElement("input");
+      inp.id = "simName" + i;
+      inp.maxLength = 20;
+      inp.value = prev[i] || SIM_DEFAULT_NAMES[i] || ("Joueur " + (i + 1));
+      inp.placeholder = "Nom";
+      box.appendChild(lab);
+      box.appendChild(inp);
+    }
+  }
+
+  function fillSimPlayerSelect() {
+    const sel = $("simPlayerSelect");
+    if (!sel || !state) return;
+    const cur = myPlayerId;
+    sel.innerHTML = "";
+    state.players.forEach((pl) => {
+      const o = document.createElement("option");
+      o.value = pl.id;
+      o.textContent = pl.name + " — " + money(pl.cash);
+      if (pl.id === cur) o.selected = true;
+      sel.appendChild(o);
+    });
+  }
+
   function bootLobby() {
     fillColorSelect($("hostColor"));
     fillColorSelect($("joinColor"));
+    refreshSimNameInputs();
+    if ($("simCount")) $("simCount").onchange = refreshSimNameInputs;
     showScreen("home");
   }
+
+  $("btnSim").onclick = () => {
+    const n = Math.max(2, Math.min(6, +($("simCount").value || 3)));
+    const names = [];
+    for (let i = 0; i < n; i++) {
+      const el = $("simName" + i);
+      names.push(((el && el.value) || "").trim() || SIM_DEFAULT_NAMES[i] || ("Joueur " + (i + 1)));
+    }
+    try { if (peer) peer.destroy(); } catch (_) {}
+    peer = null;
+    connections = {};
+    isSim = true;
+    isHost = true; // toutes les actions locales
+    gameCode = "SIMU";
+    connected = true;
+    undoStack = [];
+    state = createSimState(names);
+    showScreen("game");
+    tab = "actions";
+    setConnBadge(true);
+    persist();
+    render();
+    toast("Simulation prête — change de joueur en haut");
+  };
 
   $("btnCreate").onclick = async () => {
     const name = ($("hostName").value || "").trim() || "Banque";
     const color = $("hostColor").value;
     gameCode = code4();
     isHost = true;
+    isSim = false;
     $("btnCreate").disabled = true;
     $("btnCreate").textContent = "Connexion…";
     try {
@@ -1001,6 +1115,7 @@
     if (code.length < 4) { toast("Entre le code à 4 lettres"); return; }
     gameCode = code;
     isHost = false;
+    isSim = false;
     $("btnJoin").disabled = true;
     $("btnJoin").textContent = "Connexion…";
     try {
@@ -1061,15 +1176,29 @@
     state = null;
     connections = {};
     isHost = false;
+    isSim = false;
     showScreen("home");
     setConnBadge(false);
+    refreshSimNameInputs();
   };
+
+  // Switch active player in simulation
+  document.addEventListener("change", (ev) => {
+    if (ev.target && ev.target.id === "simPlayerSelect" && isSim && state) {
+      myPlayerId = ev.target.value;
+      persist();
+      render();
+      toast("Joueur actif : " + ((me() || {}).name || ""));
+    }
+  });
 
   // Expose for Playwright tests
   window.__BP = {
     getState: () => state,
     isHost: () => isHost,
+    isSim: () => isSim,
     myPlayerId: () => myPlayerId,
+    setMyPlayerId: (id) => { myPlayerId = id; render(); },
     sendAction,
     runAction: (a) => runAction(a, myPlayerId),
     code: () => gameCode
