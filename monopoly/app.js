@@ -576,66 +576,123 @@
     else if (tab === "histo") renderHisto();
   }
 
-  function deedRentHTML(pr) {
+  function moneyPlain(n) {
+    return Math.abs(n).toLocaleString("fr-CA") + "\u00a0$";
+  }
+  function locoSVG() {
+    return '<svg viewBox="0 0 96 64" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<rect x="18" y="28" width="52" height="18" rx="2"/><path d="M28 28 V16 h22 v12"/><circle cx="34" cy="50" r="6"/><circle cx="58" cy="50" r="6"/>' +
+      '<path d="M70 36 h10 v6 H70"/><path d="M36 10 h8"/><path d="M40 6 v8"/></svg>';
+  }
+  function bulbSVG() {
+    return '<svg viewBox="0 0 64 64" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">' +
+      '<path d="M32 8c-9 0-16 7-16 16 0 6 3 10 7 13v5h18v-5c4-3 7-7 7-13 0-9-7-16-16-16z"/><path d="M26 48h12M28 54h8"/></svg>';
+  }
+  function faucetSVG() {
+    return '<svg viewBox="0 0 64 64" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<path d="M14 26h28a8 8 0 0 1 8 8v4H38"/><path d="M28 16v10"/><circle cx="28" cy="12" r="4"/><path d="M38 42c0 6-4 12-10 14"/></svg>';
+  }
+
+  function deedFrontHTML(pr) {
+    const name = escapeHtml(pr.name.toUpperCase());
     if (pr.type === "street") {
-      return '<ul class="rent-list">' +
-        "<li><span>Terrain nu</span><span>" + money(pr.rent[0]) + "</span></li>" +
-        "<li><span>Groupe complet</span><span>" + money(pr.rent[0] * 2) + "</span></li>" +
-        "<li><span>1 maison</span><span>" + money(pr.rent[1]) + "</span></li>" +
-        "<li><span>2 maisons</span><span>" + money(pr.rent[2]) + "</span></li>" +
-        "<li><span>3 maisons</span><span>" + money(pr.rent[3]) + "</span></li>" +
-        "<li><span>4 maisons</span><span>" + money(pr.rent[4]) + "</span></li>" +
-        "<li><span>Hôtel</span><span>" + money(pr.rent[5]) + "</span></li>" +
-        "<li><span>Prix maison / hôtel</span><span>" + money(pr.houseCost) + "</span></li>" +
-        "<li><span>Hypothèque</span><span>" + money(pr.mortgage) + "</span></li>" +
-        "<li><span>Lever hyp. (+10 %)</span><span>" + money(Math.ceil(pr.mortgage * 1.1)) + "</span></li>" +
-        "</ul>";
+      const band = D.GROUP_HEX[pr.group] || "#555";
+      return '<div class="deed-band" style="background:' + band + '">' +
+        '<div class="deed-band-label">Titre de propriété</div>' +
+        '<div class="deed-band-name">' + name + "</div></div>" +
+        '<div class="deed-front-body">' +
+        '<div class="deed-rent-main">LOYER\u00a0' + moneyPlain(pr.rent[0]) + ".</div>" +
+        '<table class="deed-rows"><tbody>' +
+        "<tr><td>Avec 1 Maison</td><td>" + moneyPlain(pr.rent[1]) + ".</td></tr>" +
+        "<tr><td>Avec 2 Maisons</td><td>" + moneyPlain(pr.rent[2]) + ".</td></tr>" +
+        "<tr><td>Avec 3 Maisons</td><td>" + moneyPlain(pr.rent[3]) + ".</td></tr>" +
+        "<tr><td>Avec 4 Maisons</td><td>" + moneyPlain(pr.rent[4]) + ".</td></tr>" +
+        '<tr class="hotel"><td>Avec HÔTEL</td><td>' + moneyPlain(pr.rent[5]) + ".</td></tr>" +
+        "</tbody></table>" +
+        '<hr class="deed-divider">' +
+        '<div class="deed-mortgage">Valeur hypothécaire\u00a0' + moneyPlain(pr.mortgage) + ".</div>" +
+        '<div class="deed-house-cost">Maisons coûtent\u00a0' + moneyPlain(pr.houseCost) + ".\u00a0chacune.</div>" +
+        '<div class="deed-hotel-cost">Hôtels coûtent\u00a0' + moneyPlain(pr.houseCost) + ".\u00a0plus\u00a04\u00a0maisons.</div>" +
+        '<div class="deed-footnote">Si un joueur possède TOUS les terrains d’un Groupe de Couleur, le loyer est doublé sur les terrains non bâtis de ce groupe.</div>' +
+        "</div>";
     }
     if (pr.type === "rail") {
-      return '<ul class="rent-list">' +
-        "<li><span>1 gare</span><span>" + money(25) + "</span></li>" +
-        "<li><span>2 gares</span><span>" + money(50) + "</span></li>" +
-        "<li><span>3 gares</span><span>" + money(100) + "</span></li>" +
-        "<li><span>4 gares</span><span>" + money(200) + "</span></li>" +
-        "<li><span>Hypothèque</span><span>" + money(pr.mortgage) + "</span></li>" +
-        "<li><span>Lever hyp. (+10 %)</span><span>" + money(Math.ceil(pr.mortgage * 1.1)) + "</span></li>" +
-        "</ul>";
+      return '<div class="deed-icon-top">' + locoSVG() + "</div>" +
+        '<div class="deed-name-plain">' + name + "</div>" +
+        '<div class="deed-front-body">' +
+        '<div class="deed-rent-main">LOYER\u00a0' + moneyPlain(25) + ".</div>" +
+        '<table class="deed-rows"><tbody>' +
+        "<tr><td>Si l’on possède 2 gares</td><td>" + moneyPlain(50) + ".</td></tr>" +
+        "<tr><td>Si l’on possède 3\u00a0»</td><td>" + moneyPlain(100) + ".</td></tr>" +
+        "<tr><td>Si l’on possède 4\u00a0»</td><td>" + moneyPlain(200) + ".</td></tr>" +
+        "</tbody></table>" +
+        '<hr class="deed-divider">' +
+        '<div class="deed-mortgage">Valeur hypothécaire\u00a0' + moneyPlain(pr.mortgage) + ".</div>" +
+        '<div class="deed-footnote">Les 4 gares : Montparnasse, Lyon, Nord, Saint-Lazare.</div>' +
+        "</div>";
     }
-    return '<ul class="rent-list">' +
-      "<li><span>1 service</span><span>dés × 4</span></li>" +
-      "<li><span>2 services</span><span>dés × 10</span></li>" +
-      "<li><span>Hypothèque</span><span>" + money(pr.mortgage) + "</span></li>" +
-      "<li><span>Lever hyp. (+10 %)</span><span>" + money(Math.ceil(pr.mortgage * 1.1)) + "</span></li>" +
-      "</ul>";
+    const icon = pr.id === "eaux" ? faucetSVG() : bulbSVG();
+    return '<div class="deed-icon-top">' + icon + "</div>" +
+      '<div class="deed-name-plain">' + name + "</div>" +
+      '<div class="deed-front-body">' +
+      '<div class="deed-rent-main" style="font-size:.95rem;font-weight:600;letter-spacing:0;font-family:var(--font-deed-row)">Si l’on possède UN service public, le loyer est 4 fois le montant indiqué par les dés.</div>' +
+      '<div class="deed-rent-main" style="font-size:.95rem;font-weight:600;letter-spacing:0;font-family:var(--font-deed-row);margin-top:10px">Si l’on possède les DEUX services, le loyer est 10 fois le montant indiqué par les dés.</div>' +
+      '<hr class="deed-divider">' +
+      '<div class="deed-mortgage">Valeur hypothécaire\u00a0' + moneyPlain(pr.mortgage) + ".</div>" +
+      "</div>";
   }
 
   function buildDeedCard(pr, deed, controllable) {
-    const el = document.createElement("div");
-    el.className = "deed";
-    el.dataset.propId = pr.id;
-    const band = D.GROUP_HEX[pr.group] || "#555";
+    const wrap = document.createElement("div");
+    wrap.className = "deed-wrap";
+    wrap.dataset.propId = pr.id;
+
+    const flip = document.createElement("div");
+    flip.className = "deed-flip" + (deed && deed.mortgaged ? " is-mortgaged" : "");
+    flip.innerHTML =
+      '<div class="deed-flip-inner">' +
+      '<div class="deed-face deed-front">' + deedFrontHTML(pr) + "</div>" +
+      '<div class="deed-face deed-back"><div class="deed-back-inner">' +
+      '<div class="deed-back-title">HYPOTHÉQUÉ</div>' +
+      '<div class="deed-back-name">' + escapeHtml(pr.name.toUpperCase()) + "</div>" +
+      '<div class="deed-back-value">Valeur\u00a0' + moneyPlain(pr.mortgage) + ".</div>" +
+      '<p class="deed-back-note">Présenter cette face lorsque le titre est hypothéqué. Pour lever l’hypothèque, rembourser à la Banque la valeur hypothécaire plus 10\u00a0%.</p>' +
+      "</div></div></div>";
+
+    flip.addEventListener("click", (e) => {
+      if (e.target.closest("button")) return;
+      if (!(deed && deed.mortgaged)) return;
+      flip.classList.toggle("peek-front");
+    });
+
+    wrap.appendChild(flip);
+
+    if (deed && deed.mortgaged) {
+      const hint = document.createElement("div");
+      hint.className = "deed-flip-hint";
+      hint.textContent = "Touche pour voir le recto · face HYPOTHÉQUÉ";
+      wrap.appendChild(hint);
+    }
+
     let builds = "";
     if (deed) {
       if (deed.houses === 5) builds = hotelSVG();
       else for (let i = 0; i < deed.houses; i++) builds += houseSVG();
     }
-    el.innerHTML =
-      '<div class="deed-band" style="background:' + band + '">' + escapeHtml(D.GROUP_LABELS[pr.group] || "") + "</div>" +
-      '<div class="deed-body">' +
-      '<div class="deed-title">' + escapeHtml(pr.name) + "</div>" +
-      '<div class="deed-meta">Prix ' + money(pr.price) + (deed && deed.mortgaged ? " · hypothéqué" : "") + "</div>" +
-      '<div class="deed-builds">' + builds + "</div>" +
-      deedRentHTML(pr) +
-      (controllable ? '<div class="deed-actions"></div>' : "") +
-      "</div>" +
-      (deed && deed.mortgaged ? '<div class="stamp">HYPOTHÉQUÉ</div>' : "");
+    if (builds) {
+      const b = document.createElement("div");
+      b.className = "deed-builds";
+      b.innerHTML = builds;
+      wrap.appendChild(b);
+    }
 
     if (controllable) {
-      const actions = el.querySelector(".deed-actions");
+      const actions = document.createElement("div");
+      actions.className = "deed-actions";
       const isOwner = deed && deed.ownerId === myPlayerId;
       const canManage = isOwner || isHost || isSim;
       if (canManage && deed) {
-        if (deed && !deed.mortgaged && pr.type === "street") {
+        if (!deed.mortgaged && pr.type === "street") {
           const b1 = document.createElement("button"); b1.className = "secondary"; b1.textContent = "+ Maison";
           b1.onclick = (e) => { e.stopPropagation(); sendAction({ type: "build", propId: pr.id }); };
           actions.appendChild(b1);
@@ -645,26 +702,26 @@
             actions.appendChild(b2);
           }
         }
-        if (deed && !deed.mortgaged && deed.houses === 0) {
+        if (!deed.mortgaged && deed.houses === 0) {
           const bm = document.createElement("button"); bm.className = "warn";
           bm.textContent = "Hypothéquer +" + money(pr.mortgage);
           bm.onclick = (e) => { e.stopPropagation(); sendAction({ type: "mortgage", propId: pr.id }); haptic(20); };
           actions.appendChild(bm);
-        } else if (deed && deed.mortgaged) {
+        } else if (deed.mortgaged) {
           const bu = document.createElement("button");
           bu.textContent = "Lever −" + money(Math.ceil(pr.mortgage * 1.1));
           bu.onclick = (e) => { e.stopPropagation(); sendAction({ type: "unmortgage", propId: pr.id }); };
           actions.appendChild(bu);
         }
-        if (deed && deed.houses === 0) {
+        if (deed.houses === 0) {
           const bt = document.createElement("button"); bt.className = "secondary"; bt.textContent = "Céder…";
           bt.onclick = (e) => { e.stopPropagation(); openTradeModal(pr.id); };
           actions.appendChild(bt);
         }
       }
+      if (actions.childNodes.length) wrap.appendChild(actions);
     }
-    el.addEventListener("click", () => el.classList.toggle("expanded"));
-    return el;
+    return wrap;
   }
 
   function renderTerrains() {
