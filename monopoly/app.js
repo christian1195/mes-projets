@@ -568,9 +568,12 @@
 
   function setTab(name) {
     tab = name;
-    ["argent", "terrains", "cartes", "histo"].forEach((t) => {
-      const pane = $("tab-" + t);
-      if (pane) pane.style.display = t === name ? "block" : "none";
+    ["argent", "terrains", "cartes", "histo"].forEach((tn) => {
+      const pane = $("tab-" + tn);
+      if (!pane) return;
+      const on = tn === name;
+      pane.style.display = on ? "flex" : "none";
+      pane.classList.toggle("is-on", on);
     });
     document.querySelectorAll(".tabbar button").forEach((b) => b.classList.toggle("on", b.dataset.tab === name));
     renderTab();
@@ -788,19 +791,40 @@
 
   function renderHisto() {
     const box = $("histoList");
+    const moreBtn = $("btnHistoMore");
     if (!box) return;
     box.innerHTML = "";
     if (!state.history.length) {
       box.innerHTML = '<p class="empty">Aucune transaction.</p>';
+      if (moreBtn) moreBtn.style.display = "none";
       return;
     }
-    state.history.forEach((h) => {
+    // Fit ~5 latest on short phones; rest behind "voir plus"
+    const VISIBLE = 5;
+    const visible = state.history.slice(0, VISIBLE);
+    visible.forEach((h) => {
       const d = document.createElement("div");
       d.className = "hist-card";
       const time = new Date(h.t).toLocaleTimeString("fr-CA", { hour: "2-digit", minute: "2-digit" });
       d.innerHTML = '<div class="t">' + time + '</div><div class="txt">' + escapeHtml(h.text) + "</div>";
       box.appendChild(d);
     });
+    if (moreBtn) {
+      moreBtn.style.display = state.history.length > VISIBLE ? "block" : "none";
+      moreBtn.onclick = () => openHistoSheet();
+    }
+  }
+  function openHistoSheet() {
+    openModal("Historique complet", (body) => {
+      body.innerHTML = "";
+      state.history.forEach((h) => {
+        const d = document.createElement("div");
+        d.className = "hist-card";
+        const time = new Date(h.t).toLocaleTimeString("fr-CA", { hour: "2-digit", minute: "2-digit" });
+        d.innerHTML = '<div class="t">' + time + '</div><div class="txt">' + escapeHtml(h.text) + "</div>";
+        body.appendChild(d);
+      });
+    }, null);
   }
 
   /* —— modals —— */
@@ -994,10 +1018,12 @@
     const prev = []; box.querySelectorAll("input").forEach((inp) => prev.push(inp.value));
     box.innerHTML = "";
     for (let i = 0; i < n; i++) {
-      const lab = document.createElement("label"); lab.textContent = "Joueur " + (i + 1); lab.htmlFor = "simName" + i;
+      const wrap = document.createElement("div");
+      const lab = document.createElement("label"); lab.textContent = "J" + (i + 1); lab.htmlFor = "simName" + i;
       const inp = document.createElement("input"); inp.id = "simName" + i; inp.maxLength = 20;
       inp.value = prev[i] || SIM_DEFAULT_NAMES[i] || ("Joueur " + (i + 1));
-      box.appendChild(lab); box.appendChild(inp);
+      wrap.appendChild(lab); wrap.appendChild(inp);
+      box.appendChild(wrap);
     }
   }
 
@@ -1120,6 +1146,16 @@
     code: () => gameCode,
     calcRent, propById, setTab
   };
+
+
+  // Home mode segments (no scroll: one pane at a time)
+  document.querySelectorAll(".home-seg").forEach((btn) => {
+    btn.onclick = () => {
+      const id = btn.dataset.home;
+      document.querySelectorAll(".home-seg").forEach((b) => b.classList.toggle("on", b === btn));
+      document.querySelectorAll(".home-pane").forEach((p) => p.classList.toggle("on", p.id === "home-" + id));
+    };
+  });
 
   boot();
 })();

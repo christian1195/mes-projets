@@ -16,92 +16,93 @@
 <body>
   <div class="fx-layer" id="fxLayer" aria-hidden="true"></div>
   <div class="app">
-    <!-- HOME / SPLASH -->
-    <section id="screen-home" class="screen active">
-      <div class="splash">
-        <img class="splash-logo" src="icon.svg" width="96" height="96" alt="">
-        <h1>Banque Plateau</h1>
-        <p class="tagline">L’argent, les titres et les cartes — sur ton téléphone.<br>Le plateau, les pions et les dés restent sur la table.</p>
+    <!-- HOME -->
+    <section id="screen-home" class="screen active fit-col">
+      <div class="splash splash-compact">
+        <img class="splash-logo" src="icon.svg" width="56" height="56" alt="">
+        <div>
+          <h1>Banque Plateau</h1>
+          <p class="tagline">Argent &amp; titres · plateau physique</p>
+        </div>
       </div>
-
-      <div class="panel featured">
-        <h2>Mode simulation</h2>
-        <p class="hint">Un seul téléphone · <strong>aucun réseau</strong> · 2 à 6 joueurs. Change de joueur à chaque tour.</p>
-        <label for="simCount">Nombre de joueurs</label>
-        <select id="simCount">
-          <option value="2">2</option>
-          <option value="3" selected>3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-        </select>
-        <div id="simNames"></div>
-        <div style="margin-top:14px">
+      <div class="home-segs" role="tablist">
+        <button type="button" class="home-seg on" data-home="sim">Simulation</button>
+        <button type="button" class="home-seg" data-home="create">Créer</button>
+        <button type="button" class="home-seg" data-home="join">Rejoindre</button>
+      </div>
+      <div class="home-body">
+        <div class="panel featured home-pane on" id="home-sim">
+          <h2>Mode simulation</h2>
+          <p class="hint">1 téléphone · hors ligne · 2–6 joueurs</p>
+          <div class="row-compact">
+            <label for="simCount">Joueurs</label>
+            <select id="simCount">
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div id="simNames" class="sim-names"></div>
           <button id="btnSim" style="width:100%">Lancer la simulation</button>
         </div>
-      </div>
-
-      <div class="panel">
-        <h2>Créer une partie</h2>
-        <p class="hint">Ce téléphone devient la <strong>banque</strong>. Les autres rejoignent avec un code.</p>
-        <label for="hostName">Ton nom</label>
-        <input id="hostName" maxlength="20" placeholder="ex. Christian" autocomplete="nickname">
-        <label for="hostColor">Couleur du pion</label>
-        <select id="hostColor"></select>
-        <div style="margin-top:14px">
-          <button id="btnCreate" style="width:100%">Créer · devenir banque</button>
+        <div class="panel home-pane" id="home-create">
+          <h2>Créer (banque)</h2>
+          <p class="hint">Ce téléphone = banque. Code pour les autres.</p>
+          <label for="hostName">Ton nom</label>
+          <input id="hostName" maxlength="20" placeholder="ex. Christian" autocomplete="nickname">
+          <label for="hostColor">Couleur</label>
+          <select id="hostColor"></select>
+          <button id="btnCreate" style="width:100%;margin-top:10px">Créer · devenir banque</button>
+        </div>
+        <div class="panel home-pane" id="home-join">
+          <h2>Rejoindre</h2>
+          <label for="joinCode">Code</label>
+          <input id="joinCode" maxlength="6" placeholder="K7MQ" autocomplete="off" style="text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-family:var(--font-display)">
+          <label for="joinName">Ton nom</label>
+          <input id="joinName" maxlength="20" placeholder="ex. Caroline" autocomplete="nickname">
+          <label for="joinColor">Couleur</label>
+          <select id="joinColor"></select>
+          <button id="btnJoin" class="secondary" style="width:100%;margin-top:10px">Rejoindre la table</button>
         </div>
       </div>
-
-      <div class="panel">
-        <h2>Rejoindre</h2>
-        <label for="joinCode">Code de la partie</label>
-        <input id="joinCode" maxlength="6" placeholder="K7MQ" autocomplete="off" style="text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-family:var(--font-display)">
-        <label for="joinName">Ton nom</label>
-        <input id="joinName" maxlength="20" placeholder="ex. Caroline" autocomplete="nickname">
-        <label for="joinColor">Couleur du pion</label>
-        <select id="joinColor"></select>
-        <div style="margin-top:14px">
-          <button id="btnJoin" class="secondary" style="width:100%">Rejoindre la table</button>
-        </div>
-      </div>
-      <p class="hint" style="color:rgba(243,230,200,.7);text-align:center">Gratuit · sync PeerJS · ajoute à l’écran d’accueil pour le plein écran</p>
     </section>
 
     <!-- LOBBY -->
-    <section id="screen-lobby" class="screen">
-      <div class="splash" style="padding-top:12px">
-        <h1 style="font-size:1.8rem">Salon</h1>
-        <div class="badge" id="connBadge" style="margin:10px auto"><span class="dot"></span><span>En ligne</span></div>
+    <section id="screen-lobby" class="screen fit-col">
+      <div class="lobby-head">
+        <h1>Salon</h1>
+        <div class="badge" id="connBadge"><span class="dot"></span><span>En ligne</span></div>
       </div>
-      <div class="panel">
-        <p class="hint" style="margin-top:0;text-align:center">Code à partager</p>
+      <div class="panel lobby-code-panel">
+        <p class="hint" style="margin:0;text-align:center">Code</p>
         <div class="code-xl" id="lobbyCode">----</div>
-        <button id="btnCopyCode" class="secondary" style="width:100%">Copier le code</button>
-        <p class="hint" id="lobbyStatus" style="text-align:center">…</p>
+        <button id="btnCopyCode" class="secondary" style="width:100%">Copier</button>
+        <p class="hint" id="lobbyStatus" style="text-align:center;margin-bottom:0">…</p>
       </div>
-      <div class="panel">
+      <div class="panel fit-grow">
         <h2>À la table</h2>
-        <div id="lobbyPlayers" class="pawns" style="overflow:visible;flex-wrap:wrap"></div>
-        <button id="btnStartGame" style="width:100%;margin-top:10px;display:none">Démarrer la partie</button>
+        <div id="lobbyPlayers" class="pawns"></div>
+        <button id="btnStartGame" style="width:100%;margin-top:8px;display:none">Démarrer la partie</button>
       </div>
     </section>
 
     <!-- GAME -->
-    <section id="screen-game" class="screen game-pad">
+    <section id="screen-game" class="screen game-pad fit-col">
       <div class="game-top">
         <div class="mode-chip"><span id="modeLabel">Code</span> <strong id="gameCodeLabel">----</strong></div>
         <div class="badge" id="connBadgeGame"><span class="dot"></span><span>En ligne</span></div>
       </div>
 
       <div id="simBanner" class="sim-banner" style="display:none">
-        <strong>MODE SIMULATION</strong>
-        <p class="hint" style="margin:4px 0 0">Hors ligne — choisis le joueur actif pour chaque action.</p>
-        <label for="simPlayerSelect">Joueur actif</label>
-        <select id="simPlayerSelect"></select>
+        <div class="sim-banner-row">
+          <strong>SIMULATION</strong>
+          <select id="simPlayerSelect" aria-label="Joueur actif"></select>
+        </div>
       </div>
 
-      <div id="tab-argent" class="tab-panel">
+      <div id="tab-argent" class="tab-panel fit-grow">
         <div class="banknote-wrap" id="banknoteWrap">
           <div class="banknote b3"></div>
           <div class="banknote b2"></div>
@@ -112,28 +113,28 @@
         </div>
         <div class="pawns" id="playersList"></div>
         <div class="quick-row">
-          <button type="button" id="fabGo" class="secondary">Départ +200&nbsp;$</button>
-          <button type="button" id="fabPay">Payer quelqu’un</button>
-          <button type="button" id="fabBank" class="secondary">Banque ±</button>
-          <button type="button" id="fabUndo" class="warn">Annuler ↩</button>
+          <button type="button" id="fabGo" class="secondary">+200 Départ</button>
+          <button type="button" id="fabPay">Payer</button>
+          <button type="button" id="fabBank" class="secondary">Banque</button>
+          <button type="button" id="fabUndo" class="warn">↩</button>
         </div>
-        <div id="auctionBanner" class="panel" style="display:none"></div>
-        <button id="btnLeave" class="ghost" style="width:100%;margin-top:4px">Quitter</button>
+        <div id="auctionBanner" class="panel compact-panel" style="display:none"></div>
+        <button id="btnLeave" class="ghost leave-btn">Quitter</button>
       </div>
 
-      <div id="tab-terrains" class="tab-panel" style="display:none">
-        <p class="bank-deeds-title">Mes titres de propriété</p>
+      <div id="tab-terrains" class="tab-panel fit-grow" style="display:none">
+        <p class="bank-deeds-title">Mes titres</p>
         <div class="deed-carousel" id="myDeeds"></div>
-        <p class="bank-deeds-title">À vendre (banque)</p>
+        <p class="bank-deeds-title">Banque</p>
         <div class="bank-chip-row" id="bankDeeds"></div>
-        <div class="quick-row" style="margin-top:12px">
-          <button type="button" id="btnBuy" class="secondary">Acheter…</button>
+        <div class="quick-row terrains-actions">
+          <button type="button" id="btnBuy" class="secondary">Acheter</button>
           <button type="button" id="btnAuction">Enchère</button>
-          <button type="button" id="btnRent" style="grid-column:1/-1">Payer un loyer</button>
+          <button type="button" id="btnRent">Loyer</button>
         </div>
       </div>
 
-      <div id="tab-cartes" class="tab-panel" style="display:none">
+      <div id="tab-cartes" class="tab-panel fit-grow" style="display:none">
         <div class="decks">
           <div class="deck chance" id="deckChance" role="button" tabindex="0">
             <div class="deck-face">Chance</div>
@@ -143,12 +144,13 @@
           </div>
         </div>
         <div class="drawn-stage" id="drawnStage">
-          <p class="empty">Touche un paquet pour tirer une carte</p>
+          <p class="empty">Touche un paquet</p>
         </div>
       </div>
 
-      <div id="tab-histo" class="tab-panel" style="display:none">
+      <div id="tab-histo" class="tab-panel fit-grow" style="display:none">
         <div class="timeline" id="histoList"></div>
+        <button type="button" id="btnHistoMore" class="secondary histo-more" style="display:none;width:100%">Voir plus…</button>
       </div>
     </section>
   </div>
@@ -175,7 +177,7 @@
   <div class="modal-backdrop" id="modal">
     <div class="modal" role="dialog" aria-modal="true">
       <h3 id="modalTitle">Titre</h3>
-      <div id="modalBody"></div>
+      <div id="modalBody" class="modal-body-scroll"></div>
       <div class="actions">
         <button type="button" class="secondary" id="modalCancel">Annuler</button>
         <button type="button" id="modalOk">OK</button>
