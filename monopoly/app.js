@@ -301,6 +301,11 @@
         if (other.id === p.id) return;
         other.cash -= ef.amount; p.cash += ef.amount;
       });
+    } else if (ef.type === "chairman") {
+      state.players.forEach((other) => {
+        if (other.id === p.id) return;
+        p.cash -= ef.amount; other.cash += ef.amount;
+      });
     }
     log(note);
   }
@@ -605,11 +610,17 @@
 
   function deedFrontHTML(pr) {
     const name = escapeHtml(pr.name.toUpperCase());
+    const enLine = pr.nameEn
+      ? '<div class="deed-band-en">' + escapeHtml(pr.nameEn) + "</div>"
+      : "";
+    const enPlain = pr.nameEn
+      ? '<div class="deed-name-en">' + escapeHtml(pr.nameEn) + "</div>"
+      : "";
     if (pr.type === "street") {
       const band = fadeBand(D.GROUP_HEX[pr.group] || "#555");
       return '<div class="deed-band" style="background:' + band + '">' +
         '<div class="deed-band-label">Titre de propriété</div>' +
-        '<div class="deed-band-name">' + name + "</div></div>" +
+        '<div class="deed-band-name">' + name + "</div>" + enLine + "</div>" +
         '<div class="deed-front-body">' +
         '<div class="deed-rent-main">LOYER\u00a0' + moneyPlain(pr.rent[0]) + ".</div>" +
         '<table class="deed-rows"><tbody>' +
@@ -628,22 +639,22 @@
     }
     if (pr.type === "rail") {
       return '<div class="deed-icon-top">' + locoSVG() + "</div>" +
-        '<div class="deed-name-plain">' + name + "</div>" +
+        '<div class="deed-name-plain">' + name + "</div>" + enPlain +
         '<div class="deed-front-body">' +
         '<div class="deed-rent-main">LOYER\u00a0' + moneyPlain(25) + ".</div>" +
         '<table class="deed-rows"><tbody>' +
-        "<tr><td>Si l’on possède 2 gares</td><td>" + moneyPlain(50) + ".</td></tr>" +
+        "<tr><td>Si l’on possède 2 chemins de fer</td><td>" + moneyPlain(50) + ".</td></tr>" +
         "<tr><td>Si l’on possède 3\u00a0»</td><td>" + moneyPlain(100) + ".</td></tr>" +
         "<tr><td>Si l’on possède 4\u00a0»</td><td>" + moneyPlain(200) + ".</td></tr>" +
         "</tbody></table>" +
         '<hr class="deed-divider">' +
         '<div class="deed-mortgage">Valeur hypothécaire\u00a0' + moneyPlain(pr.mortgage) + ".</div>" +
-        '<div class="deed-footnote">Les 4 gares : Montparnasse, Lyon, Nord, Saint-Lazare.</div>' +
+        '<div class="deed-footnote">Reading · Pennsylvanie · B. & O. · Petit Réseau</div>' +
         "</div>";
     }
-    const icon = pr.id === "eaux" ? faucetSVG() : bulbSVG();
+    const icon = (pr.id === "water" || pr.id === "eaux") ? faucetSVG() : bulbSVG();
     return '<div class="deed-icon-top">' + icon + "</div>" +
-      '<div class="deed-name-plain">' + name + "</div>" +
+      '<div class="deed-name-plain">' + name + "</div>" + enPlain +
       '<div class="deed-front-body">' +
       '<div class="deed-rent-main" style="font-size:.95rem;font-weight:600;letter-spacing:0;font-family:var(--font-deed-row)">Si l’on possède UN service public, le loyer est 4 fois le montant indiqué par les dés.</div>' +
       '<div class="deed-rent-main" style="font-size:.95rem;font-weight:600;letter-spacing:0;font-family:var(--font-deed-row);margin-top:10px">Si l’on possède les DEUX services, le loyer est 10 fois le montant indiqué par les dés.</div>' +
@@ -668,6 +679,7 @@
       '<div class="deed-face deed-back"><div class="deed-back-inner">' +
       '<div class="deed-back-title">HYPOTHÉQUÉ</div>' +
       '<div class="deed-back-name">' + escapeHtml(pr.name.toUpperCase()) + "</div>" +
+      (pr.nameEn ? '<div class="deed-name-en" style="margin-top:-6px;margin-bottom:10px">' + escapeHtml(pr.nameEn) + "</div>" : "") +
       '<div class="deed-back-value">Valeur\u00a0' + moneyPlain(pr.mortgage) + ".</div>" +
       '<p class="deed-back-note">Présenter cette face lorsque le titre est hypothéqué. Pour lever l’hypothèque, rembourser à la Banque la valeur hypothécaire plus 10\u00a0%.</p>' +
       "</div></div></div>";

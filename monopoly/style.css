@@ -385,6 +385,14 @@ label {
   letter-spacing: .04em; text-transform: uppercase;
   line-height: 1.15;
 }
+.deed-band-en, .deed-name-en {
+  font-family: var(--font-deed-row);
+  font-size: .72rem; font-weight: 600; letter-spacing: .02em;
+  opacity: .9; margin-top: 3px; text-transform: none;
+}
+.deed-name-en {
+  text-align: center; color: #333; margin: -4px 10px 8px; opacity: .75;
+}
 .deed-front-body {
   flex: 1; padding: 10px 12px 12px;
   display: flex; flex-direction: column;
