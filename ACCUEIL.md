@@ -49,3 +49,11 @@ Projet avec `audio` → lien `#/ecouter/<id>`, sinon la fiche du projet.
 - Ordre : le plus récent item de projet (étiquette NOUVEAU, règle primeur) en premier, puis on alterne projet / nouvelle.
 - Les nouvelles viennent de `pourtoi` (dans l'ordre du fichier, la plus récente en premier). Seuls les items avec `image` ET `lien` vont dans le carrousel ; ils portent l'étiquette NOUVELLES et ouvrent le lien source dans un nouvel onglet.
 - La routine de 6 h DOIT fournir une `image` (fichier dans `accueil/`, webp ~800 px de large) pour chaque item `pourtoi`, sinon il apparaît seulement dans la rangée « Nouvelles pour toi ».
+
+## Bulletin du matin (`bulletins/`)
+
+- Vidéos quotidiennes : `bulletins/YYYY-MM-DD.mp4` + `bulletins/index.json`.
+- Autoplay plein écran à l’ouverture si le bulletin du jour n’est pas encore vu (`localStorage` `mp_bul_vu`).
+- Archives : rangée « 📺 Bulletin du matin » sur l’Accueil.
+- Publier : `/workspace/briefing/publish.sh <mp4> <YYYY-MM-DD>` (voir `/workspace/briefing/README.md`).
+- Jamais d’adresse personnelle.
